@@ -1,0 +1,13 @@
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+.cache/
+__pycache__/
+*.psd
+*.blend
+*.godot
+*.pck
+*.exe
+*.zip
+*.7z

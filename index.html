@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101b18">
+  <meta name="description" content="Lu Ye · Qingqiu — a three-phase nine-tailed fox boss encounter. Godot engine demonstration and game-design résumé.">
+  <title>青丘 · 九尾狐战斗演示 / Qingqiu — Lu Ye</title>
+  <style>
+    :root { color-scheme: dark; --bg:#101b18; --panel:#14221e; --ink:#eeeade; --muted:#b5bdb1; --gold:#c3aa73; --line:rgba(203,191,158,.2); }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; background:var(--bg); color:var(--ink); font-family:"Segoe UI","Microsoft YaHei",sans-serif; -webkit-font-smoothing:antialiased; }
+    body::before { content:""; position:absolute; inset:0 0 auto; height:900px; pointer-events:none; background:radial-gradient(ellipse at 75% 0%,rgba(99,119,83,.15),transparent 62%); }
+    a { color:inherit; text-decoration:none; }
+    a:hover { color:#f8e3ae; }
+    a:focus-visible,button:focus-visible { outline:2px solid var(--gold); outline-offset:5px; }
+    button { font:inherit; }
+    .wrap { width:min(1120px,calc(100% - 80px)); margin:auto; position:relative; }
+    header { height:94px; display:flex; align-items:center; justify-content:space-between; border-bottom:1px solid var(--line); }
+    .identity { font-size:15px; letter-spacing:.025em; }
+    .identity span { color:var(--muted); margin-left:9px; font-size:12px; }
+    .languages { display:flex; gap:3px; align-items:center; }
+    .languages button { border:0; background:none; color:var(--muted); cursor:pointer; font-size:12px; padding:10px; }
+    .languages button[aria-pressed="true"] { color:var(--ink); }
+    .languages i { width:1px; height:11px; background:var(--line); }
+    .intro { padding:66px 0 39px; max-width:900px; }
+    .eyebrow { color:var(--gold); font-size:11px; letter-spacing:.18em; margin:0 0 24px; }
+    h1 { font-family:"Noto Serif SC","Songti SC","SimSun",Georgia,serif; font-weight:500; font-size:clamp(32px,4.3vw,54px); line-height:1.4; letter-spacing:.025em; margin:0; text-wrap:balance; }
+    .subline { color:var(--muted); font-size:14px; line-height:1.9; margin:19px 0 0; }
+    .player { border:1px solid var(--line); background:#080e0d; }
+    video { display:block; width:100%; aspect-ratio:16/9; background:#080e0d; object-fit:contain; }
+    .player-foot { border-top:1px solid var(--line); padding:15px 20px; display:flex; align-items:center; justify-content:space-between; gap:20px; font-size:12px; line-height:1.6; color:var(--muted); }
+    .player-foot a { color:var(--ink); white-space:nowrap; }
+    .arrow { color:var(--gold); margin-left:6px; }
+    .phases { margin:0; padding:33px 0 39px; list-style:none; display:grid; grid-template-columns:repeat(3,1fr); gap:32px; border-bottom:1px solid var(--line); }
+    .phase-no { font-size:10px; color:var(--gold); letter-spacing:.12em; }
+    .phases h2 { font-weight:500; font-size:17px; margin:11px 0 10px; }
+    .phases p { color:var(--muted); line-height:1.9; font-size:13px; margin:0; max-width:31em; }
+    .details { display:grid; grid-template-columns:1.45fr 1fr; gap:90px; padding:42px 0 48px; border-bottom:1px solid var(--line); }
+    .details h2 { color:var(--gold); font-size:11px; font-weight:500; letter-spacing:.12em; margin:0 0 15px; }
+    .details p { font-size:13px; line-height:2; margin:0; color:var(--muted); }
+    .resume-links { display:flex; flex-wrap:wrap; gap:10px; margin-top:19px; }
+    .resume-links a { border:1px solid var(--line); padding:11px 15px; font-size:12px; transition:border-color .15s; }
+    .resume-links a:hover { border-color:var(--gold); }
+    footer { display:flex; justify-content:space-between; gap:25px; padding:25px 0 37px; font-size:11px; color:var(--muted); line-height:1.8; }
+    footer a { border-bottom:1px solid var(--line); }
+    @media(max-width:700px) {
+      .wrap { width:calc(100% - 36px); }
+      header { height:73px; }
+      .identity span { display:none; }
+      .intro { padding:43px 0 29px; }
+      .eyebrow { margin-bottom:17px; font-size:10px; letter-spacing:.13em; }
+      h1 { font-size:32px; line-height:1.5; }
+      .subline { font-size:12px; }
+      .player-foot { padding:12px; align-items:flex-start; font-size:10px; gap:13px; }
+      .phases { grid-template-columns:1fr; gap:25px; padding:28px 0; }
+      .phase { display:grid; grid-template-columns:38px 1fr; }
+      .phase-no { padding-top:5px; }
+      .phases h2 { margin:0 0 6px; font-size:16px; }
+      .phases p { font-size:12px; }
+      .details { grid-template-columns:1fr; gap:29px; padding:30px 0; }
+      footer { flex-direction:column; gap:9px; padding:22px 0 30px; }
+    }
+    @media(prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } * { transition:none!important; } }
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <a class="identity" href="https://github.com/luye20010831-commits" target="_blank" rel="noopener noreferrer">陆叶 / Lu Ye <span data-key="identity">游戏设计与交互原型</span></a>
+    <nav class="languages" aria-label="Language">
+      <button type="button" data-lang="zh" aria-pressed="true">中文</button><i aria-hidden="true"></i><button type="button" data-lang="en" aria-pressed="false">English</button>
+    </nav>
+  </header>
+  <main>
+    <section class="intro" aria-labelledby="title">
+      <p class="eyebrow">QINGQIU · BOSS ENCOUNTER · 2026.11</p>
+      <h1 id="title" data-key="title">一场从幼狐到九尾的<br>三阶段 Boss 战</h1>
+      <p class="subline" data-key="subtitle">单尾幼狐 → 双尾迷雾 → 九尾金瞳。以阶段变化组织攻击、场景和应对方式。</p>
+    </section>
+    <section class="player" aria-label="Combat demonstration">
+      <video controls playsinline preload="metadata" poster="media/poster.jpg" aria-label="Qingqiu combat demonstration, silent scripted engine capture">
+        <source src="media/qingqiu-combat-demo-20261109.mp4" type="video/mp4">
+        <p data-key="fallback">浏览器无法播放时，请下载 MP4 观看。</p>
+      </video>
+      <div class="player-foot">
+        <span data-key="capture">Godot 实机录制 · 静音、脚本触发的机制演示</span>
+        <a href="media/qingqiu-combat-demo-20261109.mp4" download><span data-key="download">下载 MP4</span><span class="arrow" aria-hidden="true">↓</span></a>
+      </div>
+    </section>
+    <ol class="phases" aria-label="Three combat phases">
+      <li class="phase"><span class="phase-no">01</span><div><h2 data-key="p1title">单尾幼狐</h2><p data-key="p1">追逐与近身攻击间穿插追踪爱心。接触后短暂失控，护魂盾可以抵消。</p></div></li>
+      <li class="phase"><span class="phase-no">02</span><div><h2 data-key="p2title">双尾迷雾</h2><p data-key="p2">鬼火弹幕与落地黑焰压缩走位空间，移动通道和退火间隙提供反击机会。</p></div></li>
+      <li class="phase"><span class="phase-no">03</span><div><h2 data-key="p3title">九尾金瞳</h2><p data-key="p3">四心魅惑、场内光点解魅与环形弹幕，结合金焰、尾部动作和镜头转场。</p></div></li>
+    </ol>
+    <section class="details" aria-label="Project and résumé">
+      <div>
+        <h2 data-key="roleheading">我的工作</h2>
+        <p data-key="role">独立推进玩法规则、视觉方向与制作迭代。使用 AI 辅助代码、素材生成及 Shader 制作，负责选择、调整和工程整合。</p>
+      </div>
+      <div>
+        <h2 data-key="resumeheading">简历与项目说明</h2>
+        <p data-key="resumedesc">游戏设计、系统与交互原型。可进一步提供可玩 Demo 和开发过程演示。</p>
+        <div class="resume-links">
+          <a href="resume/Lu_Ye_Game_Design_CN_20261109.pdf" target="_blank" rel="noopener">中文简历 <span class="arrow" aria-hidden="true">↗</span></a>
+          <a href="resume/Lu_Ye_Gameplay_and_Interactive_AI_EN_20261109.pdf" target="_blank" rel="noopener">English CV <span class="arrow" aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <span data-key="status">开发中原型 · 演示不代表真人完整通关或最终难度验收</span>
+    <span><span data-key="credits">基础工程：</span><a href="https://github.com/ForlornU/TopdownStarter" target="_blank" rel="noopener">ForlornU / TopdownStarter (MIT)</a> · <a href="https://github.com/luye20010831-commits/qingqiu-combat-demo" target="_blank" rel="noopener">GitHub</a></span>
+  </footer>
+</div>
+<script>
+const copy = {
+  zh: {
+    identity:"游戏设计与交互原型",title:"一场从幼狐到九尾的<br>三阶段 Boss 战",subtitle:"单尾幼狐 → 双尾迷雾 → 九尾金瞳。以阶段变化组织攻击、场景和应对方式。",
+    fallback:"浏览器无法播放时，请下载 MP4 观看。",capture:"Godot 实机录制 · 静音、脚本触发的机制演示",download:"下载 MP4",
+    p1title:"单尾幼狐",p1:"追逐与近身攻击间穿插追踪爱心。接触后短暂失控，护魂盾可以抵消。",
+    p2title:"双尾迷雾",p2:"鬼火弹幕与落地黑焰压缩走位空间，移动通道和退火间隙提供反击机会。",
+    p3title:"九尾金瞳",p3:"四心魅惑、场内光点解魅与环形弹幕，结合金焰、尾部动作和镜头转场。",
+    roleheading:"我的工作",role:"独立推进玩法规则、视觉方向与制作迭代。使用 AI 辅助代码、素材生成及 Shader 制作，负责选择、调整和工程整合。",
+    resumeheading:"简历与项目说明",resumedesc:"游戏设计、系统与交互原型。可进一步提供可玩 Demo 和开发过程演示。",
+    status:"开发中原型 · 演示不代表真人完整通关或最终难度验收",credits:"基础工程："
+  },
+  en: {
+    identity:"Game design & interactive prototypes",title:"From a fox cub to<br>a nine-tailed boss.",
+    subtitle:"Three phases. Changing attacks, atmosphere and counterplay.",
+    fallback:"If your browser cannot play the video, download the MP4.",capture:"Godot engine capture · silent, scripted mechanism showcase",download:"Download MP4",
+    p1title:"One-tailed cub",p1:"Pursuit and close-range attacks alternate with a homing heart. Contact briefly takes control; an active spirit shield can block it.",
+    p2title:"Two tails, gathering mist",p2:"Ghost-fire patterns and falling black flames restrict movement, with paths and pauses that leave room to counterattack.",
+    p3title:"Nine tails, golden eyes",p3:"Four charm hearts, cleansing lights and circular barrages, accompanied by golden fire, tail motion and phase transitions.",
+    roleheading:"My role",role:"Independently led gameplay rules, visual direction and production iteration. Used AI-assisted code, generated assets and shaders, with selection, adjustment and project integration.",
+    resumeheading:"Résumé & project context",resumedesc:"Game design, systems and interactive prototypes. Playable demos and a development walkthrough are available.",
+    status:"Prototype in development · not a full manual playthrough or final difficulty validation",credits:"Foundation: "
+  }
+};
+document.querySelectorAll("[data-lang]").forEach(button => button.addEventListener("click", () => {
+  const lang=button.dataset.lang;
+  document.documentElement.lang=lang==="en"?"en":"zh-CN";
+  document.querySelectorAll("[data-key]").forEach(el => {
+    const value=copy[lang][el.dataset.key];
+    if(el.dataset.key==="title") el.innerHTML=value; else el.textContent=value;
+  });
+  document.querySelectorAll("[data-lang]").forEach(el => el.setAttribute("aria-pressed",String(el.dataset.lang===lang)));
+}));
+</script>
+</body>
+</html>
