@@ -1,0 +1,158 @@
+[
+  {
+    "phase": 1,
+    "rig_version": 4,
+    "appearance_source_phase": 1,
+    "bones": 33,
+    "base_bones": 25,
+    "tail_count": 1,
+    "bones_per_tail": 8,
+    "mesh_vertices_per_tail": 125,
+    "tail_roots": [
+      3
+    ],
+    "tail_fan_angles": [
+      0
+    ],
+    "layer_count": 21,
+    "source_canvas": [
+      1360,
+      1156
+    ],
+    "eye_centers_master_pixels": [
+      [
+        412,
+        470
+      ],
+      [
+        634,
+        470
+      ]
+    ],
+    "eye_baseline_delta_pixels": 0,
+    "fx_bones": [
+      "eye_left",
+      "eye_right",
+      "fx_mouth",
+      "fx_heart",
+      "fx_paw_front_far",
+      "fx_paw_front_near",
+      "fx_paw_hind_far",
+      "fx_paw_hind_near",
+      "tail_01_7"
+    ]
+  },
+  {
+    "phase": 2,
+    "rig_version": 4,
+    "appearance_source_phase": 2,
+    "bones": 41,
+    "base_bones": 25,
+    "tail_count": 2,
+    "bones_per_tail": 8,
+    "mesh_vertices_per_tail": 125,
+    "tail_roots": [
+      3,
+      11
+    ],
+    "tail_fan_angles": [
+      -24,
+      22
+    ],
+    "layer_count": 22,
+    "source_canvas": [
+      1360,
+      1156
+    ],
+    "eye_centers_master_pixels": [
+      [
+        320,
+        316
+      ],
+      [
+        440,
+        316
+      ]
+    ],
+    "eye_baseline_delta_pixels": 0,
+    "fx_bones": [
+      "eye_left",
+      "eye_right",
+      "fx_mouth",
+      "fx_heart",
+      "fx_paw_front_far",
+      "fx_paw_front_near",
+      "fx_paw_hind_far",
+      "fx_paw_hind_near",
+      "tail_01_7",
+      "tail_02_7"
+    ]
+  },
+  {
+    "phase": 3,
+    "rig_version": 4,
+    "appearance_source_phase": 2,
+    "bones": 97,
+    "base_bones": 25,
+    "tail_count": 9,
+    "bones_per_tail": 8,
+    "mesh_vertices_per_tail": 125,
+    "tail_roots": [
+      3,
+      11,
+      19,
+      27,
+      35,
+      43,
+      51,
+      59,
+      67
+    ],
+    "tail_fan_angles": [
+      -88,
+      -66,
+      -44,
+      -22,
+      0,
+      22,
+      44,
+      66,
+      88
+    ],
+    "layer_count": 29,
+    "source_canvas": [
+      1360,
+      1156
+    ],
+    "eye_centers_master_pixels": [
+      [
+        320,
+        316
+      ],
+      [
+        440,
+        316
+      ]
+    ],
+    "eye_baseline_delta_pixels": 0,
+    "fx_bones": [
+      "eye_left",
+      "eye_right",
+      "fx_mouth",
+      "fx_heart",
+      "fx_paw_front_far",
+      "fx_paw_front_near",
+      "fx_paw_hind_far",
+      "fx_paw_hind_near",
+      "tail_01_7",
+      "tail_02_7",
+      "tail_03_7",
+      "tail_04_7",
+      "tail_05_7",
+      "tail_06_7",
+      "tail_07_7",
+      "tail_08_7",
+      "tail_09_7"
+    ]
+  }
+]

@@ -1,0 +1,398 @@
+{
+  "p3_front_far_upper": {
+    "source_box": [
+      306,
+      658,
+      435,
+      855
+    ],
+    "source_canvas": [
+      1360,
+      1156
+    ],
+    "bone": "front_far_upper",
+    "world_center": [
+      -53.91891891891892,
+      87.43243243243244
+    ],
+    "uniform_scale": 0.2702702702702703
+  },
+  "p3_front_far_lower": {
+    "source_box": [
+      297,
+      828,
+      421,
+      1042
+    ],
+    "source_canvas": [
+      1360,
+      1156
+    ],
+    "bone": "front_far_lower",
+    "world_center": [
+      -57.02702702702703,
+      39.18918918918919
+    ],
+    "uniform_scale": 0.2702702702702703
+  },
+  "p3_front_far_paw": {
+    "source_box": [
+      295,
+      1015,
+      397,
+      1075
+    ],
+    "source_canvas": [
+      1360,
+      1156
+    ],
+    "bone": "front_far_paw",
+    "world_center": [
+      -60.54054054054055,
+      9.45945945945946
+    ],
+    "uniform_scale": 0.2702702702702703
+  },
+  "p3_hind_far_upper": {
+    "source_box": [
+      606,
+      660,
+      781,
+      871
+    ],
+    "source_canvas": [
+      1360,
+      1156
+    ],
+    "bone": "hind_far_upper",
+    "world_center": [
+      33.37837837837838,
+      85.0
+    ],
+    "uniform_scale": 0.2702702702702703
+  },
+  "p3_hind_far_lower": {
+    "source_box": [
+      614,
+      844,
+      754,
+      1044
+    ],
+    "source_canvas": [
+      1360,
+      1156
+    ],
+    "bone": "hind_far_lower",
+    "world_center": [
+      30.810810810810814,
+      36.75675675675676
+    ],
+    "uniform_scale": 0.2702702702702703
+  },
+  "p3_hind_far_paw": {
+    "source_box": [
+      614,
+      1017,
+      713,
+      1067
+    ],
+    "source_canvas": [
+      1360,
+      1156
+    ],
+    "bone": "hind_far_paw",
+    "world_center": [
+      25.27027027027027,
+      10.27027027027027
+    ],
+    "uniform_scale": 0.2702702702702703
+  },
+  "p3_body": {
+    "source_box": [
+      239,
+      406,
+      890,
+      752
+    ],
+    "source_canvas": [
+      1360,
+      1156
+    ],
+    "bone": "body",
+    "world_center": [
+      -1.4864864864864866,
+      135.40540540540542
+    ],
+    "uniform_scale": 0.2702702702702703
+  },
+  "p3_hind_near_upper": {
+    "source_box": [
+      720,
+      616,
+      938,
+      876
+    ],
+    "source_canvas": [
+      1360,
+      1156
+    ],
+    "bone": "hind_near_upper",
+    "world_center": [
+      70.0,
+      90.27027027027027
+    ],
+    "uniform_scale": 0.2702702702702703
+  },
+  "p3_hind_near_lower": {
+    "source_box": [
+      848,
+      849,
+      963,
+      1050
+    ],
+    "source_canvas": [
+      1360,
+      1156
+    ],
+    "bone": "hind_near_lower",
+    "world_center": [
+      90.67567567567568,
+      35.270270270270274
+    ],
+    "uniform_scale": 0.2702702702702703
+  },
+  "p3_hind_near_paw": {
+    "source_box": [
+      867,
+      1023,
+      963,
+      1075
+    ],
+    "source_canvas": [
+      1360,
+      1156
+    ],
+    "bone": "hind_near_paw",
+    "world_center": [
+      93.24324324324324,
+      8.378378378378379
+    ],
+    "uniform_scale": 0.2702702702702703
+  },
+  "p3_front_near_upper": {
+    "source_box": [
+      399,
+      589,
+      540,
+      845
+    ],
+    "source_canvas": [
+      1360,
+      1156
+    ],
+    "bone": "front_near_upper",
+    "world_center": [
+      -27.162162162162165,
+      98.10810810810811
+    ],
+    "uniform_scale": 0.2702702702702703
+  },
+  "p3_front_near_lower": {
+    "source_box": [
+      451,
+      818,
+      547,
+      1051
+    ],
+    "source_canvas": [
+      1360,
+      1156
+    ],
+    "bone": "front_near_lower",
+    "world_center": [
+      -19.18918918918919,
+      39.32432432432433
+    ],
+    "uniform_scale": 0.2702702702702703
+  },
+  "p3_front_near_paw": {
+    "source_box": [
+      451,
+      1024,
+      547,
+      1080
+    ],
+    "source_canvas": [
+      1360,
+      1156
+    ],
+    "bone": "front_near_paw",
+    "world_center": [
+      -19.18918918918919,
+      7.567567567567568
+    ],
+    "uniform_scale": 0.2702702702702703
+  },
+  "p3_head": {
+    "source_box": [
+      178,
+      124,
+      580,
+      432
+    ],
+    "source_canvas": [
+      1360,
+      1156
+    ],
+    "bone": "head",
+    "world_center": [
+      -51.62162162162162,
+      216.75675675675677
+    ],
+    "uniform_scale": 0.2702702702702703
+  },
+  "p3_ear_left": {
+    "source_box": [
+      211,
+      44,
+      369,
+      289
+    ],
+    "source_canvas": [
+      1360,
+      1156
+    ],
+    "bone": "ear_left",
+    "world_center": [
+      -75.67567567567568,
+      246.8918918918919
+    ],
+    "uniform_scale": 0.2702702702702703
+  },
+  "p3_ear_right": {
+    "source_box": [
+      394,
+      44,
+      565,
+      287
+    ],
+    "source_canvas": [
+      1360,
+      1156
+    ],
+    "bone": "ear_right",
+    "world_center": [
+      -24.45945945945946,
+      247.1621621621622
+    ],
+    "uniform_scale": 0.2702702702702703
+  },
+  "p3_eye_left": {
+    "source_box": [
+      254,
+      283,
+      367,
+      344
+    ],
+    "source_canvas": [
+      1360,
+      1156
+    ],
+    "bone": "eye_left",
+    "world_center": [
+      -70.13513513513514,
+      207.16216216216216
+    ],
+    "uniform_scale": 0.2702702702702703
+  },
+  "p3_eyeliner_left": {
+    "source_box": [
+      256,
+      285,
+      362,
+      334
+    ],
+    "source_canvas": [
+      1360,
+      1156
+    ],
+    "bone": "eye_left",
+    "world_center": [
+      -70.54054054054055,
+      208.24324324324326
+    ],
+    "uniform_scale": 0.2702702702702703
+  },
+  "p3_eye_closed_left": {
+    "source_box": [
+      256,
+      308,
+      363,
+      323
+    ],
+    "source_canvas": [
+      1360,
+      1156
+    ],
+    "bone": "eye_left",
+    "world_center": [
+      -70.4054054054054,
+      206.62162162162164
+    ],
+    "uniform_scale": 0.2702702702702703
+  },
+  "p3_eye_right": {
+    "source_box": [
+      398,
+      283,
+      512,
+      344
+    ],
+    "source_canvas": [
+      1360,
+      1156
+    ],
+    "bone": "eye_right",
+    "world_center": [
+      -31.081081081081084,
+      207.16216216216216
+    ],
+    "uniform_scale": 0.2702702702702703
+  },
+  "p3_eyeliner_right": {
+    "source_box": [
+      404,
+      285,
+      509,
+      331
+    ],
+    "source_canvas": [
+      1360,
+      1156
+    ],
+    "bone": "eye_right",
+    "world_center": [
+      -30.675675675675677,
+      208.64864864864867
+    ],
+    "uniform_scale": 0.2702702702702703
+  },
+  "p3_eye_closed_right": {
+    "source_box": [
+      404,
+      308,
+      508,
+      322
+    ],
+    "source_canvas": [
+      1360,
+      1156
+    ],
+    "bone": "eye_right",
+    "world_center": [
+      -30.810810810810814,
+      206.75675675675677
+    ],
+    "uniform_scale": 0.2702702702702703
+  }
+}

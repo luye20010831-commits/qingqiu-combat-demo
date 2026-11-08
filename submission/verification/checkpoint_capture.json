@@ -1,0 +1,62 @@
+{
+	"audio_driver": "Dummy",
+	"audio_recorded": true,
+	"chapter": "checkpoint",
+	"delivery_speed": 1.5,
+	"fps": 30,
+	"frames": 165,
+	"human_full_playthrough": false,
+	"observations": [
+		{
+			"frame": 0,
+			"heavy_tooltip": "4 / 右键 · 蓄势重劈\n3.1 米 · 42 伤害 · 0.52 秒接触 · 冷却 2.2 秒",
+			"id": "current_build",
+			"player_max_hp": 120.0,
+			"sweep_tooltip": "2 · 近战横扫\n3.0 米 · 24 伤害 · 0.28 秒接触 · 冷却 3.5 秒",
+			"ward_tooltip": "3 · 护魂，成形后可抵消爱心\n0.32 秒成形 · 持续 3.0 秒 · 所受伤害 ×0.50 · 冷却 7.0 秒"
+		},
+		{
+			"file_exists": true,
+			"frame": 27,
+			"id": "saved_p2",
+			"saved_phase": 2
+		},
+		{
+			"file_exists": true,
+			"frame": 105,
+			"id": "saved_p3",
+			"saved_phase": 3
+		},
+		{
+			"frame": 165,
+			"hp": 120.0,
+			"id": "loaded_p3",
+			"loaded_checkpoint": 3,
+			"phase": 3,
+			"state": 1
+		}
+	],
+	"player_max_hp": 120,
+	"positions_and_attacks_arranged": true,
+	"production_save_used": false,
+	"scripted": true,
+	"seconds": 5.5,
+	"sections": [
+		{
+			"detail": "演示尾血快进；真实近战击败后写入独立测试存档，不使用玩家正式存档",
+			"end_frame": 87,
+			"id": "save_p2",
+			"start_frame": 9,
+			"title": "阶段存档  ·  P1 通关后从 P2 继续"
+		},
+		{
+			"detail": "重新读取磁盘记录，满血 / 清冷却从保存阶段开始；开发跳阶段不覆盖它",
+			"end_frame": 165,
+			"id": "save_p3",
+			"start_frame": 87,
+			"title": "阶段存档  ·  P2 通关后从 P3 继续"
+		}
+	],
+	"source_gameplay_modified": false,
+	"version": "V4.1-current"
+}

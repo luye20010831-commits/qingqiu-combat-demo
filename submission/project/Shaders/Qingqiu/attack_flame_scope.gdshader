@@ -1,0 +1,30 @@
+shader_type spatial;
+render_mode unshaded,cull_disabled,depth_draw_never,shadows_disabled;
+uniform vec4 danger_color : source_color=vec4(0.086,0.522,0.663,1.0);
+uniform vec4 ink_color : source_color=vec4(0.224,0.184,0.255,1.0);
+uniform float charge : hint_range(0.0,1.0)=0.0;
+uniform float active : hint_range(0.0,1.0)=0.0;
+uniform float fade : hint_range(0.0,1.0)=1.0;
+uniform float uv_extent=1.25;
+uniform int scope_shape=0;
+uniform float half_angle=0.95;
+uniform float flame_strength=1.0;
+uniform float effect_time=0.0;
+void fragment(){
+	vec2 p=(UV-0.5)*2.0*uv_extent;
+	float radius=length(p);
+	float angle=atan(p.x,p.y);
+	float sdf=radius-1.0;
+	if(scope_shape==1)sdf=max(sdf,(abs(angle)-half_angle)*max(radius,0.03));
+	float inside=1.0-smoothstep(-0.025,0.01,sdf);
+	float shadow=(1.0-smoothstep(0.0,0.13,sdf))*0.30;
+	float flicker=sin(angle*23.0-effect_time*6.0)*0.5+sin(angle*41.0+effect_time*4.3)*0.28;
+	float tongues=pow(max(0.0,sin(angle*23.0+sin(angle*7.0+effect_time)*1.3-effect_time*4.0)*0.55+sin(angle*41.0+effect_time*3.7)*0.28),2.0)*0.13;
+	float fire=exp(-abs(sdf+0.015-tongues)*(55.0+flicker*12.0));
+	float inner=exp(-abs(sdf+0.09)*70.0)*0.36;
+	float rune=(1.0-smoothstep(0.012,0.026,abs(radius-(0.36+charge*0.45))))*0.10*inside;
+	float sparks=step(0.92,sin(angle*47.0+effect_time*3.0))*exp(-abs(sdf-0.08-flicker*0.025)*90.0);
+	float edge=(fire+inner+sparks*0.35)*flame_strength;
+	ALBEDO=mix(ink_color.rgb,danger_color.rgb,clamp(edge*1.6+rune+active*inside*0.22,0.0,1.0));
+	ALPHA=clamp(max(shadow,edge*(0.45+charge*0.4)+rune)+inside*active*0.08,0.0,0.92)*fade;
+}

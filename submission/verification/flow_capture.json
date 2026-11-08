@@ -1,0 +1,66 @@
+{
+	"audio_driver": "Dummy",
+	"audio_recorded": true,
+	"chapter": "flow",
+	"delivery_speed": 1.5,
+	"fps": 30,
+	"frames": 336,
+	"human_full_playthrough": false,
+	"observations": [
+		{
+			"frame": 0,
+			"heavy_tooltip": "4 / 右键 · 蓄势重劈\n3.1 米 · 42 伤害 · 0.52 秒接触 · 冷却 2.2 秒",
+			"id": "current_build",
+			"player_max_hp": 120.0,
+			"sweep_tooltip": "2 · 近战横扫\n3.0 米 · 24 伤害 · 0.28 秒接触 · 冷却 3.5 秒",
+			"ward_tooltip": "3 · 护魂，成形后可抵消爱心\n0.32 秒成形 · 持续 3.0 秒 · 所受伤害 ×0.50 · 冷却 7.0 秒"
+		},
+		{
+			"frame": 99,
+			"id": "victory",
+			"state": 3
+		},
+		{
+			"frame": 183,
+			"id": "defeat",
+			"state": 4
+		},
+		{
+			"entry_phase": 3,
+			"frame": 336,
+			"id": "retry",
+			"phase": 3,
+			"state": 1
+		}
+	],
+	"player_max_hp": 120,
+	"positions_and_attacks_arranged": true,
+	"production_save_used": false,
+	"scripted": true,
+	"seconds": 11.2,
+	"sections": [
+		{
+			"detail": "V4.1 演示快进至 42 尾血，再由实际重击完成最后一击；不是完整通关时长",
+			"end_frame": 108,
+			"id": "victory",
+			"start_frame": 9,
+			"title": "完整尝试流程  ·  击败与胜利"
+		},
+		{
+			"detail": "演示设置 12 剩余生命，真实抓挠导致失败；按 R 可以快速重试",
+			"end_frame": 183,
+			"id": "defeat",
+			"start_frame": 108,
+			"title": "完整尝试流程  ·  受伤与失败"
+		},
+		{
+			"detail": "普通重试从正式存档点；开发模式可选 P2、P3，且不覆盖存档",
+			"end_frame": 336,
+			"id": "retry",
+			"start_frame": 183,
+			"title": "完整尝试流程  ·  R 重试 / 开发阶段直达"
+		}
+	],
+	"source_gameplay_modified": false,
+	"version": "V4.1-current"
+}

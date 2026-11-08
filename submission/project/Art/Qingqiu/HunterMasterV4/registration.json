@@ -1,0 +1,174 @@
+{
+  "authorship": "AI source slicing and rigging",
+  "source": "sources/user_master.png",
+  "scale": 0.7,
+  "two_hand_palm_offset_pixels": 16.8,
+  "two_hand_separation_pixels": 42.0,
+  "pivots": {
+    "root": [
+      0.0,
+      0.0
+    ],
+    "motion": [
+      0.0,
+      0.0
+    ],
+    "hips": [
+      0.0,
+      59.49999999999999
+    ],
+    "chest": [
+      0.0,
+      140.0
+    ],
+    "head": [
+      0.0,
+      196.7
+    ],
+    "arm_L": [
+      -61.599999999999994,
+      151.89999999999998
+    ],
+    "forearm_L": [
+      -100.8,
+      123.89999999999999
+    ],
+    "hand_L": [
+      -115.49999999999999,
+      94.5
+    ],
+    "arm_R": [
+      64.39999999999999,
+      151.89999999999998
+    ],
+    "forearm_R": [
+      101.5,
+      122.49999999999999
+    ],
+    "hand_R": [
+      118.3,
+      94.5
+    ],
+    "thigh_L": [
+      -51.8,
+      46.199999999999996
+    ],
+    "shin_L": [
+      -53.9,
+      28.7
+    ],
+    "foot_L": [
+      -55.3,
+      14.7
+    ],
+    "thigh_R": [
+      49.699999999999996,
+      46.9
+    ],
+    "shin_R": [
+      51.099999999999994,
+      29.4
+    ],
+    "foot_R": [
+      52.5,
+      15.399999999999999
+    ],
+    "weapon": [
+      301.7,
+      87.5
+    ],
+    "fx_anchor": [
+      -115.49999999999999,
+      77.69999999999999
+    ]
+  },
+  "parts": {
+    "leg_L": {
+      "source_box": [
+        540,
+        870,
+        659,
+        944
+      ],
+      "size": [
+        119,
+        74
+      ]
+    },
+    "leg_R": {
+      "source_box": [
+        693,
+        870,
+        806,
+        943
+      ],
+      "size": [
+        113,
+        73
+      ]
+    },
+    "torso": {
+      "source_box": [
+        480,
+        641,
+        890,
+        926
+      ],
+      "size": [
+        410,
+        285
+      ]
+    },
+    "spear": {
+      "source_box": [
+        1022,
+        253,
+        1203,
+        939
+      ],
+      "size": [
+        181,
+        686
+      ]
+    },
+    "arm_L": {
+      "source_box": [
+        458,
+        715,
+        585,
+        853
+      ],
+      "size": [
+        127,
+        138
+      ]
+    },
+    "arm_R": {
+      "source_box": [
+        776,
+        714,
+        894,
+        855
+      ],
+      "size": [
+        118,
+        141
+      ]
+    },
+    "head": {
+      "source_box": [
+        332,
+        114,
+        1007,
+        682
+      ],
+      "size": [
+        675,
+        568
+      ]
+    }
+  },
+  "source_pixel_proof": "artifacts/qingqiu/hunter_master_v4/source_pixel_validation.json",
+  "grip_mode": "single_hand",
+  "expression": "Original face is preserved as a complete cutout; no separately generated eyes or blinking repaint."
+}

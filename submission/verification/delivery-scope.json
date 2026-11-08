@@ -1,0 +1,33 @@
+{
+  "media": [
+    {
+      "file": "qingqiu-fox-boss-v4.1-combat-demo-1.5x.mp4",
+      "seconds": 111.004979,
+      "audio_codec": "aac",
+      "video_fps": 45,
+      "speed": 1.5,
+      "chapters": 32,
+      "sha256": "7189ef64b65fbce20548082f400e657fc47ff9c784c318e3f1610e3472f84b14",
+      "full_decode_passed": true,
+      "pitch_preserved": true
+    },
+    {
+      "file": "qingqiu-fox-boss-v4.1-animation-preview-1.5x.mp4",
+      "seconds": 28.804979,
+      "audio_codec": "aac",
+      "video_fps": 45,
+      "speed": 1.5,
+      "chapters": 0,
+      "sha256": "fdd7611a29947a975eb8b7b4d20ecd6db1a13505ec5f5910db114340bc7bbcee",
+      "full_decode_passed": true,
+      "pitch_preserved": true
+    }
+  ],
+  "source_fingerprint": "15811b4ed870a594d4f1dff45348adf04d1e5725f4aa4f78fa1838d1b5a664a3",
+  "current_source_checks_inherited": 192,
+  "recorded_again": true,
+  "delivery_speed": 1.5,
+  "pitch_preserved": true,
+  "human_playthrough": false,
+  "external_audio_playback": false
+}

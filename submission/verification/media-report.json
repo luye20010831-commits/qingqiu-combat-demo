@@ -1,0 +1,24 @@
+[
+  {
+    "file": "qingqiu-fox-boss-v4.1-combat-demo-1.5x.mp4",
+    "seconds": 111.004979,
+    "audio_codec": "aac",
+    "video_fps": 45,
+    "speed": 1.5,
+    "chapters": 32,
+    "sha256": "7189ef64b65fbce20548082f400e657fc47ff9c784c318e3f1610e3472f84b14",
+    "full_decode_passed": true,
+    "pitch_preserved": true
+  },
+  {
+    "file": "qingqiu-fox-boss-v4.1-animation-preview-1.5x.mp4",
+    "seconds": 28.804979,
+    "audio_codec": "aac",
+    "video_fps": 45,
+    "speed": 1.5,
+    "chapters": 0,
+    "sha256": "fdd7611a29947a975eb8b7b4d20ecd6db1a13505ec5f5910db114340bc7bbcee",
+    "full_decode_passed": true,
+    "pitch_preserved": true
+  }
+]

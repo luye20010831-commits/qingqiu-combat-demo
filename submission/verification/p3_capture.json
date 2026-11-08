@@ -1,0 +1,136 @@
+{
+	"audio_driver": "Dummy",
+	"audio_recorded": true,
+	"chapter": "p3",
+	"delivery_speed": 1.5,
+	"fps": 30,
+	"frames": 1107,
+	"human_full_playthrough": false,
+	"observations": [
+		{
+			"frame": 0,
+			"heavy_tooltip": "4 / 右键 · 蓄势重劈\n3.1 米 · 42 伤害 · 0.52 秒接触 · 冷却 2.2 秒",
+			"id": "current_build",
+			"player_max_hp": 120.0,
+			"sweep_tooltip": "2 · 近战横扫\n3.0 米 · 24 伤害 · 0.28 秒接触 · 冷却 3.5 秒",
+			"ward_tooltip": "3 · 护魂，成形后可抵消爱心\n0.32 秒成形 · 持续 3.0 秒 · 所受伤害 ×0.50 · 冷却 7.0 秒"
+		},
+		{
+			"frame": 243,
+			"id": "p3_cleanse",
+			"new_charms": 2,
+			"new_cleanses": 1
+		},
+		{
+			"frame": 354,
+			"id": "p3_ward",
+			"new_charms": 0
+		},
+		{
+			"beats": 11,
+			"frame": 573,
+			"hazards_spawned": 99,
+			"id": "map_fire"
+		},
+		{
+			"frame": 1107,
+			"id": "p3_spiral",
+			"round_trace": [
+				{
+					"angle": 0.0,
+					"bullets": 16,
+					"round": 1,
+					"time": 0.0
+				},
+				{
+					"angle": -0.18,
+					"bullets": 16,
+					"round": 2,
+					"time": 0.7
+				},
+				{
+					"angle": -0.36,
+					"bullets": 16,
+					"round": 3,
+					"time": 1.4
+				},
+				{
+					"angle": -0.54,
+					"bullets": 16,
+					"round": 4,
+					"time": 2.1
+				},
+				{
+					"angle": -0.72,
+					"bullets": 16,
+					"round": 5,
+					"time": 2.8
+				},
+				{
+					"angle": -0.9,
+					"bullets": 16,
+					"round": 6,
+					"time": 3.53333333333333
+				},
+				{
+					"angle": -1.08,
+					"bullets": 16,
+					"round": 7,
+					"time": 4.23333333333333
+				},
+				{
+					"angle": -1.26,
+					"bullets": 16,
+					"round": 8,
+					"time": 4.93333333333333
+				}
+			],
+			"rounds": 8,
+			"state": 1
+		}
+	],
+	"player_max_hp": 120,
+	"positions_and_attacks_arranged": true,
+	"production_save_used": false,
+	"scripted": true,
+	"seconds": 36.9,
+	"sections": [
+		{
+			"detail": "金花、毁林浮石、脚环金粒；场景变化服务于更高的观察压力",
+			"end_frame": 99,
+			"id": "p3_intro",
+			"start_frame": 9,
+			"title": "P3  ·  九尾金瞳与美丽危险"
+		},
+		{
+			"detail": "四颗爱心实际接触后才有浓粉紫雾；P3 仍可移动、攻击，靠近蓝光解除",
+			"end_frame": 252,
+			"id": "vision_charm",
+			"start_frame": 99,
+			"title": "P3  ·  四心惑目与光点解魅"
+		},
+		{
+			"detail": "提前准备已成形的护魂，可避免爱心施加魅惑；盾有冷却",
+			"end_frame": 363,
+			"id": "p3_ward",
+			"start_frame": 252,
+			"title": "P3  ·  护魂也能抵消四心"
+		},
+		{
+			"detail": "每拍九根、三拍扫场，下一轮横纵轮换；当前没有地面预警圆",
+			"end_frame": 582,
+			"id": "map_fire",
+			"start_frame": 363,
+			"title": "P3  ·  九柱三拍与地图轮换"
+		},
+		{
+			"detail": "先蓄跃与短镜头，再回中心；八轮各 16 枚，留两个相邻扇区缺口",
+			"end_frame": 1107,
+			"id": "p3_spiral",
+			"start_frame": 582,
+			"title": "P3  ·  归中跃落与八轮顺时狐焰"
+		}
+	],
+	"source_gameplay_modified": false,
+	"version": "V4.1-current"
+}

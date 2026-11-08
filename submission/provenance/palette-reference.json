@@ -1,0 +1,40 @@
+{
+  "base_colors": {
+    "wuhei": "392f41",
+    "xuanqing": "3d3b4f",
+    "zitan": "4c221b",
+    "li": "75664d",
+    "zhuqing": "789262",
+    "songbailv": "21a675",
+    "douqing": "96ce54",
+    "xiekeqing": "bbcdc5",
+    "shiqing": "1685a9",
+    "bise": "1bd1a5",
+    "weilan": "70f3ff",
+    "huaqing": "003472",
+    "chenghuang": "ffa400",
+    "yinhong": "be002f",
+    "zaohong": "c32136",
+    "feihong": "c83c23"
+  },
+  "source": "User supplied palette cards",
+  "color_policy": "User swatches are the main anchors. Harmonious nearby colors and natural lighting gradients are allowed.",
+  "main_palette": [
+    "392f41",
+    "3d3b4f",
+    "4c221b",
+    "75664d",
+    "789262",
+    "21a675",
+    "96ce54",
+    "bbcdc5",
+    "1685a9",
+    "1bd1a5",
+    "70f3ff",
+    "003472",
+    "ffa400",
+    "be002f",
+    "c32136",
+    "c83c23"
+  ]
+}

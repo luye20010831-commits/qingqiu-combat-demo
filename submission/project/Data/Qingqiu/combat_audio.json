@@ -1,0 +1,237 @@
+{
+  "schema_version": 1,
+  "reference_fps": 60,
+  "pool_size": 18,
+  "authorship": "AI implementation and tentative timings; user requested three related arrangements and combat frame hooks",
+  "events": {
+    "player_cast": {
+      "streams": [
+        "res://Art/Audio/Qingqiu/SelectedSFX_20261108/A01.wav"
+      ],
+      "volume_db": -12,
+      "priority": 3,
+      "cooldown_seconds": 0.04,
+      "max_voices": 3,
+      "pitch_range": [
+        0.98,
+        1.02
+      ]
+    },
+    "boss_claw_swing": {
+      "streams": [
+        "res://Art/Audio/Qingqiu/SelectedSFX_20261108/A01.wav"
+      ],
+      "volume_db": -13,
+      "priority": 4,
+      "cooldown_seconds": 0.05,
+      "max_voices": 3,
+      "pitch_range": [
+        0.98,
+        1.02
+      ]
+    },
+    "boss_body_contact": {
+      "streams": [
+        "res://Art/Audio/Qingqiu/SelectedSFX_20261108/B03.wav"
+      ],
+      "volume_db": -10,
+      "priority": 5,
+      "cooldown_seconds": 0.05,
+      "max_voices": 2,
+      "pitch_range": [
+        0.98,
+        1.02
+      ]
+    },
+    "boss_claw_contact": {
+      "streams": [
+        "res://Art/Audio/Qingqiu/SelectedSFX_20261108/B03.wav"
+      ],
+      "volume_db": -13,
+      "priority": 5,
+      "cooldown_seconds": 0.05,
+      "max_voices": 2,
+      "pitch_range": [
+        1.1,
+        1.16
+      ]
+    },
+    "ghost_volley": {
+      "streams": [
+        "res://Art/Audio/Qingqiu/SelectedSFX_20261108/F01.wav"
+      ],
+      "volume_db": -14,
+      "priority": 3,
+      "cooldown_seconds": 0.08,
+      "max_voices": 3,
+      "pitch_range": [
+        0.98,
+        1.02
+      ]
+    },
+    "hazard_ignite": {
+      "streams": [
+        "res://Art/Audio/Qingqiu/SelectedSFX_20261108/F03.wav"
+      ],
+      "volume_db": -16,
+      "priority": 4,
+      "cooldown_seconds": 0.08,
+      "max_voices": 2,
+      "pitch_range": [
+        0.98,
+        1.02
+      ]
+    },
+    "boss_hit_p1": {
+      "streams": [
+        "res://Art/Audio/Qingqiu/SelectedSFX_20261108/B01.wav"
+      ],
+      "volume_db": -11,
+      "priority": 5,
+      "cooldown_seconds": 0.04,
+      "max_voices": 3,
+      "pitch_range": [
+        0.98,
+        1.02
+      ]
+    },
+    "boss_hit_p2": {
+      "streams": [
+        "res://Art/Audio/Qingqiu/SelectedSFX_20261108/B01.wav"
+      ],
+      "volume_db": -11,
+      "priority": 5,
+      "cooldown_seconds": 0.04,
+      "max_voices": 3,
+      "pitch_range": [
+        0.98,
+        1.02
+      ]
+    },
+    "boss_hit_p3": {
+      "streams": [
+        "res://Art/Audio/Qingqiu/SelectedSFX_20261108/B01.wav"
+      ],
+      "volume_db": -11,
+      "priority": 5,
+      "cooldown_seconds": 0.04,
+      "max_voices": 3,
+      "pitch_range": [
+        0.98,
+        1.02
+      ]
+    },
+    "player_wide_swing": {
+      "streams": [
+        "res://Art/Audio/Qingqiu/SelectedSFX_20261108/A02.wav"
+      ],
+      "volume_db": -11,
+      "priority": 3,
+      "cooldown_seconds": 0.04,
+      "max_voices": 3,
+      "pitch_range": [
+        0.98,
+        1.02
+      ]
+    },
+    "player_heavy_hit": {
+      "streams": [
+        "res://Art/Audio/Qingqiu/SelectedSFX_20261108/B02.wav"
+      ],
+      "volume_db": -9,
+      "priority": 5,
+      "cooldown_seconds": 0.04,
+      "max_voices": 2,
+      "pitch_range": [
+        0.97,
+        1.0
+      ]
+    },
+    "inferno_impact": {
+      "streams": [
+        "res://Art/Audio/Qingqiu/SelectedSFX_20261108/F02.wav"
+      ],
+      "volume_db": -13,
+      "priority": 4,
+      "cooldown_seconds": 0.08,
+      "max_voices": 2,
+      "pitch_range": [
+        0.98,
+        1.02
+      ]
+    },
+    "fireball_contact": {
+      "streams": [
+        "res://Art/Audio/Qingqiu/SelectedSFX_20261108/F02.wav"
+      ],
+      "volume_db": -14,
+      "priority": 5,
+      "cooldown_seconds": 0.05,
+      "max_voices": 2,
+      "pitch_range": [
+        0.98,
+        1.02
+      ]
+    }
+  },
+  "animation_markers": {
+    "1": {
+      "cub_swipe": [
+        {
+          "seconds": 0.07,
+          "frame_at_60fps": 4.2,
+          "event": "boss_claw_swing"
+        }
+      ],
+      "cub_tail_sweep": [
+        {
+          "seconds": 0.08,
+          "event": "boss_claw_swing"
+        }
+      ]
+    },
+    "2": {
+      "p2_claw_gale": [
+        {
+          "seconds": 0.04,
+          "event": "boss_claw_swing"
+        }
+      ],
+      "p2_tail_crescent": [
+        {
+          "seconds": 0.04,
+          "event": "boss_claw_swing"
+        }
+      ],
+      "p2_fox_roar": [
+        {
+          "seconds": 0.04,
+          "event": "boss_claw_swing"
+        }
+      ]
+    },
+    "3": {}
+  },
+  "player_step_distance_meters": 0.95,
+  "music": {
+    "volume_db": -20,
+    "crossfade_seconds": 0.8,
+    "status": "P1/P2/P3: user-supplied MP3 files integrated; provenance in Music/*_music_source.json",
+    "phases": {
+      "1": "res://Art/Audio/Qingqiu/Music/qingqiu_p1.mp3",
+      "2": "res://Art/Audio/Qingqiu/Music/qingqiu_p2.mp3",
+      "3": "res://Art/Audio/Qingqiu/Music/qingqiu_p3.mp3"
+    }
+  },
+  "fire_ambience": {
+    "stream": "res://Art/Audio/Qingqiu/SelectedSFX_20261108/F05.wav",
+    "volume_db": -26,
+    "max_distance_meters": 20,
+    "falloff_meters": 6,
+    "max_players": 1,
+    "loop_seam_crossfade_seconds": 0.04,
+    "source": "User selected F05; one distance-weighted aggregate voice for active ground flames and attached burn"
+  },
+  "selected_sfx_status": "Nine previously marked files reauthorized and restored on 2026-11-09; no deleted procedural SFX restored",
+  "sfx_status": "selected_nine_and_requested_phase_cues_only"
+}

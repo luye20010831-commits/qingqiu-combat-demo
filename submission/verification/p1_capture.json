@@ -1,0 +1,136 @@
+{
+	"audio_driver": "Dummy",
+	"audio_recorded": true,
+	"chapter": "p1",
+	"delivery_speed": 1.5,
+	"fps": 30,
+	"frames": 1036,
+	"human_full_playthrough": false,
+	"observations": [
+		{
+			"frame": 0,
+			"heavy_tooltip": "4 / 右键 · 蓄势重劈\n3.1 米 · 42 伤害 · 0.52 秒接触 · 冷却 2.2 秒",
+			"id": "current_build",
+			"player_max_hp": 120.0,
+			"sweep_tooltip": "2 · 近战横扫\n3.0 米 · 24 伤害 · 0.28 秒接触 · 冷却 3.5 秒",
+			"ward_tooltip": "3 · 护魂，成形后可抵消爱心\n0.32 秒成形 · 持续 3.0 秒 · 所受伤害 ×0.50 · 冷却 7.0 秒"
+		},
+		{
+			"contacts": 3,
+			"frame": 260,
+			"hits": 3,
+			"id": "player_skills"
+		},
+		{
+			"bullets": 0,
+			"casts": 1,
+			"frame": 443,
+			"id": "cub_feint",
+			"player_hp": 120.0
+		},
+		{
+			"bullets": 0,
+			"casts": 2,
+			"frame": 536,
+			"id": "cub_swipe",
+			"player_hp": 108.0
+		},
+		{
+			"counter_hits": 1,
+			"damage_taken": 0.0,
+			"frame": 641,
+			"id": "charge_response"
+		},
+		{
+			"bullets": 0,
+			"casts": 4,
+			"frame": 746,
+			"id": "cub_tail_sweep",
+			"player_hp": 106.0
+		},
+		{
+			"charm_hits": 1,
+			"control_remaining": 0.0,
+			"frame": 905,
+			"id": "cub_charm"
+		},
+		{
+			"frame": 1036,
+			"heart_alive": false,
+			"id": "ward_heart",
+			"new_charms": 0
+		}
+	],
+	"player_max_hp": 120,
+	"positions_and_attacks_arranged": true,
+	"production_save_used": false,
+	"scripted": true,
+	"seconds": 34.5333333333333,
+	"sections": [
+		{
+			"detail": "读身体与头顶图标 → 判断距离和时机 → 规避后近身反击",
+			"end_frame": 108,
+			"id": "intro",
+			"start_frame": 9,
+			"title": "青丘九尾狐  ·  三阶段战斗机制"
+		},
+		{
+			"detail": "四个技能使用真实接触判定与冷却；空格冲刺可中断未命中的出手",
+			"end_frame": 269,
+			"id": "player_skills",
+			"start_frame": 108,
+			"title": "玩家工具  ·  挥击 / 横扫 / 护魂 / 重击"
+		},
+		{
+			"detail": "短跃接近后停步；身体前摇和浮印提示即将使用的动物招式",
+			"end_frame": 368,
+			"id": "cub_hop",
+			"start_frame": 269,
+			"title": "P1  ·  轻跃追逐"
+		},
+		{
+			"detail": "回身后退改变距离；不要把退让当作安全的持续输出时间",
+			"end_frame": 452,
+			"id": "cub_feint",
+			"start_frame": 368,
+			"title": "P1  ·  佯退逗弄"
+		},
+		{
+			"detail": "0.72 秒前摇后近身抓挠；拉开或冲刺，避免贪刀",
+			"end_frame": 545,
+			"id": "cub_swipe",
+			"start_frame": 452,
+			"title": "P1  ·  抬爪抓挠"
+		},
+		{
+			"detail": "起手锁定方向；侧向冲刺避开，再用真实重击反击",
+			"end_frame": 650,
+			"id": "cub_charge",
+			"start_frame": 545,
+			"title": "P1  ·  压身冲撞与有效反制"
+		},
+		{
+			"detail": "卷尾蓄势后扫过近身并轻推；退到范围外或用冲刺通过",
+			"end_frame": 755,
+			"id": "cub_tail_sweep",
+			"start_frame": 650,
+			"title": "P1  ·  单尾横扫"
+		},
+		{
+			"detail": "接触后失控朝幼狐走 1.2 秒；同时出现较轻粉紫雾，结束恢复输入",
+			"end_frame": 914,
+			"id": "cub_charm",
+			"start_frame": 755,
+			"title": "P1  ·  一颗持续追踪的爱心"
+		},
+		{
+			"detail": "先等护魂实际成形；爱心接触消失，不触发失控和雾障",
+			"end_frame": 1036,
+			"id": "ward_heart",
+			"start_frame": 914,
+			"title": "P1  ·  护魂抵消爱心"
+		}
+	],
+	"source_gameplay_modified": false,
+	"version": "V4.1-current"
+}

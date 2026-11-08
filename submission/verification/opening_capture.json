@@ -1,0 +1,42 @@
+{
+	"audio_driver": "Dummy",
+	"audio_recorded": true,
+	"chapter": "opening",
+	"delivery_speed": 1.5,
+	"fps": 30,
+	"frames": 171,
+	"human_full_playthrough": false,
+	"observations": [
+		{
+			"frame": 0,
+			"heavy_tooltip": "4 / 右键 · 蓄势重劈\n3.1 米 · 42 伤害 · 0.52 秒接触 · 冷却 2.2 秒",
+			"id": "current_build",
+			"player_max_hp": 120.0,
+			"sweep_tooltip": "2 · 近战横扫\n3.0 米 · 24 伤害 · 0.28 秒接触 · 冷却 3.5 秒",
+			"ward_tooltip": "3 · 护魂，成形后可抵消爱心\n0.32 秒成形 · 持续 3.0 秒 · 所受伤害 ×0.50 · 冷却 7.0 秒"
+		},
+		{
+			"active": false,
+			"frame": 171,
+			"id": "opening",
+			"phase_time": 1.1,
+			"state": 1
+		}
+	],
+	"player_max_hp": 120,
+	"positions_and_attacks_arranged": true,
+	"production_save_used": false,
+	"scripted": true,
+	"seconds": 5.7,
+	"sections": [
+		{
+			"detail": "正常 Enter 路线：分雾、幼狐跃入、落地花纹、凝视，再返回操作",
+			"end_frame": 171,
+			"id": "opening",
+			"start_frame": 0,
+			"title": "雾中来客  ·  当前普通开场"
+		}
+	],
+	"source_gameplay_modified": false,
+	"version": "V4.1-current"
+}

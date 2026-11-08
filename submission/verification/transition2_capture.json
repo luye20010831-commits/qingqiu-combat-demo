@@ -1,0 +1,43 @@
+{
+	"audio_driver": "Dummy",
+	"audio_recorded": true,
+	"chapter": "transition2",
+	"delivery_speed": 1.5,
+	"fps": 30,
+	"frames": 309,
+	"human_full_playthrough": false,
+	"observations": [
+		{
+			"frame": 0,
+			"heavy_tooltip": "4 / 右键 · 蓄势重劈\n3.1 米 · 42 伤害 · 0.52 秒接触 · 冷却 2.2 秒",
+			"id": "current_build",
+			"player_max_hp": 120.0,
+			"sweep_tooltip": "2 · 近战横扫\n3.0 米 · 24 伤害 · 0.28 秒接触 · 冷却 3.5 秒",
+			"ward_tooltip": "3 · 护魂，成形后可抵消爱心\n0.32 秒成形 · 持续 3.0 秒 · 所受伤害 ×0.50 · 冷却 7.0 秒"
+		},
+		{
+			"actual_phase": 2,
+			"frame": 309,
+			"id": "transition",
+			"presentation_busy": false,
+			"state": 1,
+			"target": 2
+		}
+	],
+	"player_max_hp": 120,
+	"positions_and_attacks_arranged": true,
+	"production_save_used": false,
+	"scripted": true,
+	"seconds": 10.3,
+	"sections": [
+		{
+			"detail": "演示快进至尾血：真实近战击败 → 火幕 → 特写 → 恢复战斗",
+			"end_frame": 309,
+			"id": "transition",
+			"start_frame": 9,
+			"title": "P1 → P2  ·  实际阶段转场"
+		}
+	],
+	"source_gameplay_modified": false,
+	"version": "V4.1-current"
+}

@@ -1,0 +1,35 @@
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+
+PASS Current stage HP budgets are 1850 / 2000 / 2000
+PASS Actual start uses the new 120 HP player pool
+PASS Two / three / three minute targets are retained
+PASS Clearing a phase restores 25 HP without forced full healing
+PASS Phase recovery caps at the real maximum health
+PASS P1's requested doubled animal attacks retain their damage
+PASS P1's frequent short tracking-heart challenge is retained
+PASS Basic attack damage and timing remain stable
+PASS Committed sweep and heavy receive real damage rewards
+PASS Ward still starts through the real player skill API
+PASS Accepted ward now spends a seven-second cooldown
+PASS Ward keeps its real activation and 50 percent mitigation
+PASS P2 keeps its three-wave bullets and four-wave dense inferno
+PASS P2 retains direct-hit threat instead of removing the attack challenge
+PASS P2 roaming is slower than the player's 4.2 m/s approach
+PASS Reappearance provides a real targetable 1.4-second stationary recovery
+PASS A properly timed heavy really lands during the reappearance window
+PASS Fox does not flee while the advertised reappearance recovery is active
+PASS P2 inferno starts with its current 0.8-count opening wave
+PASS Real inferno impact costs 14 HP and attaches only three seconds of burn
+PASS Leaving one impact allows its three burn ticks to end at a total cost of 20 HP
+PASS Terrain residue retires after the shorter 2.8-second linger
+PASS Cleared inferno grants 2.4 seconds of stationary melee recovery
+PASS Inferno punishment window permits a heavy plus follow-up hits at melee range
+PASS Inferno recovery remains stationary rather than turning into immediate escape
+PASS P3 retains all 27 pillars and the requested 1.5x attack radius
+PASS P3 retains eight clockwise rounds and 128 bullets
+PASS Second pillar beat waits beyond the old overlapping 0.72-second interval
+PASS Pillar beats are spaced at 0.9 seconds with a brief temporal gap
+PASS P3 vision obstruction lasts five seconds if the light is ignored
+PASS P3 veil clears by itself after the shorter duration
+PASS Surviving the eight-round barrage grants two seconds of recovery
+BALANCE_V4 32 checks; passed=true

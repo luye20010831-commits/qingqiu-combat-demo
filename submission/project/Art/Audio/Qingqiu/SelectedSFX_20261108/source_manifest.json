@@ -1,0 +1,346 @@
+{
+  "date": "2026-11-08",
+  "user_selected_ids": [
+    "A01",
+    "A02",
+    "B01",
+    "B02",
+    "B03",
+    "F01",
+    "F02",
+    "F03",
+    "F05"
+  ],
+  "evidence": "Current audition UI summary and user authorization",
+  "records": [
+    {
+      "id": "A01",
+      "role": "普通挥击／狐狸爪风",
+      "source_page": "https://freesound.org/people/velcronator/sounds/733890/",
+      "author": "velcronator",
+      "title": "Whoosh 03 by velcronator",
+      "license": "CC0 1.0",
+      "license_links": [
+        {
+          "url": "http://creativecommons.org/publicdomain/zero/1.0/",
+          "label": "Creative Commons 0"
+        }
+      ],
+      "public_preview_url": "https://cdn.freesound.org/previews/733/733890_6703998-hq.mp3",
+      "original_cached_file": "artifacts/qingqiu/sfx_audition_20261108/sources/A01_733890_hq.mp3",
+      "source_sha256": "bc02fbf1f3284d61c28e5eba484bf3bb8541f08462c200200350a02f7c9373f6",
+      "runtime_path": "res://Art/Audio/Qingqiu/SelectedSFX_20261108/A01.wav",
+      "runtime_sha256": "97a1da6a7815ae6933a869a516c4fea217ed47251c5d0263795b6ea476c3654b",
+      "runtime_seconds": 0.8848125,
+      "trim_relative_to_approved_preview_seconds": [
+        0.0,
+        0.8848125
+      ],
+      "loop_seam_crossfade_seconds": 0,
+      "additional_peak_gain_db": 3.000477743319014,
+      "peak_dbfs": -3,
+      "authorship": "Original audio by source author; user selected; AI did trim/level/loop preparation and integration",
+      "status": "Applied and silently verified",
+      "runtime_usage": [
+        "普通挥击出刀点 player_cast",
+        "狐狸爪风 boss_claw_swing"
+      ]
+    },
+    {
+      "id": "A02",
+      "role": "横扫／金属武器破风",
+      "source_page": "https://freesound.org/people/MissCellany/sounds/240640/",
+      "author": "MissCellany",
+      "title": "Metallic Whoosh.wav by MissCellany",
+      "license": "CC0 1.0",
+      "license_links": [
+        {
+          "url": "http://creativecommons.org/publicdomain/zero/1.0/",
+          "label": "Creative Commons 0"
+        }
+      ],
+      "public_preview_url": "https://cdn.freesound.org/previews/240/240640_4297595-hq.mp3",
+      "original_cached_file": "artifacts/qingqiu/sfx_audition_20261108/sources/A02_240640_hq.mp3",
+      "source_sha256": "e82e58c6ddb0c5e02f102a1907a062ca6b0c34232ca726d169c64f6deed8b38c",
+      "runtime_path": "res://Art/Audio/Qingqiu/SelectedSFX_20261108/A02.wav",
+      "runtime_sha256": "0be76a5c6be8e984670abdd86622bbe7b199ab49f3ea7695490054f96e24a0ca",
+      "runtime_seconds": 0.23047916666666668,
+      "trim_relative_to_approved_preview_seconds": [
+        0.0,
+        0.23047916666666668
+      ],
+      "loop_seam_crossfade_seconds": 0,
+      "additional_peak_gain_db": 6.87446541091881,
+      "peak_dbfs": -3,
+      "authorship": "Original audio by source author; user selected; AI did trim/level/loop preparation and integration",
+      "status": "Applied and silently verified",
+      "runtime_usage": [
+        "横扫／重击出刀点 player_wide_swing"
+      ]
+    },
+    {
+      "id": "B01",
+      "role": "武器命中狐狸",
+      "source_page": "https://freesound.org/people/TheBuilder15/sounds/434896/",
+      "author": "TheBuilder15",
+      "title": "Sword Impact by TheBuilder15",
+      "license": "CC0 1.0",
+      "license_links": [
+        {
+          "url": "http://creativecommons.org/publicdomain/zero/1.0/",
+          "label": "Creative Commons 0"
+        }
+      ],
+      "public_preview_url": "https://cdn.freesound.org/previews/434/434896_6090639-hq.mp3",
+      "original_cached_file": "artifacts/qingqiu/sfx_audition_20261108/sources/B01_434896_hq.mp3",
+      "source_sha256": "2f42a6819f2d4d2f14ae5e0f885ddbb6ec30db14cd4f2700023b8805e68c8679",
+      "runtime_path": "res://Art/Audio/Qingqiu/SelectedSFX_20261108/B01.wav",
+      "runtime_sha256": "a47a2d844d622d688ccad9c27199eb4f1cdf423963db0e36d2ac222b1447fee4",
+      "runtime_seconds": 0.6536875,
+      "trim_relative_to_approved_preview_seconds": [
+        0.08,
+        0.7336875
+      ],
+      "loop_seam_crossfade_seconds": 0,
+      "additional_peak_gain_db": 3.9231532015956367,
+      "peak_dbfs": -3,
+      "authorship": "Original audio by source author; user selected; AI did trim/level/loop preparation and integration",
+      "status": "Applied and silently verified",
+      "runtime_usage": [
+        "普通／横扫命中，三阶段 boss_hit_p1/p2/p3"
+      ]
+    },
+    {
+      "id": "B02",
+      "role": "蓄力重击的完整挥砍",
+      "source_page": "https://freesound.org/people/ultraaxvii/sounds/591155/",
+      "author": "ultraaxvii",
+      "title": "Sword Contact (with swipe) by ultraaxvii",
+      "license": "CC0 1.0",
+      "license_links": [
+        {
+          "url": "http://creativecommons.org/publicdomain/zero/1.0/",
+          "label": "Creative Commons 0"
+        }
+      ],
+      "public_preview_url": "https://cdn.freesound.org/previews/591/591155_11076342-hq.mp3",
+      "original_cached_file": "artifacts/qingqiu/sfx_audition_20261108/sources/B02_591155_hq.mp3",
+      "source_sha256": "ccbd099009c12d3669f0e4048e7bfc76afc7d9222d9207d7d08db4c26cd5587f",
+      "runtime_path": "res://Art/Audio/Qingqiu/SelectedSFX_20261108/B02.wav",
+      "runtime_sha256": "a7bb6b7265fee8380e89abefda1436f13c7bfa5b55233b88a4ff07610c09fd65",
+      "runtime_seconds": 1.5719583333333333,
+      "trim_relative_to_approved_preview_seconds": [
+        0.205,
+        1.7769583333333334
+      ],
+      "loop_seam_crossfade_seconds": 0,
+      "additional_peak_gain_db": 3.000477743319014,
+      "peak_dbfs": -3,
+      "authorship": "Original audio by source author; user selected; AI did trim/level/loop preparation and integration",
+      "status": "Applied and silently verified",
+      "runtime_usage": [
+        "重击成功接触 player_heavy_hit"
+      ]
+    },
+    {
+      "id": "B03",
+      "role": "冲撞／玩家受击底层",
+      "source_page": "https://freesound.org/people/johnfolker/sounds/269230/",
+      "author": "johnfolker",
+      "title": "Punch (4) by johnfolker",
+      "license": "CC0 1.0",
+      "license_links": [
+        {
+          "url": "http://creativecommons.org/publicdomain/zero/1.0/",
+          "label": "Creative Commons 0"
+        }
+      ],
+      "public_preview_url": "https://cdn.freesound.org/previews/269/269230_5094889-hq.mp3",
+      "original_cached_file": "artifacts/qingqiu/sfx_audition_20261108/sources/B03_269230_hq.mp3",
+      "source_sha256": "e07da4f3e635030071a3f53dc1bc1eabe0717b330ee51dcefc215d4a1a2b9bb8",
+      "runtime_path": "res://Art/Audio/Qingqiu/SelectedSFX_20261108/B03.wav",
+      "runtime_sha256": "f912190f43d8bdc8a8f96b59175eccd038b9e1d5f3c33d928f96c722e09714ce",
+      "runtime_seconds": 0.5190833333333333,
+      "trim_relative_to_approved_preview_seconds": [
+        0.18,
+        0.6990833333333333
+      ],
+      "loop_seam_crossfade_seconds": 0,
+      "additional_peak_gain_db": 3.000477743319014,
+      "peak_dbfs": -3,
+      "authorship": "Original audio by source author; user selected; AI did trim/level/loop preparation and integration",
+      "status": "Applied and silently verified",
+      "runtime_usage": [
+        "冲撞／尾扫／抓挠成功接触 boss_body_contact/boss_claw_contact"
+      ]
+    },
+    {
+      "id": "F01",
+      "role": "短火焰释放／鬼火出手",
+      "source_page": "https://freesound.org/people/danielpodlovics/sounds/530355/",
+      "author": "danielpodlovics",
+      "title": "Fire.wav by danielpodlovics",
+      "license": "CC0 1.0",
+      "license_links": [
+        {
+          "url": "http://creativecommons.org/publicdomain/zero/1.0/",
+          "label": "Creative Commons 0"
+        }
+      ],
+      "public_preview_url": "https://cdn.freesound.org/previews/530/530355_10106687-hq.mp3",
+      "original_cached_file": "artifacts/qingqiu/sfx_audition_20261108/sources/F01_530355_hq.mp3",
+      "source_sha256": "9da8f02001fd2c5129125dfdcd788295fa1bdb46088e37d815f26b6cc71a69e5",
+      "runtime_path": "res://Art/Audio/Qingqiu/SelectedSFX_20261108/F01.wav",
+      "runtime_sha256": "11e631616316d8dfd0f76afc0a4e3318c2224f813d3751259e1cf98fa2740124",
+      "runtime_seconds": 0.6066875,
+      "trim_relative_to_approved_preview_seconds": [
+        0.065,
+        0.6716875
+      ],
+      "loop_seam_crossfade_seconds": 0,
+      "additional_peak_gain_db": 4.711335592381934,
+      "peak_dbfs": -3,
+      "authorship": "Original audio by source author; user selected; AI did trim/level/loop preparation and integration",
+      "status": "Applied and silently verified",
+      "runtime_usage": [
+        "鬼火／远程攻击逐轮释放 ghost_volley"
+      ]
+    },
+    {
+      "id": "F02",
+      "role": "火球／黑焰落地命中",
+      "source_page": "https://freesound.org/people/NearTheAtmoshphere/sounds/683179/",
+      "author": "NearTheAtmoshphere",
+      "title": "Fireball by NearTheAtmoshphere",
+      "license": "CC0 1.0",
+      "license_links": [
+        {
+          "url": "http://creativecommons.org/publicdomain/zero/1.0/",
+          "label": "Creative Commons 0"
+        }
+      ],
+      "public_preview_url": "https://cdn.freesound.org/previews/683/683179_2578040-hq.mp3",
+      "original_cached_file": "artifacts/qingqiu/sfx_audition_20261108/sources/F02_683179_hq.mp3",
+      "source_sha256": "5b0004f82c5936d92b450419d39f6b5ea9d23975a3c336f9c5560803e99f9193",
+      "runtime_path": "res://Art/Audio/Qingqiu/SelectedSFX_20261108/F02.wav",
+      "runtime_sha256": "ff414ee2c8a63ae649dfddadfa4e82c005d7f3f884f568e0c71edc59625e053c",
+      "runtime_seconds": 1.5165625,
+      "trim_relative_to_approved_preview_seconds": [
+        0.0,
+        1.5165625
+      ],
+      "loop_seam_crossfade_seconds": 0,
+      "additional_peak_gain_db": 3.000477743319014,
+      "peak_dbfs": -3,
+      "authorship": "Original audio by source author; user selected; AI did trim/level/loop preparation and integration",
+      "status": "Applied and silently verified",
+      "runtime_usage": [
+        "火球／成年魔法波成功接触 fireball_contact",
+        "P2 黑焰整波落地 inferno_impact"
+      ]
+    },
+    {
+      "id": "F03",
+      "role": "大火浪／火柱爆发",
+      "source_page": "https://freesound.org/people/hnhnh/sounds/244926/",
+      "author": "hnhnh",
+      "title": "fire-whoosh.wav by hnhnh",
+      "license": "CC0 1.0",
+      "license_links": [
+        {
+          "url": "http://creativecommons.org/publicdomain/zero/1.0/",
+          "label": "Creative Commons 0"
+        }
+      ],
+      "public_preview_url": "https://cdn.freesound.org/previews/244/244926_3983630-hq.mp3",
+      "original_cached_file": "artifacts/qingqiu/sfx_audition_20261108/sources/F03_244926_hq.mp3",
+      "source_sha256": "f7c5e6618b15c4f07502d3ceb9ce52a9146401ce0f5b8acbf8c41c51e8030bfa",
+      "runtime_path": "res://Art/Audio/Qingqiu/SelectedSFX_20261108/F03.wav",
+      "runtime_sha256": "ba438f4d972a2331b063f6e53962c7fee11361aba9055e5cb9ddd5955606cfa3",
+      "runtime_seconds": 1.19,
+      "trim_relative_to_approved_preview_seconds": [
+        2.31,
+        3.5
+      ],
+      "loop_seam_crossfade_seconds": 0,
+      "additional_peak_gain_db": 11.40530690554588,
+      "peak_dbfs": -3,
+      "authorship": "Original audio by source author; user selected; AI did trim/level/loop preparation and integration",
+      "status": "Applied and silently verified",
+      "runtime_usage": [
+        "地面火柱点燃 hazard_ignite"
+      ]
+    },
+    {
+      "id": "F05",
+      "role": "余焰／附身燃烧底层 B",
+      "source_page": "https://freesound.org/people/Patrick_Corra/sounds/500860/",
+      "author": "Patrick_Corra",
+      "title": "Fire loop by Patrick_Corra",
+      "license": "CC0 1.0",
+      "license_links": [
+        {
+          "url": "http://creativecommons.org/publicdomain/zero/1.0/",
+          "label": "Creative Commons 0"
+        }
+      ],
+      "public_preview_url": "https://cdn.freesound.org/previews/500/500860_8711646-hq.mp3",
+      "original_cached_file": "artifacts/qingqiu/sfx_audition_20261108/sources/F05_500860_hq.mp3",
+      "source_sha256": "9a0855cd1777c83f80495e41d4cd59133294acd97cfb861890125934620a1a39",
+      "runtime_path": "res://Art/Audio/Qingqiu/SelectedSFX_20261108/F05.wav",
+      "runtime_sha256": "b35ee72e3f3990df30189e2368a7ca2f658bfa44f93f8811620129fefb08eb42",
+      "runtime_seconds": 2.306375,
+      "trim_relative_to_approved_preview_seconds": [
+        0.0,
+        2.346375
+      ],
+      "loop_seam_crossfade_seconds": 0.04,
+      "additional_peak_gain_db": 0.0004777433190127447,
+      "peak_dbfs": -6,
+      "authorship": "Original audio by source author; user selected; AI did trim/level/loop preparation and integration",
+      "status": "Applied and silently verified",
+      "runtime_usage": [
+        "实际余焰／火柱／附身灼烧，一路有界聚合循环"
+      ]
+    }
+  ],
+  "new_synthesis": false,
+  "original_files_overwritten": false,
+  "validation": {
+    "new_checks": 32,
+    "headless_passed": true,
+    "native_passed": true,
+    "audio_regression": 37,
+    "inferno_regression": 41,
+    "melee_regression": 56,
+    "driver": "Dummy",
+    "human_in_game_mix_audition": false,
+    "user_source_selection_confirmed": true,
+    "report": "res://artifacts/qingqiu/selected_sfx_20261108/native_report.json"
+  },
+  "latest_review": {
+    "date": "2026-11-09",
+    "user_quote": "现在的所有音效再列举一下。然后你找的这些都不能用不符合。转场那边的动画也显示一下给我看",
+    "round2_review_status": "rejected_by_user",
+    "previously_integrated_nine_status": "replacement_requested_current_mapping_retained",
+    "runtime_mapping_changed": false,
+    "user_supplied_music_and_cello_changed": false
+  },
+  "runtime_status": {
+    "date": "2026-11-09",
+    "status": "restored_at_user_request",
+    "selected_ids": [
+      "A01",
+      "A02",
+      "B01",
+      "B02",
+      "B03",
+      "F01",
+      "F02",
+      "F03",
+      "F05"
+    ],
+    "transition_fire_reuses_F03": true,
+    "deleted_procedural_assets_restored": false
+  }
+}

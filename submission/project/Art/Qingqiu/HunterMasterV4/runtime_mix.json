@@ -1,0 +1,14 @@
+{
+  "authorship": "AI implementation and presets",
+  "applied_in": "Scripts/Qingqiu/hunter_rig_v2.gd",
+  "default_mix_seconds": 0.12,
+  "destination_mix_seconds": {
+    "hit": 0.035,
+    "dodge": 0.055,
+    "light_slash": 0.045,
+    "heavy_strike": 0.085
+  },
+  "locomotion_phase_preservation": ["walk", "run"],
+  "reset_behavior": "snap_to idle on explicit encounter reset",
+  "spine_runtime_note": "AnimationState mixing is configured by the host runtime; these transitions are not embedded into the skeleton JSON. Set equivalent mixing when using a Spine runtime."
+}

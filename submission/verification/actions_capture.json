@@ -1,0 +1,412 @@
+{
+	"audio_driver": "Dummy",
+	"audio_recorded": true,
+	"chapter": "actions",
+	"delivery_speed": 1.5,
+	"fps": 30,
+	"frames": 1285,
+	"human_full_playthrough": false,
+	"observations": [
+		{
+			"duration": 0.72,
+			"frame": 42,
+			"id": "action",
+			"name": "cub_hop",
+			"phase": 1
+		},
+		{
+			"duration": 0.38,
+			"frame": 84,
+			"id": "action",
+			"name": "cub_feint_windup",
+			"phase": 1
+		},
+		{
+			"duration": 0.72,
+			"frame": 126,
+			"id": "action",
+			"name": "cub_swipe_windup",
+			"phase": 1
+		},
+		{
+			"duration": 0.78,
+			"frame": 168,
+			"id": "action",
+			"name": "cub_charge_windup",
+			"phase": 1
+		},
+		{
+			"duration": 1.25,
+			"frame": 216,
+			"id": "action",
+			"name": "cub_charm_windup",
+			"phase": 1
+		},
+		{
+			"duration": 0.65,
+			"frame": 258,
+			"id": "action",
+			"name": "cub_feint",
+			"phase": 1
+		},
+		{
+			"duration": 0.55,
+			"frame": 300,
+			"id": "action",
+			"name": "cub_swipe",
+			"phase": 1
+		},
+		{
+			"duration": 0.74,
+			"frame": 342,
+			"id": "action",
+			"name": "cub_charge",
+			"phase": 1
+		},
+		{
+			"duration": 0.65,
+			"frame": 384,
+			"id": "action",
+			"name": "cub_charm",
+			"phase": 1
+		},
+		{
+			"duration": 0.85,
+			"frame": 426,
+			"id": "action",
+			"name": "cub_tail_sweep_windup",
+			"phase": 1
+		},
+		{
+			"duration": 0.72,
+			"frame": 468,
+			"id": "action",
+			"name": "cub_tail_sweep",
+			"phase": 1
+		},
+		{
+			"duration": 1.0,
+			"frame": 510,
+			"id": "action",
+			"name": "walk",
+			"phase": 2
+		},
+		{
+			"duration": 0.68,
+			"frame": 552,
+			"id": "action",
+			"name": "run",
+			"phase": 2
+		},
+		{
+			"duration": 2.25,
+			"frame": 630,
+			"id": "action",
+			"name": "tail_unfurl_p2",
+			"phase": 2
+		},
+		{
+			"duration": 1.25,
+			"frame": 678,
+			"id": "action",
+			"name": "barrage_cast",
+			"phase": 2
+		},
+		{
+			"duration": 0.95,
+			"frame": 720,
+			"id": "action",
+			"name": "p2_claw_gale_windup",
+			"phase": 2
+		},
+		{
+			"duration": 0.72,
+			"frame": 762,
+			"id": "action",
+			"name": "p2_claw_gale",
+			"phase": 2
+		},
+		{
+			"duration": 1.0,
+			"frame": 804,
+			"id": "action",
+			"name": "p2_tail_crescent_windup",
+			"phase": 2
+		},
+		{
+			"duration": 0.72,
+			"frame": 846,
+			"id": "action",
+			"name": "p2_tail_crescent",
+			"phase": 2
+		},
+		{
+			"duration": 1.1,
+			"frame": 890,
+			"id": "action",
+			"name": "p2_fox_roar_windup",
+			"phase": 2
+		},
+		{
+			"duration": 0.72,
+			"frame": 932,
+			"id": "action",
+			"name": "p2_fox_roar",
+			"phase": 2
+		},
+		{
+			"duration": 1.04,
+			"frame": 974,
+			"id": "action",
+			"name": "walk",
+			"phase": 3
+		},
+		{
+			"duration": 0.82,
+			"frame": 1016,
+			"id": "action",
+			"name": "run",
+			"phase": 3
+		},
+		{
+			"duration": 2.45,
+			"frame": 1101,
+			"id": "action",
+			"name": "tail_unfurl_p3",
+			"phase": 3
+		},
+		{
+			"duration": 1.25,
+			"frame": 1149,
+			"id": "action",
+			"name": "charm_cast",
+			"phase": 3
+		},
+		{
+			"duration": 0.95,
+			"frame": 1191,
+			"id": "action",
+			"name": "p3_center_windup",
+			"phase": 3
+		},
+		{
+			"duration": 1.35,
+			"frame": 1243,
+			"id": "action",
+			"name": "p3_center_jump",
+			"phase": 3
+		},
+		{
+			"duration": 0.7,
+			"frame": 1285,
+			"id": "action",
+			"name": "p3_spiral_cast",
+			"phase": 3
+		}
+	],
+	"player_max_hp": 120,
+	"positions_and_attacks_arranged": true,
+	"production_save_used": false,
+	"scripted": true,
+	"seconds": 42.8333333333333,
+	"sections": [
+		{
+			"detail": "同源骨骼关键帧预演；运行时尾动 / 镜头 / 碰撞 / Shader 未烘焙到 Spine",
+			"end_frame": 42,
+			"id": "p1_cub_hop",
+			"start_frame": 0,
+			"title": "P1  ·  轻跃追逐"
+		},
+		{
+			"detail": "同源骨骼关键帧预演；运行时尾动 / 镜头 / 碰撞 / Shader 未烘焙到 Spine",
+			"end_frame": 84,
+			"id": "p1_cub_feint_windup",
+			"start_frame": 42,
+			"title": "P1  ·  佯退前摇"
+		},
+		{
+			"detail": "同源骨骼关键帧预演；运行时尾动 / 镜头 / 碰撞 / Shader 未烘焙到 Spine",
+			"end_frame": 126,
+			"id": "p1_cub_swipe_windup",
+			"start_frame": 84,
+			"title": "P1  ·  抓挠前摇"
+		},
+		{
+			"detail": "同源骨骼关键帧预演；运行时尾动 / 镜头 / 碰撞 / Shader 未烘焙到 Spine",
+			"end_frame": 168,
+			"id": "p1_cub_charge_windup",
+			"start_frame": 126,
+			"title": "P1  ·  冲撞前摇"
+		},
+		{
+			"detail": "同源骨骼关键帧预演；运行时尾动 / 镜头 / 碰撞 / Shader 未烘焙到 Spine",
+			"end_frame": 216,
+			"id": "p1_cub_charm_windup",
+			"start_frame": 168,
+			"title": "P1  ·  魅惑前摇"
+		},
+		{
+			"detail": "同源骨骼关键帧预演；运行时尾动 / 镜头 / 碰撞 / Shader 未烘焙到 Spine",
+			"end_frame": 258,
+			"id": "p1_cub_feint",
+			"start_frame": 216,
+			"title": "P1  ·  佯退逗弄"
+		},
+		{
+			"detail": "同源骨骼关键帧预演；运行时尾动 / 镜头 / 碰撞 / Shader 未烘焙到 Spine",
+			"end_frame": 300,
+			"id": "p1_cub_swipe",
+			"start_frame": 258,
+			"title": "P1  ·  抓挠出手"
+		},
+		{
+			"detail": "同源骨骼关键帧预演；运行时尾动 / 镜头 / 碰撞 / Shader 未烘焙到 Spine",
+			"end_frame": 342,
+			"id": "p1_cub_charge",
+			"start_frame": 300,
+			"title": "P1  ·  冲撞与回弹"
+		},
+		{
+			"detail": "同源骨骼关键帧预演；运行时尾动 / 镜头 / 碰撞 / Shader 未烘焙到 Spine",
+			"end_frame": 384,
+			"id": "p1_cub_charm",
+			"start_frame": 342,
+			"title": "P1  ·  魅惑释出"
+		},
+		{
+			"detail": "同源骨骼关键帧预演；运行时尾动 / 镜头 / 碰撞 / Shader 未烘焙到 Spine",
+			"end_frame": 426,
+			"id": "p1_cub_tail_sweep_windup",
+			"start_frame": 384,
+			"title": "P1  ·  尾扫蓄力"
+		},
+		{
+			"detail": "同源骨骼关键帧预演；运行时尾动 / 镜头 / 碰撞 / Shader 未烘焙到 Spine",
+			"end_frame": 468,
+			"id": "p1_cub_tail_sweep",
+			"start_frame": 426,
+			"title": "P1  ·  单尾横扫"
+		},
+		{
+			"detail": "同源骨骼关键帧预演；运行时尾动 / 镜头 / 碰撞 / Shader 未烘焙到 Spine",
+			"end_frame": 510,
+			"id": "p2_walk",
+			"start_frame": 468,
+			"title": "P2  ·  行走"
+		},
+		{
+			"detail": "同源骨骼关键帧预演；运行时尾动 / 镜头 / 碰撞 / Shader 未烘焙到 Spine",
+			"end_frame": 552,
+			"id": "p2_run",
+			"start_frame": 510,
+			"title": "P2  ·  奔跑"
+		},
+		{
+			"detail": "同源骨骼关键帧预演；运行时尾动 / 镜头 / 碰撞 / Shader 未烘焙到 Spine",
+			"end_frame": 630,
+			"id": "p2_tail_unfurl_p2",
+			"start_frame": 552,
+			"title": "P2  ·  双尾苏醒"
+		},
+		{
+			"detail": "同源骨骼关键帧预演；运行时尾动 / 镜头 / 碰撞 / Shader 未烘焙到 Spine",
+			"end_frame": 678,
+			"id": "p2_barrage_cast",
+			"start_frame": 630,
+			"title": "P2  ·  尾焰织幕"
+		},
+		{
+			"detail": "同源骨骼关键帧预演；运行时尾动 / 镜头 / 碰撞 / Shader 未烘焙到 Spine",
+			"end_frame": 720,
+			"id": "p2_p2_claw_gale_windup",
+			"start_frame": 678,
+			"title": "P2  ·  抬爪风刃前摇"
+		},
+		{
+			"detail": "同源骨骼关键帧预演；运行时尾动 / 镜头 / 碰撞 / Shader 未烘焙到 Spine",
+			"end_frame": 762,
+			"id": "p2_p2_claw_gale",
+			"start_frame": 720,
+			"title": "P2  ·  抬爪风刃释放"
+		},
+		{
+			"detail": "同源骨骼关键帧预演；运行时尾动 / 镜头 / 碰撞 / Shader 未烘焙到 Spine",
+			"end_frame": 804,
+			"id": "p2_p2_tail_crescent_windup",
+			"start_frame": 762,
+			"title": "P2  ·  双尾月扫前摇"
+		},
+		{
+			"detail": "同源骨骼关键帧预演；运行时尾动 / 镜头 / 碰撞 / Shader 未烘焙到 Spine",
+			"end_frame": 846,
+			"id": "p2_p2_tail_crescent",
+			"start_frame": 804,
+			"title": "P2  ·  双尾月扫释放"
+		},
+		{
+			"detail": "同源骨骼关键帧预演；运行时尾动 / 镜头 / 碰撞 / Shader 未烘焙到 Spine",
+			"end_frame": 890,
+			"id": "p2_p2_fox_roar_windup",
+			"start_frame": 846,
+			"title": "P2  ·  远距狐啸前摇"
+		},
+		{
+			"detail": "同源骨骼关键帧预演；运行时尾动 / 镜头 / 碰撞 / Shader 未烘焙到 Spine",
+			"end_frame": 932,
+			"id": "p2_p2_fox_roar",
+			"start_frame": 890,
+			"title": "P2  ·  远距狐啸释放"
+		},
+		{
+			"detail": "同源骨骼关键帧预演；运行时尾动 / 镜头 / 碰撞 / Shader 未烘焙到 Spine",
+			"end_frame": 974,
+			"id": "p3_walk",
+			"start_frame": 932,
+			"title": "P3  ·  行走"
+		},
+		{
+			"detail": "同源骨骼关键帧预演；运行时尾动 / 镜头 / 碰撞 / Shader 未烘焙到 Spine",
+			"end_frame": 1016,
+			"id": "p3_run",
+			"start_frame": 974,
+			"title": "P3  ·  奔跑"
+		},
+		{
+			"detail": "同源骨骼关键帧预演；运行时尾动 / 镜头 / 碰撞 / Shader 未烘焙到 Spine",
+			"end_frame": 1101,
+			"id": "p3_tail_unfurl_p3",
+			"start_frame": 1016,
+			"title": "P3  ·  九尾绽放"
+		},
+		{
+			"detail": "同源骨骼关键帧预演；运行时尾动 / 镜头 / 碰撞 / Shader 未烘焙到 Spine",
+			"end_frame": 1149,
+			"id": "p3_charm_cast",
+			"start_frame": 1101,
+			"title": "P3  ·  惑目凝视"
+		},
+		{
+			"detail": "同源骨骼关键帧预演；运行时尾动 / 镜头 / 碰撞 / Shader 未烘焙到 Spine",
+			"end_frame": 1191,
+			"id": "p3_p3_center_windup",
+			"start_frame": 1149,
+			"title": "P3  ·  归中蓄跃"
+		},
+		{
+			"detail": "同源骨骼关键帧预演；运行时尾动 / 镜头 / 碰撞 / Shader 未烘焙到 Spine",
+			"end_frame": 1243,
+			"id": "p3_p3_center_jump",
+			"start_frame": 1191,
+			"title": "P3  ·  归中跃落"
+		},
+		{
+			"detail": "同源骨骼关键帧预演；运行时尾动 / 镜头 / 碰撞 / Shader 未烘焙到 Spine",
+			"end_frame": 1285,
+			"id": "p3_p3_spiral_cast",
+			"start_frame": 1243,
+			"title": "P3  ·  顺时狐焰"
+		}
+	],
+	"source_gameplay_modified": false,
+	"version": "V4.1-current"
+}

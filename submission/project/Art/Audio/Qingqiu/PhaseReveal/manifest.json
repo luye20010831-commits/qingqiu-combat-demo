@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-08",
+  "laugh_source": {
+    "source_page": "https://freesound.org/people/mvVoiceActing/sounds/219778/",
+    "preview_url": "https://cdn.freesound.org/previews/219/219778_3298571-hq.mp3",
+    "author": "mvVoiceActing",
+    "title": "Female Evil Laugh",
+    "license": "CC0 1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "verified_date": "2026-11-08"
+  },
+  "laugh_processing": "180 Hz highpass, 8 kHz lowpass, short fades, quiet 70/155 ms echo; no voice cloning",
+  "auditioned": false,
+  "files": {
+    "fox_p2_laugh.wav": {
+      "sha256": "fb1a661db54e7e02c138a1965e03832877adbcb9d32f614ff32babdb8eb7e45e",
+      "seconds": 3.2549886621315194,
+      "sample_rate": 44100,
+      "channels": 2,
+      "peak_dbfs": -3.0037328652196775,
+      "rms_dbfs": -25.83828726112904
+    }
+  },
+  "removed_fire_source": "AI-authored seeded NumPy filtered noise, transient crackles and low ignition envelope",
+  "fire_status": "File deleted at user request on 2026-11-09"
+}

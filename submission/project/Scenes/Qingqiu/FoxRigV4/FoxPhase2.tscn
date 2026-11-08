@@ -1,0 +1,1292 @@
+[gd_scene format=4]
+
+[ext_resource type="Script" path="res://Scripts/Qingqiu/fox_rig_v4.gd" id="1_3mb1u"]
+[ext_resource type="Shader" path="res://Shaders/Qingqiu/fox_layer.gdshader" id="2_po6kn"]
+[ext_resource type="Texture2D" path="res://Art/Qingqiu/FoxRigV4/images/p2_tail_01.png" id="3_xv13m"]
+[ext_resource type="Texture2D" path="res://Art/Qingqiu/FoxRigV4/images/p2_tail_02.png" id="4_24uhp"]
+[ext_resource type="Texture2D" path="res://Art/Qingqiu/FoxRigV4/images/p2_front_far_upper.png" id="5_bvqy5"]
+[ext_resource type="Texture2D" path="res://Art/Qingqiu/FoxRigV4/images/p2_front_far_lower.png" id="6_j8yu4"]
+[ext_resource type="Texture2D" path="res://Art/Qingqiu/FoxRigV4/images/p2_front_far_paw.png" id="7_tmv6a"]
+[ext_resource type="Texture2D" path="res://Art/Qingqiu/FoxRigV4/images/p2_hind_far_upper.png" id="8_b03ey"]
+[ext_resource type="Texture2D" path="res://Art/Qingqiu/FoxRigV4/images/p2_hind_far_lower.png" id="9_xjv00"]
+[ext_resource type="Texture2D" path="res://Art/Qingqiu/FoxRigV4/images/p2_hind_far_paw.png" id="10_ptcnt"]
+[ext_resource type="Texture2D" path="res://Art/Qingqiu/FoxRigV4/images/p2_body.png" id="11_ja7y4"]
+[ext_resource type="Texture2D" path="res://Art/Qingqiu/FoxRigV4/images/p2_hind_near_upper.png" id="12_qrd2t"]
+[ext_resource type="Texture2D" path="res://Art/Qingqiu/FoxRigV4/images/p2_hind_near_lower.png" id="13_nasm2"]
+[ext_resource type="Texture2D" path="res://Art/Qingqiu/FoxRigV4/images/p2_hind_near_paw.png" id="14_rbkwg"]
+[ext_resource type="Texture2D" path="res://Art/Qingqiu/FoxRigV4/images/p2_front_near_upper.png" id="15_7updo"]
+[ext_resource type="Texture2D" path="res://Art/Qingqiu/FoxRigV4/images/p2_front_near_lower.png" id="16_8v0j8"]
+[ext_resource type="Texture2D" path="res://Art/Qingqiu/FoxRigV4/images/p2_front_near_paw.png" id="17_f1qou"]
+[ext_resource type="Texture2D" path="res://Art/Qingqiu/FoxRigV4/images/p2_head.png" id="18_6mk7x"]
+[ext_resource type="Texture2D" path="res://Art/Qingqiu/FoxRigV4/images/p2_ear_left.png" id="19_jsuqm"]
+[ext_resource type="Texture2D" path="res://Art/Qingqiu/FoxRigV4/images/p2_ear_right.png" id="20_qq2w8"]
+[ext_resource type="Texture2D" path="res://Art/Qingqiu/FoxRigV4/images/p2_eye_left.png" id="21_o252a"]
+[ext_resource type="Texture2D" path="res://Art/Qingqiu/FoxRigV4/images/p2_eyeliner_left.png" id="22_r3vf0"]
+[ext_resource type="Texture2D" path="res://Art/Qingqiu/FoxRigV4/images/p2_eye_closed_left.png" id="23_b84qm"]
+[ext_resource type="Texture2D" path="res://Art/Qingqiu/FoxRigV4/images/p2_eye_right.png" id="24_lntsm"]
+[ext_resource type="Texture2D" path="res://Art/Qingqiu/FoxRigV4/images/p2_eyeliner_right.png" id="25_2e4ut"]
+[ext_resource type="Texture2D" path="res://Art/Qingqiu/FoxRigV4/images/p2_eye_closed_right.png" id="26_3ydg5"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_kvtqb"]
+resource_local_to_scene = true
+render_priority = 0
+shader = ExtResource("2_po6kn")
+shader_parameter/layer_texture = ExtResource("3_xv13m")
+shader_parameter/front_shade = 1.0
+shader_parameter/glow_strength = 0.0
+shader_parameter/charm_flash = null
+shader_parameter/spirit_hit = null
+shader_parameter/glow_color = Color(0.73333335, 0.8039216, 0.77254903, 1)
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_pcugr"]
+_surfaces = [{
+"aabb": AABB(0.6956627, 0.86493415, 0, 2.0503957, 2.080246, 1e-05),
+"attribute_data": PackedByteArray("AAAAAAAAAAAAAAAAq6oqPQAAAACrqqo9AAAAAAAAAD4AAAAAq6oqPgAAAABVVVU+AAAAAAAAgD4AAAAAVVWVPgAAAACrqqo+AAAAAAAAwD4AAAAAVVXVPgAAAACrquo+AAAAAAAAAD8AAAAAq6oKPwAAAABVVRU/AAAAAAAAID8AAAAAq6oqPwAAAABVVTU/AAAAAAAAQD8AAAAAq6pKPwAAAABVVVU/AAAAAAAAYD8AAAAAq6pqPwAAAABVVXU/AAAAAAAAgD8AAIA+AACAPwAAAD8AAIA/AABAPwAAgD8AAIA/AACAPwAAgD9VVXU/AACAP6uqaj8AAIA/AABgPwAAgD9VVVU/AACAP6uqSj8AAIA/AABAPwAAgD9VVTU/AACAP6uqKj8AAIA/AAAgPwAAgD9VVRU/AACAP6uqCj8AAIA/AAAAPwAAgD+rquo+AACAP1VV1T4AAIA/AADAPgAAgD+rqqo+AACAP1VVlT4AAIA/AACAPgAAgD9VVVU+AACAP6uqKj4AAIA/AAAAPgAAgD+rqqo9AACAP6uqKj0AAIA/AAAAAAAAQD8AAAAAAAAAPwAAAAAAAIA+AAAAAAAAgD6rqio9AAAAP6uqKj0AAEA/q6oqPQAAgD6rqqo9AAAAP6uqqj0AAEA/q6qqPQAAgD4AAAA+AAAAPwAAAD4AAEA/AAAAPgAAgD6rqio+AAAAP6uqKj4AAEA/q6oqPgAAgD5VVVU+AAAAP1VVVT4AAEA/VVVVPgAAgD4AAIA+AAAAPwAAgD4AAEA/AACAPgAAgD5VVZU+AAAAP1VVlT4AAEA/VVWVPgAAgD6rqqo+AAAAP6uqqj4AAEA/q6qqPgAAgD4AAMA+AAAAPwAAwD4AAEA/AADAPgAAgD5VVdU+AAAAP1VV1T4AAEA/VVXVPgAAgD6rquo+AAAAP6uq6j4AAEA/q6rqPgAAgD4AAAA/AAAAPwAAAD8AAEA/AAAAPwAAgD6rqgo/AAAAP6uqCj8AAEA/q6oKPwAAgD5VVRU/AAAAP1VVFT8AAEA/VVUVPwAAgD4AACA/AAAAPwAAID8AAEA/AAAgPwAAgD6rqio/AAAAP6uqKj8AAEA/q6oqPwAAgD5VVTU/AAAAP1VVNT8AAEA/VVU1PwAAgD4AAEA/AAAAPwAAQD8AAEA/AABAPwAAgD6rqko/AAAAP6uqSj8AAEA/q6pKPwAAgD5VVVU/AAAAP1VVVT8AAEA/VVVVPwAAgD4AAGA/AAAAPwAAYD8AAEA/AABgPwAAgD6rqmo/AAAAP6uqaj8AAEA/q6pqPwAAgD5VVXU/AAAAP1VVdT8AAEA/VVV1Pw=="),
+"bone_aabbs": [AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0.6956627, 0.9726846, 0, 0.89282566, 1.354039, 1e-05), AABB(0.98231655, 0.86493415, 0, 1.0829389, 1.4617894, 1e-05), AABB(0.98231655, 0.86493415, 0, 1.3337612, 1.4617894, 1e-05), AABB(1.2440934, 0.86493415, 0, 1.2511427, 1.3540294, 1e-05), AABB(1.4590839, 0.86493415, 0, 1.2511426, 1.6195576, 1e-05), AABB(1.4949155, 1.414682, 0, 1.251143, 1.2462786, 1e-05), AABB(1.5307473, 1.8269933, 0, 1.2153112, 0.8339673, 1e-05), AABB(1.2689703, 2.1705859, 0, 1.4770882, 0.7746043, 1e-05)],
+"format": 34359745559,
+"index_count": 576,
+"index_data": PackedByteArray("AAA3AAEAAQA3ADgANwA2ADgAOAA2ADkANgA1ADkAOQA1ADoANQA0ADoAOgA0ADMAAQA4AAIAAgA4ADsAOAA5ADsAOwA5ADwAOQA6ADwAPAA6AD0AOgAzAD0APQAzADIAAgA7AAMAAwA7AD4AOwA8AD4APgA8AD8APAA9AD8APwA9AEAAPQAyAEAAQAAyADEAAwA+AAQABAA+AEEAPgA/AEEAQQA/AEIAPwBAAEIAQgBAAEMAQAAxAEMAQwAxADAABABBAAUABQBBAEQAQQBCAEQARABCAEUAQgBDAEUARQBDAEYAQwAwAEYARgAwAC8ABQBEAAYABgBEAEcARABFAEcARwBFAEgARQBGAEgASABGAEkARgAvAEkASQAvAC4ABgBHAAcABwBHAEoARwBIAEoASgBIAEsASABJAEsASwBJAEwASQAuAEwATAAuAC0ABwBKAAgACABKAE0ASgBLAE0ATQBLAE4ASwBMAE4ATgBMAE8ATAAtAE8ATwAtACwACABNAAkACQBNAFAATQBOAFAAUABOAFEATgBPAFEAUQBPAFIATwAsAFIAUgAsACsACQBQAAoACgBQAFMAUABRAFMAUwBRAFQAUQBSAFQAVABSAFUAUgArAFUAVQArACoACgBTAAsACwBTAFYAUwBUAFYAVgBUAFcAVABVAFcAVwBVAFgAVQAqAFgAWAAqACkACwBWAAwADABWAFkAVgBXAFkAWQBXAFoAVwBYAFoAWgBYAFsAWAApAFsAWwApACgADABZAA0ADQBZAFwAWQBaAFwAXABaAF0AWgBbAF0AXQBbAF4AWwAoAF4AXgAoACcADQBcAA4ADgBcAF8AXABdAF8AXwBdAGAAXQBeAGAAYABeAGEAXgAnAGEAYQAnACYADgBfAA8ADwBfAGIAXwBgAGIAYgBgAGMAYABhAGMAYwBhAGQAYQAmAGQAZAAmACUADwBiABAAEABiAGUAYgBjAGUAZQBjAGYAYwBkAGYAZgBkAGcAZAAlAGcAZwAlACQAEABlABEAEQBlAGgAZQBmAGgAaABmAGkAZgBnAGkAaQBnAGoAZwAkAGoAagAkACMAEQBoABIAEgBoAGsAaABpAGsAawBpAGwAaQBqAGwAbABqAG0AagAjAG0AbQAjACIAEgBrABMAEwBrAG4AawBsAG4AbgBsAG8AbABtAG8AbwBtAHAAbQAiAHAAcAAiACEAEwBuABQAFABuAHEAbgBvAHEAcQBvAHIAbwBwAHIAcgBwAHMAcAAhAHMAcwAhACAAFABxABUAFQBxAHQAcQByAHQAdAByAHUAcgBzAHUAdQBzAHYAcwAgAHYAdgAgAB8AFQB0ABYAFgB0AHcAdAB1AHcAdwB1AHgAdQB2AHgAeAB2AHkAdgAfAHkAeQAfAB4AFgB3ABcAFwB3AHoAdwB4AHoAegB4AHsAeAB5AHsAewB5AHwAeQAeAHwAfAAeAB0AFwB6ABgAGAB6ABkAegB7ABkAGQB7ABoAewB8ABoAGgB8ABsAfAAdABsAGwAdABwA"),
+"primitive": 3,
+"skin_data": PackedByteArray("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"),
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 125,
+"vertex_data": PackedByteArray("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/38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgA==")
+}]
+
+[sub_resource type="Skin" id="Skin_xwdl7"]
+bind_count = 41
+bind/0/name = &""
+bind/0/bone = 0
+bind/0/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+bind/1/name = &""
+bind/1/bone = 1
+bind/1/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+bind/2/name = &""
+bind/2/bone = 2
+bind/2/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5960425, -2.1049712, 0)
+bind/3/name = &""
+bind/3/bone = 3
+bind/3/pose = Transform3D(0.97277963, -0.23173222, 0, 0.23173222, 0.97277963, 0, 0, 0, 1, -0.5127977, -1.6378351, 0)
+bind/4/name = &""
+bind/4/bone = 4
+bind/4/pose = Transform3D(0.9995829, 0.0288773, 0, -0.0288773, 0.9995829, 0, 0, 0, 1, -1.228755, -1.3655574, 0)
+bind/5/name = &""
+bind/5/bone = 5
+bind/5/pose = Transform3D(0.885219, 0.46517417, 0, -0.46517417, 0.885219, 0, 0, 0, 1, -2.057294, -0.5138097, 0)
+bind/6/name = &""
+bind/6/bone = 6
+bind/6/pose = Transform3D(0.6191887, 0.785242, 0, -0.785242, 0.6191887, 0, 0, 0, 1, -2.429566, 0.52028, 0)
+bind/7/name = &""
+bind/7/bone = 7
+bind/7/pose = Transform3D(0.34354267, 0.939137, 0, -0.939137, 0.34354267, 0, 0, 0, 1, -2.4654024, 1.3564361, 0)
+bind/8/name = &""
+bind/8/bone = 8
+bind/8/pose = Transform3D(-0.0028933582, 0.99999577, 0, -0.99999577, -0.0028933582, 0, 0, 0, 1, -2.1514947, 2.2399762, 0)
+bind/9/name = &""
+bind/9/bone = 9
+bind/9/pose = Transform3D(-0.4948452, 0.868981, 0, -0.868981, -0.4948452, 0, 0, 0, 1, -1.062208, 3.1742907, 0)
+bind/10/name = &""
+bind/10/bone = 10
+bind/10/pose = Transform3D(-0.4948452, 0.868981, 0, -0.868981, -0.4948452, 0, 0, 0, 1, -1.3053898, 3.1742907, 0)
+bind/11/name = &""
+bind/11/bone = 11
+bind/11/pose = Transform3D(0.8424437, 0.5387844, 0, -0.5387844, 0.8424437, 0, 0, 0, 1, -1.5343792, -0.76886, 0)
+bind/12/name = &""
+bind/12/bone = 12
+bind/12/pose = Transform3D(0.673596, 0.7390997, 0, -0.7390997, 0.673596, 0, 0, 0, 1, -1.9895818, -0.26107162, 0)
+bind/13/name = &""
+bind/13/bone = 13
+bind/13/pose = Transform3D(0.28030646, 0.9599104, 0, -0.9599104, 0.28030646, 0, 0, 0, 1, -2.2554011, 0.8126517, 0)
+bind/14/name = &""
+bind/14/bone = 14
+bind/14/pose = Transform3D(-0.13473131, 0.9908821, 0, -0.9908821, -0.13473131, 0, 0, 0, 1, -2.070539, 1.8125054, 0)
+bind/15/name = &""
+bind/15/bone = 15
+bind/15/pose = Transform3D(-0.43691394, 0.89950323, 0, -0.89950323, -0.43691394, 0, 0, 0, 1, -1.7214291, 2.4723444, 0)
+bind/16/name = &""
+bind/16/bone = 16
+bind/16/pose = Transform3D(-0.72134674, 0.6925741, 0, -0.6925741, -0.72134674, 0, 0, 0, 1, -1.0671518, 3.0292466, 0)
+bind/17/name = &""
+bind/17/bone = 17
+bind/17/pose = Transform3D(-0.96884096, 0.24768299, 0, -0.24768299, -0.96884096, 0, 0, 0, 1, 0.2701944, 3.3274252, 0)
+bind/18/name = &""
+bind/18/bone = 18
+bind/18/pose = Transform3D(-0.96884096, 0.24768299, 0, -0.24768299, -0.96884096, 0, 0, 0, 1, 0.027012885, 3.327425, 0)
+bind/19/name = &""
+bind/19/bone = 19
+bind/19/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.91916025, -2.625724, 0)
+bind/20/name = &""
+bind/20/bone = 20
+bind/20/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.7842665, -2.3967183, 0)
+bind/21/name = &""
+bind/21/bone = 21
+bind/21/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.25096527, -2.625724, 0)
+bind/22/name = &""
+bind/22/bone = 22
+bind/22/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.40781856, -2.3967183, 0)
+bind/23/name = &""
+bind/23/bone = 23
+bind/23/pose = Transform3D(0.119700454, -0.9928101, 0, 0.9928101, 0.119700454, 0, 0, 0, 1, 1.2573786, 0.49615705, 0)
+bind/24/name = &""
+bind/24/bone = 24
+bind/24/pose = Transform3D(-0.08479988, -0.9963981, 0, 0.9963981, -0.08479988, 0, 0, 0, 1, 0.6939201, 0.65095747, 0)
+bind/25/name = &""
+bind/25/bone = 25
+bind/25/pose = Transform3D(1, -1.0430813e-07, 0, 1.0430813e-07, 1, 0, 0, 0, 1, 0.6399614, -0.15685326, 0)
+bind/26/name = &""
+bind/26/bone = 26
+bind/26/pose = Transform3D(1, -1.0430813e-07, 0, 1.0430813e-07, 1, 0, 0, 0, 1, 0.6399614, -0.03764476, 0)
+bind/27/name = &""
+bind/27/bone = 27
+bind/27/pose = Transform3D(0.22566338, -0.97420543, 0, 0.97420543, 0.22566338, 0, 0, 0, 1, 1.3823969, 0.0597589, 0)
+bind/28/name = &""
+bind/28/bone = 28
+bind/28/pose = Transform3D(0.038618494, -0.9992541, 0, 0.9992541, 0.038618494, 0, 0, 0, 1, 0.7867404, 0.21132901, 0)
+bind/29/name = &""
+bind/29/bone = 29
+bind/29/pose = Transform3D(1, -7.82311e-08, 0, 7.82311e-08, 1, 0, 0, 0, 1, 0.21645759, -0.12861972, 0)
+bind/30/name = &""
+bind/30/bone = 30
+bind/30/pose = Transform3D(1, -7.82311e-08, 0, 7.82311e-08, 1, 0, 0, 0, 1, 0.21645758, -0.037644815, 0)
+bind/31/name = &""
+bind/31/bone = 31
+bind/31/pose = Transform3D(0.37436777, -0.9272803, 0, 0.9272803, 0.37436777, 0, 0, 0, 1, 1.0084262, -0.7116059, 0)
+bind/32/name = &""
+bind/32/bone = 32
+bind/32/pose = Transform3D(-0.2346406, -0.9720822, 0, 0.9720822, -0.2346406, 0, 0, 0, 1, 0.7910787, -0.30925983, 0)
+bind/33/name = &""
+bind/33/bone = 33
+bind/33/pose = Transform3D(1, -7.4505806e-08, 0, 7.4505806e-08, 1, 0, 0, 0, 1, -0.35448837, -0.15057918, 0)
+bind/34/name = &""
+bind/34/bone = 34
+bind/34/pose = Transform3D(1, -7.4505806e-08, 0, 7.4505806e-08, 1, 0, 0, 0, 1, -0.35448837, -0.037644815, 0)
+bind/35/name = &""
+bind/35/bone = 35
+bind/35/pose = Transform3D(0.5579419, -0.82988, 0, 0.82988, 0.5579419, 0, 0, 0, 1, 0.6389185, -1.2649672, 0)
+bind/36/name = &""
+bind/36/bone = 36
+bind/36/pose = Transform3D(0.08540115, -0.99634665, 0, 0.99634665, 0.08540115, 0, 0, 0, 1, 0.5871672, -1.1208419, 0)
+bind/37/name = &""
+bind/37/bone = 37
+bind/37/pose = Transform3D(1, -2.2351742e-08, 0, 2.2351742e-08, 1, 0, 0, 0, 1, -1.1136583, -0.13175675, 0)
+bind/38/name = &""
+bind/38/bone = 38
+bind/38/pose = Transform3D(1, -2.2351742e-08, 0, 2.2351742e-08, 1, 0, 0, 0, 1, -1.1136583, -0.037644777, 0)
+bind/39/name = &""
+bind/39/bone = 39
+bind/39/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.5897684, -2.1583014, 0)
+bind/40/name = &""
+bind/40/bone = 40
+bind/40/pose = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.50193053, -1.715975, 0)
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_85byl"]
+resource_local_to_scene = true
+render_priority = 0
+shader = ExtResource("2_po6kn")
+shader_parameter/layer_texture = ExtResource("4_24uhp")
+shader_parameter/front_shade = 1.0
+shader_parameter/glow_strength = 0.0
+shader_parameter/charm_flash = null
+shader_parameter/spirit_hit = null
+shader_parameter/glow_color = Color(0.73333335, 0.8039216, 0.77254903, 1)
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_v5v4c"]
+_surfaces = [{
+"aabb": AABB(0.29085714, 1.2190003, 0.002, 1.7259693, 2.3211937, 1e-05),
+"attribute_data": PackedByteArray("AAAAAAAAAAAAAAAAq6oqPQAAAACrqqo9AAAAAAAAAD4AAAAAq6oqPgAAAABVVVU+AAAAAAAAgD4AAAAAVVWVPgAAAACrqqo+AAAAAAAAwD4AAAAAVVXVPgAAAACrquo+AAAAAAAAAD8AAAAAq6oKPwAAAABVVRU/AAAAAAAAID8AAAAAq6oqPwAAAABVVTU/AAAAAAAAQD8AAAAAq6pKPwAAAABVVVU/AAAAAAAAYD8AAAAAq6pqPwAAAABVVXU/AAAAAAAAgD8AAIA+AACAPwAAAD8AAIA/AABAPwAAgD8AAIA/AACAPwAAgD9VVXU/AACAP6uqaj8AAIA/AABgPwAAgD9VVVU/AACAP6uqSj8AAIA/AABAPwAAgD9VVTU/AACAP6uqKj8AAIA/AAAgPwAAgD9VVRU/AACAP6uqCj8AAIA/AAAAPwAAgD+rquo+AACAP1VV1T4AAIA/AADAPgAAgD+rqqo+AACAP1VVlT4AAIA/AACAPgAAgD9VVVU+AACAP6uqKj4AAIA/AAAAPgAAgD+rqqo9AACAP6uqKj0AAIA/AAAAAAAAQD8AAAAAAAAAPwAAAAAAAIA+AAAAAAAAgD6rqio9AAAAP6uqKj0AAEA/q6oqPQAAgD6rqqo9AAAAP6uqqj0AAEA/q6qqPQAAgD4AAAA+AAAAPwAAAD4AAEA/AAAAPgAAgD6rqio+AAAAP6uqKj4AAEA/q6oqPgAAgD5VVVU+AAAAP1VVVT4AAEA/VVVVPgAAgD4AAIA+AAAAPwAAgD4AAEA/AACAPgAAgD5VVZU+AAAAP1VVlT4AAEA/VVWVPgAAgD6rqqo+AAAAP6uqqj4AAEA/q6qqPgAAgD4AAMA+AAAAPwAAwD4AAEA/AADAPgAAgD5VVdU+AAAAP1VV1T4AAEA/VVXVPgAAgD6rquo+AAAAP6uq6j4AAEA/q6rqPgAAgD4AAAA/AAAAPwAAAD8AAEA/AAAAPwAAgD6rqgo/AAAAP6uqCj8AAEA/q6oKPwAAgD5VVRU/AAAAP1VVFT8AAEA/VVUVPwAAgD4AACA/AAAAPwAAID8AAEA/AAAgPwAAgD6rqio/AAAAP6uqKj8AAEA/q6oqPwAAgD5VVTU/AAAAP1VVNT8AAEA/VVU1PwAAgD4AAEA/AAAAPwAAQD8AAEA/AABAPwAAgD6rqko/AAAAP6uqSj8AAEA/q6pKPwAAgD5VVVU/AAAAP1VVVT8AAEA/VVVVPwAAgD4AAGA/AAAAPwAAYD8AAEA/AABgPwAAgD6rqmo/AAAAP6uqaj8AAEA/q6pqPwAAgD5VVXU/AAAAP1VVdT8AAEA/VVV1Pw=="),
+"bone_aabbs": [AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0.51172745, 1.2190003, 0.002, 1.2208536, 1.1026759, 1.0000076e-05), AABB(0.51172745, 1.3582323, 0.002, 1.5050989, 0.963444, 1.0000076e-05), AABB(0.51172745, 1.3582323, 0.002, 1.5050989, 1.2998285, 1.0000076e-05), AABB(0.79597294, 1.4974641, 0.002, 1.2208534, 1.5281519, 1.0000076e-05), AABB(0.7714318, 1.7759279, 0.002, 1.2454046, 1.6907548, 1.0000076e-05), AABB(0.7223496, 2.2982957, 0.002, 1.0981581, 1.2418983, 1.0000076e-05), AABB(0.7223496, 2.4608986, 0.002, 0.950911, 1.0792954, 1.0000076e-05), AABB(0.29085714, 2.3951774, 0.002, 1.2596877, 1.1450167, 1.0000076e-05)],
+"format": 34359745559,
+"index_count": 576,
+"index_data": PackedByteArray("AAA3AAEAAQA3ADgANwA2ADgAOAA2ADkANgA1ADkAOQA1ADoANQA0ADoAOgA0ADMAAQA4AAIAAgA4ADsAOAA5ADsAOwA5ADwAOQA6ADwAPAA6AD0AOgAzAD0APQAzADIAAgA7AAMAAwA7AD4AOwA8AD4APgA8AD8APAA9AD8APwA9AEAAPQAyAEAAQAAyADEAAwA+AAQABAA+AEEAPgA/AEEAQQA/AEIAPwBAAEIAQgBAAEMAQAAxAEMAQwAxADAABABBAAUABQBBAEQAQQBCAEQARABCAEUAQgBDAEUARQBDAEYAQwAwAEYARgAwAC8ABQBEAAYABgBEAEcARABFAEcARwBFAEgARQBGAEgASABGAEkARgAvAEkASQAvAC4ABgBHAAcABwBHAEoARwBIAEoASgBIAEsASABJAEsASwBJAEwASQAuAEwATAAuAC0ABwBKAAgACABKAE0ASgBLAE0ATQBLAE4ASwBMAE4ATgBMAE8ATAAtAE8ATwAtACwACABNAAkACQBNAFAATQBOAFAAUABOAFEATgBPAFEAUQBPAFIATwAsAFIAUgAsACsACQBQAAoACgBQAFMAUABRAFMAUwBRAFQAUQBSAFQAVABSAFUAUgArAFUAVQArACoACgBTAAsACwBTAFYAUwBUAFYAVgBUAFcAVABVAFcAVwBVAFgAVQAqAFgAWAAqACkACwBWAAwADABWAFkAVgBXAFkAWQBXAFoAVwBYAFoAWgBYAFsAWAApAFsAWwApACgADABZAA0ADQBZAFwAWQBaAFwAXABaAF0AWgBbAF0AXQBbAF4AWwAoAF4AXgAoACcADQBcAA4ADgBcAF8AXABdAF8AXwBdAGAAXQBeAGAAYABeAGEAXgAnAGEAYQAnACYADgBfAA8ADwBfAGIAXwBgAGIAYgBgAGMAYABhAGMAYwBhAGQAYQAmAGQAZAAmACUADwBiABAAEABiAGUAYgBjAGUAZQBjAGYAYwBkAGYAZgBkAGcAZAAlAGcAZwAlACQAEABlABEAEQBlAGgAZQBmAGgAaABmAGkAZgBnAGkAaQBnAGoAZwAkAGoAagAkACMAEQBoABIAEgBoAGsAaABpAGsAawBpAGwAaQBqAGwAbABqAG0AagAjAG0AbQAjACIAEgBrABMAEwBrAG4AawBsAG4AbgBsAG8AbABtAG8AbwBtAHAAbQAiAHAAcAAiACEAEwBuABQAFABuAHEAbgBvAHEAcQBvAHIAbwBwAHIAcgBwAHMAcAAhAHMAcwAhACAAFABxABUAFQBxAHQAcQByAHQAdAByAHUAcgBzAHUAdQBzAHYAcwAgAHYAdgAgAB8AFQB0ABYAFgB0AHcAdAB1AHcAdwB1AHgAdQB2AHgAeAB2AHkAdgAfAHkAeQAfAB4AFgB3ABcAFwB3AHoAdwB4AHoAegB4AHsAeAB5AHsAewB5AHwAeQAeAHwAfAAeAB0AFwB6ABgAGAB6ABkAegB7ABkAGQB7ABoAewB8ABoAGgB8ABsAfAAdABsAGwAdABwA"),
+"primitive": 3,
+"skin_data": PackedByteArray("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"),
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 125,
+"vertex_data": PackedByteArray("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/38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AID/f/9//38AgA==")
+}]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_klkyv"]
+resource_local_to_scene = true
+render_priority = 0
+shader = ExtResource("2_po6kn")
+shader_parameter/layer_texture = ExtResource("5_bvqy5")
+shader_parameter/front_shade = 1.0
+shader_parameter/glow_strength = 0.0
+shader_parameter/charm_flash = null
+shader_parameter/spirit_hit = null
+shader_parameter/glow_color = Color(0.73333335, 0.8039216, 0.77254903, 1)
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_ubfo7"]
+_surfaces = [{
+"aabb": AABB(-0.8281854, 0.70583975, 0.004, 0.4046815, 0.61800194, 1e-05),
+"attribute_data": PackedByteArray("AAAAAAAAgD8AAIA/AACAPwAAgD8AAAAAAAAAAAAAAAA="),
+"bone_aabbs": [AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(-0.8281854, 0.70583975, 0.004, 0.4046815, 0.61800194, 1.0000076e-05)],
+"format": 34359745559,
+"index_count": 6,
+"index_data": PackedByteArray("AAACAAEAAAADAAIA"),
+"primitive": 3,
+"skin_data": PackedByteArray("FwAAAAAAAAD//wAAAAAAABcAAAAAAAAA//8AAAAAAAAXAAAAAAAAAP//AAAAAAAAFwAAAAAAAAD//wAAAAAAAA=="),
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray("9QNUv+qxND9vEoM7gNXYvuuxND9vEoM7gNXYvqVzqT9vEoM79ANUv6VzqT9vEoM7/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AIA=")
+}]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_aauf3"]
+resource_local_to_scene = true
+render_priority = 0
+shader = ExtResource("2_po6kn")
+shader_parameter/layer_texture = ExtResource("6_j8yu4")
+shader_parameter/front_shade = 1.0
+shader_parameter/glow_strength = 0.0
+shader_parameter/charm_flash = null
+shader_parameter/spirit_hit = null
+shader_parameter/glow_color = Color(0.73333335, 0.8039216, 0.77254903, 1)
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_mimmb"]
+_surfaces = [{
+"aabb": AABB(-0.85641897, 0.119208455, 0.006, 0.3889962, 0.67133206, 1e-05),
+"attribute_data": PackedByteArray("AAAAAAAAgD8AAIA/AACAPwAAgD8AAAAAAAAAAAAAAAA="),
+"bone_aabbs": [AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(-0.85641897, 0.119208455, 0.006, 0.3889962, 0.67133206, 1.0000076e-05)],
+"format": 34359745559,
+"index_count": 6,
+"index_data": PackedByteArray("AAACAAEAAAADAAIA"),
+"primitive": 3,
+"skin_data": PackedByteArray("GAAAAAAAAAD//wAAAAAAABgAAAAAAAAA//8AAAAAAAAYAAAAAAAAAP//AAAAAAAAGAAAAAAAAAD//wAAAAAAAA=="),
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray("Rj5bv5gj9D2mm8Q7DFLvvpAj9D2mm8Q7CVLvvt1gSj+mm8Q7RT5bv91gSj+mm8Q7/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AIA=")
+}]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_33ue2"]
+resource_local_to_scene = true
+render_priority = 0
+shader = ExtResource("2_po6kn")
+shader_parameter/layer_texture = ExtResource("7_tmv6a")
+shader_parameter/front_shade = 1.0
+shader_parameter/glow_strength = 0.0
+shader_parameter/charm_flash = null
+shader_parameter/spirit_hit = null
+shader_parameter/glow_color = Color(0.73333335, 0.8039216, 0.77254903, 1)
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_ys4i5"]
+_surfaces = [{
+"aabb": AABB(-0.8626931, 0.01568535, 0.008, 0.31998068, 0.18822397, 1e-05),
+"attribute_data": PackedByteArray("AAAAAAAAgD8AAIA/AACAPwAAgD8AAAAAAAAAAAAAAAA="),
+"bone_aabbs": [AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(-0.8626931, 0.01568535, 0.008, 0.31998068, 0.18822397, 9.9996105e-06)],
+"format": 34359745559,
+"index_count": 6,
+"index_data": PackedByteArray("AAACAAEAAAADAAIA"),
+"primitive": 3,
+"skin_data": PackedByteArray("GQAAAAAAAAD//wAAAAAAABkAAAAAAAAA//8AAAAAAAAZAAAAAAAAAP//AAAAAAAAGQAAAAAAAAD//wAAAAAAAA=="),
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray("dNlcv6h+gDxvEgM8M+8Kv5B+gDxvEgM8M+8Kv5nNUD5vEgM8dNlcv5vNUD5vEgM8/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AIA=")
+}]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_wttmn"]
+resource_local_to_scene = true
+render_priority = 0
+shader = ExtResource("2_po6kn")
+shader_parameter/layer_texture = ExtResource("8_b03ey")
+shader_parameter/front_shade = 1.0
+shader_parameter/glow_strength = 0.0
+shader_parameter/charm_flash = null
+shader_parameter/spirit_hit = null
+shader_parameter/glow_color = Color(0.73333335, 0.8039216, 0.77254903, 1)
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_uy00e"]
+_surfaces = [{
+"aabb": AABB(0.11293435, 0.6556467, 0.01, 0.5489865, 0.6619209, 1e-05),
+"attribute_data": PackedByteArray("AAAAAAAAgD8AAIA/AACAPwAAgD8AAAAAAAAAAAAAAAA="),
+"bone_aabbs": [AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0.11293435, 0.6556467, 0.01, 0.5489865, 0.6619209, 9.9996105e-06)],
+"format": 34359745559,
+"index_count": 6,
+"index_data": PackedByteArray("AAACAAEAAAADAAIA"),
+"primitive": 3,
+"skin_data": PackedByteArray("HwAAAAAAAAD//wAAAAAAAB8AAAAAAAAA//8AAAAAAAAfAAAAAAAAAP//AAAAAAAAHwAAAAAAAAD//wAAAAAAAA=="),
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray("IkrnPXbYJz8K1yM8pXMpP3bYJz8K1yM8pXMpPw6mqD8K1yM8IErnPQ6mqD8K1yM8/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AIA=")
+}]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_eefvf"]
+resource_local_to_scene = true
+render_priority = 0
+shader = ExtResource("2_po6kn")
+shader_parameter/layer_texture = ExtResource("9_xjv00")
+shader_parameter/front_shade = 1.0
+shader_parameter/glow_strength = 0.0
+shader_parameter/charm_flash = null
+shader_parameter/spirit_hit = null
+shader_parameter/glow_color = Color(0.73333335, 0.8039216, 0.77254903, 1)
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_ljrey"]
+_surfaces = [{
+"aabb": AABB(0.13803083, 0.11293435, 0.012, 0.43918926, 0.6274132, 1e-05),
+"attribute_data": PackedByteArray("AAAAAAAAgD8AAIA/AACAPwAAgD8AAAAAAAAAAAAAAAA="),
+"bone_aabbs": [AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0.13803083, 0.11293435, 0.012, 0.43918926, 0.6274132, 9.9996105e-06)],
+"format": 34359745559,
+"index_count": 6,
+"index_data": PackedByteArray("AAACAAEAAAADAAIA"),
+"primitive": 3,
+"skin_data": PackedByteArray("IAAAAAAAAAD//wAAAAAAACAAAAAAAAAA//8AAAAAAAAgAAAAAAAAAP//AAAAAAAAIAAAAAAAAAD//wAAAAAAAA=="),
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray("9FcNPihK5z2mm0Q8scQTPyBK5z2mm0Q8ssQTP2qHPT+mm0Q89FcNPmuHPT+mm0Q8/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AIA=")
+}]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_17836"]
+resource_local_to_scene = true
+render_priority = 0
+shader = ExtResource("2_po6kn")
+shader_parameter/layer_texture = ExtResource("10_ptcnt")
+shader_parameter/front_shade = 1.0
+shader_parameter/glow_strength = 0.0
+shader_parameter/charm_flash = null
+shader_parameter/spirit_hit = null
+shader_parameter/glow_color = Color(0.73333335, 0.8039216, 0.77254903, 1)
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_7qs48"]
+_surfaces = [{
+"aabb": AABB(0.13803083, 0.040781848, 0.014, 0.31056952, 0.15685332, 1e-05),
+"attribute_data": PackedByteArray("AAAAAAAAgD8AAIA/AACAPwAAgD8AAAAAAAAAAAAAAAA="),
+"bone_aabbs": [AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0.13803083, 0.040781848, 0.014, 0.31056952, 0.15685332, 9.9996105e-06)],
+"format": 34359745559,
+"index_count": 6,
+"index_data": PackedByteArray("AAACAAEAAAADAAIA"),
+"primitive": 3,
+"skin_data": PackedByteArray("IQAAAAAAAAD//wAAAAAAACEAAAAAAAAA//8AAAAAAAAhAAAAAAAAAP//AAAAAAAAIQAAAAAAAAD//wAAAAAAAA=="),
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray("9FcNPuQKJz1CYGU88q7lPt4KJz1CYGU88q7lPt1gSj5CYGU89VcNPt9gSj5CYGU8/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AIA=")
+}]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_b6f5x"]
+resource_local_to_scene = true
+render_priority = 0
+shader = ExtResource("2_po6kn")
+shader_parameter/layer_texture = ExtResource("11_ja7y4")
+shader_parameter/front_shade = 1.0
+shader_parameter/glow_strength = 0.0
+shader_parameter/charm_flash = null
+shader_parameter/spirit_hit = null
+shader_parameter/glow_color = Color(0.73333335, 0.8039216, 0.77254903, 1)
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_8icnr"]
+_surfaces = [{
+"aabb": AABB(-1.0383687, 1.0289576, 0.016, 2.0422297, 1.0854247, 1e-05),
+"attribute_data": PackedByteArray("AAAAAAAAgD8AAIA/AACAPwAAgD8AAAAAAAAAAAAAAAA="),
+"bone_aabbs": [AABB(0, 0, 0, -1, -1, -1), AABB(-1.0383687, 1.0289576, 0.016, 2.0422297, 1.0854247, 1.0000542e-05)],
+"format": 34359745559,
+"index_count": 6,
+"index_data": PackedByteArray("AAACAAEAAAADAAIA"),
+"primitive": 3,
+"skin_data": PackedByteArray("AQAAAAAAAAD//wAAAAAAAAEAAAAAAAAA//8AAAAAAAABAAAAAAAAAP//AAAAAAAAAQAAAAAAAAD//wAAAAAAAA=="),
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray("ROmEv+K0gz9vEoM8hH6AP+K0gz9vEoM8hH6APwpSB0BvEoM8ROmEvwpSB0BvEoM8/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AIA=")
+}]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_jd2l7"]
+resource_local_to_scene = true
+render_priority = 0
+shader = ExtResource("2_po6kn")
+shader_parameter/layer_texture = ExtResource("12_qrd2t")
+shader_parameter/front_shade = 1.0
+shader_parameter/glow_strength = 0.0
+shader_parameter/charm_flash = null
+shader_parameter/spirit_hit = null
+shader_parameter/glow_color = Color(0.73333335, 0.8039216, 0.77254903, 1)
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_rvexb"]
+_surfaces = [{
+"aabb": AABB(0.47055987, 0.63996136, 0.018, 0.68388045, 0.81563723, 1e-05),
+"attribute_data": PackedByteArray("AAAAAAAAgD8AAIA/AACAPwAAgD8AAAAAAAAAAAAAAAA="),
+"bone_aabbs": [AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0.47055987, 0.63996136, 0.018, 0.68388045, 0.81563723, 1.0000542e-05)],
+"format": 34359745559,
+"index_count": 6,
+"index_data": PackedByteArray("AAACAAEAAAADAAIA"),
+"primitive": 3,
+"skin_data": PackedByteArray("IwAAAAAAAAD//wAAAAAAACMAAAAAAAAA//8AAAAAAAAjAAAAAAAAAP//AAAAAAAAIwAAAAAAAAD//wAAAAAAAA=="),
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray("Ou3wPoLUIz+8dJM8ssSTP4PUIz+8dJM8s8STPw5Ruj+8dJM8Oe3wPg1Ruj+8dJM8/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AIA=")
+}]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_1o52c"]
+resource_local_to_scene = true
+render_priority = 0
+shader = ExtResource("2_po6kn")
+shader_parameter/layer_texture = ExtResource("13_nasm2")
+shader_parameter/front_shade = 1.0
+shader_parameter/glow_strength = 0.0
+shader_parameter/charm_flash = null
+shader_parameter/spirit_hit = null
+shader_parameter/glow_color = Color(0.73333335, 0.8039216, 0.77254903, 1)
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_gtn8v"]
+_surfaces = [{
+"aabb": AABB(0.8721043, 0.09411198, 0.02, 0.36076248, 0.63055027, 1e-05),
+"attribute_data": PackedByteArray("AAAAAAAAgD8AAIA/AACAPwAAgD8AAAAAAAAAAAAAAAA="),
+"bone_aabbs": [AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0.8721043, 0.09411198, 0.02, 0.36076248, 0.63055027, 1.0000542e-05)],
+"format": 34359745559,
+"index_count": 6,
+"index_data": PackedByteArray("AAACAAEAAAADAAIA"),
+"primitive": 3,
+"skin_data": PackedByteArray("JAAAAAAAAAD//wAAAAAAACQAAAAAAAAA//8AAAAAAAAkAAAAAAAAAP//AAAAAAAAJAAAAAAAAAD//wAAAAAAAA=="),
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray("OkJfP8i9wD0K16M8lM6dP8i9wD0K16M8lM6dP3aDOT8K16M8OkJfP3eDOT8K16M8/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AIA=")
+}]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_5smg5"]
+resource_local_to_scene = true
+render_priority = 0
+shader = ExtResource("2_po6kn")
+shader_parameter/layer_texture = ExtResource("14_rbkwg")
+shader_parameter/front_shade = 1.0
+shader_parameter/glow_strength = 0.0
+shader_parameter/charm_flash = null
+shader_parameter/spirit_hit = null
+shader_parameter/glow_color = Color(0.73333335, 0.8039216, 0.77254903, 1)
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_1aq4k"]
+_surfaces = [{
+"aabb": AABB(0.9317085, 0.015685298, 0.022, 0.30115825, 0.16312742, 1e-05),
+"attribute_data": PackedByteArray("AAAAAAAAgD8AAIA/AACAPwAAgD8AAAAAAAAAAAAAAAA="),
+"bone_aabbs": [AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0.9317085, 0.015685298, 0.022, 0.30115825, 0.16312742, 1.0000542e-05)],
+"format": 34359745559,
+"index_count": 6,
+"index_data": PackedByteArray("AAACAAEAAAADAAIA"),
+"primitive": 3,
+"skin_data": PackedByteArray("JQAAAAAAAAD//wAAAAAAACUAAAAAAAAA//8AAAAAAAAlAAAAAAAAAP//AAAAAAAAJQAAAAAAAAD//wAAAAAAAA=="),
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray("c4RuP3h+gDxYObQ8lM6dP3R+gDxYObQ8lM6dP64aNz5YObQ8c4RuP64aNz5YObQ8/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AIA=")
+}]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_756ka"]
+resource_local_to_scene = true
+render_priority = 0
+shader = ExtResource("2_po6kn")
+shader_parameter/layer_texture = ExtResource("15_7updo")
+shader_parameter/front_shade = 1.0
+shader_parameter/glow_strength = 0.0
+shader_parameter/charm_flash = null
+shader_parameter/spirit_hit = null
+shader_parameter/glow_color = Color(0.73333335, 0.8039216, 0.77254903, 1)
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_eahtx"]
+_surfaces = [{
+"aabb": AABB(-0.5364382, 0.7372104, 0.024, 0.44232625, 0.8030888, 1e-05),
+"attribute_data": PackedByteArray("AAAAAAAAgD8AAIA/AACAPwAAgD8AAAAAAAAAAAAAAAA="),
+"bone_aabbs": [AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(-0.5364382, 0.7372104, 0.024, 0.44232625, 0.8030888, 1.0000542e-05)],
+"format": 34359745559,
+"index_count": 6,
+"index_data": PackedByteArray("AAACAAEAAAADAAIA"),
+"primitive": 3,
+"skin_data": PackedByteArray("GwAAAAAAAAD//wAAAAAAABsAAAAAAAAA//8AAAAAAAAbAAAAAAAAAP//AAAAAAAAGwAAAAAAAAD//wAAAAAAAA=="),
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray("BFQJv9K5PD+mm8Q8yL3AvdO5PD+mm8Q8zL3AvYYoxT+mm8Q8BFQJv4YoxT+mm8Q8/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AIA=")
+}]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_xd88r"]
+resource_local_to_scene = true
+render_priority = 0
+shader = ExtResource("2_po6kn")
+shader_parameter/layer_texture = ExtResource("16_8v0j8")
+shader_parameter/front_shade = 1.0
+shader_parameter/glow_strength = 0.0
+shader_parameter/charm_flash = null
+shader_parameter/spirit_hit = null
+shader_parameter/glow_color = Color(0.73333335, 0.8039216, 0.77254903, 1)
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_g23xg"]
+_surfaces = [{
+"aabb": AABB(-0.37331086, 0.09097493, 0.026, 0.30115834, 0.7309363, 1e-05),
+"attribute_data": PackedByteArray("AAAAAAAAgD8AAIA/AACAPwAAgD8AAAAAAAAAAAAAAAA="),
+"bone_aabbs": [AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(-0.37331086, 0.09097493, 0.026, 0.30115834, 0.7309363, 1.0000542e-05)],
+"format": 34359745559,
+"index_count": 6,
+"index_data": PackedByteArray("AAACAAEAAAADAAIA"),
+"primitive": 3,
+"skin_data": PackedByteArray("HAAAAAAAAAD//wAAAAAAABwAAAAAAAAA//8AAAAAAAAcAAAAAAAAAP//AAAAAAAAHAAAAAAAAAD//wAAAAAAAA=="),
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray("miK/vhhRuj30/dQ8usSTvRBRuj30/dQ8tMSTvcZoUj/0/dQ8mSK/vsZoUj/0/dQ8/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AIA=")
+}]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ctvf0"]
+resource_local_to_scene = true
+render_priority = 0
+shader = ExtResource("2_po6kn")
+shader_parameter/layer_texture = ExtResource("17_f1qou")
+shader_parameter/front_shade = 1.0
+shader_parameter/glow_strength = 0.0
+shader_parameter/charm_flash = null
+shader_parameter/spirit_hit = null
+shader_parameter/glow_color = Color(0.73333335, 0.8039216, 0.77254903, 1)
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_yvt0g"]
+_surfaces = [{
+"aabb": AABB(-0.37331086, 2.9802322e-08, 0.028, 0.3011583, 0.17567569, 1e-05),
+"attribute_data": PackedByteArray("AAAAAAAAgD8AAIA/AACAPwAAgD8AAAAAAAAAAAAAAAA="),
+"bone_aabbs": [AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(-0.37331086, 2.9802322e-08, 0.028, 0.3011583, 0.17567569, 1.0000542e-05)],
+"format": 34359745559,
+"index_count": 6,
+"index_data": PackedByteArray("AAACAAEAAAADAAIA"),
+"primitive": 3,
+"skin_data": PackedByteArray("HQAAAAAAAAD//wAAAAAAAB0AAAAAAAAA//8AAAAAAAAdAAAAAAAAAP//AAAAAAAAHQAAAAAAAAD//wAAAAAAAA=="),
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray("miK/vgAAgDNCYOU8usSTvQAAADNCYOU8uMSTvVXkMz5CYOU8miK/vlbkMz5CYOU8/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AIA=")
+}]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_qvto2"]
+resource_local_to_scene = true
+render_priority = 0
+shader = ExtResource("2_po6kn")
+shader_parameter/layer_texture = ExtResource("18_6mk7x")
+shader_parameter/front_shade = 1.0
+shader_parameter/glow_strength = 0.0
+shader_parameter/charm_flash = null
+shader_parameter/spirit_hit = null
+shader_parameter/glow_color = Color(0.73333335, 0.8039216, 0.77254903, 1)
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_e0u0y"]
+_surfaces = [{
+"aabb": AABB(-1.2297298, 2.0328188, 0.03, 1.2611004, 0.9662161, 1e-05),
+"attribute_data": PackedByteArray("AAAAAAAAgD8AAIA/AACAPwAAgD8AAAAAAAAAAAAAAAA="),
+"bone_aabbs": [AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(-1.2297298, 2.0328188, 0.03, 1.2611004, 0.9662161, 1.0000542e-05)],
+"format": 34359745559,
+"index_count": 6,
+"index_data": PackedByteArray("AAACAAEAAAADAAIA"),
+"primitive": 3,
+"skin_data": PackedByteArray("AgAAAAAAAAD//wAAAAAAAAIAAAAAAAAA//8AAAAAAAACAAAAAAAAAP//AAAAAAAAAgAAAAAAAAD//wAAAAAAAA=="),
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray("yWedv7QZAkCPwvU8gH4APbQZAkCPwvU8gH4APTDwP0CPwvU8yWedvzDwP0CPwvU8/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AIA=")
+}]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_xl8ve"]
+resource_local_to_scene = true
+render_priority = 0
+shader = ExtResource("2_po6kn")
+shader_parameter/layer_texture = ExtResource("19_jsuqm")
+shader_parameter/front_shade = 1.0
+shader_parameter/glow_strength = 0.0
+shader_parameter/charm_flash = null
+shader_parameter/spirit_hit = null
+shader_parameter/glow_color = Color(0.73333335, 0.8039216, 0.77254903, 1)
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_2mlsv"]
+_surfaces = [{
+"aabb": AABB(-1.1262065, 2.481419, 0.032, 0.4956563, 0.76858115, 1e-05),
+"attribute_data": PackedByteArray("AAAAAAAAgD8AAIA/AACAPwAAgD8AAAAAAAAAAAAAAAA="),
+"bone_aabbs": [AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(-1.1262065, 2.481419, 0.032, 0.4956563, 0.76858115, 9.998679e-06)],
+"format": 34359745559,
+"index_count": 6,
+"index_data": PackedByteArray("AAACAAEAAAADAAIA"),
+"primitive": 3,
+"skin_data": PackedByteArray("EwAAAAAAAAD//wAAAAAAABMAAAAAAAAA//8AAAAAAAATAAAAAAAAAP//AAAAAAAAEwAAAAAAAAD//wAAAAAAAA=="),
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray("iSeQv5LPHkBvEgM9vWshv5LPHkBvEgM9vWshvwEAUEBvEgM9iSeQvwEAUEBvEgM9/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AIA=")
+}]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_gkm5a"]
+resource_local_to_scene = true
+render_priority = 0
+shader = ExtResource("2_po6kn")
+shader_parameter/layer_texture = ExtResource("20_qq2w8")
+shader_parameter/front_shade = 1.0
+shader_parameter/glow_strength = 0.0
+shader_parameter/charm_flash = null
+shader_parameter/spirit_hit = null
+shader_parameter/glow_color = Color(0.73333335, 0.8039216, 0.77254903, 1)
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_ehb8g"]
+_surfaces = [{
+"aabb": AABB(-0.55212355, 2.4876933, 0.034, 0.5364382, 0.7623069, 1e-05),
+"attribute_data": PackedByteArray("AAAAAAAAgD8AAIA/AACAPwAAgD8AAAAAAAAAAAAAAAA="),
+"bone_aabbs": [AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(-0.55212355, 2.4876933, 0.034, 0.5364382, 0.7623069, 9.998679e-06)],
+"format": 34359745559,
+"index_count": 6,
+"index_data": PackedByteArray("AAACAAEAAAADAAIA"),
+"primitive": 3,
+"skin_data": PackedByteArray("FQAAAAAAAAD//wAAAAAAABUAAAAAAAAA//8AAAAAAAAVAAAAAAAAAP//AAAAAAAAFQAAAAAAAAD//wAAAAAAAA=="),
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray("+FcNv142H0CWQws9kH6AvF42H0CWQws9kH6AvAEAUECWQws9+FcNvwEAUECWQws9/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AIA=")
+}]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_ngw1v"]
+resource_local_to_scene = true
+render_priority = 0
+shader = ExtResource("2_po6kn")
+shader_parameter/layer_texture = ExtResource("21_o252a")
+shader_parameter/front_shade = 1.0
+shader_parameter/glow_strength = 0.24
+shader_parameter/charm_flash = null
+shader_parameter/spirit_hit = null
+shader_parameter/glow_color = Color(0.73333335, 0.8039216, 0.77254903, 1)
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_l6jfo"]
+_surfaces = [{
+"aabb": AABB(-0.9913128, 2.3088803, 0.036, 0.35448843, 0.19136119, 1e-05),
+"attribute_data": PackedByteArray("AAAAAAAAgD8AAIA/AACAPwAAgD8AAAAAAAAAAAAAAAA="),
+"bone_aabbs": [AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(-0.9913128, 2.3088803, 0.036, 0.35448843, 0.19136119, 9.998679e-06)],
+"format": 34359745559,
+"index_count": 6,
+"index_data": PackedByteArray("AAACAAEAAAADAAIA"),
+"primitive": 3,
+"skin_data": PackedByteArray("FAAAAAAAAAD//wAAAAAAABQAAAAAAAAA//8AAAAAAAAUAAAAAAAAAP//AAAAAAAAFAAAAAAAAAD//wAAAAAAAA=="),
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray("rcZ9v7LEE0C8dBM97AYjv7LEE0C8dBM97AYjv/UDIEC8dBM9rcZ9v/UDIEC8dBM9/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AIA=")
+}]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_pkpsa"]
+resource_local_to_scene = true
+render_priority = 0
+shader = ExtResource("2_po6kn")
+shader_parameter/layer_texture = ExtResource("22_r3vf0")
+shader_parameter/front_shade = 1.0
+shader_parameter/glow_strength = 0.24
+shader_parameter/charm_flash = null
+shader_parameter/spirit_hit = null
+shader_parameter/glow_color = Color(0.73333335, 0.8039216, 0.77254903, 1)
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_lhfx3"]
+_surfaces = [{
+"aabb": AABB(-0.98503864, 2.340251, 0.038, 0.33252895, 0.15371633, 1e-05),
+"attribute_data": PackedByteArray("AAAAAAAAgD8AAIA/AACAPwAAgD8AAAAAAAAAAAAAAAA="),
+"bone_aabbs": [AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(-0.98503864, 2.340251, 0.038, 0.33252895, 0.15371633, 9.998679e-06)],
+"format": 34359745559,
+"index_count": 6,
+"index_data": PackedByteArray("AAACAAEAAAADAAIA"),
+"primitive": 3,
+"skin_data": PackedByteArray("FAAAAAAAAAD//wAAAAAAABQAAAAAAAAA//8AAAAAAAAUAAAAAAAAAP//AAAAAAAAFAAAAAAAAAD//wAAAAAAAA=="),
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray("fit8v6zGFUDjpRs94Aonv6zGFUDjpRs94AonvymdH0DjpRs9fit8vymdH0DjpRs9/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AIA=")
+}]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_tc1od"]
+resource_local_to_scene = true
+render_priority = 0
+shader = ExtResource("2_po6kn")
+shader_parameter/layer_texture = ExtResource("23_b84qm")
+shader_parameter/front_shade = 1.0
+shader_parameter/glow_strength = 0.24
+shader_parameter/charm_flash = null
+shader_parameter/spirit_hit = null
+shader_parameter/glow_color = Color(0.73333335, 0.8039216, 0.77254903, 1)
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_3vv5y"]
+_surfaces = [{
+"aabb": AABB(-0.98503864, 2.3747587, 0.038, 0.335666, 0.04705596, 1e-05),
+"attribute_data": PackedByteArray("AAAAAAAAgD8AAIA/AACAPwAAgD8AAAAAAAAAAAAAAAA="),
+"bone_aabbs": [AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(-0.98503864, 2.3747587, 0.038, 0.335666, 0.04705596, 9.998679e-06)],
+"format": 34359745559,
+"index_count": 6,
+"index_data": PackedByteArray("AAACAAEAAAADAAIA"),
+"primitive": 3,
+"skin_data": PackedByteArray("FAAAAAAAAAD//wAAAAAAABQAAAAAAAAA//8AAAAAAAAUAAAAAAAAAP//AAAAAAAAFAAAAAAAAAD//wAAAAAAAA=="),
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray("fit8vwz8F0DjpRs9ST0mvwz8F0DjpRs9ST0mvwP/GkDjpRs9fit8vwP/GkDjpRs9/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AIA=")
+}]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_avpfh"]
+resource_local_to_scene = true
+render_priority = 0
+shader = ExtResource("2_po6kn")
+shader_parameter/layer_texture = ExtResource("24_lntsm")
+shader_parameter/front_shade = 1.0
+shader_parameter/glow_strength = 0.24
+shader_parameter/charm_flash = null
+shader_parameter/spirit_hit = null
+shader_parameter/glow_color = Color(0.73333335, 0.8039216, 0.77254903, 1)
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_kgvg1"]
+_surfaces = [{
+"aabb": AABB(-0.53957534, 2.3088803, 0.04, 0.3576255, 0.19136119, 1e-05),
+"attribute_data": PackedByteArray("AAAAAAAAgD8AAIA/AACAPwAAgD8AAAAAAAAAAAAAAAA="),
+"bone_aabbs": [AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(-0.53957534, 2.3088803, 0.04, 0.3576255, 0.19136119, 9.998679e-06)],
+"format": 34359745559,
+"index_count": 6,
+"index_data": PackedByteArray("AAACAAEAAAADAAIA"),
+"primitive": 3,
+"skin_data": PackedByteArray("FgAAAAAAAAD//wAAAAAAABYAAAAAAAAA//8AAAAAAAAWAAAAAAAAAP//AAAAAAAAFgAAAAAAAAD//wAAAAAAAA=="),
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray("nCEKv7LEE0AK1yM9DlE6vrLEE0AK1yM9DlE6vvUDIEAK1yM9nCEKv/UDIEAK1yM9/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AIA=")
+}]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_dp32o"]
+resource_local_to_scene = true
+render_priority = 0
+shader = ExtResource("2_po6kn")
+shader_parameter/layer_texture = ExtResource("25_2e4ut")
+shader_parameter/front_shade = 1.0
+shader_parameter/glow_strength = 0.24
+shader_parameter/charm_flash = null
+shader_parameter/spirit_hit = null
+shader_parameter/glow_color = Color(0.73333335, 0.8039216, 0.77254903, 1)
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_5ka5o"]
+_surfaces = [{
+"aabb": AABB(-0.5207529, 2.3496623, 0.042, 0.3293919, 0.14430499, 1e-05),
+"attribute_data": PackedByteArray("AAAAAAAAgD8AAIA/AACAPwAAgD8AAAAAAAAAAAAAAAA="),
+"bone_aabbs": [AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(-0.5207529, 2.3496623, 0.042, 0.3293919, 0.14430499, 9.998679e-06)],
+"format": 34359745559,
+"index_count": 6,
+"index_data": PackedByteArray("AAACAAEAAAADAAIA"),
+"primitive": 3,
+"skin_data": PackedByteArray("FgAAAAAAAAD//wAAAAAAABYAAAAAAAAA//8AAAAAAAAWAAAAAAAAAP//AAAAAAAAFgAAAAAAAAD//wAAAAAAAA=="),
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray("EFAFv95gFkAxCCw9JfRDvt5gFkAxCCw9JfRDvimdH0AxCCw9EFAFvymdH0AxCCw9/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AIA=")
+}]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_jojo6"]
+resource_local_to_scene = true
+render_priority = 0
+shader = ExtResource("2_po6kn")
+shader_parameter/layer_texture = ExtResource("26_3ydg5")
+shader_parameter/front_shade = 1.0
+shader_parameter/glow_strength = 0.24
+shader_parameter/charm_flash = null
+shader_parameter/spirit_hit = null
+shader_parameter/glow_color = Color(0.73333335, 0.8039216, 0.77254903, 1)
+
+[sub_resource type="ArrayMesh" id="ArrayMesh_4vp2t"]
+_surfaces = [{
+"aabb": AABB(-0.5207529, 2.3778958, 0.042, 0.32625479, 0.043918848, 1e-05),
+"attribute_data": PackedByteArray("AAAAAAAAgD8AAIA/AACAPwAAgD8AAAAAAAAAAAAAAAA="),
+"bone_aabbs": [AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(0, 0, 0, -1, -1, -1), AABB(-0.5207529, 2.3778958, 0.042, 0.32625479, 0.043918848, 9.998679e-06)],
+"format": 34359745559,
+"index_count": 6,
+"index_data": PackedByteArray("AAACAAEAAAADAAIA"),
+"primitive": 3,
+"skin_data": PackedByteArray("FgAAAAAAAAD//wAAAAAAABYAAAAAAAAA//8AAAAAAAAWAAAAAAAAAP//AAAAAAAAFgAAAAAAAAD//wAAAAAAAA=="),
+"uv_scale": Vector4(0, 0, 0, 0),
+"vertex_count": 4,
+"vertex_data": PackedByteArray("EFAFv3IvGEAxCCw9gypHvnIvGEAxCCw9gypHvgP/GkAxCCw9EFAFvwP/GkAxCCw9/3//f/9/AID/f/9//38AgP9//3//fwCA/3//f/9/AIA=")
+}]
+
+[node name="FoxRig" type="Node3D" unique_id=507804538]
+script = ExtResource("1_3mb1u")
+phase = 2
+tail_fan_angles = PackedFloat32Array(-24, 22)
+
+[node name="Skeleton3D" type="Skeleton3D" parent="." unique_id=857407618]
+bones/0/name = "root"
+bones/0/parent = -1
+bones/0/rest = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+bones/0/enabled = true
+bones/0/position = Vector3(0, 0, 0)
+bones/0/rotation = Quaternion(0, 0, 0, 1)
+bones/0/scale = Vector3(1, 1, 1)
+bones/1/name = "body"
+bones/1/parent = 0
+bones/1/rest = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+bones/1/enabled = true
+bones/1/position = Vector3(0, 0, 0)
+bones/1/rotation = Quaternion(0, 0, 0, 1)
+bones/1/scale = Vector3(1, 1, 1)
+bones/2/name = "head"
+bones/2/parent = 1
+bones/2/rest = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5960425, 2.1049712, 0)
+bones/2/enabled = true
+bones/2/position = Vector3(-0.5960425, 2.1049712, 0)
+bones/2/rotation = Quaternion(0, 0, 0, 1)
+bones/2/scale = Vector3(1, 1, 1)
+bones/3/name = "tail_01_0"
+bones/3/parent = 1
+bones/3/rest = Transform3D(0.97277963, 0.23173222, 0, -0.23173222, 0.97277963, 0, 0, 0, 1, 0.8783784, 1.4744209, 0)
+bones/3/enabled = true
+bones/3/position = Vector3(0.8783784, 1.4744209, 0)
+bones/3/rotation = Quaternion(0, 0, -0.11666273, 0.9931716)
+bones/3/scale = Vector3(1, 1, 1)
+bones/4/name = "tail_01_1"
+bones/4/parent = 3
+bones/4/rest = Transform3D(0.96568215, -0.25972682, 0, 0.25972682, 0.96568215, 0, 0, 0, 1, 0.31911713, -1.110223e-17, 0)
+bones/4/enabled = true
+bones/4/position = Vector3(0.31911713, -1.110223e-17, 0)
+bones/4/rotation = Quaternion(0, 0, 0.13099211, 0.99138343)
+bones/4/scale = Vector3(1, 1, 1)
+bones/5/name = "tail_01_2"
+bones/5/parent = 4
+bones/5/rest = Transform3D(0.89828295, -0.4394175, 0, 0.4394175, 0.89828295, 0, 0, 0, 1, 0.39350018, 0, 0)
+bones/5/enabled = true
+bones/5/position = Vector3(0.39350018, 0, 0)
+bones/5/rotation = Quaternion(0, 0, 0.22551836, 0.97423893)
+bones/5/scale = Vector3(1, 1, 1)
+bones/6/name = "tail_01_3"
+bones/6/parent = 5
+bones/6/rest = Transform3D(0.9133922, -0.4070807, 0, 0.4070807, 0.9133922, 0, 0, 0, 1, 0.3736488, 0, 0)
+bones/6/enabled = true
+bones/6/position = Vector3(0.3736488, 0, 0)
+bones/6/rotation = Quaternion(0, 0, 0.20809591, 0.9781084)
+bones/6/scale = Vector3(1, 1, 1)
+bones/7/name = "tail_01_4"
+bones/7/parent = 6
+bones/7/rest = Transform3D(0.9501678, -0.311739, 0, 0.311739, 0.9501678, 0, 0, 0, 1, 0.33583376, -4.440892e-17, 0)
+bones/7/enabled = true
+bones/7/position = Vector3(0.33583376, -4.440892e-17, 0)
+bones/7/rotation = Quaternion(0, 0, 0.15784839, 0.98746336)
+bones/7/scale = Vector3(1, 1, 1)
+bones/8/name = "tail_01_5"
+bones/8/parent = 7
+bones/8/rest = Transform3D(0.93813914, -0.3462585, 0, 0.3462585, 0.93813914, 0, 0, 0, 1, 0.3286098, 2.220446e-17, 0)
+bones/8/enabled = true
+bones/8/position = Vector3(0.3286098, 2.220446e-17, 0)
+bones/8/rotation = Quaternion(0, 0, 0.17587051, 0.9844133)
+bones/8/scale = Vector3(0.99999994, 0.99999994, 1)
+bones/9/name = "tail_01_6"
+bones/9/parent = 8
+bones/9/rest = Transform3D(0.87040925, -0.49232894, 0, 0.49232894, 0.87040925, 0, 0, 0, 1, 0.33585644, -2.4286129e-17, 0)
+bones/9/enabled = true
+bones/9/position = Vector3(0.33585644, -2.4286129e-17, 0)
+bones/9/rotation = Quaternion(0, 0, 0.25454938, 0.9670598)
+bones/9/scale = Vector3(1, 1, 1)
+bones/10/name = "tail_01_7"
+bones/10/parent = 9
+bones/10/rest = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.24318166, 2.220446e-17, 0)
+bones/10/enabled = true
+bones/10/position = Vector3(0.24318166, 2.220446e-17, 0)
+bones/10/rotation = Quaternion(0, 0, 0, 1)
+bones/10/scale = Vector3(1, 1, 1)
+bones/11/name = "tail_02_0"
+bones/11/parent = 1
+bones/11/rest = Transform3D(0.8424437, -0.5387844, 0, 0.5387844, 0.8424437, 0, 0, 0, 1, 0.8783784, 1.4744209, 0)
+bones/11/enabled = true
+bones/11/position = Vector3(0.8783784, 1.4744209, 0)
+bones/11/rotation = Quaternion(0, 0, 0.28067443, 0.95980304)
+bones/11/scale = Vector3(1, 1, 1)
+bones/12/name = "tail_02_1"
+bones/12/parent = 11
+bones/12/rest = Transform3D(0.96568215, -0.25972682, 0, 0.25972682, 0.96568215, 0, 0, 0, 1, 0.31911713, 2.220446e-17, 0)
+bones/12/enabled = true
+bones/12/position = Vector3(0.31911713, 2.220446e-17, 0)
+bones/12/rotation = Quaternion(0, 0, 0.13099211, 0.99138343)
+bones/12/scale = Vector3(1, 1, 1)
+bones/13/name = "tail_02_2"
+bones/13/parent = 12
+bones/13/rest = Transform3D(0.89828295, -0.4394175, 0, 0.4394175, 0.89828295, 0, 0, 0, 1, 0.39350018, -2.220446e-17, 0)
+bones/13/enabled = true
+bones/13/position = Vector3(0.39350018, -2.220446e-17, 0)
+bones/13/rotation = Quaternion(0, 0, 0.22551836, 0.97423893)
+bones/13/scale = Vector3(1, 1, 1)
+bones/14/name = "tail_02_3"
+bones/14/parent = 13
+bones/14/rest = Transform3D(0.9133922, -0.4070807, 0, 0.4070807, 0.9133922, 0, 0, 0, 1, 0.3736488, -2.220446e-17, 0)
+bones/14/enabled = true
+bones/14/position = Vector3(0.3736488, -2.220446e-17, 0)
+bones/14/rotation = Quaternion(0, 0, 0.20809591, 0.9781084)
+bones/14/scale = Vector3(1, 1, 1)
+bones/15/name = "tail_02_4"
+bones/15/parent = 14
+bones/15/rest = Transform3D(0.9501678, -0.311739, 0, 0.311739, 0.9501678, 0, 0, 0, 1, 0.33583376, -7.21645e-17, 0)
+bones/15/enabled = true
+bones/15/position = Vector3(0.33583376, -7.21645e-17, 0)
+bones/15/rotation = Quaternion(0, 0, 0.15784839, 0.98746336)
+bones/15/scale = Vector3(1, 1, 1)
+bones/16/name = "tail_02_5"
+bones/16/parent = 15
+bones/16/rest = Transform3D(0.93813914, -0.3462585, 0, 0.3462585, 0.93813914, 0, 0, 0, 1, 0.3286098, -4.440892e-17, 0)
+bones/16/enabled = true
+bones/16/position = Vector3(0.3286098, -4.440892e-17, 0)
+bones/16/rotation = Quaternion(0, 0, 0.17587051, 0.9844133)
+bones/16/scale = Vector3(0.99999994, 0.99999994, 1)
+bones/17/name = "tail_02_6"
+bones/17/parent = 16
+bones/17/rest = Transform3D(0.87040925, -0.49232894, 0, 0.49232894, 0.87040925, 0, 0, 0, 1, 0.33585644, 4.440892e-17, 0)
+bones/17/enabled = true
+bones/17/position = Vector3(0.33585644, 4.440892e-17, 0)
+bones/17/rotation = Quaternion(0, 0, 0.25454938, 0.9670598)
+bones/17/scale = Vector3(1, 1, 1)
+bones/18/name = "tail_02_7"
+bones/18/parent = 17
+bones/18/rest = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.24318166, -1.2212454e-16, 0)
+bones/18/enabled = true
+bones/18/position = Vector3(0.24318166, -1.2212454e-16, 0)
+bones/18/rotation = Quaternion(0, 0, 0, 1)
+bones/18/scale = Vector3(1, 1, 1)
+bones/19/name = "ear_left"
+bones/19/parent = 2
+bones/19/rest = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.32311776, 0.5207529, 0)
+bones/19/enabled = true
+bones/19/position = Vector3(-0.32311776, 0.5207529, 0)
+bones/19/rotation = Quaternion(0, 0, 0, 1)
+bones/19/scale = Vector3(1, 1, 1)
+bones/20/name = "eye_left"
+bones/20/parent = 2
+bones/20/rest = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.18822394, 0.2917471, 0)
+bones/20/enabled = true
+bones/20/position = Vector3(-0.18822394, 0.2917471, 0)
+bones/20/rotation = Quaternion(0, 0, 0, 1)
+bones/20/scale = Vector3(1, 1, 1)
+bones/21/name = "ear_right"
+bones/21/parent = 2
+bones/21/rest = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.34507725, 0.5207529, 0)
+bones/21/enabled = true
+bones/21/position = Vector3(0.34507725, 0.5207529, 0)
+bones/21/rotation = Quaternion(0, 0, 0, 1)
+bones/21/scale = Vector3(1, 1, 1)
+bones/22/name = "eye_right"
+bones/22/parent = 2
+bones/22/rest = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.18822394, 0.2917471, 0)
+bones/22/enabled = true
+bones/22/position = Vector3(0.18822394, 0.2917471, 0)
+bones/22/rotation = Quaternion(0, 0, 0, 1)
+bones/22/scale = Vector3(1, 1, 1)
+bones/23/name = "front_far_upper"
+bones/23/parent = 1
+bones/23/rest = Transform3D(0.119700454, 0.9928101, 0, -0.9928101, 0.119700454, 0, 0, 0, 1, -0.6430985, 1.1889479, 0)
+bones/23/enabled = true
+bones/23/position = Vector3(-0.6430985, 1.1889479, 0)
+bones/23/rotation = Quaternion(0, 0, -0.66343784, 0.7482314)
+bones/23/scale = Vector3(1, 1, 1)
+bones/24/name = "front_far_lower"
+bones/24/parent = 23
+bones/24/rest = Transform3D(0.97908336, 0.20345946, 0, -0.20345946, 0.97908336, 0, 0, 0, 1, 0.4455296, -2.220446e-17, 0)
+bones/24/enabled = true
+bones/24/position = Vector3(0.4455296, -2.220446e-17, 0)
+bones/24/rotation = Quaternion(0, 0, -0.1022659, 0.9947571)
+bones/24/scale = Vector3(0.99999994, 0.99999994, 1)
+bones/25/name = "front_far_paw"
+bones/25/parent = 24
+bones/25/rest = Transform3D(-0.084799774, -0.99639803, 0, 0.99639803, -0.084799774, 0, 0, 0, 1, 0.59190035, -6.6613384e-17, 0)
+bones/25/enabled = true
+bones/25/position = Vector3(0.59190035, -6.6613384e-17, 0)
+bones/25/rotation = Quaternion(0, 0, 0.73647803, 0.67646146)
+bones/25/scale = Vector3(1, 1, 1)
+bones/26/name = "fx_paw_front_far"
+bones/26/parent = 25
+bones/26/rest = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.11920849, 0)
+bones/26/enabled = true
+bones/26/position = Vector3(0, -0.11920849, 0)
+bones/26/rotation = Quaternion(0, 0, 0, 1)
+bones/26/scale = Vector3(1, 1, 1)
+bones/27/name = "front_near_upper"
+bones/27/parent = 1
+bones/27/rest = Transform3D(0.22566335, 0.9742053, 0, -0.9742053, 0.22566335, 0, 0, 0, 1, -0.37017375, 1.3332529, 0)
+bones/27/enabled = true
+bones/27/position = Vector3(-0.37017375, 1.3332529, 0)
+bones/27/rotation = Quaternion(0, 0, -0.6222285, 0.78283566)
+bones/27/scale = Vector3(0.99999994, 0.99999994, 1)
+bones/28/name = "front_near_lower"
+bones/28/parent = 27
+bones/28/rest = Transform3D(0.9821934, 0.18787268, 0, -0.18787268, 0.9821934, 0, 0, 0, 1, 0.5699626, 1.7763569e-16, 0)
+bones/28/enabled = true
+bones/28/position = Vector3(0.5699626, 1.7763569e-16, 0)
+bones/28/rotation = Quaternion(0, 0, -0.09435732, 0.9955384)
+bones/28/scale = Vector3(1, 1, 1)
+bones/29/name = "front_near_paw"
+bones/29/parent = 28
+bones/29/rest = Transform3D(0.038618572, -0.99925405, 0, 0.99925405, 0.038618572, 0, 0, 0, 1, 0.6498574, 3.3306692e-17, 0)
+bones/29/enabled = true
+bones/29/position = Vector3(0.6498574, 3.3306692e-17, 0)
+bones/29/rotation = Quaternion(0, 0, 0.69331867, 0.7206312)
+bones/29/scale = Vector3(1, 1, 1)
+bones/30/name = "fx_paw_front_near"
+bones/30/parent = 29
+bones/30/rest = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.090974905, 0)
+bones/30/enabled = true
+bones/30/position = Vector3(0, -0.090974905, 0)
+bones/30/rotation = Quaternion(0, 0, 0, 1)
+bones/30/scale = Vector3(1, 1, 1)
+bones/31/name = "hind_far_upper"
+bones/31/parent = 1
+bones/31/rest = Transform3D(0.37436777, 0.9272803, 0, -0.9272803, 0.37436777, 0, 0, 0, 1, 0.2823359, 1.2014961, 0)
+bones/31/enabled = true
+bones/31/position = Vector3(0.2823359, 1.2014961, 0)
+bones/31/rotation = Quaternion(0, 0, -0.5592997, 0.82896554)
+bones/31/scale = Vector3(1, 1, 1)
+bones/32/name = "hind_far_lower"
+bones/32/parent = 31
+bones/32/rest = Transform3D(0.81355083, 0.58149385, 0, -0.58149385, 0.81355083, 0, 0, 0, 1, 0.54467624, 4.440892e-17, 0)
+bones/32/enabled = true
+bones/32/position = Vector3(0.54467624, 4.440892e-17, 0)
+bones/32/rotation = Quaternion(0, 0, -0.30532703, 0.95224756)
+bones/32/scale = Vector3(1, 1, 1)
+bones/33/name = "hind_far_paw"
+bones/33/parent = 32
+bones/33/rest = Transform3D(-0.23464052, -0.9720822, 0, 0.9720822, -0.23464052, 0, 0, 0, 1, 0.561526, 4.440892e-17, 0)
+bones/33/enabled = true
+bones/33/position = Vector3(0.561526, 4.440892e-17, 0)
+bones/33/rotation = Quaternion(0, 0, 0.78569734, 0.61861116)
+bones/33/scale = Vector3(0.99999994, 0.99999994, 1)
+bones/34/name = "fx_paw_hind_far"
+bones/34/parent = 33
+bones/34/rest = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.112934366, 0)
+bones/34/enabled = true
+bones/34/position = Vector3(0, -0.112934366, 0)
+bones/34/rotation = Quaternion(0, 0, 0, 1)
+bones/34/scale = Vector3(1, 1, 1)
+bones/35/name = "hind_near_upper"
+bones/35/parent = 1
+bones/35/rest = Transform3D(0.5579419, 0.82988, 0, -0.82988, 0.5579419, 0, 0, 0, 1, 0.69329154, 1.2360039, 0)
+bones/35/enabled = true
+bones/35/position = Vector3(0.69329154, 1.2360039, 0)
+bones/35/rotation = Quaternion(0, 0, -0.47013727, 0.88259333)
+bones/35/scale = Vector3(1, 1, 1)
+bones/36/name = "hind_near_lower"
+bones/36/parent = 35
+bones/36/rest = Transform3D(0.87449706, 0.48503086, 0, -0.48503086, 0.87449706, 0, 0, 0, 1, 0.66908544, -4.440892e-17, 0)
+bones/36/enabled = true
+bones/36/position = Vector3(0.66908544, -4.440892e-17, 0)
+bones/36/rotation = Quaternion(0, 0, -0.25050244, 0.968116)
+bones/36/scale = Vector3(1, 1, 1)
+bones/37/name = "hind_near_paw"
+bones/37/parent = 36
+bones/37/rest = Transform3D(0.08540117, -0.99634665, 0, 0.99634665, 0.08540117, 0, 0, 0, 1, 0.5509995, 3.3306692e-17, 0)
+bones/37/enabled = true
+bones/37/position = Vector3(0.5509995, 3.3306692e-17, 0)
+bones/37/rotation = Quaternion(0, 0, 0.67623913, 0.7366822)
+bones/37/scale = Vector3(1, 1, 1)
+bones/38/name = "fx_paw_hind_near"
+bones/38/parent = 37
+bones/38/rest = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.09411197, 0)
+bones/38/enabled = true
+bones/38/position = Vector3(0, -0.09411197, 0)
+bones/38/rotation = Quaternion(0, 0, 0, 1)
+bones/38/scale = Vector3(1, 1, 1)
+bones/39/name = "fx_mouth"
+bones/39/parent = 2
+bones/39/rest = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.006274131, 0.05333012, 0)
+bones/39/enabled = true
+bones/39/position = Vector3(0.006274131, 0.05333012, 0)
+bones/39/rotation = Quaternion(0, 0, 0, 1)
+bones/39/scale = Vector3(1, 1, 1)
+bones/40/name = "fx_heart"
+bones/40/parent = 1
+bones/40/rest = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.50193053, 1.715975, 0)
+bones/40/enabled = true
+bones/40/position = Vector3(-0.50193053, 1.715975, 0)
+bones/40/rotation = Quaternion(0, 0, 0, 1)
+bones/40/scale = Vector3(1, 1, 1)
+
+[node name="FX_eye_left" type="BoneAttachment3D" parent="Skeleton3D" unique_id=987619923]
+bone_name = "eye_left"
+
+[node name="AttachEffectHere" type="Marker3D" parent="Skeleton3D/FX_eye_left" unique_id=1987846800]
+
+[node name="FX_eye_right" type="BoneAttachment3D" parent="Skeleton3D" unique_id=974569947]
+bone_name = "eye_right"
+
+[node name="AttachEffectHere" type="Marker3D" parent="Skeleton3D/FX_eye_right" unique_id=1591153529]
+
+[node name="FX_fx_mouth" type="BoneAttachment3D" parent="Skeleton3D" unique_id=1870616319]
+bone_name = "fx_mouth"
+
+[node name="AttachEffectHere" type="Marker3D" parent="Skeleton3D/FX_fx_mouth" unique_id=754688915]
+
+[node name="FX_fx_heart" type="BoneAttachment3D" parent="Skeleton3D" unique_id=14513973]
+bone_name = "fx_heart"
+
+[node name="AttachEffectHere" type="Marker3D" parent="Skeleton3D/FX_fx_heart" unique_id=2076400597]
+
+[node name="FX_fx_paw_front_far" type="BoneAttachment3D" parent="Skeleton3D" unique_id=1287292019]
+bone_name = "fx_paw_front_far"
+
+[node name="AttachEffectHere" type="Marker3D" parent="Skeleton3D/FX_fx_paw_front_far" unique_id=116435801]
+
+[node name="FX_fx_paw_front_near" type="BoneAttachment3D" parent="Skeleton3D" unique_id=1814990454]
+bone_name = "fx_paw_front_near"
+
+[node name="AttachEffectHere" type="Marker3D" parent="Skeleton3D/FX_fx_paw_front_near" unique_id=1461149462]
+
+[node name="FX_fx_paw_hind_far" type="BoneAttachment3D" parent="Skeleton3D" unique_id=53394453]
+bone_name = "fx_paw_hind_far"
+
+[node name="AttachEffectHere" type="Marker3D" parent="Skeleton3D/FX_fx_paw_hind_far" unique_id=1131602206]
+
+[node name="FX_fx_paw_hind_near" type="BoneAttachment3D" parent="Skeleton3D" unique_id=503559342]
+bone_name = "fx_paw_hind_near"
+
+[node name="AttachEffectHere" type="Marker3D" parent="Skeleton3D/FX_fx_paw_hind_near" unique_id=746182061]
+
+[node name="FX_tail_01_7" type="BoneAttachment3D" parent="Skeleton3D" unique_id=421355827]
+bone_name = "tail_01_7"
+
+[node name="AttachEffectHere" type="Marker3D" parent="Skeleton3D/FX_tail_01_7" unique_id=1710342755]
+
+[node name="FX_tail_02_7" type="BoneAttachment3D" parent="Skeleton3D" unique_id=458284165]
+bone_name = "tail_02_7"
+
+[node name="AttachEffectHere" type="Marker3D" parent="Skeleton3D/FX_tail_02_7" unique_id=997306274]
+
+[node name="tail_01" type="MeshInstance3D" parent="." unique_id=1552394080]
+material_override = SubResource("ShaderMaterial_kvtqb")
+cast_shadow = 2
+mesh = SubResource("ArrayMesh_pcugr")
+skin = SubResource("Skin_xwdl7")
+skeleton = NodePath("../Skeleton3D")
+
+[node name="tail_02" type="MeshInstance3D" parent="." unique_id=747556844]
+material_override = SubResource("ShaderMaterial_85byl")
+cast_shadow = 2
+mesh = SubResource("ArrayMesh_v5v4c")
+skin = SubResource("Skin_xwdl7")
+skeleton = NodePath("../Skeleton3D")
+
+[node name="p2_front_far_upper" type="MeshInstance3D" parent="." unique_id=513865258]
+material_override = SubResource("ShaderMaterial_klkyv")
+cast_shadow = 2
+mesh = SubResource("ArrayMesh_ubfo7")
+skin = SubResource("Skin_xwdl7")
+skeleton = NodePath("../Skeleton3D")
+
+[node name="p2_front_far_lower" type="MeshInstance3D" parent="." unique_id=1980606179]
+material_override = SubResource("ShaderMaterial_aauf3")
+cast_shadow = 2
+mesh = SubResource("ArrayMesh_mimmb")
+skin = SubResource("Skin_xwdl7")
+skeleton = NodePath("../Skeleton3D")
+
+[node name="p2_front_far_paw" type="MeshInstance3D" parent="." unique_id=1473315559]
+material_override = SubResource("ShaderMaterial_33ue2")
+cast_shadow = 2
+mesh = SubResource("ArrayMesh_ys4i5")
+skin = SubResource("Skin_xwdl7")
+skeleton = NodePath("../Skeleton3D")
+
+[node name="p2_hind_far_upper" type="MeshInstance3D" parent="." unique_id=1932205403]
+material_override = SubResource("ShaderMaterial_wttmn")
+cast_shadow = 2
+mesh = SubResource("ArrayMesh_uy00e")
+skin = SubResource("Skin_xwdl7")
+skeleton = NodePath("../Skeleton3D")
+
+[node name="p2_hind_far_lower" type="MeshInstance3D" parent="." unique_id=143121900]
+material_override = SubResource("ShaderMaterial_eefvf")
+cast_shadow = 2
+mesh = SubResource("ArrayMesh_ljrey")
+skin = SubResource("Skin_xwdl7")
+skeleton = NodePath("../Skeleton3D")
+
+[node name="p2_hind_far_paw" type="MeshInstance3D" parent="." unique_id=593581857]
+material_override = SubResource("ShaderMaterial_17836")
+cast_shadow = 2
+mesh = SubResource("ArrayMesh_7qs48")
+skin = SubResource("Skin_xwdl7")
+skeleton = NodePath("../Skeleton3D")
+
+[node name="p2_body" type="MeshInstance3D" parent="." unique_id=1141301833]
+material_override = SubResource("ShaderMaterial_b6f5x")
+cast_shadow = 2
+mesh = SubResource("ArrayMesh_8icnr")
+skin = SubResource("Skin_xwdl7")
+skeleton = NodePath("../Skeleton3D")
+
+[node name="p2_hind_near_upper" type="MeshInstance3D" parent="." unique_id=421859590]
+material_override = SubResource("ShaderMaterial_jd2l7")
+cast_shadow = 2
+mesh = SubResource("ArrayMesh_rvexb")
+skin = SubResource("Skin_xwdl7")
+skeleton = NodePath("../Skeleton3D")
+
+[node name="p2_hind_near_lower" type="MeshInstance3D" parent="." unique_id=1692255325]
+material_override = SubResource("ShaderMaterial_1o52c")
+cast_shadow = 2
+mesh = SubResource("ArrayMesh_gtn8v")
+skin = SubResource("Skin_xwdl7")
+skeleton = NodePath("../Skeleton3D")
+
+[node name="p2_hind_near_paw" type="MeshInstance3D" parent="." unique_id=1481165632]
+material_override = SubResource("ShaderMaterial_5smg5")
+cast_shadow = 2
+mesh = SubResource("ArrayMesh_1aq4k")
+skin = SubResource("Skin_xwdl7")
+skeleton = NodePath("../Skeleton3D")
+
+[node name="p2_front_near_upper" type="MeshInstance3D" parent="." unique_id=148838715]
+material_override = SubResource("ShaderMaterial_756ka")
+cast_shadow = 2
+mesh = SubResource("ArrayMesh_eahtx")
+skin = SubResource("Skin_xwdl7")
+skeleton = NodePath("../Skeleton3D")
+
+[node name="p2_front_near_lower" type="MeshInstance3D" parent="." unique_id=1776114814]
+material_override = SubResource("ShaderMaterial_xd88r")
+cast_shadow = 2
+mesh = SubResource("ArrayMesh_g23xg")
+skin = SubResource("Skin_xwdl7")
+skeleton = NodePath("../Skeleton3D")
+
+[node name="p2_front_near_paw" type="MeshInstance3D" parent="." unique_id=1059693703]
+material_override = SubResource("ShaderMaterial_ctvf0")
+cast_shadow = 2
+mesh = SubResource("ArrayMesh_yvt0g")
+skin = SubResource("Skin_xwdl7")
+skeleton = NodePath("../Skeleton3D")
+
+[node name="p2_head" type="MeshInstance3D" parent="." unique_id=1929355662]
+material_override = SubResource("ShaderMaterial_qvto2")
+cast_shadow = 2
+mesh = SubResource("ArrayMesh_e0u0y")
+skin = SubResource("Skin_xwdl7")
+skeleton = NodePath("../Skeleton3D")
+
+[node name="p2_ear_left" type="MeshInstance3D" parent="." unique_id=509658536]
+material_override = SubResource("ShaderMaterial_xl8ve")
+cast_shadow = 2
+mesh = SubResource("ArrayMesh_2mlsv")
+skin = SubResource("Skin_xwdl7")
+skeleton = NodePath("../Skeleton3D")
+
+[node name="p2_ear_right" type="MeshInstance3D" parent="." unique_id=1972688922]
+material_override = SubResource("ShaderMaterial_gkm5a")
+cast_shadow = 2
+mesh = SubResource("ArrayMesh_ehb8g")
+skin = SubResource("Skin_xwdl7")
+skeleton = NodePath("../Skeleton3D")
+
+[node name="p2_eye_left" type="MeshInstance3D" parent="." unique_id=1115054061]
+material_override = SubResource("ShaderMaterial_ngw1v")
+cast_shadow = 0
+mesh = SubResource("ArrayMesh_l6jfo")
+skin = SubResource("Skin_xwdl7")
+skeleton = NodePath("../Skeleton3D")
+
+[node name="p2_eyeliner_left" type="MeshInstance3D" parent="." unique_id=1205190223]
+material_override = SubResource("ShaderMaterial_pkpsa")
+cast_shadow = 0
+mesh = SubResource("ArrayMesh_lhfx3")
+skin = SubResource("Skin_xwdl7")
+skeleton = NodePath("../Skeleton3D")
+
+[node name="p2_eye_closed_left" type="MeshInstance3D" parent="." unique_id=1780578762]
+visible = false
+material_override = SubResource("ShaderMaterial_tc1od")
+cast_shadow = 0
+mesh = SubResource("ArrayMesh_3vv5y")
+skin = SubResource("Skin_xwdl7")
+skeleton = NodePath("../Skeleton3D")
+
+[node name="p2_eye_right" type="MeshInstance3D" parent="." unique_id=1234136869]
+material_override = SubResource("ShaderMaterial_avpfh")
+cast_shadow = 0
+mesh = SubResource("ArrayMesh_kgvg1")
+skin = SubResource("Skin_xwdl7")
+skeleton = NodePath("../Skeleton3D")
+
+[node name="p2_eyeliner_right" type="MeshInstance3D" parent="." unique_id=638636872]
+material_override = SubResource("ShaderMaterial_dp32o")
+cast_shadow = 0
+mesh = SubResource("ArrayMesh_5ka5o")
+skin = SubResource("Skin_xwdl7")
+skeleton = NodePath("../Skeleton3D")
+
+[node name="p2_eye_closed_right" type="MeshInstance3D" parent="." unique_id=740085913]
+visible = false
+material_override = SubResource("ShaderMaterial_jojo6")
+cast_shadow = 0
+mesh = SubResource("ArrayMesh_4vp2t")
+skin = SubResource("Skin_xwdl7")
+skeleton = NodePath("../Skeleton3D")

@@ -1,0 +1,3679 @@
+{
+  "version": "V4.1-selected-audio-submission-20261109",
+  "source_files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 68,
+      "sha256": "d8fb0de4792538f93822b2c0d235604921299d5e54a3d6ec7a6cb34536e8bf1e"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 213,
+      "sha256": "10cd9d6c735a82555fa331ccd41b91ee529714f94c9da639bd815339a2f37734"
+    },
+    {
+      "path": "Art/Audio/Effects/AttackHit.ogg",
+      "bytes": 11220,
+      "sha256": "3ab2f860adc1eeab027b075e321699c94625e0f8251ebea4b8ffe182673486bb"
+    },
+    {
+      "path": "Art/Audio/Effects/AttackHit.ogg.import",
+      "bytes": 401,
+      "sha256": "8e8452258481f87ed0b17c9530b68a3bcffdcdb9986ad8bbdeb3b4f9beebdfba"
+    },
+    {
+      "path": "Art/Audio/Effects/AttackSwing.ogg",
+      "bytes": 23485,
+      "sha256": "27d4c5af007ff5c07ebf3c04bb46a0b3e1ccd42b663d2902d2c8e9ebcc4a0008"
+    },
+    {
+      "path": "Art/Audio/Effects/AttackSwing.ogg.import",
+      "bytes": 407,
+      "sha256": "8d3125526dafb014837b676131c159ada80b2ec0017af7ffbbcd91597ed8c62e"
+    },
+    {
+      "path": "Art/Audio/Effects/Enemy_hit.ogg",
+      "bytes": 12725,
+      "sha256": "fd10b13ace3b09aa01ff284e233b138627feb77aee385cd7153ea232bbfcff5d"
+    },
+    {
+      "path": "Art/Audio/Effects/Enemy_hit.ogg.import",
+      "bytes": 401,
+      "sha256": "0ea3062cb8461653666adcb50ae3c1565c7ed765aa215eb36acc17e560688d92"
+    },
+    {
+      "path": "Art/Audio/Effects/QuestSound.ogg",
+      "bytes": 27675,
+      "sha256": "90bdb847b28391a7188fcdc212d2e02e55e52ce9ef7f60ad2136079f4a6a3de0"
+    },
+    {
+      "path": "Art/Audio/Effects/QuestSound.ogg.import",
+      "bytes": 403,
+      "sha256": "3fc53a3f904aec02efb4b9bc83da614a24c5661693704855b36cead2b08af7fb"
+    },
+    {
+      "path": "Art/Audio/Effects/bloody_hit.ogg",
+      "bytes": 35350,
+      "sha256": "7ea01e98ba3c52e8a94111f5165b3e1ac20f8689546a348c42373867c357a699"
+    },
+    {
+      "path": "Art/Audio/Effects/bloody_hit.ogg.import",
+      "bytes": 404,
+      "sha256": "18275e9e622a5bd30d2b9428ebb0a0c897e91b12d01c2e0875760106dddc5604"
+    },
+    {
+      "path": "Art/Audio/Effects/coin_pick.ogg",
+      "bytes": 8550,
+      "sha256": "b9da1952f3c1f9d8a3785699112d716625b52a6d8363c9a48b5b4e8b3ba32bba"
+    },
+    {
+      "path": "Art/Audio/Effects/coin_pick.ogg.import",
+      "bytes": 401,
+      "sha256": "40b0a259138ecc6218116932fdb806ef2cf6a49427f986ddfcc221dae473a096"
+    },
+    {
+      "path": "Art/Audio/Qingqiu/Music/p1_music_source.json",
+      "bytes": 2068,
+      "sha256": "3f8bf0415ea090b5d1de234cbf36560ecff73bb5d708a4f9ba736a8030759f3b"
+    },
+    {
+      "path": "Art/Audio/Qingqiu/Music/p2_music_source.json",
+      "bytes": 1795,
+      "sha256": "00b3c38c34cf39289f16c5dd23cc534a4eb9531c8a5b9ff999094bb355f5a042"
+    },
+    {
+      "path": "Art/Audio/Qingqiu/Music/p3_music_source.json",
+      "bytes": 1914,
+      "sha256": "058f7d23f8c4235e3862e9765acdf000c73c969a28251c191c6b39a32465ec21"
+    },
+    {
+      "path": "Art/Audio/Qingqiu/Music/qingqiu_p1.mp3",
+      "bytes": 1503930,
+      "sha256": "bd54d85fe3327ca2c47a7206bed57abb5258a29ddbb5d6e82989807bc50de58b"
+    },
+    {
+      "path": "Art/Audio/Qingqiu/Music/qingqiu_p1.mp3.import",
+      "bytes": 383,
+      "sha256": "5b0a02c21b7fbdc6fe6dece145608cbf99fde85003da7808c3e75193c4645d5d"
+    },
+    {
+      "path": "Art/Audio/Qingqiu/Music/qingqiu_p2.mp3",
+      "bytes": 1460536,
+      "sha256": "6832334a576969d31f6367af506f0381f5d9a6d87f15a8c35948f49306e03d73"
+    },
+    {
+      "path": "Art/Audio/Qingqiu/Music/qingqiu_p2.mp3.import",
+      "bytes": 383,
+      "sha256": "8bee1f95a85d975d652549525accba29fb7a1d1d97a3d6230f75451d5e94a510"
+    },
+    {
+      "path": "Art/Audio/Qingqiu/Music/qingqiu_p3.mp3",
+      "bytes": 4097925,
+      "sha256": "4067cf2157c51f1b2fec152f9fe3447824bb961741e67992bccebe02089e0f49"
+    },
+    {
+      "path": "Art/Audio/Qingqiu/Music/qingqiu_p3.mp3.import",
+      "bytes": 383,
+      "sha256": "47d2441d26b5f8ea8b07c5c70b7db3961e8e6d40d4ea9c373a8972e7dbc4c789"
+    },
+    {
+      "path": "Art/Audio/Qingqiu/PhaseReveal/fox_p2_laugh.wav",
+      "bytes": 574258,
+      "sha256": "fb1a661db54e7e02c138a1965e03832877adbcb9d32f614ff32babdb8eb7e45e"
+    },
+    {
+      "path": "Art/Audio/Qingqiu/PhaseReveal/fox_p2_laugh.wav.import",
+      "bytes": 524,
+      "sha256": "23b5e26be076fd4f6c7d516cc72d61fa6884a48c5e9c43090b2b44d784852c82"
+    },
+    {
+      "path": "Art/Audio/Qingqiu/PhaseReveal/manifest.json",
+      "bytes": 1045,
+      "sha256": "34b9c6f21f27a28f4e54a60c45bec2fffd807e4d67cd4e485bfe16897b9990ba"
+    },
+    {
+      "path": "Art/Audio/Qingqiu/PhaseReveal/transition_attack_source.json",
+      "bytes": 1904,
+      "sha256": "322c4f5476b93a05b6458e6fece9630d6085fc8d6e626a9ca371d030c19d35e4"
+    },
+    {
+      "path": "Art/Audio/Qingqiu/PhaseReveal/violoncello_transition_attack.mp3",
+      "bytes": 70560,
+      "sha256": "4e874f3c17b7d5329cc7b7a841642d24305be4535c277d72bb9680c4abb6416e"
+    },
+    {
+      "path": "Art/Audio/Qingqiu/PhaseReveal/violoncello_transition_attack.mp3.import",
+      "bytes": 446,
+      "sha256": "fee85fbc3e0677e8ebd80a317218380bd6cae666d996c7ba9c2f7d800918b089"
+    },
+    {
+      "path": "Art/Audio/Qingqiu/SelectedSFX_20261108/A01.wav",
+      "bytes": 169928,
+      "sha256": "97a1da6a7815ae6933a869a516c4fea217ed47251c5d0263795b6ea476c3654b"
+    },
+    {
+      "path": "Art/Audio/Qingqiu/SelectedSFX_20261108/A01.wav.import",
+      "bytes": 506,
+      "sha256": "a298542a4de2a60efacdc4b919ad45a6d181f53ab3b7c815faf284d21fa838a4"
+    },
+    {
+      "path": "Art/Audio/Qingqiu/SelectedSFX_20261108/A02.wav",
+      "bytes": 44296,
+      "sha256": "0be76a5c6be8e984670abdd86622bbe7b199ab49f3ea7695490054f96e24a0ca"
+    },
+    {
+      "path": "Art/Audio/Qingqiu/SelectedSFX_20261108/A02.wav.import",
+      "bytes": 506,
+      "sha256": "0ebf1e67344ee66c7d04499669d5a9f7d3e194db6a7665502d09920dae17b5c1"
+    },
+    {
+      "path": "Art/Audio/Qingqiu/SelectedSFX_20261108/B01.wav",
+      "bytes": 125552,
+      "sha256": "a47a2d844d622d688ccad9c27199eb4f1cdf423963db0e36d2ac222b1447fee4"
+    },
+    {
+      "path": "Art/Audio/Qingqiu/SelectedSFX_20261108/B01.wav.import",
+      "bytes": 505,
+      "sha256": "5ce11b866e3fbc4917127d2e51602bed11362b290422b7e8f2b9f551466051d0"
+    },
+    {
+      "path": "Art/Audio/Qingqiu/SelectedSFX_20261108/B02.wav",
+      "bytes": 301860,
+      "sha256": "a7bb6b7265fee8380e89abefda1436f13c7bfa5b55233b88a4ff07610c09fd65"
+    },
+    {
+      "path": "Art/Audio/Qingqiu/SelectedSFX_20261108/B02.wav.import",
+      "bytes": 506,
+      "sha256": "800c238cc05813f9309411c319f57ff0f36c5adc0f811bdbd7a12b4e6b13a060"
+    },
+    {
+      "path": "Art/Audio/Qingqiu/SelectedSFX_20261108/B03.wav",
+      "bytes": 99708,
+      "sha256": "f912190f43d8bdc8a8f96b59175eccd038b9e1d5f3c33d928f96c722e09714ce"
+    },
+    {
+      "path": "Art/Audio/Qingqiu/SelectedSFX_20261108/B03.wav.import",
+      "bytes": 506,
+      "sha256": "df63f167b3ecc3a00a1fcb98baf97a200562c681cc7a431717d9565bbde64fa3"
+    },
+    {
+      "path": "Art/Audio/Qingqiu/SelectedSFX_20261108/F01.wav",
+      "bytes": 116528,
+      "sha256": "11e631616316d8dfd0f76afc0a4e3318c2224f813d3751259e1cf98fa2740124"
+    },
+    {
+      "path": "Art/Audio/Qingqiu/SelectedSFX_20261108/F01.wav.import",
+      "bytes": 505,
+      "sha256": "bf80610ca2d3c2c66c43f8a1d86e862f28122683dc523fe55401033fc9af26b7"
+    },
+    {
+      "path": "Art/Audio/Qingqiu/SelectedSFX_20261108/F02.wav",
+      "bytes": 291224,
+      "sha256": "ff414ee2c8a63ae649dfddadfa4e82c005d7f3f884f568e0c71edc59625e053c"
+    },
+    {
+      "path": "Art/Audio/Qingqiu/SelectedSFX_20261108/F02.wav.import",
+      "bytes": 506,
+      "sha256": "22a6608160a57c18d1479adb929e5405cd07bd0ff81e81aa185474ed241a1081"
+    },
+    {
+      "path": "Art/Audio/Qingqiu/SelectedSFX_20261108/F03.wav",
+      "bytes": 228524,
+      "sha256": "ba438f4d972a2331b063f6e53962c7fee11361aba9055e5cb9ddd5955606cfa3"
+    },
+    {
+      "path": "Art/Audio/Qingqiu/SelectedSFX_20261108/F03.wav.import",
+      "bytes": 506,
+      "sha256": "888ee6760a9dd86e146a395eb641bbc7afc489c4b13fcc14e72b13e30dd61e2a"
+    },
+    {
+      "path": "Art/Audio/Qingqiu/SelectedSFX_20261108/F05.wav",
+      "bytes": 442868,
+      "sha256": "b35ee72e3f3990df30189e2368a7ca2f658bfa44f93f8811620129fefb08eb42"
+    },
+    {
+      "path": "Art/Audio/Qingqiu/SelectedSFX_20261108/F05.wav.import",
+      "bytes": 506,
+      "sha256": "94d81b97c00da28c2392d3e5be64ae8848dc744ba2169e1b994af5804c3d2154"
+    },
+    {
+      "path": "Art/Audio/Qingqiu/SelectedSFX_20261108/source_manifest.json",
+      "bytes": 14414,
+      "sha256": "68e71662b5072c415676b523d8fa30985769fd7a1813a56fb03a64f7224a5328"
+    },
+    {
+      "path": "Art/Audio/Qingqiu/fox_p1_cub.wav",
+      "bytes": 264644,
+      "sha256": "8d4fbb275ea7edf904fd498e7e57c733cf4180819b2398028f6793c3916419ee"
+    },
+    {
+      "path": "Art/Audio/Qingqiu/fox_p1_cub.wav.import",
+      "bytes": 506,
+      "sha256": "8f216f85a48faa22eed6801867463840ee962ef7b7b051e8efd0ce6bdc1f82c7"
+    },
+    {
+      "path": "Art/Audio/Qingqiu/fox_p2_shrill.wav",
+      "bytes": 335204,
+      "sha256": "4d4f2843c629c31e457f687d6e67c29c5a56beb5c4b3c3432cf1a28773029630"
+    },
+    {
+      "path": "Art/Audio/Qingqiu/fox_p2_shrill.wav.import",
+      "bytes": 515,
+      "sha256": "a3d1bb4a20bfe3a0607c90954c256ab34886052616578f4cbd7ebe8156db9e3e"
+    },
+    {
+      "path": "Art/Audio/Qingqiu/fox_p3_woman_wail.wav",
+      "bytes": 617444,
+      "sha256": "0ab36a741e86f793c1958f3c9c2d565b23dd65cc2c818f893c323e84696a8b23"
+    },
+    {
+      "path": "Art/Audio/Qingqiu/fox_p3_woman_wail.wav.import",
+      "bytes": 527,
+      "sha256": "991863a04c87ca6a87a09c7f6f59622cdff4b0a1e13743a539fb0037943c8797"
+    },
+    {
+      "path": "Art/Icons/icon.png",
+      "bytes": 37661,
+      "sha256": "12667c0748620448550c121d8c372465a65788c016d3182801b8380ef577df45"
+    },
+    {
+      "path": "Art/Icons/icon.png.import",
+      "bytes": 925,
+      "sha256": "c7fc0074401a0f265c0ca6de9b9e090d0d4fe9c3f94be0a100c717f82f0f5b36"
+    },
+    {
+      "path": "Art/Qingqiu/AttackGlyphsV3/glyphs_atlas.png",
+      "bytes": 495422,
+      "sha256": "e35748cc5832cbe807a62447fe4b693a8fb5b1b1720924e2920751eabe1a1be1"
+    },
+    {
+      "path": "Art/Qingqiu/AttackGlyphsV3/glyphs_atlas.png.import",
+      "bytes": 966,
+      "sha256": "42f8e28917a0fd61e158a9c17f3fac1fcc3c199bb32a02b0d739279ec1ab500f"
+    },
+    {
+      "path": "Art/Qingqiu/FloraV6/manifest.json",
+      "bytes": 649,
+      "sha256": "cbbff40a9711fd3ff303ca08f90be87b63475cb4230259e6693f81cab1550981"
+    },
+    {
+      "path": "Art/Qingqiu/FloraV6/withered_flower_clump.png",
+      "bytes": 625613,
+      "sha256": "fd846a1fc3d9aad1247b5a0b5cf0b3a7c6d775816e629072b0a944b2dfb07cc6"
+    },
+    {
+      "path": "Art/Qingqiu/FloraV6/withered_flower_clump.png.import",
+      "bytes": 987,
+      "sha256": "4ee2e8718808005278ba194167aaf57d4822ffccd8ad6c70ffb7c521f24c241d"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p1_body.png",
+      "bytes": 147785,
+      "sha256": "b6962539ac737e89d0195e4a9a60eed1aef6f614492d03ee2c27903db9b2e812"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p1_body.png.import",
+      "bytes": 955,
+      "sha256": "bc222c4ca59101d7496b8195e2356b3e0cd9a7d32869d2d817c76296fb9b1ee6"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p1_ear_left.png",
+      "bytes": 63907,
+      "sha256": "88a2825641bf6b1e457d4ad4f4ae81a3c5779c299e7eb1242e19759969970ced"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p1_ear_left.png.import",
+      "bytes": 966,
+      "sha256": "94612cd29c6fa3abc49e4389ffc02c1793f643b7852b2fdc7327562be6e3564c"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p1_ear_right.png",
+      "bytes": 59892,
+      "sha256": "b84331ace92178b40716f908194f7d2d958643b96a3ef06dca0bac66105e0ed0"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p1_ear_right.png.import",
+      "bytes": 970,
+      "sha256": "a6d7dbaaceb8cc976b0f896c18db030cc07126cc4dd762cad9557edbee4fb844"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p1_eye_closed_left.png",
+      "bytes": 254,
+      "sha256": "0fc89048201f42db80f7bd42eea093fe7907c4b99c6d58d879426b8a04fd583d"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p1_eye_closed_left.png.import",
+      "bytes": 988,
+      "sha256": "c4f0792f9b63ac94cf29c3fa8847ccb2fe9fcb993f6cd5f85d0727b05cd38572"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p1_eye_closed_right.png",
+      "bytes": 253,
+      "sha256": "0a7ad6712e8ccfab6f307999568fc5375b591d8c14ded3ccc339040f9ba28e11"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p1_eye_closed_right.png.import",
+      "bytes": 991,
+      "sha256": "67e6611200b0de1c4e1fc4301c31fef6914e5d577b8c4d860252b9fb9b696c93"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p1_eye_left.png",
+      "bytes": 19085,
+      "sha256": "632befd7403b421c4f1ad3b100c6b32f2a5b3efb4475755d58f18a1561ff1600"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p1_eye_left.png.import",
+      "bytes": 967,
+      "sha256": "5a806744c8449bbbc3ef14f1ba94e5267e0426698ee2d4918bc0ee2f4267a3e2"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p1_eye_right.png",
+      "bytes": 22675,
+      "sha256": "b48cc5523fe935c66d7a26a5b2119d3c31baba77193a041c0a4bcc392bda3fae"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p1_eye_right.png.import",
+      "bytes": 969,
+      "sha256": "d3bedc993028e71b5b09591e36267bc5c5966637928a3c042ae35aa3c980e362"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p1_eyeliner_left.png",
+      "bytes": 19420,
+      "sha256": "1e61f4890eab3723eebfa9d16d46851c4cc6f0ef97111f20d363ca18fd9edbbe"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p1_eyeliner_left.png.import",
+      "bytes": 982,
+      "sha256": "2015ec716a7b6137db6b46aeb77555b2e91ff6c577ecaea32fbba9770826d214"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p1_eyeliner_right.png",
+      "bytes": 18595,
+      "sha256": "add225e332e73374a5c555a3584a5767f0a23012f8dccfb4504503aa9d90dfe9"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p1_eyeliner_right.png.import",
+      "bytes": 985,
+      "sha256": "0728d60bd7704bc70fa3a5e1f3c490c836b845b380c1150dfc0358e5a86b2b8d"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p1_front_far_lower.png",
+      "bytes": 14486,
+      "sha256": "5f653a92a428fc786b54a48f085da8b4d0b607936ba4c004ff835a144c4007cb"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p1_front_far_lower.png.import",
+      "bytes": 987,
+      "sha256": "bea94671dccbf11a635194627686b3781f96ce3f53505779435ed7677b1f9a3a"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p1_front_far_paw.png",
+      "bytes": 10386,
+      "sha256": "70f1fdc71cc90baafc584fe3f6a6a2c1fc421cbe07c5b598b936537d2503d8ea"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p1_front_far_paw.png.import",
+      "bytes": 982,
+      "sha256": "97c3f8dd3e7caff4eeb61478733c2722e637f7cc0e76428010aae72a54fd13b5"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p1_front_far_upper.png",
+      "bytes": 17540,
+      "sha256": "7137e08ba3ebf2878fa7d5561a305958bd0542954275170c07cefd3f942d72af"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p1_front_far_upper.png.import",
+      "bytes": 987,
+      "sha256": "13f82a55b09effe8a187f8a5ebeccaab012286bc93c55ece294f205d9338350c"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p1_front_near_lower.png",
+      "bytes": 15476,
+      "sha256": "d315b94c2ddc3b1ff2513d02c4bbdb97295fddb290f07e81d7efced64c5a9735"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p1_front_near_lower.png.import",
+      "bytes": 991,
+      "sha256": "4ed9216304f99cd6ccfd329f092856444398cee84c2c578d2fb93150ce3b59db"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p1_front_near_paw.png",
+      "bytes": 9944,
+      "sha256": "2a691cc7851863d4bbdf5fe33081bd22e53983f84dc0f30a4688d4778d686e8d"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p1_front_near_paw.png.import",
+      "bytes": 984,
+      "sha256": "08473a6d8d755b919783e2a2675aa025129c5257ec5c767aced4f26c9fd03988"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p1_front_near_upper.png",
+      "bytes": 27157,
+      "sha256": "6423293105d6106b3dcef460f61a0f24c77bb08c649f8abe92ba689c685b20a9"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p1_front_near_upper.png.import",
+      "bytes": 991,
+      "sha256": "58677af935b03cf0dfad2cb5557ef1b528130117bcb1ab0d221d18f6b50ea191"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p1_head.png",
+      "bytes": 243819,
+      "sha256": "df521856564fba957e119f2f6415faa30bfa82aad728cb1340c4862ecaae2bf8"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p1_head.png.import",
+      "bytes": 954,
+      "sha256": "d1ab9ee8695a7822550fc30c16916946c921c42a5d08899a53af3d8ca72aea72"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p1_hind_far_lower.png",
+      "bytes": 12880,
+      "sha256": "1baf144bf3972164f945d9d150cb9dac18941ccfbefddd0bd6ca96f0a783b026"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p1_hind_far_lower.png.import",
+      "bytes": 985,
+      "sha256": "720b101325982eaf69fa3082d6ae452e883274fee56af815c448ae076a127d9b"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p1_hind_far_paw.png",
+      "bytes": 8187,
+      "sha256": "c28e54e5358516252bdb820feff8aa62f098bde859177b18f7e77063faa47b8f"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p1_hind_far_paw.png.import",
+      "bytes": 979,
+      "sha256": "580855f80898a677ef3a74125b4b75e1e975a95d18c68ab667f9b7a08278468a"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p1_hind_far_upper.png",
+      "bytes": 17954,
+      "sha256": "5a3f111e4162b71c2cabfc31fb0594028414e1d3f9570770006b5b04a49f3189"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p1_hind_far_upper.png.import",
+      "bytes": 985,
+      "sha256": "b2f1c02521cc5c8bb479c69f460d4809473b3d2a1b4ae688c16ebbae07d3858a"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p1_hind_near_lower.png",
+      "bytes": 16137,
+      "sha256": "bf52a9142f60a5be6c29eafb824f5d9a2906262bd0566f1395eb30d83506dc22"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p1_hind_near_lower.png.import",
+      "bytes": 988,
+      "sha256": "8ef25e4d68d700d0107892a72af16e51e5e17f3a9430f6d4f79cd3e2d6e6b16d"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p1_hind_near_paw.png",
+      "bytes": 10162,
+      "sha256": "5acd23f4ac01b079efda5e32e934e4884811b2796db14fae383916316d65256a"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p1_hind_near_paw.png.import",
+      "bytes": 982,
+      "sha256": "b49460a291ee73a00f29a1f6a3fe49300545e24dd8f9c23a01c60e99e8fc7377"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p1_hind_near_upper.png",
+      "bytes": 23750,
+      "sha256": "4a6454e197822fe7da4d12ad83fbcb30620021e525a3972c3e3817a36e5a5dcb"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p1_hind_near_upper.png.import",
+      "bytes": 988,
+      "sha256": "8d62b5fdd434c9c6bcb68d52a9aeec1cf0515b0e61841d055cfe253a2b5574fb"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p1_tail_01.png",
+      "bytes": 116344,
+      "sha256": "6f61735dd50bfd93afe7ce17047f8219e764ebefe30947be0e701841329516c4"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p1_tail_01.png.import",
+      "bytes": 964,
+      "sha256": "f13663d6d5bb1b499cbbba821f48e2d035d5e8954500ff91ffaf59062f3b01a9"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p2_body.png",
+      "bytes": 183981,
+      "sha256": "d4ae2b48bee7ff04fe14f3d814dc98aeb6c28e1f39a85a047b172e8af14eaea0"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p2_body.png.import",
+      "bytes": 955,
+      "sha256": "b00741e88fd3a0a86ea4d8583be7c1bc079bc3c1ab1dbb0351e5b0c5f9b5b3db"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p2_ear_left.png",
+      "bytes": 37808,
+      "sha256": "d173519873ab72059a77491cea7aa8737ad50cb8c3e133afa4dde58c8a72c98b"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p2_ear_left.png.import",
+      "bytes": 967,
+      "sha256": "09c571952071f2889a7211986ca96e5aa97042f1ca3089e543362156f1d4f1a0"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p2_ear_right.png",
+      "bytes": 36733,
+      "sha256": "3a3334f438c1e2ffe67d913582d3d6275a89da3977587e24c439ecbc53a41f7e"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p2_ear_right.png.import",
+      "bytes": 968,
+      "sha256": "307160c3bd8316d23a5a1916adc943275a2ad4f5c7502235a2543d85f21eadeb"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p2_eye_closed_left.png",
+      "bytes": 176,
+      "sha256": "f0689c1920cf29e2d95a0d4a4557a6ec80d14553c0b417b6cbcc135488857fb7"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p2_eye_closed_left.png.import",
+      "bytes": 988,
+      "sha256": "120c80ef3ec4559de6e45a7e9630d33f81bcf7628048129c3a525aed0721479b"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p2_eye_closed_right.png",
+      "bytes": 171,
+      "sha256": "ce6dc7f46b50fefc7ff458beca05e524682a7f55236bb22c65e4356995da5101"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p2_eye_closed_right.png.import",
+      "bytes": 990,
+      "sha256": "044bff299fc0d310808dfc87dd37015189410a033be145b78e8afdd32a75cf18"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p2_eye_left.png",
+      "bytes": 11172,
+      "sha256": "cc0d1f4ed7eb33bf8d388e16862eef2a5e342936382b62c9cbdfd58c4aa2b652"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p2_eye_left.png.import",
+      "bytes": 967,
+      "sha256": "dfb4210c87081e664c8cc6f7dbd7de201f7d144e0ed50acf725a193802697e92"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p2_eye_right.png",
+      "bytes": 11072,
+      "sha256": "423361db627f52b8dd8d507ac2896d1c314521501825835714d694b5d5435ea8"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p2_eye_right.png.import",
+      "bytes": 970,
+      "sha256": "fc136863acd663872dbeca557770cab428c25ac40524ac21b592387a5021487f"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p2_eyeliner_left.png",
+      "bytes": 8946,
+      "sha256": "715ce3b24f03b86cd89eff7c62d81d10089383fe858419f2e0c51a95fa8bc02e"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p2_eyeliner_left.png.import",
+      "bytes": 982,
+      "sha256": "93e916b46ec40a3a2b8592e35babfd69c2a191d427345279bc926dbc67f090c1"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p2_eyeliner_right.png",
+      "bytes": 8236,
+      "sha256": "9d2d05ac9c0bcbbd53aa58a97171fafade784e79250da346ad6bc949ef49b743"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p2_eyeliner_right.png.import",
+      "bytes": 985,
+      "sha256": "03d3c1d20d48e8d0b7195b7b06f1378e4e6a7f4d83c564bcea70d6a02e828b6d"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p2_front_far_lower.png",
+      "bytes": 20399,
+      "sha256": "d1bae096d80cf74dacb88287b05933f6481d83536c5b510ba490a46591f24969"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p2_front_far_lower.png.import",
+      "bytes": 988,
+      "sha256": "62dee2232be7b366236e4a67b51e069e4d1515edaac6a95551fe7b7139155564"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p2_front_far_paw.png",
+      "bytes": 9888,
+      "sha256": "29b3bf69a6dc3960511d18c633e3669b983e55096b9613c62cfbd0cd6d70c30f"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p2_front_far_paw.png.import",
+      "bytes": 982,
+      "sha256": "196e20f4677744916291c70974e243c15c1b216738fa4ac9dda28b1ce28a9f13"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p2_front_far_upper.png",
+      "bytes": 26501,
+      "sha256": "67268a8e937f64bc29863a83ca30a44edb63a5b75ff8f151e128df5256b08fa2"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p2_front_far_upper.png.import",
+      "bytes": 988,
+      "sha256": "b5d2eb148eb4a8b88104cf4b034180c41c120358e4d13ef00086b27ff23f79b4"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p2_front_near_lower.png",
+      "bytes": 21215,
+      "sha256": "11203e2a1d2d02a04dbdda215321f66023b3dafe2d9b334f7db53ded9af2abba"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p2_front_near_lower.png.import",
+      "bytes": 990,
+      "sha256": "bd8ce9f61a1952cc12cc22bb00941bbb446c987ed25addb685d0e72164baa1b7"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p2_front_near_paw.png",
+      "bytes": 8838,
+      "sha256": "4baef42a7afecb09c045ae471791f1d6a38856b9790e6beca194568956a35ab5"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p2_front_near_paw.png.import",
+      "bytes": 985,
+      "sha256": "114600becbc4f06b6ea21eb83c5cc03ea747e2c5d4c0c3e58058715e251c3502"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p2_front_near_upper.png",
+      "bytes": 37029,
+      "sha256": "a141aec1119ac1ac3e965905277b5bc38440ec71d1bd41199bf22c7d2c8ccda4"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p2_front_near_upper.png.import",
+      "bytes": 991,
+      "sha256": "a030bd03a65d715ab478bc822af27ee58800ad15641f2d4c7613c69bc74c549d"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p2_head.png",
+      "bytes": 114910,
+      "sha256": "82054729a16a815892fdc0be3d17398f6a14f5950baa130a262d3c766b747479"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p2_head.png.import",
+      "bytes": 955,
+      "sha256": "d8ff2808b55c7ab13f20780dbe2abfaa0d84e94bd929e95f29a8103863f86fe8"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p2_hind_far_lower.png",
+      "bytes": 21885,
+      "sha256": "91eb9d8b6cbb90a169a8df6a43dbe12b91c681c0469bc7261f4f8814ad3648cb"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p2_hind_far_lower.png.import",
+      "bytes": 985,
+      "sha256": "c03c3187f78c56518805eb4f6f343e1a4ecc6acd34808cb9f98ec9a6c1199da1"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p2_hind_far_paw.png",
+      "bytes": 7996,
+      "sha256": "d48a64b34d5ebfa3efda2e8cc0ac03c74d00444c8686fb29f8e2465c50bd81d9"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p2_hind_far_paw.png.import",
+      "bytes": 979,
+      "sha256": "27898cfb79b356af436a87b6d1b6bd599eefd00e505263ae6c9c35d38abaddef"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p2_hind_far_upper.png",
+      "bytes": 36092,
+      "sha256": "342d039088c1c6e2c8ef6bffa3a7adbb8c77d3a0e89c79331d83cd0cc27898c5"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p2_hind_far_upper.png.import",
+      "bytes": 985,
+      "sha256": "f6479c9a72ccbc637a22af05b4f351c81cbbff82290821b2be7b69d9f299c474"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p2_hind_near_lower.png",
+      "bytes": 21136,
+      "sha256": "8860e61629ceabe54173f0d407d65a35a56082a42f140224c64b28b0b0e28c29"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p2_hind_near_lower.png.import",
+      "bytes": 987,
+      "sha256": "52fc7f2f35f21dee612e0d2ff8fdc7d80d4e734931a8a705253212d79ac5c414"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p2_hind_near_paw.png",
+      "bytes": 8299,
+      "sha256": "ddb2daf8c4566d964c0cc002919d90666073cc74b044cb1bda7ccd0d9ba1784c"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p2_hind_near_paw.png.import",
+      "bytes": 982,
+      "sha256": "bb19ee606130490b46eb7fa458a2889563da2395efd6bcb4accdab46bebb04f2"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p2_hind_near_upper.png",
+      "bytes": 47233,
+      "sha256": "afe4f2f42f0e8a8c77b895ba71bb834be7ca74ac764703af1cb8be2596e15f1a"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p2_hind_near_upper.png.import",
+      "bytes": 988,
+      "sha256": "2bbcefdb10132770c8fdfb15921ee91be6970a124347ebf01f4cfede698f0d6d"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p2_tail_01.png",
+      "bytes": 145738,
+      "sha256": "1a24cd977666e44f8adecb9f0cefa3714cb92352177c0e235fc5d81b04cf9b14"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p2_tail_01.png.import",
+      "bytes": 964,
+      "sha256": "d938625e98e594d64f47e8bd924f1938eb65502079dd722f16badfdeb88428aa"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p2_tail_02.png",
+      "bytes": 145738,
+      "sha256": "1a24cd977666e44f8adecb9f0cefa3714cb92352177c0e235fc5d81b04cf9b14"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p2_tail_02.png.import",
+      "bytes": 964,
+      "sha256": "cfc2b479457787e619e8ef183c4f1d8db98f66615a456b63f8b89a891aa5b3b6"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p3_body.png",
+      "bytes": 183981,
+      "sha256": "d4ae2b48bee7ff04fe14f3d814dc98aeb6c28e1f39a85a047b172e8af14eaea0"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p3_body.png.import",
+      "bytes": 955,
+      "sha256": "0ed28bcd49cf97718702f4fbbf19a588b6aec5d634e885ed7e0cdd5d4f1a8bc9"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p3_ear_left.png",
+      "bytes": 37808,
+      "sha256": "d173519873ab72059a77491cea7aa8737ad50cb8c3e133afa4dde58c8a72c98b"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p3_ear_left.png.import",
+      "bytes": 966,
+      "sha256": "c18c0458e892f1f1eb5eea6d11b7dfd13e016c3649c2fec8676c253280726a7f"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p3_ear_right.png",
+      "bytes": 36733,
+      "sha256": "3a3334f438c1e2ffe67d913582d3d6275a89da3977587e24c439ecbc53a41f7e"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p3_ear_right.png.import",
+      "bytes": 969,
+      "sha256": "aee9e62124235bad4d7af8bc6b34966d8d64aeea241120d9aaca9c4405be2332"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p3_eye_closed_left.png",
+      "bytes": 169,
+      "sha256": "69bed4d828042d8bafee23d566a11e133c14b736f58497ea789879f23b5682f9"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p3_eye_closed_left.png.import",
+      "bytes": 988,
+      "sha256": "c52a583fd3753698bf5050dfd2c128c241af9158a764e9a1b869562ca31388df"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p3_eye_closed_right.png",
+      "bytes": 164,
+      "sha256": "4d197e4f7d899c37e65d0903f0e635bc723a769eb78fd38895725a445c023804"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p3_eye_closed_right.png.import",
+      "bytes": 991,
+      "sha256": "96b176a90275d5f5f1c81c15b62ba32a281cb563fa67b0a5ca25f7c3ad10b2eb"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p3_eye_left.png",
+      "bytes": 9765,
+      "sha256": "267d944cabbb912e7c53ff41b56313d94e3168ece00112496b86aa66db59d4cf"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p3_eye_left.png.import",
+      "bytes": 966,
+      "sha256": "85a5b2e047f32babded00674f934728578732184fef7df91a6f5278203ea1ab0"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p3_eye_right.png",
+      "bytes": 9722,
+      "sha256": "1f7da486a040ca5fd7f0e40204d42c39eb0d66e5b9e8ba7c5e299a186ff120be"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p3_eye_right.png.import",
+      "bytes": 970,
+      "sha256": "9b168189162f4d36b9629514b04ea78dbeb79693841cf1327629a66ef024c19a"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p3_eyeliner_left.png",
+      "bytes": 7655,
+      "sha256": "a9a95fd083605f3a4a79c06ba40b468378f2fcd6ea539b51cdf68795e5d1b465"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p3_eyeliner_left.png.import",
+      "bytes": 982,
+      "sha256": "fa3c510af19519086c0a669bc26a79c44d40aa2f60b2a59a0f5b1e4e05d38f01"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p3_eyeliner_right.png",
+      "bytes": 6940,
+      "sha256": "4d5aaa8d56f08cd8144c1018f3dcfa60aac88d31669ad0ece9197c4fe9f440ed"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p3_eyeliner_right.png.import",
+      "bytes": 985,
+      "sha256": "043d076c040d6a035036e85906629b3d41a88bb28ed22667b416cd23cbb404e3"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p3_front_far_lower.png",
+      "bytes": 20399,
+      "sha256": "d1bae096d80cf74dacb88287b05933f6481d83536c5b510ba490a46591f24969"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p3_front_far_lower.png.import",
+      "bytes": 988,
+      "sha256": "b304fde77e13edf023a6818e076b7701412436952799ca7c36fd3ebb8388b685"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p3_front_far_paw.png",
+      "bytes": 9888,
+      "sha256": "29b3bf69a6dc3960511d18c633e3669b983e55096b9613c62cfbd0cd6d70c30f"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p3_front_far_paw.png.import",
+      "bytes": 982,
+      "sha256": "2ce0b24df2d40a29de75f12119ab0a352fdf8566f4a4954bd05e173a43c4b4c2"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p3_front_far_upper.png",
+      "bytes": 26501,
+      "sha256": "67268a8e937f64bc29863a83ca30a44edb63a5b75ff8f151e128df5256b08fa2"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p3_front_far_upper.png.import",
+      "bytes": 988,
+      "sha256": "d83deb3ff400dd45bf62677b486c71f25d33d3b9a83248ec3a1b1e69c5c80360"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p3_front_near_lower.png",
+      "bytes": 21215,
+      "sha256": "11203e2a1d2d02a04dbdda215321f66023b3dafe2d9b334f7db53ded9af2abba"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p3_front_near_lower.png.import",
+      "bytes": 990,
+      "sha256": "edd74aae22098e09482d4079a8fc90215fe8d468d34519f26004838ca2523761"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p3_front_near_paw.png",
+      "bytes": 8838,
+      "sha256": "4baef42a7afecb09c045ae471791f1d6a38856b9790e6beca194568956a35ab5"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p3_front_near_paw.png.import",
+      "bytes": 984,
+      "sha256": "8f0103f348b59d5d98d73b7c14203cd0459b26cf5ce67a1a85a22187b7f048a8"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p3_front_near_upper.png",
+      "bytes": 37029,
+      "sha256": "a141aec1119ac1ac3e965905277b5bc38440ec71d1bd41199bf22c7d2c8ccda4"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p3_front_near_upper.png.import",
+      "bytes": 991,
+      "sha256": "b7d874cf582fdb21f52e6835276a495083504440a5e25509150219b1ddd8911a"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p3_head.png",
+      "bytes": 114910,
+      "sha256": "82054729a16a815892fdc0be3d17398f6a14f5950baa130a262d3c766b747479"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p3_head.png.import",
+      "bytes": 955,
+      "sha256": "48b3e1aec522ee627a15fd81aa96981273ff57b710b08c1431e00a683c2ea1fc"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p3_hind_far_lower.png",
+      "bytes": 21885,
+      "sha256": "91eb9d8b6cbb90a169a8df6a43dbe12b91c681c0469bc7261f4f8814ad3648cb"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p3_hind_far_lower.png.import",
+      "bytes": 985,
+      "sha256": "49c0f763a712328499b4dbe1eb1be23ecea10d03bc6cfe10fd2d492236deb908"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p3_hind_far_paw.png",
+      "bytes": 7996,
+      "sha256": "d48a64b34d5ebfa3efda2e8cc0ac03c74d00444c8686fb29f8e2465c50bd81d9"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p3_hind_far_paw.png.import",
+      "bytes": 978,
+      "sha256": "d3f3e9a6d925a295c30243832e4edf9611472a91af0b5cd8dc2b5fdf67ff3181"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p3_hind_far_upper.png",
+      "bytes": 36092,
+      "sha256": "342d039088c1c6e2c8ef6bffa3a7adbb8c77d3a0e89c79331d83cd0cc27898c5"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p3_hind_far_upper.png.import",
+      "bytes": 984,
+      "sha256": "165a9308ffcfdf971519f1e8aa7bc394a6ef3e2c22c43907986104f98d94b763"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p3_hind_near_lower.png",
+      "bytes": 21136,
+      "sha256": "8860e61629ceabe54173f0d407d65a35a56082a42f140224c64b28b0b0e28c29"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p3_hind_near_lower.png.import",
+      "bytes": 988,
+      "sha256": "4a3361ebd54351c080c51210d49b52ae8fe427279ea51048c48e9af82de9d009"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p3_hind_near_paw.png",
+      "bytes": 8299,
+      "sha256": "ddb2daf8c4566d964c0cc002919d90666073cc74b044cb1bda7ccd0d9ba1784c"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p3_hind_near_paw.png.import",
+      "bytes": 982,
+      "sha256": "3677c6f597999f7cd1acb3f28225315db3dc962cd69fbc46d8df755def6322e9"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p3_hind_near_upper.png",
+      "bytes": 47233,
+      "sha256": "afe4f2f42f0e8a8c77b895ba71bb834be7ca74ac764703af1cb8be2596e15f1a"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p3_hind_near_upper.png.import",
+      "bytes": 988,
+      "sha256": "6ce9349bed2ca8bcdaeb5a41b632b682a8eb6a9e5e49ffbdce15c8bfd03476b8"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p3_tail_01.png",
+      "bytes": 171589,
+      "sha256": "cd49464fd5988b138488648c65e66ade2a20397958f7ec54474d58f9c28b0696"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p3_tail_01.png.import",
+      "bytes": 964,
+      "sha256": "b5b9e01ed7360d1ffdfbd0f84e131e57494dc77f00edce7a21ea25e546ae3007"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p3_tail_02.png",
+      "bytes": 170321,
+      "sha256": "50395740fba75a4f074975766a1f414145033297ec0e3604a233e7977403242f"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p3_tail_02.png.import",
+      "bytes": 964,
+      "sha256": "89eca7edf8a850c4c2777e5f7b59a235654bb0adacf88211fabd66056f0f9af1"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p3_tail_03.png",
+      "bytes": 171369,
+      "sha256": "15a2a14984b7068600387e9549056ac91f01e2ed84152e8c43aa1682c7746209"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p3_tail_03.png.import",
+      "bytes": 963,
+      "sha256": "4de3054cc9f5f18f004ec73f57c85b3432a8ede5a04da1e462048b594228e928"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p3_tail_04.png",
+      "bytes": 169777,
+      "sha256": "c1681c4253b3a392bca10a4369f1901b7d4c707d117cbb397ff054d64a0b35d8"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p3_tail_04.png.import",
+      "bytes": 964,
+      "sha256": "fb20b0e2249134c73900e243eb860e60ea84c55219126c80dea8b95bab78caa8"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p3_tail_05.png",
+      "bytes": 171382,
+      "sha256": "54c477dd1fabe52867c6d4c924ff19ec2492743a6922f52e41086fad9006bbde"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p3_tail_05.png.import",
+      "bytes": 963,
+      "sha256": "c2b72f14baf7c5df02539086d95e3315cc36f779022d7cf2c4c1d3a76443a7ba"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p3_tail_06.png",
+      "bytes": 170182,
+      "sha256": "d7f5d092f385c381e0436397542beb91c701c9206e8919778bd942c053d11b13"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p3_tail_06.png.import",
+      "bytes": 964,
+      "sha256": "03d16935b7a6ada06d8401b98df1046dc644d359dd7de2f3b98b0e8123478a41"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p3_tail_07.png",
+      "bytes": 172104,
+      "sha256": "7deac134a4564064f42233c2fcf4203d24f64d196d8b1b4b7752e8de91da3954"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p3_tail_07.png.import",
+      "bytes": 963,
+      "sha256": "1ee36da334bb8f270032f54e093c47e533786aef293d0cd3e81f4af2b21ecb8b"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p3_tail_08.png",
+      "bytes": 172032,
+      "sha256": "0909f8a9e8ea70c1fa34cd4f0e1f698c6539d9217c31e8a39d537b60604b31eb"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p3_tail_08.png.import",
+      "bytes": 964,
+      "sha256": "944ad0c225b4c46e232eead7cfaed14e6f4c25a581324931180a62e81fbafee6"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p3_tail_09.png",
+      "bytes": 171059,
+      "sha256": "8aa93404d9fe89bb6f4af01edba65110779f8ae889eb7100f6d635c3dad1f76e"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/images/p3_tail_09.png.import",
+      "bytes": 963,
+      "sha256": "dbae0f404a3151991b7dfffde700caae7bd702d25fe6632b7d4f60a68bb2cfd6"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/spine/fox_phase1.json",
+      "bytes": 105205,
+      "sha256": "3a78b7d764248937ea7fb3959bb9735bf371454dd933100141209f15903a7c2e"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/spine/fox_phase2.json",
+      "bytes": 330202,
+      "sha256": "1ea14a058a331d127730a2a7b452cee03e312de354f68b494fb2da9b9eefa4ca"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/spine/fox_phase3.json",
+      "bytes": 1005591,
+      "sha256": "f637f0d2b9590d475d90215e1e39d46eddc464c18dd423d94dbce61e5fcfafe9"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/spine/fox_v4.atlas",
+      "bytes": 9027,
+      "sha256": "3cfb57754de2a4b8bea1d485b376819244d0e84c5e9a036c97d8cf73fb86deae"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/spine/fox_v4_atlas_0.png",
+      "bytes": 2903080,
+      "sha256": "16557d9e2c640215778592a7d1228e1ed373c377d6d4e8d2ce4dfd671cdc6d5d"
+    },
+    {
+      "path": "Art/Qingqiu/FoxActions/spine/fox_v4_atlas_0.png.import",
+      "bytes": 975,
+      "sha256": "57cec8465bbb4e1ad6d124a77f8554b068321eb611ade155f36189bf0ec5ea98"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRig/vfx/charm_gaze.png",
+      "bytes": 204757,
+      "sha256": "d96dcd65273c53753acf1c01facc77a5a4cc191f36a2c5c29f56c2d533b4b129"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRig/vfx/charm_gaze.png.import",
+      "bytes": 957,
+      "sha256": "e1ec71ffeb279eac9492807a47f868f599f3fb978554af78a6e2173793e9c180"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRig/vfx/charm_heart.png",
+      "bytes": 206173,
+      "sha256": "77cb7a57833436a46290a9a0df0961ba473c42537115b7511900770892a1aa54"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRig/vfx/charm_heart.png.import",
+      "bytes": 960,
+      "sha256": "f6a4b614aa2e9f16d7487f1d225bf1d52c803faa1701558b2d802d98b450f9a3"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/blank_face_prompts.json",
+      "bytes": 1550,
+      "sha256": "8917d2a9d5cfec78ca36a7f8d364f807e849f443d2a3ed2520e772fe29f3bbe1"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/generation_prompts.json",
+      "bytes": 4027,
+      "sha256": "1cbcdd9135ce09391371c20b6e1d090150c50bf6e414792400a4af65be94c1c6"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p1_body.png",
+      "bytes": 147785,
+      "sha256": "b6962539ac737e89d0195e4a9a60eed1aef6f614492d03ee2c27903db9b2e812"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p1_body.png.import",
+      "bytes": 953,
+      "sha256": "452136b1fc6a953dbf7d7eecb11348d72095ea11b63971d0587bd33d579bde7f"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p1_ear_left.png",
+      "bytes": 63907,
+      "sha256": "88a2825641bf6b1e457d4ad4f4ae81a3c5779c299e7eb1242e19759969970ced"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p1_ear_left.png.import",
+      "bytes": 965,
+      "sha256": "00135283d64e3cf9c48693f36740964350c2f5abe9ecbcc9ef16abae801d36a0"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p1_ear_right.png",
+      "bytes": 59892,
+      "sha256": "b84331ace92178b40716f908194f7d2d958643b96a3ef06dca0bac66105e0ed0"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p1_ear_right.png.import",
+      "bytes": 968,
+      "sha256": "1682b3c09b232c024918e14690654f8c298475cba517b5930177f5cd8c8c2e7e"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p1_eye_closed_left.png",
+      "bytes": 254,
+      "sha256": "0fc89048201f42db80f7bd42eea093fe7907c4b99c6d58d879426b8a04fd583d"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p1_eye_closed_left.png.import",
+      "bytes": 986,
+      "sha256": "e40f1306134ac0d32260737ce897a8955546eec4b2813f77c0a2aceb05a625b4"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p1_eye_closed_right.png",
+      "bytes": 253,
+      "sha256": "0a7ad6712e8ccfab6f307999568fc5375b591d8c14ded3ccc339040f9ba28e11"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p1_eye_closed_right.png.import",
+      "bytes": 989,
+      "sha256": "6ce5b1985cb28b501971a4990f944d0328a932ee05d6f1ee040a83fee5d6df4f"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p1_eye_left.png",
+      "bytes": 19085,
+      "sha256": "632befd7403b421c4f1ad3b100c6b32f2a5b3efb4475755d58f18a1561ff1600"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p1_eye_left.png.import",
+      "bytes": 964,
+      "sha256": "5d23b4b2814818b34f7d867f2a486a798433ebfafb1b3515f57cf7e928c71018"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p1_eye_right.png",
+      "bytes": 22675,
+      "sha256": "b48cc5523fe935c66d7a26a5b2119d3c31baba77193a041c0a4bcc392bda3fae"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p1_eye_right.png.import",
+      "bytes": 968,
+      "sha256": "448024fae195af67467e9dbb533b32cc5fd55bcd0de78c13038451d83d5682d7"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p1_eyeliner_left.png",
+      "bytes": 19420,
+      "sha256": "1e61f4890eab3723eebfa9d16d46851c4cc6f0ef97111f20d363ca18fd9edbbe"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p1_eyeliner_left.png.import",
+      "bytes": 980,
+      "sha256": "ff18d7e99b99e7a060a21aaff4fae88d2d3d18fa6c29ac47ce614a10906028f8"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p1_eyeliner_right.png",
+      "bytes": 18595,
+      "sha256": "add225e332e73374a5c555a3584a5767f0a23012f8dccfb4504503aa9d90dfe9"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p1_eyeliner_right.png.import",
+      "bytes": 982,
+      "sha256": "c481f6c925e9811f017c353ee96930a606000773c839ed8ebab056c329f30a1f"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p1_front_far_lower.png",
+      "bytes": 14486,
+      "sha256": "5f653a92a428fc786b54a48f085da8b4d0b607936ba4c004ff835a144c4007cb"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p1_front_far_lower.png.import",
+      "bytes": 986,
+      "sha256": "520c44747167d3f0701fae6dc164d2c30b15bc6e06ad37751ea760d8e154b036"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p1_front_far_paw.png",
+      "bytes": 10386,
+      "sha256": "70f1fdc71cc90baafc584fe3f6a6a2c1fc421cbe07c5b598b936537d2503d8ea"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p1_front_far_paw.png.import",
+      "bytes": 980,
+      "sha256": "afb0152057320c85394944eac96bd77c584790c4a85848e2337de9149481780c"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p1_front_far_upper.png",
+      "bytes": 17540,
+      "sha256": "7137e08ba3ebf2878fa7d5561a305958bd0542954275170c07cefd3f942d72af"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p1_front_far_upper.png.import",
+      "bytes": 986,
+      "sha256": "2e4a3878ffd86d46b9a50a7dad08ee858bcac6d0edcbc04654a9f11a9287c462"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p1_front_near_lower.png",
+      "bytes": 15476,
+      "sha256": "d315b94c2ddc3b1ff2513d02c4bbdb97295fddb290f07e81d7efced64c5a9735"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p1_front_near_lower.png.import",
+      "bytes": 989,
+      "sha256": "5a34f0f91aa5db451f5446b624b595a2b3fcd6dc7623c984744e69f4f6e8c577"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p1_front_near_paw.png",
+      "bytes": 9944,
+      "sha256": "2a691cc7851863d4bbdf5fe33081bd22e53983f84dc0f30a4688d4778d686e8d"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p1_front_near_paw.png.import",
+      "bytes": 983,
+      "sha256": "dcfb415232461e48b2461df9839694d3e2b0002c51007c7386deef77e5570aed"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p1_front_near_upper.png",
+      "bytes": 27157,
+      "sha256": "6423293105d6106b3dcef460f61a0f24c77bb08c649f8abe92ba689c685b20a9"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p1_front_near_upper.png.import",
+      "bytes": 989,
+      "sha256": "b3b83c76f763155b27ca76578679a207d6be2fd82a67b7bb087f49b878719dd1"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p1_head.png",
+      "bytes": 243819,
+      "sha256": "df521856564fba957e119f2f6415faa30bfa82aad728cb1340c4862ecaae2bf8"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p1_head.png.import",
+      "bytes": 953,
+      "sha256": "4d45a1f57df4b6801ccdeaa8346154b4c65928cedcdf9f56aa1fc8e1a413bd2a"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p1_hind_far_lower.png",
+      "bytes": 12880,
+      "sha256": "1baf144bf3972164f945d9d150cb9dac18941ccfbefddd0bd6ca96f0a783b026"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p1_hind_far_lower.png.import",
+      "bytes": 983,
+      "sha256": "3d38b9b97216da4c0121543f61964a5cb768ea2fa2c89ac023e39de259976c12"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p1_hind_far_paw.png",
+      "bytes": 8187,
+      "sha256": "c28e54e5358516252bdb820feff8aa62f098bde859177b18f7e77063faa47b8f"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p1_hind_far_paw.png.import",
+      "bytes": 976,
+      "sha256": "72dcd7996285156f6771e35d3e2125408948681b5062222363859cc063888cd3"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p1_hind_far_upper.png",
+      "bytes": 17954,
+      "sha256": "5a3f111e4162b71c2cabfc31fb0594028414e1d3f9570770006b5b04a49f3189"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p1_hind_far_upper.png.import",
+      "bytes": 983,
+      "sha256": "d988183654b9dc4038b6bf7ed3720f57a368219c471d433808c374cba2f0d709"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p1_hind_near_lower.png",
+      "bytes": 16137,
+      "sha256": "bf52a9142f60a5be6c29eafb824f5d9a2906262bd0566f1395eb30d83506dc22"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p1_hind_near_lower.png.import",
+      "bytes": 986,
+      "sha256": "033b300f01ac92d633ad807259ce1b24b227674d4680b395810de4109c4d6aa9"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p1_hind_near_paw.png",
+      "bytes": 10162,
+      "sha256": "5acd23f4ac01b079efda5e32e934e4884811b2796db14fae383916316d65256a"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p1_hind_near_paw.png.import",
+      "bytes": 980,
+      "sha256": "80a0005a21536a66a3e745c779a1f3548eca55e2e69cd9429da121cb6f8dc817"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p1_hind_near_upper.png",
+      "bytes": 23750,
+      "sha256": "4a6454e197822fe7da4d12ad83fbcb30620021e525a3972c3e3817a36e5a5dcb"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p1_hind_near_upper.png.import",
+      "bytes": 986,
+      "sha256": "df78c4ba19c7c02d678159c6dc014180e433cd821e0724807023788317f59fbb"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p1_tail_01.png",
+      "bytes": 116344,
+      "sha256": "6f61735dd50bfd93afe7ce17047f8219e764ebefe30947be0e701841329516c4"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p1_tail_01.png.import",
+      "bytes": 962,
+      "sha256": "1498c022f8df6851f15b05cad97a410d3c5976e9a3513512bacdf9763491abd2"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p2_body.png",
+      "bytes": 183981,
+      "sha256": "d4ae2b48bee7ff04fe14f3d814dc98aeb6c28e1f39a85a047b172e8af14eaea0"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p2_body.png.import",
+      "bytes": 953,
+      "sha256": "7609780dbb4fd700594cad01e7691f3387d9704bcd9bc00be7324f097d1511b4"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p2_ear_left.png",
+      "bytes": 37808,
+      "sha256": "d173519873ab72059a77491cea7aa8737ad50cb8c3e133afa4dde58c8a72c98b"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p2_ear_left.png.import",
+      "bytes": 965,
+      "sha256": "e51b1876bbc33a9f3ff67590c4836bb5a40b528823eef21a7f72bdcd61e5e014"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p2_ear_right.png",
+      "bytes": 36733,
+      "sha256": "3a3334f438c1e2ffe67d913582d3d6275a89da3977587e24c439ecbc53a41f7e"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p2_ear_right.png.import",
+      "bytes": 968,
+      "sha256": "08f5b1c5e87a99fa960fa6c960aeb251f03478cce3c215fabd012076476b88dd"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p2_eye_closed_left.png",
+      "bytes": 176,
+      "sha256": "f0689c1920cf29e2d95a0d4a4557a6ec80d14553c0b417b6cbcc135488857fb7"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p2_eye_closed_left.png.import",
+      "bytes": 986,
+      "sha256": "129f848d600c5733b382a8c9c1e6cbb7934b78224ad3046eb461d3c50193e808"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p2_eye_closed_right.png",
+      "bytes": 171,
+      "sha256": "ce6dc7f46b50fefc7ff458beca05e524682a7f55236bb22c65e4356995da5101"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p2_eye_closed_right.png.import",
+      "bytes": 989,
+      "sha256": "5f09ed1f744d1d087b58e9fcf3541699fbae00c9edaba0346ddf9cb8d020f50d"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p2_eye_left.png",
+      "bytes": 11172,
+      "sha256": "cc0d1f4ed7eb33bf8d388e16862eef2a5e342936382b62c9cbdfd58c4aa2b652"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p2_eye_left.png.import",
+      "bytes": 965,
+      "sha256": "65e0e379cf6a09c5310382865b7832a1347babe8e9fff688e101ee3dfb7b9cb0"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p2_eye_right.png",
+      "bytes": 11072,
+      "sha256": "423361db627f52b8dd8d507ac2896d1c314521501825835714d694b5d5435ea8"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p2_eye_right.png.import",
+      "bytes": 968,
+      "sha256": "864508e8b6a7961e2d4c1a75a89b0bd3064a24ead575501b8e8aa5a2061d8b6f"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p2_eyeliner_left.png",
+      "bytes": 8946,
+      "sha256": "715ce3b24f03b86cd89eff7c62d81d10089383fe858419f2e0c51a95fa8bc02e"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p2_eyeliner_left.png.import",
+      "bytes": 980,
+      "sha256": "9da09bd883ca019d9ce670163c0cac0e85c21b3950fa3ee15893d90913452d54"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p2_eyeliner_right.png",
+      "bytes": 8236,
+      "sha256": "9d2d05ac9c0bcbbd53aa58a97171fafade784e79250da346ad6bc949ef49b743"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p2_eyeliner_right.png.import",
+      "bytes": 982,
+      "sha256": "c7576d117bc852aa8edfae691224357175529122ae9289ce802000edb25b8ac7"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p2_front_far_lower.png",
+      "bytes": 20399,
+      "sha256": "d1bae096d80cf74dacb88287b05933f6481d83536c5b510ba490a46591f24969"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p2_front_far_lower.png.import",
+      "bytes": 986,
+      "sha256": "8506882bcba80ee349d586619596897a64dce97acff626fed1dc64b60f790439"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p2_front_far_paw.png",
+      "bytes": 9888,
+      "sha256": "29b3bf69a6dc3960511d18c633e3669b983e55096b9613c62cfbd0cd6d70c30f"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p2_front_far_paw.png.import",
+      "bytes": 980,
+      "sha256": "6a29fce4310ab8307661ca099f4060b3e479ad367d6211bd5c4fd9770a8680ad"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p2_front_far_upper.png",
+      "bytes": 26501,
+      "sha256": "67268a8e937f64bc29863a83ca30a44edb63a5b75ff8f151e128df5256b08fa2"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p2_front_far_upper.png.import",
+      "bytes": 986,
+      "sha256": "a17247513d5fe2509e96ffaa49b2fbae90373c54c2db467c27052535663f0855"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p2_front_near_lower.png",
+      "bytes": 21215,
+      "sha256": "11203e2a1d2d02a04dbdda215321f66023b3dafe2d9b334f7db53ded9af2abba"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p2_front_near_lower.png.import",
+      "bytes": 989,
+      "sha256": "9fc4d63030409900470ae8ad419c41daabbe744e95e2cea411400fa259c3a2ba"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p2_front_near_paw.png",
+      "bytes": 8838,
+      "sha256": "4baef42a7afecb09c045ae471791f1d6a38856b9790e6beca194568956a35ab5"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p2_front_near_paw.png.import",
+      "bytes": 982,
+      "sha256": "664adacbf92c6413b719e8e7bf7b51ae708457f7ef69ad9e88159a5f83a2e639"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p2_front_near_upper.png",
+      "bytes": 37029,
+      "sha256": "a141aec1119ac1ac3e965905277b5bc38440ec71d1bd41199bf22c7d2c8ccda4"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p2_front_near_upper.png.import",
+      "bytes": 989,
+      "sha256": "1b19e3d806f96435de56e360556fdde44242cb27947eb87ff47c9e201d7dfcfb"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p2_head.png",
+      "bytes": 114910,
+      "sha256": "82054729a16a815892fdc0be3d17398f6a14f5950baa130a262d3c766b747479"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p2_head.png.import",
+      "bytes": 953,
+      "sha256": "603b5009da3b439d75b6473a3fabf6754e6cd1e6ba2b107fc4d31538dbb894c9"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p2_hind_far_lower.png",
+      "bytes": 21885,
+      "sha256": "91eb9d8b6cbb90a169a8df6a43dbe12b91c681c0469bc7261f4f8814ad3648cb"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p2_hind_far_lower.png.import",
+      "bytes": 982,
+      "sha256": "ae90587c9cb3b006b197bf105c7724040492d65bc81715883d085581e0776739"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p2_hind_far_paw.png",
+      "bytes": 7996,
+      "sha256": "d48a64b34d5ebfa3efda2e8cc0ac03c74d00444c8686fb29f8e2465c50bd81d9"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p2_hind_far_paw.png.import",
+      "bytes": 977,
+      "sha256": "5c8951a033511cfad0c76408616c5c106e42fae4b28ea804ddca101993e19ae7"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p2_hind_far_upper.png",
+      "bytes": 36092,
+      "sha256": "342d039088c1c6e2c8ef6bffa3a7adbb8c77d3a0e89c79331d83cd0cc27898c5"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p2_hind_far_upper.png.import",
+      "bytes": 982,
+      "sha256": "2e29c6366bb431fc622bafc8253f49a701cc34aa60ae40f0f5f57280675fe75d"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p2_hind_near_lower.png",
+      "bytes": 21136,
+      "sha256": "8860e61629ceabe54173f0d407d65a35a56082a42f140224c64b28b0b0e28c29"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p2_hind_near_lower.png.import",
+      "bytes": 986,
+      "sha256": "d777a14db9db65aae4ca2fd7b22c005df3c648eb2e5a2edea0aea8212309f176"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p2_hind_near_paw.png",
+      "bytes": 8299,
+      "sha256": "ddb2daf8c4566d964c0cc002919d90666073cc74b044cb1bda7ccd0d9ba1784c"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p2_hind_near_paw.png.import",
+      "bytes": 980,
+      "sha256": "2b41c1e2eb4ce76cc774cf2d2f537eae911821b4f02beb0eb47839d547f6682d"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p2_hind_near_upper.png",
+      "bytes": 47233,
+      "sha256": "afe4f2f42f0e8a8c77b895ba71bb834be7ca74ac764703af1cb8be2596e15f1a"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p2_hind_near_upper.png.import",
+      "bytes": 986,
+      "sha256": "4801b03b895ff89f022167040ae7ce7fd00c76e5d71e72bc007254612fd3b093"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p2_tail_01.png",
+      "bytes": 164045,
+      "sha256": "ea174421578492f13e7c3e62b9e7c3344297020be4894a432e0f9feb3dbdca91"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p2_tail_01.png.import",
+      "bytes": 962,
+      "sha256": "c48a70c1a4d3fdad70f2f72a84e6002f60cc969773dda0671a5fa3a758cbc327"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p2_tail_02.png",
+      "bytes": 164045,
+      "sha256": "ea174421578492f13e7c3e62b9e7c3344297020be4894a432e0f9feb3dbdca91"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p2_tail_02.png.import",
+      "bytes": 962,
+      "sha256": "820edf95179142c686c5c6f341ed87397e1de16e4109d26b4821f780b2a9bc2d"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p3_body.png",
+      "bytes": 183981,
+      "sha256": "d4ae2b48bee7ff04fe14f3d814dc98aeb6c28e1f39a85a047b172e8af14eaea0"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p3_body.png.import",
+      "bytes": 953,
+      "sha256": "a803a6f7c2f7b2fc9b3b94042e9d8512322fd6e41dc5a095c025fe0e0ef46cdc"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p3_ear_left.png",
+      "bytes": 37808,
+      "sha256": "d173519873ab72059a77491cea7aa8737ad50cb8c3e133afa4dde58c8a72c98b"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p3_ear_left.png.import",
+      "bytes": 964,
+      "sha256": "5778cff33c93e66c325dbb9f7e6899ffc4f47b6ef93791241b3effe07b68dbae"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p3_ear_right.png",
+      "bytes": 36733,
+      "sha256": "3a3334f438c1e2ffe67d913582d3d6275a89da3977587e24c439ecbc53a41f7e"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p3_ear_right.png.import",
+      "bytes": 967,
+      "sha256": "e1fa3083a2d7b9e81ababd88c3efc528936b8eace1eb6496566c6f9cd1187054"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p3_eye_closed_left.png",
+      "bytes": 169,
+      "sha256": "69bed4d828042d8bafee23d566a11e133c14b736f58497ea789879f23b5682f9"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p3_eye_closed_left.png.import",
+      "bytes": 986,
+      "sha256": "88a2925db11ca308d54b3200aa1fc20d728ded7229fdf5bcf662ff55b69e37bd"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p3_eye_closed_right.png",
+      "bytes": 164,
+      "sha256": "4d197e4f7d899c37e65d0903f0e635bc723a769eb78fd38895725a445c023804"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p3_eye_closed_right.png.import",
+      "bytes": 987,
+      "sha256": "93df41e6ccb117487e5373299ddacdd451eb845ac09f59160040f11636093e91"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p3_eye_left.png",
+      "bytes": 9765,
+      "sha256": "267d944cabbb912e7c53ff41b56313d94e3168ece00112496b86aa66db59d4cf"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p3_eye_left.png.import",
+      "bytes": 965,
+      "sha256": "3f6b259cc7d60cd1501c0e1ebe8e6f408c7d5bc6025c7ea45dd46fb9b0dfaf60"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p3_eye_right.png",
+      "bytes": 9722,
+      "sha256": "1f7da486a040ca5fd7f0e40204d42c39eb0d66e5b9e8ba7c5e299a186ff120be"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p3_eye_right.png.import",
+      "bytes": 967,
+      "sha256": "f85bbac349688f6f6b4dd00ea6e2ad4f689b9290919a78762dcdd2b7071f7b61"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p3_eyeliner_left.png",
+      "bytes": 7655,
+      "sha256": "a9a95fd083605f3a4a79c06ba40b468378f2fcd6ea539b51cdf68795e5d1b465"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p3_eyeliner_left.png.import",
+      "bytes": 980,
+      "sha256": "f2c260c71af4f1fe592aa9985a0db289306ca897c9bfac6586fdb255fbe56f44"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p3_eyeliner_right.png",
+      "bytes": 6940,
+      "sha256": "4d5aaa8d56f08cd8144c1018f3dcfa60aac88d31669ad0ece9197c4fe9f440ed"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p3_eyeliner_right.png.import",
+      "bytes": 983,
+      "sha256": "80bb716e841a80558136864b7f979500b29552450f2f4b799ca18f14691aad37"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p3_front_far_lower.png",
+      "bytes": 20399,
+      "sha256": "d1bae096d80cf74dacb88287b05933f6481d83536c5b510ba490a46591f24969"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p3_front_far_lower.png.import",
+      "bytes": 985,
+      "sha256": "b7d360e84f234e20f2e86092d5d0d9b98aac8e5426a6f04a6df906b04de1300c"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p3_front_far_paw.png",
+      "bytes": 9888,
+      "sha256": "29b3bf69a6dc3960511d18c633e3669b983e55096b9613c62cfbd0cd6d70c30f"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p3_front_far_paw.png.import",
+      "bytes": 980,
+      "sha256": "cedc58e18d80d4380d1fddceb3b0ec19fe2ba2b1091b6db97104848b84530f31"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p3_front_far_upper.png",
+      "bytes": 26501,
+      "sha256": "67268a8e937f64bc29863a83ca30a44edb63a5b75ff8f151e128df5256b08fa2"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p3_front_far_upper.png.import",
+      "bytes": 986,
+      "sha256": "47e0ed3880fb53e85d8da0554f62ac7fe26ca57c31cfa4b487a0c3ad1db30d0e"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p3_front_near_lower.png",
+      "bytes": 21215,
+      "sha256": "11203e2a1d2d02a04dbdda215321f66023b3dafe2d9b334f7db53ded9af2abba"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p3_front_near_lower.png.import",
+      "bytes": 989,
+      "sha256": "1f16ad9cba0e6a9f5f9aac77cb0c64616902ed27852847d47a8404ed3477eac6"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p3_front_near_paw.png",
+      "bytes": 8838,
+      "sha256": "4baef42a7afecb09c045ae471791f1d6a38856b9790e6beca194568956a35ab5"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p3_front_near_paw.png.import",
+      "bytes": 983,
+      "sha256": "e278ab0ccbb257aec4199b129a48b1772f807070d7d1c3643eb9fd4573c6c935"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p3_front_near_upper.png",
+      "bytes": 37029,
+      "sha256": "a141aec1119ac1ac3e965905277b5bc38440ec71d1bd41199bf22c7d2c8ccda4"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p3_front_near_upper.png.import",
+      "bytes": 989,
+      "sha256": "d4fa5ebdedcf762bcb386fcc0cb1c8d7947ace29d2436a514ccf5835efc3b0d0"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p3_head.png",
+      "bytes": 114910,
+      "sha256": "82054729a16a815892fdc0be3d17398f6a14f5950baa130a262d3c766b747479"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p3_head.png.import",
+      "bytes": 953,
+      "sha256": "d2824d71d5ef222b230aec69468a3fce658bb1588548b21f49cb655a1dd4a45d"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p3_hind_far_lower.png",
+      "bytes": 21885,
+      "sha256": "91eb9d8b6cbb90a169a8df6a43dbe12b91c681c0469bc7261f4f8814ad3648cb"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p3_hind_far_lower.png.import",
+      "bytes": 983,
+      "sha256": "1961d9afc524d09ad3766bd214f10255345be48e6bf6a72b6463e5b035e352fd"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p3_hind_far_paw.png",
+      "bytes": 7996,
+      "sha256": "d48a64b34d5ebfa3efda2e8cc0ac03c74d00444c8686fb29f8e2465c50bd81d9"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p3_hind_far_paw.png.import",
+      "bytes": 977,
+      "sha256": "ecfda2ece768127c18607f8887a0ed90bbe2019f4508af33cc76390aa20d8f7f"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p3_hind_far_upper.png",
+      "bytes": 36092,
+      "sha256": "342d039088c1c6e2c8ef6bffa3a7adbb8c77d3a0e89c79331d83cd0cc27898c5"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p3_hind_far_upper.png.import",
+      "bytes": 983,
+      "sha256": "a2c2f844867049267ffe17ac9620b38d6f1b71918e64e1945dc238e5033cee6d"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p3_hind_near_lower.png",
+      "bytes": 21136,
+      "sha256": "8860e61629ceabe54173f0d407d65a35a56082a42f140224c64b28b0b0e28c29"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p3_hind_near_lower.png.import",
+      "bytes": 986,
+      "sha256": "4d08d870b768eb188fc5313764e2ec0f4c184c2ff4a9eba19419af153e2f7121"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p3_hind_near_paw.png",
+      "bytes": 8299,
+      "sha256": "ddb2daf8c4566d964c0cc002919d90666073cc74b044cb1bda7ccd0d9ba1784c"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p3_hind_near_paw.png.import",
+      "bytes": 980,
+      "sha256": "e11432208ad0ab64c883a56a1c36ea8273cd7b3529fd52b6a4f3ec5ae16e5a97"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p3_hind_near_upper.png",
+      "bytes": 47233,
+      "sha256": "afe4f2f42f0e8a8c77b895ba71bb834be7ca74ac764703af1cb8be2596e15f1a"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p3_hind_near_upper.png.import",
+      "bytes": 986,
+      "sha256": "a51d9472b3a8eede567985f3ed62a30bcfe707c019170b4c67139487ae8d0dd1"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p3_tail_01.png",
+      "bytes": 164045,
+      "sha256": "ea174421578492f13e7c3e62b9e7c3344297020be4894a432e0f9feb3dbdca91"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p3_tail_01.png.import",
+      "bytes": 962,
+      "sha256": "5271031f1c57f7f1bddfa59b222b7feb557a968f4b6222c74252bc24816bce3e"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p3_tail_02.png",
+      "bytes": 164045,
+      "sha256": "ea174421578492f13e7c3e62b9e7c3344297020be4894a432e0f9feb3dbdca91"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p3_tail_02.png.import",
+      "bytes": 962,
+      "sha256": "12f3c04bbb79b3d07a358eea6b62c8b5252111cff7b99931faa568f372366ced"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p3_tail_03.png",
+      "bytes": 164045,
+      "sha256": "ea174421578492f13e7c3e62b9e7c3344297020be4894a432e0f9feb3dbdca91"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p3_tail_03.png.import",
+      "bytes": 962,
+      "sha256": "86b65588c7249698ca88051798ffb1c5ca099c85126c931542ed4540ddb29af4"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p3_tail_04.png",
+      "bytes": 164045,
+      "sha256": "ea174421578492f13e7c3e62b9e7c3344297020be4894a432e0f9feb3dbdca91"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p3_tail_04.png.import",
+      "bytes": 962,
+      "sha256": "69924e85f1629ff858ebdbb6a43b35c3b87216054156be9a137e1c8da147fe59"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p3_tail_05.png",
+      "bytes": 164045,
+      "sha256": "ea174421578492f13e7c3e62b9e7c3344297020be4894a432e0f9feb3dbdca91"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p3_tail_05.png.import",
+      "bytes": 961,
+      "sha256": "0d861db2a4f23f57fd4c00f25a80da6b9851192a7567a232ebaa3d3400d39563"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p3_tail_06.png",
+      "bytes": 164045,
+      "sha256": "ea174421578492f13e7c3e62b9e7c3344297020be4894a432e0f9feb3dbdca91"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p3_tail_06.png.import",
+      "bytes": 962,
+      "sha256": "f7340a9265663c22f1091bc995a9d88e06a18de6a1014f4be7abe39bacfb2e77"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p3_tail_07.png",
+      "bytes": 164045,
+      "sha256": "ea174421578492f13e7c3e62b9e7c3344297020be4894a432e0f9feb3dbdca91"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p3_tail_07.png.import",
+      "bytes": 962,
+      "sha256": "4fb077985ec977ed1749897e18557e93ed838113087a13f7c7bd5211e18329fa"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p3_tail_08.png",
+      "bytes": 164045,
+      "sha256": "ea174421578492f13e7c3e62b9e7c3344297020be4894a432e0f9feb3dbdca91"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p3_tail_08.png.import",
+      "bytes": 962,
+      "sha256": "377660ac543e6cafd23e1c8fb3c12ea757f3f5472f8a7a565177ff97bbab5935"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p3_tail_09.png",
+      "bytes": 164045,
+      "sha256": "ea174421578492f13e7c3e62b9e7c3344297020be4894a432e0f9feb3dbdca91"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/images/p3_tail_09.png.import",
+      "bytes": 962,
+      "sha256": "9548accb0d2cd9b147a6aa91c7d5c4fe0945d4bf49ba91a44dbd0fc912f5e201"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/layers/fox_p1_registered.ora",
+      "bytes": 1471634,
+      "sha256": "e4b29250aad4bf0221c1b4120c004bfa4c368e8c4453e1ba96da4a2acc42c0bf"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/layers/fox_p2_registered.ora",
+      "bytes": 1454422,
+      "sha256": "800bccf8ef4772398e3adbcdc3ede78844aa350d5908a48d73cf6bb111959a86"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/layers/fox_p3_registered.ora",
+      "bytes": 1443619,
+      "sha256": "b6b44a422eeeaf97b419397f15a9b58bdd88100047aad88fdb45472562326365"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/manifest.json",
+      "bytes": 2712,
+      "sha256": "49c02945f30b70d738d2f2a359ac645f5d635043da62c62475c0dfc4022c0ed7"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/registration/p1.json",
+      "bytes": 6970,
+      "sha256": "de03c40c3e6ff11e2c50700d79f8c119d00b19fb3ced31546e11768e1026a6d1"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/registration/p2.json",
+      "bytes": 6969,
+      "sha256": "0eb495b683fa3de46a3916e9a6e57b12e0063d2e59e59b7e0e344c756c366869"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/registration/p3.json",
+      "bytes": 6938,
+      "sha256": "f8401b4c7b30f515ab9ec2417a41cdd66525e2aa8d2dba1aea929f6440a41236"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/sources/adult_blank_face.png",
+      "bytes": 784965,
+      "sha256": "10fc5d9710c765bc38e9c3693692c2a1ddcfb8c3bcb2db5cdc48affba66ff0d2"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/sources/adult_blank_face.png.import",
+      "bytes": 981,
+      "sha256": "346de8398547b5ce9447daf6f512fb302ab1304ea8685ede4a082baa04a88ac6"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/sources/adult_master.png",
+      "bytes": 740823,
+      "sha256": "27f0fcee010274a2f6eb2a3dbe98557b63c1c7ebe8193e6c20ea8a345c955aea"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/sources/adult_master.png.import",
+      "bytes": 969,
+      "sha256": "c16ce2b403240a2bf3056d6b32a811a37fc289464ee1aab2802549548165d005"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/sources/p1_blank_face.png",
+      "bytes": 732847,
+      "sha256": "21181e83338b9784e7a770e0fc77fabd3a240cfe78a35e745b81a536875641a1"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/sources/p1_blank_face.png.import",
+      "bytes": 972,
+      "sha256": "c22168d57db31c7750e7ccf60dbb763f99038ecc850f5591403f4fc420711df6"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/sources/p1_master.png",
+      "bytes": 697685,
+      "sha256": "933300e62f26302c924735826ac805a2804c1398d65e933c7ced6d2a68b543af"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/sources/p1_master.png.import",
+      "bytes": 959,
+      "sha256": "1eaf543733bf066125425f20a2ffc66e967a7028b2a979152d0366aa73d4d448"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/spine/fox_phase1.json",
+      "bytes": 75948,
+      "sha256": "3043cf98a10b124112855023870af739e3acb9e302b39e1b3dfcaea31fe0915b"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/spine/fox_phase2.json",
+      "bytes": 152558,
+      "sha256": "588e15b03749d2cff8866ed9e9df383114df6e2a37b9be48fbda0a9caccdc420"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/spine/fox_phase3.json",
+      "bytes": 652924,
+      "sha256": "3ba268617c527a38e840c0a3f9431306f08841697ad8d7f939028f23fa3113a2"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/spine/fox_v4.atlas",
+      "bytes": 9027,
+      "sha256": "3cfb57754de2a4b8bea1d485b376819244d0e84c5e9a036c97d8cf73fb86deae"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/spine/fox_v4_atlas_0.png",
+      "bytes": 2355154,
+      "sha256": "f62f149b9776f06adf68a793a2ec0586240bb844bdbee3033ab7541b17fbe334"
+    },
+    {
+      "path": "Art/Qingqiu/FoxRigV4/spine/fox_v4_atlas_0.png.import",
+      "bytes": 972,
+      "sha256": "ce6c6919a63e3037abc7bc9594b3ea73db428227e6c73e1e7f0c4057e5807f0c"
+    },
+    {
+      "path": "Art/Qingqiu/HunterMasterV4/animation_info.json",
+      "bytes": 4909,
+      "sha256": "e590d22bd108b741b01385362726e4193a0a6cb1d45443fb2666e1f6dacfd065"
+    },
+    {
+      "path": "Art/Qingqiu/HunterMasterV4/images/arm_L.png",
+      "bytes": 20951,
+      "sha256": "aec74ef869e2c4b36ee5eb62e8167541cd35c611735820648826e8427e4cff7d"
+    },
+    {
+      "path": "Art/Qingqiu/HunterMasterV4/images/arm_L.png.import",
+      "bytes": 953,
+      "sha256": "75408a1b3bec58eca0266adc2ab5a7866039e3ce362f712fdc7939193ea85e1d"
+    },
+    {
+      "path": "Art/Qingqiu/HunterMasterV4/images/arm_R.png",
+      "bytes": 20093,
+      "sha256": "c8bbae87ba90d2b8f84c23da46f500e18f8cac908fd4e76a10ddfdf671d16843"
+    },
+    {
+      "path": "Art/Qingqiu/HunterMasterV4/images/arm_R.png.import",
+      "bytes": 953,
+      "sha256": "170f3b08aced76f86c06149b2448e731faa63af2412acb5c3fd033531d3dbcee"
+    },
+    {
+      "path": "Art/Qingqiu/HunterMasterV4/images/foot_L.png.import",
+      "bytes": 956,
+      "sha256": "14d3595652807583ae5d048cff943583106e09fc8c96ccc96303f0e5308467d4"
+    },
+    {
+      "path": "Art/Qingqiu/HunterMasterV4/images/foot_R.png.import",
+      "bytes": 955,
+      "sha256": "7215317acbb77e9d3b4b7602178c2aa16e92ed6d3daeba5e9921fd1c7a364da6"
+    },
+    {
+      "path": "Art/Qingqiu/HunterMasterV4/images/hair_front.png.import",
+      "bytes": 968,
+      "sha256": "eb48f2c37b07ce5fe8304092c8599ee8b7e4722ab9b310ec43c8aa25cd8bfbbc"
+    },
+    {
+      "path": "Art/Qingqiu/HunterMasterV4/images/hair_pin.png.import",
+      "bytes": 961,
+      "sha256": "b11bc36054b97a049f4f70ec02d2805ce07be9e5ea08913e6cb8f7febf887f35"
+    },
+    {
+      "path": "Art/Qingqiu/HunterMasterV4/images/hand_L.png.import",
+      "bytes": 956,
+      "sha256": "dca7e8e37fc200d617928739c2de8bb0ee6ab59864e811d063281fb76278d5a2"
+    },
+    {
+      "path": "Art/Qingqiu/HunterMasterV4/images/hand_R.png.import",
+      "bytes": 955,
+      "sha256": "e8c25ef8c564bc38bc67d32602fe96cdb5923f4cf5dce67c461c4f0fd2761cf2"
+    },
+    {
+      "path": "Art/Qingqiu/HunterMasterV4/images/head.png",
+      "bytes": 295515,
+      "sha256": "426df6f5ba7116f4279845888022d145ef9409abdad1de26047ec91687df92eb"
+    },
+    {
+      "path": "Art/Qingqiu/HunterMasterV4/images/head.png.import",
+      "bytes": 950,
+      "sha256": "4fb7cc669a3183dd100dad7e0916fd8204a29f24b2e037356ef235d4cb89a9f5"
+    },
+    {
+      "path": "Art/Qingqiu/HunterMasterV4/images/leg_L.png",
+      "bytes": 8442,
+      "sha256": "f9cc6d8ca2e814d57ac361de9b47e235167e1dfd2dffb3628e9990ae9dab1426"
+    },
+    {
+      "path": "Art/Qingqiu/HunterMasterV4/images/leg_L.png.import",
+      "bytes": 953,
+      "sha256": "52b395e1aad565ae0a63136b570fbe3e7d164bb11c440d05a434d453194c484e"
+    },
+    {
+      "path": "Art/Qingqiu/HunterMasterV4/images/leg_R.png",
+      "bytes": 7764,
+      "sha256": "0fc023e2239410c5b2987749e9a2a4d170984c5600a706ba14d8d15517f8944b"
+    },
+    {
+      "path": "Art/Qingqiu/HunterMasterV4/images/leg_R.png.import",
+      "bytes": 953,
+      "sha256": "0022a95b7ac8d12a2afd8b1ebbbcc14c2184a7bf2888214e0cea82bf465e16fe"
+    },
+    {
+      "path": "Art/Qingqiu/HunterMasterV4/images/mantle.png.import",
+      "bytes": 956,
+      "sha256": "65bb57aeda874ded83d451ae4ec73f10d9ad49abef1fdbd280e9ed539d0c28e5"
+    },
+    {
+      "path": "Art/Qingqiu/HunterMasterV4/images/sash.png.import",
+      "bytes": 950,
+      "sha256": "ab95e38428b3be7c9e0ba705fcb2b2c902fd9443461043fc30150c07a138419d"
+    },
+    {
+      "path": "Art/Qingqiu/HunterMasterV4/images/spear.png",
+      "bytes": 73121,
+      "sha256": "cef10fcfb223254c5a2f14b9ad88674c0465d1897bfa3d2e522227abe5f15cd8"
+    },
+    {
+      "path": "Art/Qingqiu/HunterMasterV4/images/spear.png.import",
+      "bytes": 952,
+      "sha256": "370ff20af9a554708c8a13aa9d98c3c1716560f778b84b3df0ad1015b4acbed8"
+    },
+    {
+      "path": "Art/Qingqiu/HunterMasterV4/images/talisman.png.import",
+      "bytes": 962,
+      "sha256": "8794701f35ff78d815b6a55a3ab7541f8576e0c2f9be024c2fb8f7e5055b5c42"
+    },
+    {
+      "path": "Art/Qingqiu/HunterMasterV4/images/torso.png",
+      "bytes": 115369,
+      "sha256": "d2675500d31326b21e59718789c76f87418a5dedbe45e1cf10682f3ddd5aad42"
+    },
+    {
+      "path": "Art/Qingqiu/HunterMasterV4/images/torso.png.import",
+      "bytes": 953,
+      "sha256": "1c98a2c70021437885f2a87899697239ef0867821cd1b422fed3dbf5128f30c0"
+    },
+    {
+      "path": "Art/Qingqiu/HunterMasterV4/provenance.json",
+      "bytes": 653,
+      "sha256": "06461747dd408b037e405707ccfcd8f4cb1d588ada17d9563efe4600b511a201"
+    },
+    {
+      "path": "Art/Qingqiu/HunterMasterV4/registration.json",
+      "bytes": 2776,
+      "sha256": "709bcf04d2a9bbdd1a3b6fb0f6a3dc5723d697720a72328e3661f2d21ff76814"
+    },
+    {
+      "path": "Art/Qingqiu/HunterMasterV4/runtime_mix.json",
+      "bytes": 570,
+      "sha256": "328907db938fcd9165cba2de9b4fe24f0e20ed8d76316f5d0153b14465ab4354"
+    },
+    {
+      "path": "Art/Qingqiu/HunterMasterV4/source_manifest.json",
+      "bytes": 209,
+      "sha256": "030b1f97b496f9939adb8943aa3ca325e3c8bddf6a5915b20fe9aa4ae5ad08a4"
+    },
+    {
+      "path": "Art/Qingqiu/HunterMasterV4/sources/user_master.png",
+      "bytes": 700946,
+      "sha256": "acfe9cbd93dbee20fad8e972a665e0d41acbcfa8381972e7fd4bd0d35c56d4bb"
+    },
+    {
+      "path": "Art/Qingqiu/HunterMasterV4/sources/user_master.png.import",
+      "bytes": 972,
+      "sha256": "2a2bafbd840d399f8259f94118ed74d7b026d026b5e5ff90453556e85e35fd0f"
+    },
+    {
+      "path": "Art/Qingqiu/HunterMasterV4/spine/hunter.atlas",
+      "bytes": 786,
+      "sha256": "bf5d01c2c8daa180999723d2036cbe9bf9cff558f79cfab6b6bb7f66679265e1"
+    },
+    {
+      "path": "Art/Qingqiu/HunterMasterV4/spine/hunter.json",
+      "bytes": 2596254,
+      "sha256": "b078384ee4d89bb15b0ac103d66226c4ca1277ebc201aaec528f1e56c0a6eec4"
+    },
+    {
+      "path": "Art/Qingqiu/HunterMasterV4/spine/hunter.png",
+      "bytes": 582188,
+      "sha256": "0b5497123bb9f0dd0b0a1670c76b9b8880e6629fdb60ee4fa3327c2f6a270328"
+    },
+    {
+      "path": "Art/Qingqiu/HunterMasterV4/spine/hunter.png.import",
+      "bytes": 955,
+      "sha256": "f2bd133b7e6eccc961efc06e86cad92625cbebd77d0d8b576cd9cca9a77eab2e"
+    },
+    {
+      "path": "Art/Qingqiu/HunterMeleeV3/impact_burst.png",
+      "bytes": 1112929,
+      "sha256": "e31221a57488b63ce8b9bce59b70c4d21d73399fc8ef839e63ed1da81b52ca55"
+    },
+    {
+      "path": "Art/Qingqiu/HunterMeleeV3/impact_burst.png.import",
+      "bytes": 965,
+      "sha256": "0d621f50af4bab19979a49ebf598e2b54d9f965ed97a64ce439f2f3164cd1e75"
+    },
+    {
+      "path": "Art/Qingqiu/HunterMeleeV3/spear_arc.png",
+      "bytes": 1372081,
+      "sha256": "1ec1112ea4716cb28e64c1ae64c025f6292e072abcbea71736eab68d190e7fc1"
+    },
+    {
+      "path": "Art/Qingqiu/HunterMeleeV3/spear_arc.png.import",
+      "bytes": 957,
+      "sha256": "5d28c6b3d1d939e2e47a8d796aa114b5e7559042c4589ed3b621bea81256c148"
+    },
+    {
+      "path": "Art/Qingqiu/RuinMaterialsV5/manifest.json",
+      "bytes": 2525,
+      "sha256": "be080e06e6b9bedc7a14b7e1ef9150be1241dad4e5618bf9d8ef3996d10e9dc1"
+    },
+    {
+      "path": "Art/Qingqiu/RuinMaterialsV5/sources/floating_rock_chunk_v5.png",
+      "bytes": 473118,
+      "sha256": "f45d368b9a49a09e8761a78cb52aca9e652c0d689ad1ed03ef223bcbac5e6535"
+    },
+    {
+      "path": "Art/Qingqiu/RuinMaterialsV5/sources/floating_rock_chunk_v5.png.import",
+      "bytes": 1005,
+      "sha256": "2a3cce3fda10cfbfd11f68edb0717175cacbdacf57170977e082b2e3430ce3e0"
+    },
+    {
+      "path": "Art/Qingqiu/RuinMaterialsV5/sources/floating_rock_splinter_v5.png",
+      "bytes": 958453,
+      "sha256": "338081d6b39ffc1cae7d485cf6b7d518f1c507168545ba4780aad12ff65c556e"
+    },
+    {
+      "path": "Art/Qingqiu/RuinMaterialsV5/sources/floating_rock_splinter_v5.png.import",
+      "bytes": 1015,
+      "sha256": "2ee9d86b9f681d59082b96fc9e1007f60e5e315885aa28d3b556cf51ae0934fc"
+    },
+    {
+      "path": "Art/Qingqiu/RuinMaterialsV5/sources/ink_ground_fractures_v5.png",
+      "bytes": 173516,
+      "sha256": "fe7ce77e1dc973e041f2c3880f7f8eacbbdbaf8ceecc1f1ba2d65df908036b5f"
+    },
+    {
+      "path": "Art/Qingqiu/RuinMaterialsV5/sources/ink_ground_fractures_v5.png.import",
+      "bytes": 1009,
+      "sha256": "247e01dce9ca66b92911e621f4f2282c4f153596f3447eac17b9a6edce3c4a24"
+    },
+    {
+      "path": "Art/Qingqiu/SkillIcons/heavy.svg",
+      "bytes": 560,
+      "sha256": "1b560447a221ccd2268eef0e00421797ffee97e1c97fceadae9741b06b236c55"
+    },
+    {
+      "path": "Art/Qingqiu/SkillIcons/heavy.svg.import",
+      "bytes": 1039,
+      "sha256": "217573320e7c6c564dad2c0a8a4eb7963e364b52398705bb649492efc0de20c3"
+    },
+    {
+      "path": "Art/Qingqiu/SkillIcons/sweep.svg",
+      "bytes": 469,
+      "sha256": "781679ff93515e60697a7df7f550a72c86d8d859135fd7e8f234977aeadabf5e"
+    },
+    {
+      "path": "Art/Qingqiu/SkillIcons/sweep.svg.import",
+      "bytes": 1038,
+      "sha256": "01d12cc26e3c1c6de4be77b19593345bf3189fc50a234fafa1951c50238b3465"
+    },
+    {
+      "path": "Art/Qingqiu/SkillIcons/thrust.svg",
+      "bytes": 500,
+      "sha256": "2b6c552ad2b4582f21e8219bc56ae81061c18e5b1d418bdd059650e5e507c9e7"
+    },
+    {
+      "path": "Art/Qingqiu/SkillIcons/thrust.svg.import",
+      "bytes": 1042,
+      "sha256": "89a75588ed76795d41abee0056f7df2950515a722edab9d19b3396553d84472d"
+    },
+    {
+      "path": "Art/Qingqiu/SkillIcons/ward.svg",
+      "bytes": 522,
+      "sha256": "671e78fdf8755ad0e7f5daa2bf746c8d12644ea02cc7bbd4bfecc8cec4d6aadf"
+    },
+    {
+      "path": "Art/Qingqiu/SkillIcons/ward.svg.import",
+      "bytes": 1035,
+      "sha256": "df441b902debbddf421c1125a5c45d9712f2141c67e6770ca9d9789a34f414b1"
+    },
+    {
+      "path": "Art/Qingqiu/clean_ground_v4.png",
+      "bytes": 1072728,
+      "sha256": "82712d76610c78168e0c4becf3b1ece3f830dc645f9dbb1e602c65ad9151332d"
+    },
+    {
+      "path": "Art/Qingqiu/clean_ground_v4.png.import",
+      "bytes": 961,
+      "sha256": "1e140634b4a185fda141b052ee2e7a13c8585b172b241e8c3711089bfdef133f"
+    },
+    {
+      "path": "Art/Qingqiu/ink_broadleaf_v4.png",
+      "bytes": 463051,
+      "sha256": "e534529028f0e8cd9d26630651bb4ac9c8f4f5800fc4d37f002a92f709b38b00"
+    },
+    {
+      "path": "Art/Qingqiu/ink_broadleaf_v4.png.import",
+      "bytes": 963,
+      "sha256": "74956dfd8b58a826f6b330b3b7e724456325bc910a55d3b3b5edc6280b46331c"
+    },
+    {
+      "path": "Art/Qingqiu/ink_fern_v4.png",
+      "bytes": 120184,
+      "sha256": "8b8d7337cfcd2dfc98007b9aac74a119c9a95cc7f743fa039b0f1ead3c1a7845"
+    },
+    {
+      "path": "Art/Qingqiu/ink_fern_v4.png.import",
+      "bytes": 949,
+      "sha256": "4872928180da45dda765565acaee79954c5723171800486aa33f98aa12a278a3"
+    },
+    {
+      "path": "Art/Qingqiu/ink_fir_v4.png",
+      "bytes": 290921,
+      "sha256": "403f101e2231dbe109992a7987742c23e91bd251070672597d94597745ab2461"
+    },
+    {
+      "path": "Art/Qingqiu/ink_fir_v4.png.import",
+      "bytes": 946,
+      "sha256": "a73907db4adfad5fcb2b8f6093dca247da19c2135b1e0257c4213ca881d48a46"
+    },
+    {
+      "path": "Art/Qingqiu/ink_grass_v4.png",
+      "bytes": 97290,
+      "sha256": "9186cbe118a6acbf9e3384f76c1a7a5f5272ff6378ed2d2a346c3f4241a9672d"
+    },
+    {
+      "path": "Art/Qingqiu/ink_grass_v4.png.import",
+      "bytes": 952,
+      "sha256": "69067148ab3c88153e36654e5120b8eedbc837c466f4eca3e837c06a79ee5a47"
+    },
+    {
+      "path": "Art/Qingqiu/ink_mushrooms_v4.png",
+      "bytes": 119430,
+      "sha256": "7295f39ac14d767d1517037e3d399387358c53db84ce60d43772536727b492d9"
+    },
+    {
+      "path": "Art/Qingqiu/ink_mushrooms_v4.png.import",
+      "bytes": 963,
+      "sha256": "b67dd5769e534e8153e2bda4da744252906bee2ffe64562631031b0b6e91d7dd"
+    },
+    {
+      "path": "Art/Qingqiu/ink_rock_v4.png",
+      "bytes": 85656,
+      "sha256": "75ee416bd9d52a20ccc1312829211a2b1c9d54779024adf23e3da04a396eac57"
+    },
+    {
+      "path": "Art/Qingqiu/ink_rock_v4.png.import",
+      "bytes": 949,
+      "sha256": "3c62c6bcabbac41696d47f9e886528c4cc13783d9684226c2206670e2a65c23b"
+    },
+    {
+      "path": "Data/Qingqiu/combat_audio.json",
+      "bytes": 5739,
+      "sha256": "e7e19d469f3c61ea8a81b5bd8774bfd08dff52b7f28a117c29632eec048e7ed7"
+    },
+    {
+      "path": "Data/Qingqiu/encounter_balance.json",
+      "bytes": 5342,
+      "sha256": "6a721c60cd536de696aa7c0eda4c3ddf102bdf72267f4ae6c63b120b80b66870"
+    },
+    {
+      "path": "Data/Qingqiu/flora_layout_v6.json",
+      "bytes": 35454,
+      "sha256": "2c65470c10891a5da384d16c9a806c734d01403418d74eef8783b1590f964312"
+    },
+    {
+      "path": "Data/Qingqiu/fox_action_library.json",
+      "bytes": 612220,
+      "sha256": "1a0446238b0a4cbe3d30d30bea725f3eb2ee9316c8234d1a2ab4ddf9e91bcaac"
+    },
+    {
+      "path": "Data/Qingqiu/fox_tail_finish.json",
+      "bytes": 1859,
+      "sha256": "a290fa8dd7dd8ed95a6446f58fcf46366b04d1c4685246c1326c8f5ea18f47cb"
+    },
+    {
+      "path": "Data/Qingqiu/player_melee.json",
+      "bytes": 1408,
+      "sha256": "245d9f1689999c054533a25d60a0ec31fd5530eaec6f44b7cc92847729e7dcd9"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1086,
+      "sha256": "27c18b9fd470d5a907c07ddfb15fd1b7745ee62ead4bfb39c1b502decba10d6c"
+    },
+    {
+      "path": "Scenes/Player/Sprite/Player_Idle1.png",
+      "bytes": 636,
+      "sha256": "bcb09e73d251dec41476a7284f4c4788e4753d7751fe093d73429ad7964cb5b8"
+    },
+    {
+      "path": "Scenes/Player/Sprite/Player_Idle1.png.import",
+      "bytes": 961,
+      "sha256": "fe6544f2e6a53d668ad2642a7087021fc5b202e1c5dbe4ec5c2abedb7f6764da"
+    },
+    {
+      "path": "Scenes/Qingqiu/Effects/GhostFire.tscn",
+      "bytes": 1325,
+      "sha256": "171b85da8adc55cb78a44307a836442ad2a69f6a37dbbbd16a3d139f81fb41be"
+    },
+    {
+      "path": "Scenes/Qingqiu/FoxRigV4/FoxActionWorkbench.tscn",
+      "bytes": 195,
+      "sha256": "260c785e0379bd8872f6d6873b5805f311278cec42a08d986892473eaf52aba3"
+    },
+    {
+      "path": "Scenes/Qingqiu/FoxRigV4/FoxPhase1.tscn",
+      "bytes": 71964,
+      "sha256": "d5a2d07752d9bc61cf26b75ab9fcdd8eafc4422a7b0841156933afb99c770fbf"
+    },
+    {
+      "path": "Scenes/Qingqiu/FoxRigV4/FoxPhase2.tscn",
+      "bytes": 91371,
+      "sha256": "152a46560497f0e8ed848d414f9fdac032d9e65a1086d66f05acab5c4573c137"
+    },
+    {
+      "path": "Scenes/Qingqiu/FoxRigV4/FoxPhase3.tscn",
+      "bytes": 232401,
+      "sha256": "bfdedc760cac62ef0df00d0cd0274cc0584018dd6e8013295dc7c0380b1ddd22"
+    },
+    {
+      "path": "Scenes/Qingqiu/HunterMasterV4/HunterAvatar.tscn",
+      "bytes": 182,
+      "sha256": "800003a7f05af81012b301ac795cf216026604f82d0268696f69772cecee2d8b"
+    },
+    {
+      "path": "Scenes/Qingqiu/HunterMasterV4/HunterWorkbench.tscn",
+      "bytes": 200,
+      "sha256": "3b43aef46ddcd1d7d2fc08a08905270b4a3a0ce36fce099fb0e374dfaa3b4f79"
+    },
+    {
+      "path": "Scenes/Qingqiu/QingqiuArena.tscn",
+      "bytes": 207919,
+      "sha256": "b033625375df40a2b4bae75e491926df1f33c60543b5cc8c27a42a5e055bce47"
+    },
+    {
+      "path": "Scenes/Qingqiu/RESTORED_SELECTED_AUDIO.md",
+      "bytes": 4166,
+      "sha256": "d9ed84e1bba75a9aafc8e984000caa967ddfa0d3dfe7b60f29418da683b34d33"
+    },
+    {
+      "path": "Scripts/Managers/AudioManager.gd",
+      "bytes": 1967,
+      "sha256": "e51029ea0d940949e32b1d301c68e7a2701e647a269aff2ba0453fd5d24750b7"
+    },
+    {
+      "path": "Scripts/Managers/AudioManager.gd.uid",
+      "bytes": 20,
+      "sha256": "b83202595bd054f59d81fddcd3e577de664df943b52ee9732b1cedde4296c8f6"
+    },
+    {
+      "path": "Scripts/Managers/GameManager.gd",
+      "bytes": 427,
+      "sha256": "6ee318cddf05b2394bbd177e575ba03da573d332e423e8efcfe475907c1460db"
+    },
+    {
+      "path": "Scripts/Managers/GameManager.gd.uid",
+      "bytes": 20,
+      "sha256": "0071c4f563c2bde48d16405ca8b3eaab6c75dbb7068bc394cebc2edb24d16f7d"
+    },
+    {
+      "path": "Scripts/Qingqiu/arena.gd",
+      "bytes": 14347,
+      "sha256": "f5784fe9432bdb58a734dac97cbe65ba6f065fbbfe089e3427594cd8410a4995"
+    },
+    {
+      "path": "Scripts/Qingqiu/arena.gd.uid",
+      "bytes": 20,
+      "sha256": "fedfecaebbe2f3cffeffe72bc7851a1893fc72e6adbafaf30c5d1fa816336aa2"
+    },
+    {
+      "path": "Scripts/Qingqiu/arena_depth_order.gd",
+      "bytes": 1939,
+      "sha256": "f491de16ed13514be8d34c2abb017ee8cb74bd3ce2d5842d539feb7dd2b02c9a"
+    },
+    {
+      "path": "Scripts/Qingqiu/arena_depth_order.gd.uid",
+      "bytes": 20,
+      "sha256": "407b149271d058e6dab0fa6161ef6f436456a1ea22cd83cbd1e9d5d943f54674"
+    },
+    {
+      "path": "Scripts/Qingqiu/attack_scope.gd",
+      "bytes": 1379,
+      "sha256": "19fef4a26df2710ec7fe7a7ec18dc867ff98470430b7ca261110b737be608fd3"
+    },
+    {
+      "path": "Scripts/Qingqiu/attack_scope.gd.uid",
+      "bytes": 20,
+      "sha256": "510b7d374dd1dded0fa782f7cacfb5a0e83beceae86e69c1956b33359926b2c4"
+    },
+    {
+      "path": "Scripts/Qingqiu/boss_health_bar.gd",
+      "bytes": 3035,
+      "sha256": "a51958b35a1b35af3624cbfb7870be344b3ca34a35145bb3936683461fea5000"
+    },
+    {
+      "path": "Scripts/Qingqiu/boss_health_bar.gd.uid",
+      "bytes": 20,
+      "sha256": "c82bbeea1e82d369d173b3093ebfeaa5658a7397b30b6a2673525fc60b0389b0"
+    },
+    {
+      "path": "Scripts/Qingqiu/charm_heart_projectile.gd",
+      "bytes": 3254,
+      "sha256": "be331510229c4433066b48301c18a5c5f589f114bab776478b5aec6f1f5331d7"
+    },
+    {
+      "path": "Scripts/Qingqiu/charm_heart_projectile.gd.uid",
+      "bytes": 20,
+      "sha256": "93bbdd869e26b9ce4fd3888af07af038870db0375367b5895c27845e742af213"
+    },
+    {
+      "path": "Scripts/Qingqiu/combat_audio.gd",
+      "bytes": 9663,
+      "sha256": "c4f75f9ba2cd7fcbe76928c0ec72724f4f0d9dccffb73180d15372a64a9c6edb"
+    },
+    {
+      "path": "Scripts/Qingqiu/combat_audio.gd.uid",
+      "bytes": 20,
+      "sha256": "1b7f22cb4f9c98ed9a35446bda8d3953725540de261dbb0a4154e2104708087e"
+    },
+    {
+      "path": "Scripts/Qingqiu/cub_departure_mist.gd",
+      "bytes": 1602,
+      "sha256": "95a7106af03fea71a31d38a243d760fe1bcc72c15c59437c77322b309cce487e"
+    },
+    {
+      "path": "Scripts/Qingqiu/cub_departure_mist.gd.uid",
+      "bytes": 20,
+      "sha256": "96d67b4b125b0630a42f37a8d7db8716c8f35b7582a2169da0445468a06b9759"
+    },
+    {
+      "path": "Scripts/Qingqiu/developer_phase_test.gd",
+      "bytes": 5036,
+      "sha256": "4d2506f81f1a93971cffd5b1901fbfa3d3bd3ace1823d336e7617a78940e2f06"
+    },
+    {
+      "path": "Scripts/Qingqiu/developer_phase_test.gd.uid",
+      "bytes": 19,
+      "sha256": "883d09978b0e44245b95ac1605bd8bc6bae32121df1c59778905b46476ac9fd7"
+    },
+    {
+      "path": "Scripts/Qingqiu/encounter_hazard.gd",
+      "bytes": 3529,
+      "sha256": "57d50d31eb2b049f68d19052d29af4cfa216ca0689940f4689d4dd2f9a90d593"
+    },
+    {
+      "path": "Scripts/Qingqiu/encounter_hazard.gd.uid",
+      "bytes": 20,
+      "sha256": "ae357a1282f60061209887eff55d84b620049b8a15f53b5f166d8066683e0ea6"
+    },
+    {
+      "path": "Scripts/Qingqiu/encounter_hud.gd",
+      "bytes": 3718,
+      "sha256": "c03c810fb59df996367dbd83177f9ee75a61dc071e8281e752a274531c6f3f86"
+    },
+    {
+      "path": "Scripts/Qingqiu/encounter_hud.gd.uid",
+      "bytes": 19,
+      "sha256": "b81f549fce05cc1c6afd2771a21958a0f231b8ec5d82b55e0d8c1e389387da7b"
+    },
+    {
+      "path": "Scripts/Qingqiu/environment_motion.gd",
+      "bytes": 9249,
+      "sha256": "dd4556a0bed29096c6626ebf41b2cc80ea2a78b035c61a14e573599dc61ca98c"
+    },
+    {
+      "path": "Scripts/Qingqiu/environment_motion.gd.uid",
+      "bytes": 20,
+      "sha256": "d1ef15f804ca1521bdc7df74d380956e738480b055568325445e63cecf6d5657"
+    },
+    {
+      "path": "Scripts/Qingqiu/fox_action_player.gd",
+      "bytes": 5121,
+      "sha256": "6530e0805cb52ff55eca68dde0e03d5e0ff8530e35029c84cb64ce0a10d9291f"
+    },
+    {
+      "path": "Scripts/Qingqiu/fox_action_player.gd.uid",
+      "bytes": 20,
+      "sha256": "bfde0b0286b58fc97b77e37ebc5731df349d2bb9bef32b2c2d608efe042ee690"
+    },
+    {
+      "path": "Scripts/Qingqiu/fox_action_workbench.gd",
+      "bytes": 6525,
+      "sha256": "b3e975aee1d224193c7193afe7c3a713efbb8ef5ceeb9c0c0338063c1fd27d96"
+    },
+    {
+      "path": "Scripts/Qingqiu/fox_action_workbench.gd.uid",
+      "bytes": 20,
+      "sha256": "9db319d9b08dd02c24e14b019fd011c7379c03be11e7eba99ee9b7f00cbe9b94"
+    },
+    {
+      "path": "Scripts/Qingqiu/fox_adult_wave.gd",
+      "bytes": 2197,
+      "sha256": "3d1de46774ade0fdca1a643e1c4ca93069a07063eb2ee4d0593cda3f39f63964"
+    },
+    {
+      "path": "Scripts/Qingqiu/fox_adult_wave.gd.uid",
+      "bytes": 20,
+      "sha256": "2a910e20a26612d02307c90339d00459b586bb6c189b5bf9ac05b142531a49ef"
+    },
+    {
+      "path": "Scripts/Qingqiu/fox_attack_director.gd",
+      "bytes": 33280,
+      "sha256": "ecefea4702ff580451d440d46765edfd35a0bdc071a0dcd17845cc78a2fa8c9e"
+    },
+    {
+      "path": "Scripts/Qingqiu/fox_attack_director.gd.uid",
+      "bytes": 20,
+      "sha256": "d94632b043caedc798127270f42ef7d1a7e373ac525f12f58634e29603a0dc16"
+    },
+    {
+      "path": "Scripts/Qingqiu/fox_attack_seal.gd",
+      "bytes": 5760,
+      "sha256": "a5f50988a7d50e7d31d4524dae5928cda8702c75ee7f753827d7a6297d816130"
+    },
+    {
+      "path": "Scripts/Qingqiu/fox_attack_seal.gd.uid",
+      "bytes": 20,
+      "sha256": "2ec3b3d59da5fcc55a13e87ee3be1002f15cc0291b68a1a328c17f378dc989f2"
+    },
+    {
+      "path": "Scripts/Qingqiu/fox_attack_tail_motion.gd",
+      "bytes": 1801,
+      "sha256": "1296720f4f9f66ae26a1380ca4039a7b80bdce465cf9f9699aed57d24d21bd1a"
+    },
+    {
+      "path": "Scripts/Qingqiu/fox_attack_tail_motion.gd.uid",
+      "bytes": 20,
+      "sha256": "32591870c871cf343dde90c0979e3569ccd6cf0882c235364377d1b865ce1b8e"
+    },
+    {
+      "path": "Scripts/Qingqiu/fox_charm.gd",
+      "bytes": 4184,
+      "sha256": "ba4f3da3a4fba3e6afc3b2d96514d8c5f2386adaa6db5ee06eff1c25424fda39"
+    },
+    {
+      "path": "Scripts/Qingqiu/fox_charm.gd.uid",
+      "bytes": 20,
+      "sha256": "d62e4958024fcacd8e3474d62ba617cda22d47c4ccb25ebe190c1c6ad07afa68"
+    },
+    {
+      "path": "Scripts/Qingqiu/fox_encounter.gd",
+      "bytes": 13233,
+      "sha256": "07ce096b077fb10db654c625da33b84b0989536bec07a4bd4c061c402d61dc11"
+    },
+    {
+      "path": "Scripts/Qingqiu/fox_encounter.gd.uid",
+      "bytes": 20,
+      "sha256": "7e191289d950ac685e4ce4d7c25c041b074e275322a2fd654c0883bc852cf4b8"
+    },
+    {
+      "path": "Scripts/Qingqiu/fox_melee_fx.gd",
+      "bytes": 972,
+      "sha256": "d0f4c41e203354131d3d0630a14940e5925633d5f0bbeb6bd847b607a3133973"
+    },
+    {
+      "path": "Scripts/Qingqiu/fox_melee_fx.gd.uid",
+      "bytes": 20,
+      "sha256": "792434cd266def938830b8d73b845e67bc79681e2c679b28a07e6acb95191b6b"
+    },
+    {
+      "path": "Scripts/Qingqiu/fox_motion_fx.gd",
+      "bytes": 8333,
+      "sha256": "86026426db70f957c8b3d4f3d5a1f343656b5ee35025e1ea60e88ef850bd0c64"
+    },
+    {
+      "path": "Scripts/Qingqiu/fox_motion_fx.gd.uid",
+      "bytes": 19,
+      "sha256": "839fb01582a0891ce5df4bf0772c709f694a1c128fad3eb8947e9cc50bebb058"
+    },
+    {
+      "path": "Scripts/Qingqiu/fox_rig.gd",
+      "bytes": 2681,
+      "sha256": "34e88984c404a698ab4d5f7104fd203ff96c080073db28fd65921126f510ec96"
+    },
+    {
+      "path": "Scripts/Qingqiu/fox_rig.gd.uid",
+      "bytes": 20,
+      "sha256": "c2d3a0314c05f13ba1cbe5082a461af6e56b25a6d7881d0696d3936d1cb3bfda"
+    },
+    {
+      "path": "Scripts/Qingqiu/fox_rig_v4.gd",
+      "bytes": 8131,
+      "sha256": "37b69f3ddcfa75b60e123bb55053f39c054bbad0f244dc3846fa5ffedb8bd376"
+    },
+    {
+      "path": "Scripts/Qingqiu/fox_rig_v4.gd.uid",
+      "bytes": 20,
+      "sha256": "1bdd86a41da53f3ef35282036ce974a01d3c84787d6b8bc76f21b66b435ef643"
+    },
+    {
+      "path": "Scripts/Qingqiu/fox_tail_style.gd",
+      "bytes": 933,
+      "sha256": "120c6f4e8255088f93d2e3921f5ce8efcff5bd89dc2ea949bb81044c89f78207"
+    },
+    {
+      "path": "Scripts/Qingqiu/fox_tail_style.gd.uid",
+      "bytes": 20,
+      "sha256": "489b6ae02ad74420cf57df8716d6511e1dd4f45a283d92df857eeb80cc55d80e"
+    },
+    {
+      "path": "Scripts/Qingqiu/fox_tail_sweep_fx.gd",
+      "bytes": 614,
+      "sha256": "fac8c9833ff7b41896ffabf5eb684c0cab0d453e47e4d7b211976433e05face8"
+    },
+    {
+      "path": "Scripts/Qingqiu/fox_tail_sweep_fx.gd.uid",
+      "bytes": 20,
+      "sha256": "06cf7bbdf08c88112ad85d8ccb5b90bec491d80f6500ab45ff4c09454c60de78"
+    },
+    {
+      "path": "Scripts/Qingqiu/ghost_fire.gd",
+      "bytes": 2799,
+      "sha256": "940ab9cb5f10aeb97fff79361541e326abcad723a9d7c49c435dfed83596909a"
+    },
+    {
+      "path": "Scripts/Qingqiu/ghost_fire.gd.uid",
+      "bytes": 20,
+      "sha256": "62699c9cf4653f2d47b95c6001c1b5f91d082f64e1f771716274ee49883f9787"
+    },
+    {
+      "path": "Scripts/Qingqiu/ghost_fire_palettes.gd",
+      "bytes": 1033,
+      "sha256": "cb5606ee37fe630384372a4da9568ba60fededdfdf505b17d2f38e987745deb7"
+    },
+    {
+      "path": "Scripts/Qingqiu/ghost_fire_palettes.gd.uid",
+      "bytes": 19,
+      "sha256": "e6705951441b2273b5b41038fa366cc30ed333dec5822174c84d1272b8dafabe"
+    },
+    {
+      "path": "Scripts/Qingqiu/ghost_fire_projectile.gd",
+      "bytes": 3160,
+      "sha256": "98642f9e0d6f731c10cc2eddf41a40cfcc99aef3997d68775de17dd3a8df0d5e"
+    },
+    {
+      "path": "Scripts/Qingqiu/ghost_fire_projectile.gd.uid",
+      "bytes": 20,
+      "sha256": "d61c8f6ddeed68947f8223b5fb87528146ad63b534b973d0a2c51da1056bd008"
+    },
+    {
+      "path": "Scripts/Qingqiu/hunter_avatar.gd",
+      "bytes": 4707,
+      "sha256": "14839f0de5895361f38c2e322abd54300038126f56631072b82b5a4f21567ceb"
+    },
+    {
+      "path": "Scripts/Qingqiu/hunter_avatar.gd.uid",
+      "bytes": 20,
+      "sha256": "c9d7c29696493f51af808fd2f4ecf4715bc14ecfae9baf9118811b15dc464477"
+    },
+    {
+      "path": "Scripts/Qingqiu/hunter_rig_chibi.gd",
+      "bytes": 3140,
+      "sha256": "70f1688b601771f8b9986a6386ffb6a7a385e3bed15a70045df5a12f68a66532"
+    },
+    {
+      "path": "Scripts/Qingqiu/hunter_rig_chibi.gd.uid",
+      "bytes": 20,
+      "sha256": "f2b29b920defca500ac19a9898da48b9a3d8cacde3901b87b70c757a6ed895cf"
+    },
+    {
+      "path": "Scripts/Qingqiu/hunter_rig_v2.gd",
+      "bytes": 9790,
+      "sha256": "786a8f4e8f83a86fdfd8362f041006717acce41de876ae9a6d825b3d2d0ad00f"
+    },
+    {
+      "path": "Scripts/Qingqiu/hunter_rig_v2.gd.uid",
+      "bytes": 20,
+      "sha256": "7a61a909ca4681fcb4ce0581d43111777eb9f3f4da3ded08a8c7b0b585eb1222"
+    },
+    {
+      "path": "Scripts/Qingqiu/hunter_workbench_chibi.gd",
+      "bytes": 4767,
+      "sha256": "14f3edb8401cf45dabd1f77a17dff8fb8c60c0c6171c9d17563860c2c7b5b8ee"
+    },
+    {
+      "path": "Scripts/Qingqiu/hunter_workbench_chibi.gd.uid",
+      "bytes": 20,
+      "sha256": "d817e52adc0e547040f851f226b947eb2ee38d8db6f96bc6286138cf961851b3"
+    },
+    {
+      "path": "Scripts/Qingqiu/inferno_patch.gd",
+      "bytes": 3029,
+      "sha256": "8e6e428a018b27717f47170b8fdad339de38206065a782d860191cb05cbce668"
+    },
+    {
+      "path": "Scripts/Qingqiu/inferno_patch.gd.uid",
+      "bytes": 19,
+      "sha256": "3714e669ff76814503115e4120be5713f34343483fa631cb8fdb3409d7ebbe26"
+    },
+    {
+      "path": "Scripts/Qingqiu/opening_mist_guest.gd",
+      "bytes": 9673,
+      "sha256": "8aeecc64d179d8d2340b3e7c0a142661a62cb3785cdb42db8345fa92481b413e"
+    },
+    {
+      "path": "Scripts/Qingqiu/opening_mist_guest.gd.uid",
+      "bytes": 19,
+      "sha256": "e1e6d5c75fa1810316234af07e5e1c0c7f63516206e8a9b1af2a8709d582bf7e"
+    },
+    {
+      "path": "Scripts/Qingqiu/p2_enchant_light.gd",
+      "bytes": 1226,
+      "sha256": "70158483d0109f1d40a137a849f4490d13fb27865bb6e70d49021258e6f347ed"
+    },
+    {
+      "path": "Scripts/Qingqiu/p2_enchant_light.gd.uid",
+      "bytes": 20,
+      "sha256": "5499a83912ace26e2e9c76ad2c3fa9cd975cff4c6a7118098c5273b563e66978"
+    },
+    {
+      "path": "Scripts/Qingqiu/p2_inferno_rain.gd",
+      "bytes": 3810,
+      "sha256": "3024ee0a6a67cf877b172b6fd9e31bb54b44ee336160009f4e453cf9848784e4"
+    },
+    {
+      "path": "Scripts/Qingqiu/p2_inferno_rain.gd.uid",
+      "bytes": 20,
+      "sha256": "bbb776c1b0d4e536f924c494955873e6c7798159b688270c9ddd29eaebdc51ea"
+    },
+    {
+      "path": "Scripts/Qingqiu/p3_golden_anklet.gd",
+      "bytes": 4279,
+      "sha256": "64470edad5a7fd79aa9ec5a80b693e6a4292f22974f9d91b5a50ee5d9893214d"
+    },
+    {
+      "path": "Scripts/Qingqiu/p3_golden_anklet.gd.uid",
+      "bytes": 20,
+      "sha256": "872556896e6260c57ad961213964ba559421ff9ac16b702370bda35a9f80cba9"
+    },
+    {
+      "path": "Scripts/Qingqiu/p3_ruin_environment.gd",
+      "bytes": 3514,
+      "sha256": "ac0818401f6f4de161a54a436f64a1f211c15763a483ea12e8be090886f350a2"
+    },
+    {
+      "path": "Scripts/Qingqiu/p3_ruin_environment.gd.uid",
+      "bytes": 20,
+      "sha256": "47fe4739113ae757aa8ddc57168223fb5fb36bd09fcacac441ca2c45ebb0da9a"
+    },
+    {
+      "path": "Scripts/Qingqiu/phase_flora.gd",
+      "bytes": 7411,
+      "sha256": "2be3d2424a964687445be9b994e5196a7603fb839f48b4913a526fd08390c852"
+    },
+    {
+      "path": "Scripts/Qingqiu/phase_flora.gd.uid",
+      "bytes": 20,
+      "sha256": "b05d2405cf8c78d87ec53c16bd6a862849323fd5c1417b755a57711cd6147527"
+    },
+    {
+      "path": "Scripts/Qingqiu/phase_presentation.gd",
+      "bytes": 13129,
+      "sha256": "2a5e2ebadd7bff43e372229fbaf5ee081408ef1da79980e1d703d197e0a6319b"
+    },
+    {
+      "path": "Scripts/Qingqiu/phase_presentation.gd.uid",
+      "bytes": 19,
+      "sha256": "bb3998ca1e7ae32d6fe80ab8cf782d5dcffe3d7c2d7e7a90bdc88cbac7ab3ba2"
+    },
+    {
+      "path": "Scripts/Qingqiu/phase_reveal_cinematic.gd",
+      "bytes": 13741,
+      "sha256": "ef3bf85882874d7001d378193743deb4a92b138d9c299a5402e83e01e2e1b587"
+    },
+    {
+      "path": "Scripts/Qingqiu/phase_reveal_cinematic.gd.uid",
+      "bytes": 19,
+      "sha256": "c233829d64dcef58a32b41178604aa453c3fd2a9cf9772a03f83d8b795f31cef"
+    },
+    {
+      "path": "Scripts/Qingqiu/player_burn.gd",
+      "bytes": 2574,
+      "sha256": "15650d3773f56029b22af4b2a73403fb6a4c4ed1f8092406bc1a7d5f341eb545"
+    },
+    {
+      "path": "Scripts/Qingqiu/player_burn.gd.uid",
+      "bytes": 20,
+      "sha256": "732802975e22ea46be2143e8264687db0eb9362b0ed6373f9590983447381511"
+    },
+    {
+      "path": "Scripts/Qingqiu/player_health_orb.gd",
+      "bytes": 2913,
+      "sha256": "f6cbd77cdafcf32642882bc34ffbc40ac161eff34ded281bbdc8134d50ac5ec3"
+    },
+    {
+      "path": "Scripts/Qingqiu/player_health_orb.gd.uid",
+      "bytes": 20,
+      "sha256": "e90e838bf9f73efa11721d1a684c3466348f6ba2c379566dd0ff49e153c0ef2c"
+    },
+    {
+      "path": "Scripts/Qingqiu/player_hit_feedback.gd",
+      "bytes": 2692,
+      "sha256": "77b072ea5bfe611a3d484a03150e259a0ea7120b669b63416f14d5a6f07d63db"
+    },
+    {
+      "path": "Scripts/Qingqiu/player_hit_feedback.gd.uid",
+      "bytes": 20,
+      "sha256": "2a5c3512b09f2ebad8abe5cda9e24937b1a3a5dfbce957259fa11c42df78efcd"
+    },
+    {
+      "path": "Scripts/Qingqiu/player_skill_bar.gd",
+      "bytes": 4329,
+      "sha256": "d309176514d88fa9bc9a619e14c36ee9726b3d728ed8ab6897e4a1c4fe5c454d"
+    },
+    {
+      "path": "Scripts/Qingqiu/player_skill_bar.gd.uid",
+      "bytes": 20,
+      "sha256": "1d5b1bba552eb7f7af18b2789049e4333e52ff25b2ad5657660b319919b31975"
+    },
+    {
+      "path": "Scripts/Qingqiu/spirit_combat.gd",
+      "bytes": 12897,
+      "sha256": "cf02b69e35c5fdfa9276dcd3d38c21bc6a4184d918dc492e594202ac07999541"
+    },
+    {
+      "path": "Scripts/Qingqiu/spirit_combat.gd.uid",
+      "bytes": 20,
+      "sha256": "47478ec0ce660bc85e53f1a4f7c40f4ccb8099bce46b59657b90f4e0bbacd202"
+    },
+    {
+      "path": "Scripts/Qingqiu/stage_checkpoint.gd",
+      "bytes": 2837,
+      "sha256": "c8bc0158ee4a9a482d2735e4b68071c13e7407430c34add225552b0afb988c7f"
+    },
+    {
+      "path": "Scripts/Qingqiu/white_gold_fire.gd",
+      "bytes": 1066,
+      "sha256": "f575761ea2c1e9f3a07ebf4b84cc93bfdc3e1ea02610d68d7977e3cec1bc6733"
+    },
+    {
+      "path": "Scripts/Qingqiu/white_gold_fire.gd.uid",
+      "bytes": 20,
+      "sha256": "5e53af8ac444697785dc4618d1fc37c7704bb8a02cfb07c66bc53b5888695c4a"
+    },
+    {
+      "path": "Shaders/Qingqiu/attack_flame_scope.gdshader",
+      "bytes": 1578,
+      "sha256": "954a8c85fce16fe647580821a0cf278301f78f0862a42bee024eacaa9fecf435"
+    },
+    {
+      "path": "Shaders/Qingqiu/attack_flame_scope.gdshader.uid",
+      "bytes": 20,
+      "sha256": "614d7803aac48ef33015509cbea9f29de723f68a617c30a973be8348914d42f8"
+    },
+    {
+      "path": "Shaders/Qingqiu/attack_glyph_glow.gdshader",
+      "bytes": 631,
+      "sha256": "cad2e4b1e386321cc32341527a2d6271e6370635c268fdfd4ad1c32275239fb4"
+    },
+    {
+      "path": "Shaders/Qingqiu/attack_glyph_glow.gdshader.uid",
+      "bytes": 19,
+      "sha256": "d43865c8229fc28073487f24abfded0865467d81cf813878a7c6ab91a5a03353"
+    },
+    {
+      "path": "Shaders/Qingqiu/attack_glyph_shadow.gdshader",
+      "bytes": 357,
+      "sha256": "ef759122cff556401d7d861a73b90c8ec0a40b2c4699c4b1c5d38ccc26be2e6d"
+    },
+    {
+      "path": "Shaders/Qingqiu/attack_glyph_shadow.gdshader.uid",
+      "bytes": 20,
+      "sha256": "0cfd37c81f8332d8e2ad7e351a3cc065fb8d4fe16dbae90655ac870f8a892923"
+    },
+    {
+      "path": "Shaders/Qingqiu/azurite_floor.gdshader",
+      "bytes": 2254,
+      "sha256": "8c0a063d1c3b5ff1818e4c100bc5b16f86599298fc187870a21e4aa505d71579"
+    },
+    {
+      "path": "Shaders/Qingqiu/azurite_floor.gdshader.uid",
+      "bytes": 20,
+      "sha256": "5f2bd060c49f9a7c08fa1e99995ed0126c7c19cb8f5340a003f5b76a49cecbbf"
+    },
+    {
+      "path": "Shaders/Qingqiu/boss_health_bar.gdshader",
+      "bytes": 2453,
+      "sha256": "f9ef5704fad55e11b1589fcd1e544b04656a07939415bddcb12ece332bab7f06"
+    },
+    {
+      "path": "Shaders/Qingqiu/boss_health_bar.gdshader.uid",
+      "bytes": 19,
+      "sha256": "049cfd3e44a959b96de186c0e34aeee9d9824ac07c73ec1a82b1285a613ccde6"
+    },
+    {
+      "path": "Shaders/Qingqiu/boss_health_motes.gdshader",
+      "bytes": 1573,
+      "sha256": "7cf61e8d100b69364f1d3db7e3a66a8b34c89add07b59d5d0556e68bf6395ba1"
+    },
+    {
+      "path": "Shaders/Qingqiu/boss_health_motes.gdshader.uid",
+      "bytes": 19,
+      "sha256": "eece25327f15c681d146bed2ae2ea25d5516d14e37670d3f93489468c160f0b7"
+    },
+    {
+      "path": "Shaders/Qingqiu/charm_heart_aura.gdshader",
+      "bytes": 988,
+      "sha256": "2925ffad09bafce03f026fca01173fe2b335fad6cbcd915b6e397b8ec0ef22fd"
+    },
+    {
+      "path": "Shaders/Qingqiu/charm_heart_aura.gdshader.uid",
+      "bytes": 20,
+      "sha256": "c64bded83fff7deb37b5fa85f0b2c97f25d9c26b01d014b3298e1d502327a5ef"
+    },
+    {
+      "path": "Shaders/Qingqiu/charm_heart_projectile.gdshader",
+      "bytes": 785,
+      "sha256": "b72ebb3554c6e28c386dbd6b902526849d528fe9666b0c9e909e4444b2b101ec"
+    },
+    {
+      "path": "Shaders/Qingqiu/charm_heart_projectile.gdshader.uid",
+      "bytes": 20,
+      "sha256": "c1b901d170dd6130b5814f502e6e63d87ff0ae5eb479daf5e5fb43c19b3f0c6f"
+    },
+    {
+      "path": "Shaders/Qingqiu/charm_heart_shape.gdshaderinc",
+      "bytes": 221,
+      "sha256": "477310c3b84195f133ff858f991f2806e94fedafe765d9e346df1b840d070420"
+    },
+    {
+      "path": "Shaders/Qingqiu/charm_heart_shape.gdshaderinc.uid",
+      "bytes": 20,
+      "sha256": "42f6e5b767c69c3e7efdace8048708b8e2c65fa3877a7c8fa5a874339857ad53"
+    },
+    {
+      "path": "Shaders/Qingqiu/charm_vision.gdshader",
+      "bytes": 1899,
+      "sha256": "eb96ab2288c03d26ae40203485946e204f38d8add0e195079570117a10d67dff"
+    },
+    {
+      "path": "Shaders/Qingqiu/charm_vision.gdshader.uid",
+      "bytes": 20,
+      "sha256": "eba29eea04b141552fc58d0c6fb7da2ac0d7c639bdc1e54a1aa93a683418f6ea"
+    },
+    {
+      "path": "Shaders/Qingqiu/cinematic_eye_soft.gdshader",
+      "bytes": 1193,
+      "sha256": "577ebd8eb9c2e5a3929a427cc3ba5af578b156ad2f1fee55383cb0ef1243a795"
+    },
+    {
+      "path": "Shaders/Qingqiu/cinematic_eye_soft.gdshader.uid",
+      "bytes": 20,
+      "sha256": "7f0347bbde1fa4f47ebd9e4560be06c2d02f8d49accb0d1c45a551ca9609b7a2"
+    },
+    {
+      "path": "Shaders/Qingqiu/contact_shadow.gdshader",
+      "bytes": 262,
+      "sha256": "976d0a50a19437eaa858706473e85ecb1e4880b66fc593bdf7ed1f629216d59f"
+    },
+    {
+      "path": "Shaders/Qingqiu/contact_shadow.gdshader.uid",
+      "bytes": 20,
+      "sha256": "248d0d9cebee4f5421a970b3bf91569ef9776bd5de7945277a0dcdc5270aa394"
+    },
+    {
+      "path": "Shaders/Qingqiu/cub_departure_mist.gdshader",
+      "bytes": 864,
+      "sha256": "dfd3dd136a44602d44fe59ea090a0c857a1a35ac208aa4630415b0862f29b6c0"
+    },
+    {
+      "path": "Shaders/Qingqiu/cub_departure_mist.gdshader.uid",
+      "bytes": 20,
+      "sha256": "c4a1c7a70b24d35674677724841d5681eb141c6e5ad9747ac34902b9ed3a9217"
+    },
+    {
+      "path": "Shaders/Qingqiu/floating_rock.gdshader",
+      "bytes": 377,
+      "sha256": "5014ff3fcb7f0c47cca06d5b1e595b94d14355d4458f41609eba7e5d6835818e"
+    },
+    {
+      "path": "Shaders/Qingqiu/floating_rock.gdshader.uid",
+      "bytes": 20,
+      "sha256": "89412e1224aa636b9eea7e3a7d1858d8456a4b504fbb9a8dda471ca504452e8e"
+    },
+    {
+      "path": "Shaders/Qingqiu/foot_sort.gdshaderinc",
+      "bytes": 821,
+      "sha256": "e187b687d4c739a27bde1e377c57a5773d68e3504db0882b2445d9ea0b79ee10"
+    },
+    {
+      "path": "Shaders/Qingqiu/foot_sort.gdshaderinc.uid",
+      "bytes": 20,
+      "sha256": "f8f1aca20f6dba49937dabe72bf5898044a01f70da3511c35acada1fbbf766cd"
+    },
+    {
+      "path": "Shaders/Qingqiu/fox_adult_wave.gdshader",
+      "bytes": 838,
+      "sha256": "a37181d313f0c0e027532ab70a321bc402a452a2a109c2992237edc3c16470da"
+    },
+    {
+      "path": "Shaders/Qingqiu/fox_adult_wave.gdshader.uid",
+      "bytes": 20,
+      "sha256": "9e36a3c0644438c5a7bafc4bdff31e743844ad340889c4f8d51fb3ca0f7e09dd"
+    },
+    {
+      "path": "Shaders/Qingqiu/fox_attack_seal.gdshader",
+      "bytes": 646,
+      "sha256": "341be7f0de03020af5711f4a588092476b1e755475beb4a5659cd8cfb2ee57c5"
+    },
+    {
+      "path": "Shaders/Qingqiu/fox_attack_seal.gdshader.uid",
+      "bytes": 20,
+      "sha256": "34cd7f10b180e65ed912db8551d95069f594834e5991611324f158c7e182cbba"
+    },
+    {
+      "path": "Shaders/Qingqiu/fox_barrage_halo.gdshader",
+      "bytes": 1206,
+      "sha256": "0442693c3e87f0ab36331ec0e54492b1d8b89d68dfb7ab3c262238f21e680f3a"
+    },
+    {
+      "path": "Shaders/Qingqiu/fox_barrage_halo.gdshader.uid",
+      "bytes": 19,
+      "sha256": "8b9a858ef8003355f5758b5f6ba7f8f58eeacafcfd3868459793c825ce2cb329"
+    },
+    {
+      "path": "Shaders/Qingqiu/fox_foot_blossom.gdshader",
+      "bytes": 831,
+      "sha256": "5ddedf654e2c9b7d33a9f3451ccd73466226e59e1273d25d60d95f0786fcd44e"
+    },
+    {
+      "path": "Shaders/Qingqiu/fox_foot_blossom.gdshader.uid",
+      "bytes": 20,
+      "sha256": "5a14fce05f8d5bcbfa751c4f3258aaf25d742efd037fc369d24f1175631a26a5"
+    },
+    {
+      "path": "Shaders/Qingqiu/fox_layer.gdshader",
+      "bytes": 3120,
+      "sha256": "21ec7ed75c5a4bc6e706f9824ca2008cab8e30047f494eede28cb1f3ccdd27e6"
+    },
+    {
+      "path": "Shaders/Qingqiu/fox_layer.gdshader.uid",
+      "bytes": 20,
+      "sha256": "704a3a2e3dc35cc238a005ada65b7944ea799507f1af60e0bb0b8d86ac4ccd69"
+    },
+    {
+      "path": "Shaders/Qingqiu/fox_melee.gdshader",
+      "bytes": 1015,
+      "sha256": "456eebcd6fe100f45a681773857c9d9d460f89ab78aceb61fa1b8e22d4327ce4"
+    },
+    {
+      "path": "Shaders/Qingqiu/fox_melee.gdshader.uid",
+      "bytes": 20,
+      "sha256": "af450fd61a8d101a1d59e17f55ad3ca916bcbce402974f443ae80fae246a1229"
+    },
+    {
+      "path": "Shaders/Qingqiu/fox_mist.gdshader",
+      "bytes": 834,
+      "sha256": "496507554012d3393bcf10c56d7bf39b947f786c39d0e79cf87efdabdb15a60b"
+    },
+    {
+      "path": "Shaders/Qingqiu/fox_mist.gdshader.uid",
+      "bytes": 20,
+      "sha256": "18942962d7a5a724a29e99c866ef11e8f8c6050cef1bc2311fdcff2b45d5c112"
+    },
+    {
+      "path": "Shaders/Qingqiu/fox_motion_echo.gdshader",
+      "bytes": 602,
+      "sha256": "dbe2daaee0b5890eafc489b62dac62663fb2335655e052a7bff4b96023e5e397"
+    },
+    {
+      "path": "Shaders/Qingqiu/fox_motion_echo.gdshader.uid",
+      "bytes": 20,
+      "sha256": "6ad6f40b6f59fb3d50365216ce3b5f3b60e7fde1988964cca0e0e0b98190e3ea"
+    },
+    {
+      "path": "Shaders/Qingqiu/fox_tail_finish.gdshaderinc",
+      "bytes": 2561,
+      "sha256": "b34b58bca931b76182608b8fff047651bca6dac73f562ae65dcd167e321bb676"
+    },
+    {
+      "path": "Shaders/Qingqiu/fox_tail_finish.gdshaderinc.uid",
+      "bytes": 19,
+      "sha256": "d1fa39c74e4bcca2c40562cc376d3f528afa6873594f38921badc147da1c3d14"
+    },
+    {
+      "path": "Shaders/Qingqiu/ghost_fire.gdshader",
+      "bytes": 5181,
+      "sha256": "f003eb72b206791b9d846792b5fb3b5fd4a41386a68ababdcf4b0d2f7bf730df"
+    },
+    {
+      "path": "Shaders/Qingqiu/ghost_fire.gdshader.uid",
+      "bytes": 20,
+      "sha256": "bde0897d35aee09490216e8905fd91de07cdb3dd24b2ee7c1f43f776eb72f45b"
+    },
+    {
+      "path": "Shaders/Qingqiu/ghost_fire_pool.gdshader",
+      "bytes": 408,
+      "sha256": "145ea6fb0dfb3db3a4d5ad867ba12b27865e9108647bd00941ee79fcf4766366"
+    },
+    {
+      "path": "Shaders/Qingqiu/ghost_fire_pool.gdshader.uid",
+      "bytes": 19,
+      "sha256": "5f8acabaed17f2ceacc66a42abcb5e4b59061133408b48ede38ccd3db39ac992"
+    },
+    {
+      "path": "Shaders/Qingqiu/ground_mist.gdshader",
+      "bytes": 4438,
+      "sha256": "0a320f33e2c9fb103acb4725a9229eebf22717f69a66e2ea4a27bf531c733b0d"
+    },
+    {
+      "path": "Shaders/Qingqiu/ground_mist.gdshader.uid",
+      "bytes": 20,
+      "sha256": "582b2554e266498cd92f46721f58b8a9012ea19bf556e66a0f8ff198b6d56fa5"
+    },
+    {
+      "path": "Shaders/Qingqiu/health_orb_clouds.gdshader",
+      "bytes": 2231,
+      "sha256": "98e7828f1aec325dcedb12a39cf1ff6f76cc09922413fa81d0f4cea557e90830"
+    },
+    {
+      "path": "Shaders/Qingqiu/health_orb_clouds.gdshader.uid",
+      "bytes": 20,
+      "sha256": "d00bd4c984465b0bd7f8f929b7231b2bb2eefc6f03eecbba402ea3ff07d2010b"
+    },
+    {
+      "path": "Shaders/Qingqiu/health_tip_motes.gdshader",
+      "bytes": 703,
+      "sha256": "e8a361a26998dbd13734b90050552d710dfa523e474557c2ca974ce0ea74b7b0"
+    },
+    {
+      "path": "Shaders/Qingqiu/health_tip_motes.gdshader.uid",
+      "bytes": 20,
+      "sha256": "de6e539a0f6f116e90e934ff9b1b915f41edfc4f04570fe08c59565431cbe8ff"
+    },
+    {
+      "path": "Shaders/Qingqiu/hunter_depth_card.gdshader",
+      "bytes": 831,
+      "sha256": "ecf11d2ad90bbc526a6c259f3ed43ab6dadb823325a24364d8b89606a0f65a20"
+    },
+    {
+      "path": "Shaders/Qingqiu/hunter_depth_card.gdshader.uid",
+      "bytes": 19,
+      "sha256": "9534857b4511c0076d9d36c07fd7f6dcde7827a552b17cd758aba12095c2141e"
+    },
+    {
+      "path": "Shaders/Qingqiu/hunter_swing_vfx.gdshader",
+      "bytes": 708,
+      "sha256": "78d5b7efcd780c5c766a1525604315120b4a4bb7e543e699fdc34f8cbaa429d3"
+    },
+    {
+      "path": "Shaders/Qingqiu/hunter_swing_vfx.gdshader.uid",
+      "bytes": 20,
+      "sha256": "05c92aba6efaf85b1c42cf5ec3feaed4bfeffe72047fab808e55aba1f1423629"
+    },
+    {
+      "path": "Shaders/Qingqiu/hunter_ward.gdshader",
+      "bytes": 449,
+      "sha256": "20c7c00d9119ba20a3e13dd8b66e2149dcce6076b20a9fad1045fb199510958b"
+    },
+    {
+      "path": "Shaders/Qingqiu/hunter_ward.gdshader.uid",
+      "bytes": 20,
+      "sha256": "f9be9faafcce2adcd623165dae69dde17d1244fcabec23119818d51c6df92b79"
+    },
+    {
+      "path": "Shaders/Qingqiu/inferno_flame.gdshader",
+      "bytes": 1616,
+      "sha256": "5bb7efe82c0e2c1ffb67b476a885abea01e1c2d2b7ecce217254949b6ced1c12"
+    },
+    {
+      "path": "Shaders/Qingqiu/inferno_flame.gdshader.uid",
+      "bytes": 19,
+      "sha256": "79873ac593fb6ed491659e9b452a786f2177da8fa5eff271ad9777f07fdcf1a3"
+    },
+    {
+      "path": "Shaders/Qingqiu/inferno_scorch.gdshader",
+      "bytes": 1061,
+      "sha256": "da0de739a04bac9e2c72b57bce5515d44615462d53ddcff88506e98de06a512b"
+    },
+    {
+      "path": "Shaders/Qingqiu/inferno_scorch.gdshader.uid",
+      "bytes": 20,
+      "sha256": "df99ecb394f7ea7d05817ef7518204fa6de450967dedb681c5195bbfe276848f"
+    },
+    {
+      "path": "Shaders/Qingqiu/ink_prop.gdshader",
+      "bytes": 2092,
+      "sha256": "d37ef71b5dda282c07bb280558ab87426a74203d36952ea98d809945e1fcfaf5"
+    },
+    {
+      "path": "Shaders/Qingqiu/ink_prop.gdshader.uid",
+      "bytes": 19,
+      "sha256": "835e577318414a31aaa0a6d68ec7ce8e42d771efea18130f798295f712bf26ba"
+    },
+    {
+      "path": "Shaders/Qingqiu/lumen_pickup.gdshader",
+      "bytes": 501,
+      "sha256": "88c656baf48df8242cdd8ccd5546c067b6e17dd3fba57570d878415508380dd0"
+    },
+    {
+      "path": "Shaders/Qingqiu/lumen_pickup.gdshader.uid",
+      "bytes": 20,
+      "sha256": "ac4e259a6cefd88181783310e422eb262482bfba923edb251b784f2c498b02c6"
+    },
+    {
+      "path": "Shaders/Qingqiu/opening_ground_mist.gdshader",
+      "bytes": 682,
+      "sha256": "4923566fc1b4673400bd8188f9cbd6af8489f2d24756c2f0d3d88048e02779d8"
+    },
+    {
+      "path": "Shaders/Qingqiu/opening_ground_mist.gdshader.uid",
+      "bytes": 20,
+      "sha256": "70675d814660ff3956073bc1992eee3e410e85a9af181a894dbdcdff92223a81"
+    },
+    {
+      "path": "Shaders/Qingqiu/opening_veil.gdshader",
+      "bytes": 405,
+      "sha256": "c97539d8e40abf0b5a108fbf8af1f5a7e6dc450326b5a8dd468364995b6b4f1a"
+    },
+    {
+      "path": "Shaders/Qingqiu/opening_veil.gdshader.uid",
+      "bytes": 19,
+      "sha256": "a8358aef4340d187290645b8fd51f1fb3687ad073224f66535c71a635221ab2b"
+    },
+    {
+      "path": "Shaders/Qingqiu/orbit_stage.gdshader",
+      "bytes": 461,
+      "sha256": "5f4c06e52392e28e745512df11c25a345c1b141d5dd0f3820f682a147dbdbf21"
+    },
+    {
+      "path": "Shaders/Qingqiu/orbit_stage.gdshader.uid",
+      "bytes": 20,
+      "sha256": "b621a7ee2ce5e5dc196f0593eb0dfb311b2509e845c8c342e726d8c0a868a2de"
+    },
+    {
+      "path": "Shaders/Qingqiu/p3_anklet.gdshader",
+      "bytes": 1064,
+      "sha256": "2d62ef5f6686e3239ffdc9f239d33a47780532f1dc3f274822e3e26c3f12bbaa"
+    },
+    {
+      "path": "Shaders/Qingqiu/p3_anklet.gdshader.uid",
+      "bytes": 20,
+      "sha256": "e2518ea755ff1b3221f29e6d3e54e718ca165bca6178d326958d5ad2054f9c73"
+    },
+    {
+      "path": "Shaders/Qingqiu/p3_anklet_spark.gdshader",
+      "bytes": 504,
+      "sha256": "935437281a08cbbb10995a03afb981b3deff562dd4d31d8355a9a868c59d655a"
+    },
+    {
+      "path": "Shaders/Qingqiu/p3_anklet_spark.gdshader.uid",
+      "bytes": 20,
+      "sha256": "8988e53e9ced5dbc0f9de73f2145f61ad1f9e648d19a82ac6f51213a4282ac3c"
+    },
+    {
+      "path": "Shaders/Qingqiu/phase_entrance_rush.gdshader",
+      "bytes": 779,
+      "sha256": "484d01a9803cf5d7db4769c481673f82bc6584019b16e18f5d9f412fefa58c5c"
+    },
+    {
+      "path": "Shaders/Qingqiu/phase_entrance_rush.gdshader.uid",
+      "bytes": 20,
+      "sha256": "392209b848e9013faf1479866a95802a70fbaedd20647080854f7abfb1e0db3f"
+    },
+    {
+      "path": "Shaders/Qingqiu/phase_flower.gdshader",
+      "bytes": 2524,
+      "sha256": "a5efdd1d04c30308ad970cb004020190a1cd557274f4b60c4e97a4b785b09762"
+    },
+    {
+      "path": "Shaders/Qingqiu/phase_flower.gdshader.uid",
+      "bytes": 19,
+      "sha256": "aa1146a32e51124c5c454d4cf09c75f20b771f70d7c437aa3fa449c7dfe3d294"
+    },
+    {
+      "path": "Shaders/Qingqiu/phase_reveal_backdrop.gdshader",
+      "bytes": 926,
+      "sha256": "8a78758ac839ac9746bb223f9e8028c83d9e11424334fa606d91478773a6fd5a"
+    },
+    {
+      "path": "Shaders/Qingqiu/phase_reveal_backdrop.gdshader.uid",
+      "bytes": 19,
+      "sha256": "3e2c54af9fbadae914a7b7081ad37f814817b96064ca59538c99413b052e1f3d"
+    },
+    {
+      "path": "Shaders/Qingqiu/phase_reveal_composite.gdshader",
+      "bytes": 2030,
+      "sha256": "5a7664609b4630cb866de2c5cfc45ad6200f58663a6f7c1f30960fec101d5e89"
+    },
+    {
+      "path": "Shaders/Qingqiu/phase_reveal_composite.gdshader.uid",
+      "bytes": 20,
+      "sha256": "a9b42f6bc3607c08a7df3e1eb485ac6d261037153e733e056986d58ef6fe7ce0"
+    },
+    {
+      "path": "Shaders/Qingqiu/phase_spirit_fire.gdshader",
+      "bytes": 2458,
+      "sha256": "6bb4be4ffaf62a96b81a6d8d628ee748dd2b47c3146253c9acacf28416f1a598"
+    },
+    {
+      "path": "Shaders/Qingqiu/phase_spirit_fire.gdshader.uid",
+      "bytes": 19,
+      "sha256": "d1ede87e2e4d45c4c3e1d21c4c02a20522498be4196be1c031401b56f8d03fb3"
+    },
+    {
+      "path": "Shaders/Qingqiu/player_health_orb.gdshader",
+      "bytes": 5023,
+      "sha256": "d5a8e713d0ee553f30ccb12ef84f9db313638715120e85e8d30a526a5a77832f"
+    },
+    {
+      "path": "Shaders/Qingqiu/player_health_orb.gdshader.uid",
+      "bytes": 20,
+      "sha256": "e497def9a3bfc8ffb86eee5cb40f4ddd0e902e89d972c3b8810768e05bc4e289"
+    },
+    {
+      "path": "Shaders/Qingqiu/player_phase_hit.gdshader",
+      "bytes": 2387,
+      "sha256": "1daad2123b0e861b21606947bbbe953052fce1f7c79126575279cfd5330858b5"
+    },
+    {
+      "path": "Shaders/Qingqiu/player_phase_hit.gdshader.uid",
+      "bytes": 19,
+      "sha256": "8839c08b552eb5a842c70a53e004cb501af7cb0e2d9a8bc0def1697cb6697ab4"
+    },
+    {
+      "path": "Shaders/Qingqiu/procedural_xiangyun.gdshader",
+      "bytes": 4247,
+      "sha256": "d2c278d5397c81277ff3022d430fe938c99ccb66643487d53da263fb8c718a2c"
+    },
+    {
+      "path": "Shaders/Qingqiu/procedural_xiangyun.gdshader.uid",
+      "bytes": 20,
+      "sha256": "67dd3a73b16a5ea4e6f9fc1f0db43319bd360da81fe214a6cc4f4ffd6589ebf6"
+    },
+    {
+      "path": "Shaders/Qingqiu/rising_petals.gdshader",
+      "bytes": 1635,
+      "sha256": "675943ad9434f060985335d64120b33880398491ac6dc32aac7a422cdbbae33d"
+    },
+    {
+      "path": "Shaders/Qingqiu/rising_petals.gdshader.uid",
+      "bytes": 19,
+      "sha256": "9b2a808f4497aa970b046b111c53ae66e66b86a5d95d900c168dac8faa811e39"
+    },
+    {
+      "path": "Shaders/Qingqiu/spirit_shield.gdshader",
+      "bytes": 863,
+      "sha256": "450a05526ea8923d38a47cb0401b2cf0517059abfbd8f3d338458c4ea0c1e886"
+    },
+    {
+      "path": "Shaders/Qingqiu/spirit_shield.gdshader.uid",
+      "bytes": 20,
+      "sha256": "2016775c9a9e3069da3050e8c5ecb01d08e03c442834c0b5b14cbdd69e94d425"
+    },
+    {
+      "path": "Shaders/Qingqiu/tail_sweep.gdshader",
+      "bytes": 652,
+      "sha256": "802975e994b3b60a25b9e5f011cf93bc828b9bc1f905ef4fa91542f54cfb5c25"
+    },
+    {
+      "path": "Shaders/Qingqiu/tail_sweep.gdshader.uid",
+      "bytes": 20,
+      "sha256": "ac1ec154ebfcb7c4d3662e4dd3eeb2f46c9a114ce14d6edd845fa0487828648a"
+    },
+    {
+      "path": "Shaders/Qingqiu/white_gold_fire.gdshader",
+      "bytes": 2220,
+      "sha256": "a3b82b9cb315ff7c4842b9e9d38aa62b9fcd7ab392bc314dd516f028878e67f4"
+    },
+    {
+      "path": "Shaders/Qingqiu/white_gold_fire.gdshader.uid",
+      "bytes": 20,
+      "sha256": "b3496fee0623ce15edd8266ba8a4f6e8edc9c1a2bcfd60cfb4e964ec87e5d1c4"
+    },
+    {
+      "path": "Shaders/Qingqiu/white_gold_fire_ground.gdshader",
+      "bytes": 800,
+      "sha256": "cb449e1eae98106e6ff6adb91acf1028b41b44fc58cbc7c77326a09a4fd6a452"
+    },
+    {
+      "path": "Shaders/Qingqiu/white_gold_fire_ground.gdshader.uid",
+      "bytes": 20,
+      "sha256": "a1c2f041268a78245b75609f0b0717f5f06284e632cb6764c7bfbdda0b78c2bd"
+    },
+    {
+      "path": "Shaders/Qingqiu/withered_flower.gdshader",
+      "bytes": 971,
+      "sha256": "d7ae6d60a522b792fa28af2cdcc9567831d63ad09f5a92844cd4e18a60a053b1"
+    },
+    {
+      "path": "Shaders/Qingqiu/withered_flower.gdshader.uid",
+      "bytes": 20,
+      "sha256": "b1de312ad414e6ef8c767ec9fcaaae11eb4080acfe221dd86cc01cbca7e65922"
+    },
+    {
+      "path": "ThirdParty/GodotDemos/LICENSE.md",
+      "bytes": 1134,
+      "sha256": "0339177149b474f7ff676d32218ecb3a8f2538955610023c3769763720d09e4c"
+    },
+    {
+      "path": "ThirdParty/GodotDemos/volumetric_fog_reference.txt",
+      "bytes": 16231,
+      "sha256": "555d6e43489ab3c33e0bf6ad6a65f2af0fef2d355e2df9d8788d1169a1255faf"
+    },
+    {
+      "path": "ThirdParty/KenneyRpgAudio/source/License.txt",
+      "bytes": 478,
+      "sha256": "5735dfd72cb64cbbceda4ebc00c380c41ca680edb82ff153aa7c9ab97614c539"
+    },
+    {
+      "path": "ThirdParty/QingqiuAudio/LICENSES.md",
+      "bytes": 3174,
+      "sha256": "f37ba4520ddba2c7c241c533e4a199b914b41038da248f0f0616f51b8a39caac"
+    },
+    {
+      "path": "ThirdParty/QingqiuAudio/PhaseCinematics/source.json",
+      "bytes": 358,
+      "sha256": "6be56ed181b580d239dd43d97625d359dd17b3b2fc8a18200116356a740b7c4d"
+    },
+    {
+      "path": "ThirdParty/TopdownStarter/README.upstream.md",
+      "bytes": 2392,
+      "sha256": "230c1fa4796332313a0f85d85291df64a4c1908c10d279f1ce7ae0feb1e90028"
+    },
+    {
+      "path": "project.godot",
+      "bytes": 5198,
+      "sha256": "7b95dab219ccb677e202bf811bdd22bf0a45efe5a8aa15866ab5b03251ae02e7"
+    },
+    {
+      "path": "tools/submission_v41/capture.gd",
+      "bytes": 20144,
+      "sha256": "3a0b57392c7bc9aec239128c0d229007752efc068d1e062653648925519bd9aa"
+    },
+    {
+      "path": "tools/verify_balance_v4.gd",
+      "bytes": 7507,
+      "sha256": "b3dcb4925f739bc210e7d27991a38a9400e1190a203a848ffcd3e88f07d97f74"
+    },
+    {
+      "path": "tools/verify_balance_v4.gd.uid",
+      "bytes": 20,
+      "sha256": "229b140f835dfd47f22d55ac4591b502e0513036311020120c26619d3333b54f"
+    },
+    {
+      "path": "tools/verify_charm_approach.gd",
+      "bytes": 7993,
+      "sha256": "5b2de5dbf75e81c04098cc8f2e91ae4381c132ead9a004684d2d5906a79a77be"
+    },
+    {
+      "path": "tools/verify_charm_approach.gd.uid",
+      "bytes": 20,
+      "sha256": "297034587b273fd1343adc4e20798395142eceb3ad0d90aa4f4852e71b2aa55f"
+    },
+    {
+      "path": "tools/verify_charm_hearts_tail.gd",
+      "bytes": 5949,
+      "sha256": "df97ed24063d5c8cb2b48431bfb37587d167db1b63d6c79811bbad8224da7bac"
+    },
+    {
+      "path": "tools/verify_charm_hearts_tail.gd.uid",
+      "bytes": 19,
+      "sha256": "acc9c645eea2673f989625e76ef9bc8ee53fedf1ffc613cd0029fc456036c8fe"
+    },
+    {
+      "path": "tools/verify_developer_phase_start.gd",
+      "bytes": 8139,
+      "sha256": "6bcdba89f187dcf80597a1080dc6427a6c4ce8d5df1f96f002f60e891fbce185"
+    },
+    {
+      "path": "tools/verify_developer_phase_start.gd.uid",
+      "bytes": 20,
+      "sha256": "a7a56b8353782a1649101239f6f8aabcafe7e61a3f41f8eca02a1d6536d7f818"
+    },
+    {
+      "path": "tools/verify_encounter.gd",
+      "bytes": 6682,
+      "sha256": "86aac2d9c6a6c331c958e45ff0c14dcdb54bdc3cfd3f296677c79f7173be3ea4"
+    },
+    {
+      "path": "tools/verify_encounter.gd.uid",
+      "bytes": 20,
+      "sha256": "b44152eae2257f00174accaa304da44859ca7f5d3bd0883416a42ed0d53d1342"
+    },
+    {
+      "path": "tools/verify_fox_locomotion.gd",
+      "bytes": 5542,
+      "sha256": "4a6e8e22e4d57f1942fa91570aabe866cc4df8a4472ada1e3604ddecaa3cfa80"
+    },
+    {
+      "path": "tools/verify_fox_locomotion.gd.uid",
+      "bytes": 20,
+      "sha256": "24dc429498e245caf485e94d0c2cd035fa4b9520efb50eff1d1018e94038a20e"
+    },
+    {
+      "path": "tools/verify_hardcore_expansion.gd",
+      "bytes": 8338,
+      "sha256": "7a7ccdf0ab675b405d9ea5276a69781f7c500a8004acfc00ff103af0dffbec25"
+    },
+    {
+      "path": "tools/verify_hardcore_expansion.gd.uid",
+      "bytes": 20,
+      "sha256": "2c56d1d01d3a46491539bb5f25e2a607b306a767ef1f1f1cf8e953f1a5c5230f"
+    },
+    {
+      "path": "tools/verify_inferno_atmosphere.gd",
+      "bytes": 7560,
+      "sha256": "78ad47c60607843777c6f360db686cdeb254fb42fff22bb0b7fdcf90dd119f4c"
+    },
+    {
+      "path": "tools/verify_inferno_atmosphere.gd.uid",
+      "bytes": 20,
+      "sha256": "1200cdd59086cb990852bc8aadba5bf6418fe8094c2ff23b8f5ecef38d44922f"
+    },
+    {
+      "path": "tools/verify_inferno_count_080.gd",
+      "bytes": 3412,
+      "sha256": "f3b779d9682c6e8245034b1d05388c55e865036347caee3e4e6c30984d626a2c"
+    },
+    {
+      "path": "tools/verify_inferno_count_080.gd.uid",
+      "bytes": 20,
+      "sha256": "779dec179acd613afcc508f2a9d5dc5a2f9b7538d63ef2dfed8e83d69e0fb9db"
+    },
+    {
+      "path": "tools/verify_opening_mist_guest.gd",
+      "bytes": 8697,
+      "sha256": "c08e1583a55f4ef322d974d9f86f0dfaec7252452e17725686907bf379e6a248"
+    },
+    {
+      "path": "tools/verify_phase_music.gd",
+      "bytes": 6571,
+      "sha256": "74f781e4524eb423e42144407a2b2296a58c5d5d426837144e5529df9d3fd7e6"
+    },
+    {
+      "path": "tools/verify_phase_music.gd.uid",
+      "bytes": 20,
+      "sha256": "ee2d5a91251351b6a89707a2cdae016fd1cbbffad88b75d44ad5a726f1002830"
+    },
+    {
+      "path": "tools/verify_player_impact_v3.gd",
+      "bytes": 6949,
+      "sha256": "2e65853b6faafe740d12e47b61bd6962ba4ad81c25981e596cc272ef4c10eac1"
+    },
+    {
+      "path": "tools/verify_player_impact_v3.gd.uid",
+      "bytes": 20,
+      "sha256": "f8d5a21f231912456adc980e69780312e3bd57ca4afd5e17a4334c7d1735c2af"
+    },
+    {
+      "path": "tools/verify_restored_audio.gd",
+      "bytes": 12383,
+      "sha256": "5a26e38d213047b1593969bfd43941623a9cbd983aa0c31b3e81876ee38ea5e8"
+    },
+    {
+      "path": "tools/verify_stage_checkpoints.gd",
+      "bytes": 9163,
+      "sha256": "edb6ec82499758633f0ca747c7298dd58e8d09a58d75b58e3ef05128770c363b"
+    }
+  ],
+  "source_fingerprint": "15811b4ed870a594d4f1dff45348adf04d1e5725f4aa4f78fa1838d1b5a664a3",
+  "media_source_fingerprint": "15811b4ed870a594d4f1dff45348adf04d1e5725f4aa4f78fa1838d1b5a664a3",
+  "changes_from_recorded_snapshot": [],
+  "audio": "selected_sfx_and_three_phase_music",
+  "gameplay_balance_changed": false,
+  "human_post_tuning_retest_complete": false,
+  "previous_media_source_fingerprint": "15811b4ed870a594d4f1dff45348adf04d1e5725f4aa4f78fa1838d1b5a664a3",
+  "media_recorded_again_with_current_audio": true,
+  "video_delivery_speed": 1.5
+}

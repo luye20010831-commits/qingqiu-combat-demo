@@ -1,0 +1,50 @@
+{
+  "date_shanghai": "2026-11-08",
+  "provided_file": "C:/Users/PC/Downloads/freesound_community-violoncello-attack-41389.mp3",
+  "runtime_path": "res://Art/Audio/Qingqiu/PhaseReveal/violoncello_transition_attack.mp3",
+  "sha256": "4e874f3c17b7d5329cc7b7a841642d24305be4535c277d72bb9680c4abb6416e",
+  "size_bytes": 70560,
+  "source_kind": "User-provided audio file",
+  "original_page_author_and_license": "Not independently verified; filename alone is not source or license evidence",
+  "user_contribution": "Selected this audio and requested adding it to the start of the transition",
+  "ai_work": "Byte-identical copy, independent AudioStreamPlayer hookup at the accepted curtain start, lifecycle cleanup, silent validation and records",
+  "processing": "No transcoding, trimming, normalization, pitch shift or looping",
+  "codec": "mp3",
+  "sample_rate_hz": 24000,
+  "channels": 2,
+  "duration_seconds": 3.528,
+  "mean_dbfs": -25.0,
+  "peak_dbfs": -4.3,
+  "trailing_silence_seconds_below_minus45db": 0.217875,
+  "runtime": {
+    "phases": [
+      "P1 to P2",
+      "P2 to P3"
+    ],
+    "trigger": "Accepted phase_presentation.request_phase starts the flame curtain; once per actual curtain",
+    "not_during_p1_departure": true,
+    "volume_db": -6,
+    "pitch_scale": 1,
+    "loop": false,
+    "bus": "QingqiuSFX",
+    "independent_of_combat_pool": true,
+    "cleanup": [
+      "cancel_transition",
+      "restart",
+      "return_to_preview",
+      "victory_or_defeat",
+      "scene_exit"
+    ]
+  },
+  "validation": {
+    "driver": "Dummy",
+    "phase_closeup_checks": 45,
+    "headless_passed": true,
+    "native_passed": true,
+    "combat_audio_regression_checks": 36,
+    "phase_music_regression_checks": 33,
+    "report": "res://artifacts/qingqiu/transition_attack/report.json",
+    "human_audition": false,
+    "human_playthrough": false
+  }
+}

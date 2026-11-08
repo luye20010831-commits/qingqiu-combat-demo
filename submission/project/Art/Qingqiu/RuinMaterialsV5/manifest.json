@@ -1,0 +1,113 @@
+{
+  "version": 5,
+  "generator": "built-in image_gen",
+  "original_generated_pixels_preserved": true,
+  "assets": [
+    {
+      "id": "floating_rock_chunk_v5",
+      "file": "sources/floating_rock_chunk_v5.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "opaque_fraction": 0.23576866626476298,
+      "transparent_fraction": 0.760064762457107,
+      "alpha_bbox": [
+        49,
+        99,
+        1202,
+        1164
+      ],
+      "solid_bbox": [
+        196,
+        258,
+        1049,
+        973
+      ],
+      "uv_rect": [
+        0.15311004784688995,
+        0.2025518341307815,
+        0.6866028708133971,
+        0.5765550239234449
+      ],
+      "sha256": "f45d368b9a49a09e8761a78cb52aca9e652c0d689ad1ed03ef223bcbac5e6535",
+      "sampling_bbox": [
+        192,
+        254,
+        1053,
+        977
+      ],
+      "display_aspect": 1.1908713692946058,
+      "alpha_scissor": 0.5
+    },
+    {
+      "id": "floating_rock_splinter_v5",
+      "file": "sources/floating_rock_splinter_v5.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "opaque_fraction": 0.2553723653157552,
+      "transparent_fraction": 0.7344913482666016,
+      "alpha_bbox": [
+        0,
+        23,
+        1514,
+        992
+      ],
+      "solid_bbox": [
+        126,
+        269,
+        1422,
+        764
+      ],
+      "uv_rect": [
+        0.07942708333333333,
+        0.2587890625,
+        0.8489583333333334,
+        0.4912109375
+      ],
+      "sha256": "338081d6b39ffc1cae7d485cf6b7d518f1c507168545ba4780aad12ff65c556e",
+      "sampling_bbox": [
+        122,
+        265,
+        1426,
+        768
+      ],
+      "display_aspect": 2.592445328031809,
+      "alpha_scissor": 0.5
+    },
+    {
+      "id": "ink_ground_fractures_v5",
+      "file": "sources/ink_ground_fractures_v5.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "opaque_fraction": 0.014156294753121749,
+      "transparent_fraction": 0.968972652742484,
+      "alpha_bbox": [
+        63,
+        100,
+        1216,
+        1206
+      ],
+      "solid_bbox": [
+        102,
+        126,
+        1179,
+        1084
+      ],
+      "uv_rect": [
+        0.08133971291866028,
+        0.10047846889952153,
+        0.8588516746411483,
+        0.7639553429027113
+      ],
+      "sha256": "fe7ce77e1dc973e041f2c3880f7f8eacbbdbaf8ceecc1f1ba2d65df908036b5f"
+    }
+  ]
+}

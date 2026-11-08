@@ -1,0 +1,28 @@
+{
+  "source": "C:\\Users\\PC\\.codex\\generated_images\\01a1b24f-81b2-7953-bd74-cc47101e8c80\\exec-6ac9de14-0707-4ca9-a21a-3a1b4761bca3.png",
+  "tool": "built-in image_gen",
+  "raw_pixels_unchanged": true,
+  "file": "withered_flower_clump.png",
+  "size": [
+    1312,
+    1199
+  ],
+  "sha256": "fd846a1fc3d9aad1247b5a0b5cf0b3a7c6d775816e629072b0a944b2dfb07cc6",
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "opaque_bbox": [
+    203,
+    100,
+    1090,
+    1121
+  ],
+  "display_aspect": 0.8687561214495593,
+  "uv_region": [
+    0.15472560975609756,
+    0.08340283569641367,
+    0.6760670731707317,
+    0.8515429524603837
+  ]
+}

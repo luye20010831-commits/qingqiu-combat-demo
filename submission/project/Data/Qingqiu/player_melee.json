@@ -1,0 +1,64 @@
+{
+  "skills": [
+    {
+      "id": "thrust",
+      "name": "挥击",
+      "clip": "light_slash",
+      "clip_seconds": 0.72,
+      "duration": 0.4,
+      "contact": 0.14,
+      "reach": 2.6,
+      "half_angle": 1.15,
+      "damage": 10.0,
+      "cooldown": 0.4,
+      "trail_start": 0.09,
+      "impact_pause": 0.03,
+      "boss_pause": 0.045,
+      "trauma": 0.28
+    },
+    {
+      "id": "sweep",
+      "name": "横扫",
+      "clip": "spear_sweep",
+      "clip_seconds": 0.9,
+      "duration": 0.72,
+      "contact": 0.28,
+      "reach": 3.0,
+      "half_angle": 1.5,
+      "damage": 24.0,
+      "cooldown": 3.5,
+      "trail_start": 0.19,
+      "impact_pause": 0.045,
+      "boss_pause": 0.06,
+      "trauma": 0.36
+    },
+    {
+      "id": "ward",
+      "name": "护魂",
+      "clip": "ward_cast",
+      "clip_seconds": 1.45,
+      "duration": 0.8,
+      "contact": 0.32,
+      "damage": 0.0,
+      "cooldown": 7.0,
+      "ward_seconds": 3.0,
+      "damage_multiplier": 0.5
+    },
+    {
+      "id": "heavy",
+      "name": "重击",
+      "clip": "heavy_strike",
+      "clip_seconds": 1.1,
+      "duration": 1.1,
+      "contact": 0.52,
+      "trail_start": 0.42,
+      "reach": 3.1,
+      "half_angle": 0.95,
+      "damage": 42.0,
+      "cooldown": 2.2,
+      "impact_pause": 0.08,
+      "boss_pause": 0.1,
+      "trauma": 0.58
+    }
+  ]
+}

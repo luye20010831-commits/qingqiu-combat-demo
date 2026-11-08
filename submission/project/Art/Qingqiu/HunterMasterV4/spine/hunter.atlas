@@ -1,0 +1,55 @@
+hunter.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+pma: false
+leg_L
+  rotate: false
+  xy: 1547,6
+  size: 119,74
+  orig: 119,74
+  offset: 0,0
+  index: -1
+leg_R
+  rotate: false
+  xy: 1672,6
+  size: 113,73
+  orig: 113,73
+  offset: 0,0
+  index: -1
+torso
+  rotate: false
+  xy: 874,6
+  size: 410,285
+  orig: 410,285
+  offset: 0,0
+  index: -1
+spear
+  rotate: false
+  xy: 6,6
+  size: 181,686
+  orig: 181,686
+  offset: 0,0
+  index: -1
+arm_L
+  rotate: false
+  xy: 1414,6
+  size: 127,138
+  orig: 127,138
+  offset: 0,0
+  index: -1
+arm_R
+  rotate: false
+  xy: 1290,6
+  size: 118,141
+  orig: 118,141
+  offset: 0,0
+  index: -1
+head
+  rotate: false
+  xy: 193,6
+  size: 675,568
+  orig: 675,568
+  offset: 0,0
+  index: -1

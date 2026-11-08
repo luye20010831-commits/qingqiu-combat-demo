@@ -1,0 +1,29 @@
+{
+  "note": "仅选入本包实际资源对应的历史执行提示词；本轮没有新图像生成。",
+  "original_file": "Art/Qingqiu/generation_prompts.json",
+  "original_sha256": "b4819536a911a11e0687512f5082b4ecde23596972a0e09b36fc2fda5d4f819a",
+  "entries": [
+    {
+      "files": [
+        "ink_broadleaf_v4.png",
+        "ink_fir_v4.png"
+      ],
+      "prompt": "Use case: stylized-concept. Asset type: a separated two-tree game sprite sheet, EXACTLY TWO full-height isolated trees in equal left and right columns on genuine transparency. Use the two supplied gameplay screenshots ONLY as art-direction references for SIMPLE hand-drawn dark ink outlines, flat cel-color masses, restrained detail and cave-forest palette. LEFT TREE: original ancient broadleaf tree with a thick slightly bent trunk, a few graphic angular branches and a compact dark irregular leaf canopy. RIGHT TREE: original dark fir with a strong trunk and three angular loosely triangular canopy tiers. Both have grounded short roots. Make silhouettes distinct, readable and elegant. NOT realistic, NOT pixel art, NOT painterly dense foliage; use large flat blue-gray and charcoal teal shapes, a few subdued desaturated bark-brown shapes, bold nearly black outer contour lines and just a few meaningful interior branch/bark lines. Like a premium hand-inked survival game environment prop. Low-oblique 3/4 game view with upright trees. Cool neutral soft illumination, retain readable fills so actual game lighting can darken them. Full tree and roots in each own column with ample transparent padding and a wide empty gap between columns. All pixels outside each tree genuinely transparent, no halo, no scenery, no ground tile, no shadows beyond roots, no grass, no fungi, no UI, no words, no text. Do not copy characters, icons, symbols, objects or tree shapes from screenshots; make new original trees in their broad visual language. Keep tree detail SPARSE and LINEAR.",
+      "processing": "Split into independent transparent tree files as requested."
+    },
+    {
+      "files": [
+        "ink_rock_v4.png",
+        "ink_grass_v4.png",
+        "ink_fern_v4.png",
+        "ink_mushrooms_v4.png"
+      ],
+      "prompt": "Use case: stylized-concept. Asset type: one clean 4-column transparent environment sprite kit for a dark hand-inked forest game, EXACTLY FOUR separated objects each fully contained in its own equal column, generous transparent space between. Left to right: (1) a small angular weathered gray-blue boulder with a single subtle pale jade vein, (2) a simple sparse clump of seven pointed dark blue-gray grass blades, (3) one low stylized fern with a few clearly outlined fronds, (4) a small cluster of three elegant blue-cyan glowing forest mushrooms, caps in simple flat blue shapes with a few pale cyan spots, gray-blue stems. Full objects at common baseline, no ground patches. Art direction from provided gameplay screenshots: original hand-drawn graphic props, bold almost-black ink outlines, very limited flat cel-color fills, simple purposeful interior lines, slightly irregular silhouette. NO realistic painting, NO pixel art, NO fine texture or dense detail, NO tiny repeated shading strokes. Readable as small game props. Muted charcoal, blue-gray and dark teal palette, only mushrooms carry restrained cyan. Slightly elevated oblique view. Genuine transparency around each sprite, no halo, no scenery, no shadow patch, no UI, no text, no labels. Create new original designs, use references only for the broad hand-inked visual style.",
+      "processing": "Split into independent transparent prop files as requested."
+    },
+    {
+      "file": "clean_ground_v4.png",
+      "prompt": "Use case: stylized-concept. Asset type: seamless TOP-DOWN ground-only texture for a clean hand-drawn dark forest clearing. Match the broad graphical treatment of the supplied gameplay reference: calm nearly flat charcoal ground, restrained ink art, SIMPLE low-detail cel-color shapes. Dominant color Xuanqing #3d3b4f, with very subtle Wuhei #392f41 shadow variations and a few extremely subdued Li earth #75664d traces. Limit base colors to those hex swatches. The surface should be almost uniform with only broad very faint variations, readable uninterrupted open floor. No obvious partitions, no patchwork boundaries, no tiling grid, no cobblestones, no cracks network, no grass texture, no moss blobs, no ripples, no ridge texture, no speckles, no grain, no fine noise. No trees, no rocks, no plants, no objects, no fungi, no shadows, no perspective, no clouds, no text or UI. Square, seamless all four edges, even flat illumination. Original clean ground illustration suitable for actual lighting in a game; NOT a screenshot and NOT an entire scene. The ground will receive dramatic cool local lights at runtime."
+    }
+  ]
+}

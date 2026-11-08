@@ -1,0 +1,155 @@
+{
+	"audio_driver": "Dummy",
+	"audio_recorded": true,
+	"chapter": "p2",
+	"delivery_speed": 1.5,
+	"fps": 30,
+	"frames": 1452,
+	"human_full_playthrough": false,
+	"observations": [
+		{
+			"frame": 0,
+			"heavy_tooltip": "4 / 右键 · 蓄势重劈\n3.1 米 · 42 伤害 · 0.52 秒接触 · 冷却 2.2 秒",
+			"id": "current_build",
+			"player_max_hp": 120.0,
+			"sweep_tooltip": "2 · 近战横扫\n3.0 米 · 24 伤害 · 0.28 秒接触 · 冷却 3.5 秒",
+			"ward_tooltip": "3 · 护魂，成形后可抵消爱心\n0.32 秒成形 · 持续 3.0 秒 · 所受伤害 ×0.50 · 冷却 7.0 秒"
+		},
+		{
+			"bullets": 5,
+			"casts": 1,
+			"frame": 237,
+			"id": "p2_claw_gale",
+			"player_hp": 106.0
+		},
+		{
+			"bullets": 26,
+			"casts": 2,
+			"frame": 381,
+			"id": "barrage_fan",
+			"player_hp": 100.0
+		},
+		{
+			"bullets": 27,
+			"casts": 3,
+			"frame": 504,
+			"id": "p2_tail_crescent",
+			"player_hp": 102.0
+		},
+		{
+			"bullets": 42,
+			"casts": 4,
+			"frame": 648,
+			"id": "barrage_weave",
+			"player_hp": 110.0
+		},
+		{
+			"bullets": 43,
+			"casts": 5,
+			"frame": 771,
+			"id": "p2_fox_roar",
+			"player_hp": 104.0
+		},
+		{
+			"bullets": 73,
+			"casts": 6,
+			"frame": 915,
+			"id": "barrage_ring",
+			"player_hp": 110.0
+		},
+		{
+			"frame": 1044,
+			"hidden_hits": 0,
+			"id": "vanish",
+			"total_hits": 1
+		},
+		{
+			"burn_applications": 1,
+			"burn_ticks": 7,
+			"frame": 1452,
+			"hp": 64.0,
+			"id": "inferno_rain",
+			"patch_count": 102,
+			"waves": 4
+		}
+	],
+	"player_max_hp": 120,
+	"positions_and_attacks_arranged": true,
+	"production_save_used": false,
+	"scripted": true,
+	"seconds": 48.4,
+	"sections": [
+		{
+			"detail": "成年狐在招式间换位；起手后锁定面向，身体和浮印替代地面范围",
+			"end_frame": 123,
+			"id": "roam",
+			"start_frame": 9,
+			"title": "P2  ·  双尾迷雾与游走"
+		},
+		{
+			"detail": "五道远距爪风；读抬爪方向，横向离开锁定路径",
+			"end_frame": 246,
+			"id": "p2_claw_gale",
+			"start_frame": 123,
+			"title": "P2  ·  抬爪风刃"
+		},
+		{
+			"detail": "连续三波，不能躲过第一波就立刻贪刀；鬼火先慢后突进",
+			"end_frame": 390,
+			"id": "barrage_fan",
+			"start_frame": 246,
+			"title": "P2  ·  三波扇幕"
+		},
+		{
+			"detail": "宽幅定向月刃；从起手方向判断侧移或冲刺时机",
+			"end_frame": 513,
+			"id": "p2_tail_crescent",
+			"start_frame": 390,
+			"title": "P2  ·  双尾月扫"
+		},
+		{
+			"detail": "左右交错和弯曲弹道；穿过间隙后继续观察后续波次",
+			"end_frame": 657,
+			"id": "barrage_weave",
+			"start_frame": 513,
+			"title": "P2  ·  三波交织"
+		},
+		{
+			"detail": "冲击波向外扩宽；越远越不能只做小幅横移",
+			"end_frame": 780,
+			"id": "p2_fox_roar",
+			"start_frame": 657,
+			"title": "P2  ·  远距狐啸"
+		},
+		{
+			"detail": "宽弧错位连发；保留缺口，实际飞弹沿当前锁定方向生成",
+			"end_frame": 924,
+			"id": "barrage_ring",
+			"start_frame": 780,
+			"title": "P2  ·  三波错位弧幕"
+		},
+		{
+			"detail": "隐身期间近战无法命中；现形后的短窗口可接重击",
+			"end_frame": 1053,
+			"id": "vanish",
+			"start_frame": 924,
+			"title": "P2  ·  隐身与再现形"
+		},
+		{
+			"detail": "V4.1 四波共 102 处落焰；玩家使用正式 120 生命，余焰 2.8 秒",
+			"end_frame": 1287,
+			"id": "inferno_rain",
+			"start_frame": 1053,
+			"title": "P2  ·  玄焰倾天与移动通道"
+		},
+		{
+			"detail": "真实落焰与伤害；脚本站位移出火地，观察身体黑焰及持续扣血",
+			"end_frame": 1452,
+			"id": "burn",
+			"start_frame": 1287,
+			"title": "P2  ·  离开余焰仍有附着灼烧"
+		}
+	],
+	"source_gameplay_modified": false,
+	"version": "V4.1-current"
+}

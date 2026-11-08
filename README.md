@@ -1,5 +1,18 @@
 # 青丘 / Qingqiu
 
+## 最新笔试提交 / Technical design submission
+
+**V4.1 · 九尾狐三阶段战斗 · 有声1.5倍速演示。**
+
+- [下载完整提交包](https://github.com/luye20010831-commits/qingqiu-combat-demo/releases/download/v4.1-submission-20261109/qingqiu-fox-boss-v4.1-submission.zip) · [Release下载页](https://github.com/luye20010831-commits/qingqiu-combat-demo/releases/tag/v4.1-submission-20261109)
+- [两页设计说明](submission/docs/qingqiu-fox-boss-v4.1-design.pdf) · [完整Godot源码](submission/project/) · [运行与阅读说明](submission/README.md)
+- [战斗机制演示（有声1.5倍速，约1分51秒）](https://github.com/luye20010831-commits/qingqiu-combat-demo/releases/download/v4.1-submission-20261109/qingqiu-fox-boss-v4.1-combat-demo-1.5x.mp4) · [28动作预演（约29秒）](https://github.com/luye20010831-commits/qingqiu-combat-demo/releases/download/v4.1-submission-20261109/qingqiu-fox-boss-v4.1-animation-preview-1.5x.mp4)
+- [工具、AI与素材来源](submission/docs/credits-and-ai.md) · [试玩迭代与未完成项](submission/docs/playtest-and-iteration.md) · [提交内容对照](submission/docs/submission-checklist.md)
+
+录像为当前提交源码的引擎实录，使用脚本安排站位、出招及尾血快进；成片1.5倍速，游戏速度不变。调参后本人复测与P3真人实战仍待完成，具体分工与限制见材料。
+
+以下展示页及原速静音视频为此前作品展示，最新笔试材料以上述链接为准。
+
 **一场从幼狐到九尾的三阶段 Boss 战。**  
 A three-phase boss encounter, from a fox cub to a nine-tailed fox.
 

@@ -1,0 +1,42 @@
+[gd_scene load_steps=8 format=3]
+
+[ext_resource type="Script" path="res://Scripts/Qingqiu/ghost_fire.gd" id="1"]
+[ext_resource type="Shader" path="res://Shaders/Qingqiu/ghost_fire.gdshader" id="2"]
+[ext_resource type="Shader" path="res://Shaders/Qingqiu/ghost_fire_pool.gdshader" id="3"]
+
+[sub_resource type="ShaderMaterial" id="FireMaterial"]
+resource_local_to_scene = true
+shader = ExtResource("2")
+
+[sub_resource type="QuadMesh" id="FireQuad"]
+size = Vector2(2.5, 3.6)
+
+[sub_resource type="ShaderMaterial" id="PoolMaterial"]
+resource_local_to_scene = true
+shader = ExtResource("3")
+
+[sub_resource type="PlaneMesh" id="PoolPlane"]
+size = Vector2(2.7, 2.7)
+
+[node name="GhostFire" type="Node3D"]
+script = ExtResource("1")
+
+[node name="Flame" type="MeshInstance3D" parent="."]
+position = Vector3(0, 1.4, 0)
+cast_shadow = 0
+mesh = SubResource("FireQuad")
+material_override = SubResource("FireMaterial")
+
+[node name="GroundSpill" type="MeshInstance3D" parent="."]
+position = Vector3(0, 0.025, 0)
+cast_shadow = 0
+mesh = SubResource("PoolPlane")
+material_override = SubResource("PoolMaterial")
+
+[node name="GhostLight" type="OmniLight3D" parent="."]
+position = Vector3(0, 0.9, 0.2)
+light_color = Color(0.105882, 0.819608, 0.647059, 1)
+light_energy = 0.65
+light_volumetric_fog_energy = 0.2
+omni_range = 3.3
+omni_attenuation = 1.5

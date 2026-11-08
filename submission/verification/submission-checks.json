@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "passed_checks": 192,
+  "suites": [
+    {
+      "suite": "verify_balance_v4",
+      "checks": 32,
+      "passed": true,
+      "audio_driver": "Dummy"
+    },
+    {
+      "suite": "verify_opening_mist_guest",
+      "checks": 38,
+      "passed": true,
+      "audio_driver": "Dummy"
+    },
+    {
+      "suite": "verify_stage_checkpoints",
+      "checks": 35,
+      "passed": true,
+      "audio_driver": "Dummy"
+    },
+    {
+      "suite": "verify_phase_music",
+      "checks": 33,
+      "passed": true,
+      "audio_driver": "Dummy",
+      "native": false
+    },
+    {
+      "suite": "verify_restored_audio",
+      "checks": 54,
+      "passed": true,
+      "audio_driver": "Dummy",
+      "native": true
+    }
+  ],
+  "audio_driver": "Dummy",
+  "human_playthrough": false,
+  "human_audition": false,
+  "source_fingerprint": "15811b4ed870a594d4f1dff45348adf04d1e5725f4aa4f78fa1838d1b5a664a3",
+  "first_music_check": "Fixed-FPS simulation advanced faster than real audio. Removed --fixed-fps for the existing wall-clock endpoint test; no game or test source changes."
+}

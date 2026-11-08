@@ -1,0 +1,36 @@
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+
+PASS Preview remains silent with three available tracks
+PASS P1 imports its supplied nonempty MP3
+PASS P1 plays the exact configured file bytes
+PASS P1 loops on the dedicated music bus
+PASS P1 fade settles to one track at -20 dB
+PASS P1 crosses its actual MP3 endpoint and keeps looping
+PASS Repeated P1 notification preserves playback position
+PASS P1 clear retains its track until curtain commit
+PASS P2 curtain commit starts the real incoming track with the outgoing track still fading
+PASS P2 reveal resumes combat without restarting its music
+PASS P2 imports its supplied nonempty MP3
+PASS P2 plays the exact configured file bytes
+PASS P2 loops on the dedicated music bus
+PASS P2 fade settles to one track at -20 dB
+PASS P2 crosses its actual MP3 endpoint and keeps looping
+PASS Repeated P2 notification preserves playback position
+PASS P2 clear retains its track until curtain commit
+PASS P3 curtain commit starts the real incoming track with the outgoing track still fading
+PASS P3 reveal resumes combat without restarting its music
+PASS P3 imports its supplied nonempty MP3
+PASS P3 plays the exact configured file bytes
+PASS P3 loops on the dedicated music bus
+PASS P3 fade settles to one track at -20 dB
+PASS P3 crosses its actual MP3 endpoint and keeps looping
+PASS Repeated P3 notification preserves playback position
+PASS M mutes the actual P3 music bus
+PASS M restores the music bus
+PASS Restart from P3 replaces all old music with P1 from the start
+PASS Return to preview stops all phase music
+PASS Defeat during a P1-to-P2 fade stops both tracks
+PASS Actual P3 victory stops its real music and outgoing fade
+PASS Explicit missing fixture falls silent without leaking P1
+PASS Scene exit cleans its bus and active crossfade
+PHASE_MUSIC_CHECKS 33, FAILURES 0

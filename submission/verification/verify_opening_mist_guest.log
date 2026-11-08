@@ -1,0 +1,41 @@
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+
+PASS Application still opens in a controllable art preview
+PASS Real normal Enter begins the new opening state
+PASS Opening owns two ground mist wings and a visible cinematic overlay
+PASS Cinematic temporarily hides the existing HUD and developer entry
+PASS P1 music is selected under the opening
+PASS Actual movement and dash are blocked during the opening
+PASS All player skills are gated while the opening is active
+PASS Neither side can take combat damage during staging
+PASS Ink veil opens into the real forest before the leap
+PASS Existing cub hop moves through the real 3D scene above the ground
+PASS The opening really plays the current authored hop clip
+PASS Landing triggers one temporary ivory ground blossom
+PASS Cub lands at the actual combat origin and turns to its gaze pose
+PASS Short title card appears over the landed cub
+PASS Current gaze pose has a brief registered-eye highlight
+PASS Ground mist has physically parted to both sides
+PASS Opening consumes neither phase time nor attack grace
+PASS Gaze releases before the camera returns to gameplay
+PASS The 4.6-second opening completes into playable combat
+PASS Encounter timing starts at completion rather than at the opening's first frame
+PASS Normal completion restores the previous interface
+PASS Gameplay camera restores the user's wheel distance and FOV exactly
+PASS Opening restores each previously enabled or paused processing route
+PASS No gaze/attack pose leaks into the first live frame
+PASS Temporary mist and landing nodes are freed on completion
+PASS Player attack is immediately usable after the cinematic
+PASS A second Enter skips the opening instead of restarting it
+PASS Skipping does not accidentally trigger a combat action
+PASS Mouse skip is consumed and cannot become a weapon swing
+PASS R cancels staging and performs a fast clean restart without stale completion
+PASS Tab cancels the opening without later resuming combat
+PASS Developer P2 jump cancels the opening and stays immediately playable
+PASS Developer P3 remains a direct playable start
+PASS Existing programmatic / rapid-test entry remains immediate by default
+PASS Escape skips the current opening without quitting
+PASS Completion preserves an intentionally hidden interface
+PASS Reduced-effects mode uses gentler camera staging
+PASS Opening request does not replace the distinct P2 phase reveal
+OPENING_MIST_GUEST 38 checks; passed=true

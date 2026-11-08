@@ -1,0 +1,5 @@
+# Keep the Godot entry and selected verification evidence in this submission.
+!project/project.godot
+!verification/*.log
+project/.godot/
+project/Export/
