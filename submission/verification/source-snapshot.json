@@ -3672,8 +3672,27 @@
   "changes_from_recorded_snapshot": [],
   "audio": "selected_sfx_and_three_phase_music",
   "gameplay_balance_changed": false,
-  "human_post_tuning_retest_complete": false,
+  "human_post_tuning_retest_complete": true,
   "previous_media_source_fingerprint": "15811b4ed870a594d4f1dff45348adf04d1e5725f4aa4f78fa1838d1b5a664a3",
   "media_recorded_again_with_current_audio": true,
-  "video_delivery_speed": 1.5
+  "video_delivery_speed": 1.5,
+  "user_reported_playtest": {
+    "reported_date": "2026-11-09",
+    "evidence_kind": "user report in the current chat",
+    "all_three_phases_experienced": true,
+    "p3_defeated": true,
+    "user_quotes": [
+      "已亲自体验全部三阶段",
+      "p3打完了。",
+      "简单多了，打的过了",
+      "suno，美术素材全部AI.，创意相关翻找我之前的提示词。\n我主要是对boss技能设计，和密度之类的制作。\n难度曲线什么的没做。（反而改弱了一点）"
+    ],
+    "continuous_single_run_not_confirmed": true,
+    "precise_clear_times_not_provided": true,
+    "difficulty_curve_not_completed": true,
+    "main_personal_contribution": "Boss skills, behavior/counterplay requirements, density choices, feedback and revision decisions",
+    "music_provider": "Suno",
+    "music_subscription_when_generated": "not provided",
+    "new_artwork_origin": "AI generated, confirmed by user"
+  }
 }
