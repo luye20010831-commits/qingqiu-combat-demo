@@ -1,0 +1,57 @@
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+
+PASS All nine user-approved files import as nonempty WAV resources
+PASS Accepted light windup waits for the actual swing
+PASS Light swing does not play before its 0.09-second marker
+PASS Light swing crosses its marker and plays A01 once
+PASS Continuing the same swing does not replay its sound
+PASS Sweep uses A02 at its own swing marker
+PASS A heavy whiff keeps its whoosh but has no fake hit
+PASS Unselected procedural ward audio stays removed
+PASS Interrupting before the marker cancels the swing sound
+PASS Accepted normal contact plays B01
+PASS Accepted heavy contact plays B02 without doubling the normal hit
+PASS Confirmed body contact routes to B03
+PASS One actual volley uses F01 once
+PASS Accepted fireball contact plays F02
+PASS A dodged fireball has no fake contact sound
+PASS A whole black-flame wave lands with one F02 cue
+PASS Actual residual black flame registers a burning source
+PASS Actual fire-pillar ignition uses F03
+PASS The active fire pillar registers its burning source
+PASS 128 flames share one playing F05 voice without duplicate source entries
+PASS F05 loops on the existing mute-controlled SFX bus
+PASS F05 crosses its real WAV endpoint and continues looping
+PASS Adding many fires cannot exceed the configured ambience level
+PASS M mutes approved one-shots and the burning loop
+PASS Deleted residual fires expire and the aggregate loop stops
+PASS Distant fire outside the audible radius remains silent
+PASS The actual attached-burn status is accepted
+PASS Attached burn plays F05 at the player even away from scene origin
+PASS Extinguishing the attached burn stops its loop
+PASS Restart clears approved fire ambience and stale sources
+PASS Actual defeat stops persistent burning audio
+PASS Phase commit clears the preceding phase burning loop
+PASS Only 13 selected combat routes and eight one-shot sources are loaded; F05 is separate
+PASS Unrequested and deleted cues stay absent
+PASS P1 licensed stage voice is playable on SFX bus
+PASS P2 licensed stage voice is playable on SFX bus
+PASS P3 licensed stage voice is playable on SFX bus
+PASS P1 current opening actually triggers the cub voice
+PASS P1 opening voice fires once
+PASS Skipping opening stops the voice and returns control
+PASS P2 curtain starts selected CC0 F03 and supplied cello
+PASS Repeated request during one curtain does not duplicate cello
+PASS Phase commit does not cut the independent cello layer
+PASS Normal P2 commit suppresses old shrill audition voice
+PASS P2 has no closeup overlay or eye shot
+PASS Deleted eye reveal has no orphaned evil laugh player
+PASS P2 in-world tail reveal returns to combat
+PASS P3 commit restores licensed woman wail
+PASS P3 curtain adds one more cello attack
+PASS P3 complete animation still resumes combat
+PASS M mutes restored effects and phase music together
+PASS Cancel stops every restored presentation layer
+PASS Defeat stops cues, fire loop and all presentation layers
+PASS Script integration checks use an in-memory checkpoint
+RESTORED_AUDIO_CHECKS 54 passed=true

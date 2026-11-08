@@ -1,0 +1,54 @@
+{
+  "suites": [
+    {
+      "suite": "verify_balance_v4_headless",
+      "checks": 32,
+      "passed": true
+    },
+    {
+      "suite": "verify_charm_approach_headless",
+      "checks": 36,
+      "passed": true
+    },
+    {
+      "suite": "verify_charm_hearts_tail_headless",
+      "checks": 79,
+      "passed": true
+    },
+    {
+      "suite": "verify_developer_phase_start_headless",
+      "checks": 38,
+      "passed": true
+    },
+    {
+      "suite": "verify_final_cleanup_headless",
+      "checks": 26,
+      "passed": true
+    },
+    {
+      "suite": "verify_inferno_count_080_headless",
+      "checks": 21,
+      "passed": true
+    },
+    {
+      "suite": "verify_p1_homing_heart_headless",
+      "checks": 27,
+      "passed": true
+    },
+    {
+      "suite": "verify_restored_audio_headless",
+      "checks": 54,
+      "passed": true
+    },
+    {
+      "suite": "verify_stage_checkpoints_headless",
+      "checks": 35,
+      "passed": true
+    }
+  ],
+  "checks": 348,
+  "native_final_cleanup_checks": 26,
+  "audio_driver": "Dummy",
+  "human_playthrough": false,
+  "production_save_used": false
+}

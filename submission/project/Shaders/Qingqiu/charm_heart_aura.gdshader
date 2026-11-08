@@ -2,6 +2,9 @@ shader_type spatial;
 render_mode unshaded,cull_disabled,depth_draw_never,shadows_disabled,fog_disabled,blend_add;
 uniform float clock=0.0;
 uniform float fade=1.0;
+uniform vec4 edge_color : source_color=vec4(.745,0.0,.184,1.0);
+uniform vec4 fill_color : source_color=vec4(.851,.110,.424,1.0);
+uniform vec4 highlight_color : source_color=vec4(.949,.769,.839,1.0);
 #include "res://Shaders/Qingqiu/charm_heart_shape.gdshaderinc"
 void fragment(){
  vec2 p=(UV-.5)*vec2(4.666667,4.4);p.y=-p.y+.22;
@@ -15,7 +18,7 @@ void fragment(){
  float wisps=exp(-pow((d-(.12+.035*sin(angle*4.0+clock*1.6)))/.036,2.0))*pow(flow,4.0)*.14;
  float breath=.90+.10*sin(clock*3.2);
  float outside=smoothstep(-.03,.06,d);
- vec3 pink=vec3(.863,.647,.745),violet=vec3(.655,.502,.729),pale=vec3(.733,.804,.773);
+ vec3 pink=fill_color.rgb,violet=edge_color.rgb,pale=highlight_color.rgb;
  vec3 tint=mix(violet,pink,flow*.6+.25);
  tint=mix(tint,pale,rim*.55);
  ALBEDO=tint;EMISSION=tint*.25;

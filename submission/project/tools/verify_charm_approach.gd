@@ -33,7 +33,7 @@ func run() -> void:
 	var cooldown: float=s.cooldowns[3];var hits: int=s.hit_count
 	var heart=heart_at_player(1)
 	check(heart.resolved and is_equal_approx(arena.charm_remaining,1.2),"Actual unshielded heart contact starts 1.2-second control loss")
-	check(e.player_health==e.player_max_health and is_equal_approx(a.vision_remaining,1.2),"Charm adds a matching short veil and no direct HP damage")
+	check(e.player_health==e.player_max_health and is_zero_approx(a.vision_remaining) and not a.vision_rect.visible,"P1 has no veil or pink fog and no direct HP damage")
 	check(s.active_skill.is_empty() and is_equal_approx(s.cooldowns[3],cooldown),"Charm cancels the pending attack and preserves its cooldown")
 	s.update_melee(1.0)
 	check(s.hit_count==hits,"Interrupted weapon contact cannot land later")

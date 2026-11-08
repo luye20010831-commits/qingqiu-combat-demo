@@ -1,0 +1,39 @@
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+
+PASS P1 charm duration is configured as 1.2 seconds
+PASS A real heavy attack can begin before the charm arrives
+PASS Actual unshielded heart contact starts 1.2-second control loss
+PASS P1 has no veil or pink fog and no direct HP damage
+PASS Charm cancels the pending attack and preserves its cooldown
+PASS Interrupted weapon contact cannot land later
+PASS Canceled weapon pose releases to the real movement gait
+PASS Skill HUD reports the charm input lock
+PASS All four player skills are blocked during forced approach
+PASS Real CharacterBody movement approaches the off-center fox despite opposite input
+PASS Forced walk uses the restrained 1.7 m/s speed
+PASS Dash input cannot interrupt or consume cooldown during charm
+PASS Approach retargets the fox's new live position rather than the arena origin
+PASS Control loss is still active just before the short timer ends
+PASS Control automatically returns within 1.24 seconds
+PASS The juvenile veil also clears automatically
+PASS Skill HUD unlocks after charm ends
+PASS Manual movement resumes at normal speed
+PASS Dash becomes usable again after expiry
+PASS Player attacks become usable again after expiry
+PASS Approach stops near the fox instead of jittering through its center
+PASS Ward starts through the real player skill route
+PASS Ward protects only after its actual contact/activation frame
+PASS Ward consumes the contacting homing heart
+PASS Ward prevents control loss, veil and charm-hit registration
+PASS Blocking a heart preserves the ward's remaining duration and HP
+PASS Ward windup begins for the pre-activation case
+PASS Casting without an active shield does not provide premature charm immunity
+PASS An expired shield no longer blocks a heart
+PASS Existing dash immunity still consumes a heart without charm
+PASS Phase changes clear the movement lock and veil
+PASS Restart clears charm immediately
+PASS Returning to preview clears charm immediately
+PASS Defeat cannot leave a compelled player moving
+PASS Ward also cancels a P3 heart before its veil or cleansing pickup spawns
+PASS Unshielded P3 retains its separate vision-and-cleansing mechanic
+CHARM_APPROACH 36 checks; passed=true

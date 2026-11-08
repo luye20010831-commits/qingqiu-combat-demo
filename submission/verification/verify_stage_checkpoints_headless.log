@@ -1,0 +1,38 @@
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+
+PASS Automated run uses only its explicitly isolated checkpoint file
+PASS Missing checkpoint starts at P1 without creating a player save
+PASS P2 checkpoint writes a real config file
+PASS Successful save keeps a backup and removes its temporary file
+PASS A new store object reloads P2 from disk
+PASS Atomic replacement upgrades an existing P2 file to P3
+PASS Older clears cannot move a P3 checkpoint backward or rewrite it
+PASS Corrupt primary recovers the latest P3 checkpoint from its backup
+PASS The next successful commit repairs the primary without downgrading progress
+PASS Failed storage is reported while the earned point remains usable in this session
+PASS An already valid checkpoint can retain a newly earned point during a later write failure
+PASS The same earned point is retried to disk once storage becomes writable
+PASS A fresh main-scene session opens at P1
+PASS Normal Enter opts into real checkpoint progress and P1 opening
+PASS Merely starting or skipping the opening does not create a checkpoint
+PASS P1 defeat persists P2 synchronously before any transition frame
+PASS The existing scene hint confirms the newly saved P2 point
+PASS R during P1 departure resumes the saved P2 with full health
+PASS Checkpoint retry is official, clean and directly playable
+PASS Reopening the complete scene loads the P2 preview from disk
+PASS Startup labels the saved stage before the player continues
+PASS Enter continues P2 without replaying the P1 opening
+PASS Losing within P2 retains the earned P2 checkpoint
+PASS Enter after defeat restarts P2 as a fresh full-health attempt
+PASS P2 defeat immediately replaces the checkpoint with P3
+PASS Leaving during the transition keeps the new P3 point
+PASS A later scene load opens at the saved P3
+PASS P3 continuation uses current full phase and player HP
+PASS Final victory keeps P3 available instead of clearing progress
+PASS Normal R after victory retries the saved P3
+PASS Developer direct entry is explicitly a non-saving attempt
+PASS Developer P2 clear cannot overwrite the official checkpoint file
+PASS Developer R continues to retry its chosen test origin
+PASS Closing developer mode returns R to the official saved point
+PASS Fresh player's developer clear cannot unlock or create official progress
+STAGE_CHECKPOINTS 35 checks; passed=true

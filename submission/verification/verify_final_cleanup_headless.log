@@ -1,0 +1,29 @@
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+
+PASS The screenshot's auxiliary hint row is absent from the live UI
+PASS Main combat controls remain visible
+PASS This integration run does not use the player's real save
+PASS P1 homing heart receives the 2.5-second lifetime
+PASS P1 uses a visibly distinct cyan-white heart palette
+PASS P1 heart may travel until just before 2.5 seconds
+PASS P1 expires at the deadline without requiring a hit
+PASS Expired P1 visual and aura nodes are actually freed
+PASS P1 contact consumes one heart and registers exactly one charm
+PASS P1 retains its short forced-approach gameplay effect
+PASS P1 contact creates no pink fog, vision obstruction or cleansing pickup
+PASS An active ward still consumes P1 hearts before charm
+PASS P3 hearts use a deeper saturated rose distinct from P1
+PASS All four P3 hearts independently expire by 2.5 seconds
+PASS P3 heart contact retains pink-purple fog
+PASS P3 retains free movement and its cleansing light
+PASS Taking the real light pickup removes P3 fog
+PASS Lethal P1 weapon contact starts the real mist departure
+PASS P1-to-P2 completes fire and tail reveal and restores combat
+PASS P2 has no eye insert or orphaned eye-specific laugh
+PASS P2-to-P3 resumes battle after its shortened reveal
+PASS P3 retains anklet, tails and body while skipping every eye shot
+PASS P3 no longer reserves the deleted eye segment's time
+PASS Completed P3 reveal releases its overlay and offscreen rendering
+PASS Restart during P3 reveal clears camera and overlay state
+PASS Returning to preview during the shorter P2 reveal releases input locks
+FINAL_CLEANUP 26 checks; passed=true

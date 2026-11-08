@@ -1,0 +1,82 @@
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+
+PASS P3 heart anticipation cannot charm or launch early
+PASS P3 releases exactly four hearts and no instant sector charm
+PASS Four actual charm projectiles have separate fan directions
+PASS Cleansing light and P3's three-beat pillar accompaniment remain connected
+PASS Swept heart contact applies actual vision obstruction
+PASS Heart charm causes no HP damage or forced walking
+PASS The existing light pickup still clears heart-inflicted charm
+PASS Dashing through a heart avoids charm and consumes that contact
+PASS Moving out of the four flight lanes avoids charm
+PASS Heart lifetime/out-of-field cleanup does not leave stray projectiles
+PASS P1 cub_swipe triggers its own tail anticipation
+PASS P1 cub_swipe drives every segment of every existing tail
+PASS P1 cub_swipe has visible root-to-tip follow-through
+PASS P1 cub_swipe tail overlay leaves eye registration intact
+PASS P1 cub_swipe tail recoil settles after release
+PASS P1 cub_charge triggers its own tail anticipation
+PASS P1 cub_charge drives every segment of every existing tail
+PASS P1 cub_charge has visible root-to-tip follow-through
+PASS P1 cub_charge tail overlay leaves eye registration intact
+PASS P1 cub_charge tail recoil settles after release
+PASS P1 cub_feint triggers its own tail anticipation
+PASS P1 cub_feint drives every segment of every existing tail
+PASS P1 cub_feint has visible root-to-tip follow-through
+PASS P1 cub_feint tail overlay leaves eye registration intact
+PASS P1 cub_feint tail recoil settles after release
+PASS P1 cub_tail_sweep triggers its own tail anticipation
+PASS P1 cub_tail_sweep drives every segment of every existing tail
+PASS P1 cub_tail_sweep has visible root-to-tip follow-through
+PASS P1 cub_tail_sweep tail overlay leaves eye registration intact
+PASS P1 cub_tail_sweep tail recoil settles after release
+PASS P1 cub_charm triggers its own tail anticipation
+PASS P1 cub_charm drives every segment of every existing tail
+PASS P1 cub_charm has visible root-to-tip follow-through
+PASS P1 cub_charm tail overlay leaves eye registration intact
+PASS P1 cub_charm tail recoil settles after release
+PASS P2 barrage_fan triggers its own tail anticipation
+PASS P2 barrage_fan drives every segment of every existing tail
+PASS P2 barrage_fan has visible root-to-tip follow-through
+PASS P2 barrage_fan tail overlay leaves eye registration intact
+PASS P2 barrage_fan tail recoil settles after release
+PASS P2 barrage_ring triggers its own tail anticipation
+PASS P2 barrage_ring drives every segment of every existing tail
+PASS P2 barrage_ring has visible root-to-tip follow-through
+PASS P2 barrage_ring tail overlay leaves eye registration intact
+PASS P2 barrage_ring tail recoil settles after release
+PASS P2 barrage_weave triggers its own tail anticipation
+PASS P2 barrage_weave drives every segment of every existing tail
+PASS P2 barrage_weave has visible root-to-tip follow-through
+PASS P2 barrage_weave tail overlay leaves eye registration intact
+PASS P2 barrage_weave tail recoil settles after release
+PASS P2 p2_claw_gale triggers its own tail anticipation
+PASS P2 p2_claw_gale drives every segment of every existing tail
+PASS P2 p2_claw_gale has visible root-to-tip follow-through
+PASS P2 p2_claw_gale tail overlay leaves eye registration intact
+PASS P2 p2_claw_gale tail recoil settles after release
+PASS P2 p2_tail_crescent triggers its own tail anticipation
+PASS P2 p2_tail_crescent drives every segment of every existing tail
+PASS P2 p2_tail_crescent has visible root-to-tip follow-through
+PASS P2 p2_tail_crescent tail overlay leaves eye registration intact
+PASS P2 p2_tail_crescent tail recoil settles after release
+PASS P2 p2_fox_roar triggers its own tail anticipation
+PASS P2 p2_fox_roar drives every segment of every existing tail
+PASS P2 p2_fox_roar has visible root-to-tip follow-through
+PASS P2 p2_fox_roar tail overlay leaves eye registration intact
+PASS P2 p2_fox_roar tail recoil settles after release
+PASS P3 vision_charm triggers its own tail anticipation
+PASS P3 vision_charm drives every segment of every existing tail
+PASS P3 vision_charm has visible root-to-tip follow-through
+PASS P3 vision_charm tail overlay leaves eye registration intact
+PASS P3 vision_charm tail recoil settles after release
+PASS P3 p3_spiral triggers its own tail anticipation
+PASS P3 p3_spiral drives every segment of every existing tail
+PASS P3 p3_spiral has visible root-to-tip follow-through
+PASS P3 p3_spiral tail overlay leaves eye registration intact
+PASS P3 p3_spiral tail recoil settles after release
+PASS Each of P2's three actual volleys adds a tail recoil beat
+PASS Each of P3's eight actual spiral rounds adds a tail recoil beat
+PASS Restart removes all four hearts and their charm state
+PASS Restart removes every phase's additive tail pose
+CHARM_HEARTS_TAIL 79 checks; passed=true

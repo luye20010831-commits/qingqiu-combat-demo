@@ -1,18 +1,16 @@
 [
   {
     "file": "qingqiu-fox-boss-v4.1-combat-demo-1.5x.mp4",
-    "mean_dbfs": -21.5,
-    "peak_dbfs": -1.8,
-    "video_seconds": "111.000000",
-    "audio_seconds": "111.004979",
-    "audio_video_duration_delta_under_200ms": true
+    "mean_db": -21.3,
+    "peak_db": -1.8,
+    "non_silent": true,
+    "duration_delta_seconds": 0.07164600000000121
   },
   {
     "file": "qingqiu-fox-boss-v4.1-animation-preview-1.5x.mp4",
-    "mean_dbfs": -20.8,
-    "peak_dbfs": -3.9,
-    "video_seconds": "28.755556",
-    "audio_seconds": "28.804979",
-    "audio_video_duration_delta_under_200ms": true
+    "mean_db": -20.8,
+    "peak_db": -3.9,
+    "non_silent": true,
+    "duration_delta_seconds": 0.04942300000000088
   }
 ]

@@ -1,7 +1,7 @@
 # 源码与文件校验说明
 
-Release完整提交包内的file-manifest.json和source-snapshot.json用于校验压缩包内的原始文件字节。
+Release提交ZIP中的file-manifest.json和source-snapshot.json校验压缩包原始字节。Git仓库按.gitattributes统一文本为LF；跨平台核对文本时应先把CRLF规范为LF。
 
-Git仓库按项目已有.gitattributes把文本行尾统一为LF。核对733份源码／依赖后，639份字节完全一致，其余94份差异仅为Windows CRLF与LF行尾；没有其他内容变化。Release附件的GitHub SHA-256与本地文件一致，四个附件均已匿名访问确认可下载。
+当前快照为735份源码／依赖。最新检查为348项相关源码检查、26项原生和26项独立PCK检查、独立EXE启动；证据见同目录。最终视频为同源新录，音画1.5倍速。历史submission-checks.json已经明确标为历史，不代替本轮验证。
 
-入口：project/project.godot（本仓库路径为submission/project/project.godot）。校验数据、录制方式和未完成项分别见此目录及上级docs。
+本人此前已体验全部三阶段并打完P3；最新去眼睛特写、2.5秒爱心、P1无粉雾和分阶段调色尚待本人再次体验，自动记录不作为真人通关录像。

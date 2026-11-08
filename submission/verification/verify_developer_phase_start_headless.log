@@ -1,0 +1,41 @@
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+
+PASS Developer mode starts disabled with a discoverable entry
+PASS P2 shortcut cannot skip stages while developer mode is off
+PASS P3 shortcut is also gated by developer mode
+PASS Real launcher click opens developer testing
+PASS Opening focuses the P2 entry for keyboard navigation
+PASS Developer panel stays inside the logical viewport
+PASS Collapsed entry respects viewport margins
+PASS Real P2 button starts a running P2 encounter directly
+PASS P2 start uses the actual phase HP budget and full player health
+PASS Direct start skips prior fights and cinematic input locks
+PASS Direct entry does not fabricate earlier phase victories or elapsed time
+PASS Direct P2 start selects P2 music state
+PASS Starting releases menu focus so Enter does not replay its button
+PASS The fresh P2 start immediately accepts real player attacks
+PASS P2 uses its actual attack director after direct entry
+PASS F7 starts a fresh P3 encounter during an active P2 attempt
+PASS P3 begins with full phase and player HP
+PASS Jumping clears old projectiles, hazards and scheduled fire beats
+PASS Jumping clears control loss, veil and burn
+PASS Jumping resets player attacks, shield and all skill cooldowns
+PASS Jumping resets dash and hurt/death pose locks
+PASS New attempt restores the player starting position
+PASS P3 form, environment and music are selected together
+PASS P3 can actually release its four-heart skill after direct start
+PASS Developer R restarts the selected P3 with full health
+PASS Direct P3 has real defeat behavior
+PASS Enter after defeat restarts the selected test stage
+PASS F6 can switch back to a fresh P2
+PASS Clearing a direct P2 still uses normal progression
+PASS P2-start play naturally advances to P3 without inventing a P1 result
+PASS After progressing to P3, R still restarts the chosen P2 origin
+PASS Jumping during a transition cancels its delayed phase commit and camera lock
+PASS Tab still returns to art preview
+PASS Developer R also starts the selected stage from preview
+PASS F8 closes and disables developer controls
+PASS With developer mode disabled R restores the normal P1 run
+PASS Disabled developer hotkeys cannot interrupt normal combat
+PASS Escape closes the developer panel instead of quitting the game
+DEVELOPER_PHASE_START 38 checks; passed=true

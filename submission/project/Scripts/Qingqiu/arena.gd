@@ -74,12 +74,6 @@ func _ready() -> void:
 	$Presentation/Interface/Subtitle.text = "三阶段试战 · 参考节奏 2 / 3 / 3 分钟"
 	$Presentation/Interface/Controls.text = "WASD 移动  空格冲刺  左键/J/1 挥击  2 横扫  3 护魂  右键/4 重击  Enter 开始  R 重开"
 	$Presentation/Interface/Controls.add_theme_font_size_override("font_size", 20)
-	var audio_controls := Label.new()
-	audio_controls.position = Vector2(64, 964)
-	audio_controls.text = "滚轮缩放    预览时 1/2/3 选阶段    Tab 返回预览    V 狐鸣    M 静音    B 减弱特效    G 鬼火    H 换色    N 场景风"
-	audio_controls.add_theme_font_size_override("font_size", 20)
-	audio_controls.modulate = Color("#bbcdc5")
-	$Presentation/Interface.add_child(audio_controls)
 	encounter = preload("res://Scripts/Qingqiu/fox_encounter.gd").new()
 	encounter.name = "FoxEncounter"
 	add_child(encounter)

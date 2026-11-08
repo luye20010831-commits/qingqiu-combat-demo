@@ -213,8 +213,12 @@ func begin_intro() -> void:
 	intro_active=true
 	intro_elapsed=0.0
 	intro_pulsed=false
-	cinematic.begin(arena.phase)
-	intro_duration=cinematic.duration
+	if arena.phase==3:
+		cinematic.begin(3)
+		intro_duration=cinematic.duration
+	else:
+		cinematic.stop()
+		intro_duration=1.8
 	if arena.phase==3 and arena.flora!=null:arena.flora.begin_bloom()
 	var puppet=arena.forms.get_child(arena.phase-1).get_node("FoxRig")
 	puppet.play_action("tail_unfurl_p%d"%arena.phase)

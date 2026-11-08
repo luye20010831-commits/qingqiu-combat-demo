@@ -1,0 +1,24 @@
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+
+PASS Current P2 uses the explicit 0.8 count multiplier
+PASS Wave 1 has the correctly rounded drop count
+PASS Wave 1 retains one player-targeted and one boss-side drop
+PASS Wave 1 still distributes fire across the map
+PASS Wave 1 preserves the existing far movement lane
+PASS Wave 2 has the correctly rounded drop count
+PASS Wave 2 retains one player-targeted and one boss-side drop
+PASS Wave 2 still distributes fire across the map
+PASS Wave 2 preserves the existing far movement lane
+PASS Wave 3 has the correctly rounded drop count
+PASS Wave 3 retains one player-targeted and one boss-side drop
+PASS Wave 3 still distributes fire across the map
+PASS Wave 3 preserves the existing far movement lane
+PASS Wave 4 has the correctly rounded drop count
+PASS Wave 4 retains one player-targeted and one boss-side drop
+PASS Wave 4 still distributes fire across the map
+PASS Wave 4 preserves the existing far movement lane
+PASS Four actual waves total 102 drops instead of 128
+PASS Quantity scaling does not alter impact, residue lifetime or descent
+PASS V4 attached burn numbers remain unchanged
+PASS Omitting the multiplier preserves the original full-count profile
+INFERNO_COUNT_080 21 checks; passed=true

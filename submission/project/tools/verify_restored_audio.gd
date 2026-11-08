@@ -137,14 +137,11 @@ func run() -> void:
 	check(arena.phase==2 and p.transition_attack.playing,"Phase commit does not cut the independent cello layer")
 	check(p.voice_count==voice_before,"Normal P2 commit suppresses old shrill audition voice")
 	p._process(.91)
-	check(p.cinematic.laugh_fired and p.cinematic.laugh.playing,"P2 eye closeup triggers the licensed evil laugh")
+	check(not p.cinematic.active and not p.cinematic.layer.visible,"P2 has no closeup overlay or eye shot")
 	p._process(.2)
-	var laugh_events:=0
-	for item in p.cinematic.events:
-		if item.kind=="laugh":laugh_events+=1
-	check(laugh_events==1,"P2 eye closeup plays exactly one laugh")
+	check(p.cinematic.get_node_or_null("RevealLaugh")==null,"Deleted eye reveal has no orphaned evil laugh player")
 	p._process(4.0)
-	check(not p.is_busy() and not p.cinematic.laugh.playing,"P2 reveal completes and clears laugh")
+	check(not p.is_busy() and e.state==e.State.RUNNING,"P2 in-world tail reveal returns to combat")
 	p.request_phase(3);p._process(1.11)
 	check(arena.phase==3 and p.voice.playing and p.last_voice_phase==3,"P3 commit restores licensed woman wail")
 	check(p.transition_attack_count==attack_before+2,"P3 curtain adds one more cello attack")
@@ -156,7 +153,7 @@ func run() -> void:
 	p.play_voice(2);p.fire_audio.play();p.transition_attack.play()
 	p.cinematic.begin(2);p.cinematic.advance(.6)
 	p.cancel_transition()
-	check(not p.voice.playing and not p.fire_audio.playing and not p.transition_attack.playing and not p.cinematic.laugh.playing,"Cancel stops every restored presentation layer")
+	check(not p.voice.playing and not p.fire_audio.playing and not p.transition_attack.playing,"Cancel stops every restored presentation layer")
 	reset(2);p.play_voice(2);p.fire_audio.play();p.transition_attack.play();arena.player_burn.apply(2.0);audio.update_fire_ambience(.4)
 	e.player_hit_grace=0;e.player_health=1;e.damage_player(10.0)
 	check(e.state==e.State.DEFEAT and not p.voice.playing and not p.fire_audio.playing and not p.transition_attack.playing and not audio.fire_loop_player.playing,"Defeat stops cues, fire loop and all presentation layers")

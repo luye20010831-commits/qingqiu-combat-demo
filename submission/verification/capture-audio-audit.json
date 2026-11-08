@@ -1,65 +1,56 @@
 [
   {
-    "segment": "opening",
-    "mean_dbfs": -31.9,
-    "peak_dbfs": -6.7,
-    "audio_non_silent": true,
-    "unclipped_recording": true
+    "file": "actions.avi",
+    "mean_db": -38.6,
+    "peak_db": -21.6,
+    "non_silent": true
   },
   {
-    "segment": "p1",
-    "mean_dbfs": -34.4,
-    "peak_dbfs": -10.0,
-    "audio_non_silent": true,
-    "unclipped_recording": true
+    "file": "checkpoint.avi",
+    "mean_db": -30.0,
+    "peak_db": -9.7,
+    "non_silent": true
   },
   {
-    "segment": "transition2",
-    "mean_dbfs": -29.6,
-    "peak_dbfs": -7.7,
-    "audio_non_silent": true,
-    "unclipped_recording": true
+    "file": "flow.avi",
+    "mean_db": -43.1,
+    "peak_db": -13.4,
+    "non_silent": true
   },
   {
-    "segment": "p2",
-    "mean_dbfs": -32.9,
-    "peak_dbfs": -10.7,
-    "audio_non_silent": true,
-    "unclipped_recording": true
+    "file": "opening.avi",
+    "mean_db": -31.9,
+    "peak_db": -6.7,
+    "non_silent": true
   },
   {
-    "segment": "transition3",
-    "mean_dbfs": -28.9,
-    "peak_dbfs": -9.5,
-    "audio_non_silent": true,
-    "unclipped_recording": true
+    "file": "p1.avi",
+    "mean_db": -34.4,
+    "peak_db": -10.0,
+    "non_silent": true
   },
   {
-    "segment": "p3",
-    "mean_dbfs": -31.0,
-    "peak_dbfs": -12.3,
-    "audio_non_silent": true,
-    "unclipped_recording": true
+    "file": "p2.avi",
+    "mean_db": -32.9,
+    "peak_db": -10.7,
+    "non_silent": true
   },
   {
-    "segment": "checkpoint",
-    "mean_dbfs": -30.0,
-    "peak_dbfs": -9.7,
-    "audio_non_silent": true,
-    "unclipped_recording": true
+    "file": "p3.avi",
+    "mean_db": -31.0,
+    "peak_db": -12.3,
+    "non_silent": true
   },
   {
-    "segment": "flow",
-    "mean_dbfs": -43.1,
-    "peak_dbfs": -13.4,
-    "audio_non_silent": true,
-    "unclipped_recording": true
+    "file": "transition2.avi",
+    "mean_db": -29.4,
+    "peak_db": -9.6,
+    "non_silent": true
   },
   {
-    "segment": "actions",
-    "mean_dbfs": -38.6,
-    "peak_dbfs": -21.6,
-    "audio_non_silent": true,
-    "unclipped_recording": true
+    "file": "transition3.avi",
+    "mean_db": -27.9,
+    "peak_db": -9.5,
+    "non_silent": true
   }
 ]

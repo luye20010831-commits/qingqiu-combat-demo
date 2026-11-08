@@ -1,0 +1,17 @@
+{
+	"audio_driver": "Dummy",
+	"checks": 26,
+	"human_playthrough": false,
+	"observations": [
+		{
+			"p3_shots": [
+				"approach",
+				"anklet",
+				"tails",
+				"body"
+			]
+		}
+	],
+	"passed": true,
+	"production_save_used": false
+}

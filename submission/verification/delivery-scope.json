@@ -1,33 +1,40 @@
 {
+  "source_fingerprint": "c69a1b338e704d2451581a59bf46d8fa6ea1bb4364dd28ae0856c049287290ab",
+  "source_checks": 348,
+  "native_checks": 26,
+  "independent_pck_checks": 26,
+  "windows_exe_startup_passed": true,
+  "media_recorded_again": true,
+  "delivery_speed": 1.5,
+  "pitch_preserved": true,
+  "human_playthrough": false,
+  "external_audio_playback": false,
+  "previous_user_p3_completion_preserved": true,
+  "latest_patch_human_feedback_pending": true,
   "media": [
     {
-      "file": "qingqiu-fox-boss-v4.1-combat-demo-1.5x.mp4",
-      "seconds": 111.004979,
+      "file": "media/qingqiu-fox-boss-v4.1-combat-demo-1.5x.mp4",
+      "seconds": 107.404979,
       "audio_codec": "aac",
       "video_fps": 45,
       "speed": 1.5,
       "chapters": 32,
-      "sha256": "7189ef64b65fbce20548082f400e657fc47ff9c784c318e3f1610e3472f84b14",
+      "sha256": "26c22604c2e3bdf190378f6f58e27acb3a412aee34f0218739403b205b90217d",
       "full_decode_passed": true,
       "pitch_preserved": true
     },
     {
-      "file": "qingqiu-fox-boss-v4.1-animation-preview-1.5x.mp4",
+      "file": "media/qingqiu-fox-boss-v4.1-animation-preview-1.5x.mp4",
       "seconds": 28.804979,
       "audio_codec": "aac",
       "video_fps": 45,
       "speed": 1.5,
       "chapters": 0,
-      "sha256": "fdd7611a29947a975eb8b7b4d20ecd6db1a13505ec5f5910db114340bc7bbcee",
+      "sha256": "f508a94275e4900b5f8d99c5197e8695a5406c3d0b73743f05bc6efdae12e254",
       "full_decode_passed": true,
       "pitch_preserved": true
     }
   ],
-  "source_fingerprint": "15811b4ed870a594d4f1dff45348adf04d1e5725f4aa4f78fa1838d1b5a664a3",
-  "current_source_checks_inherited": 192,
-  "recorded_again": true,
-  "delivery_speed": 1.5,
-  "pitch_preserved": true,
-  "human_playthrough": false,
-  "external_audio_playback": false
+  "pdf_pages": 2,
+  "pdf_visually_reviewed": true
 }

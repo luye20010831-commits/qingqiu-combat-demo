@@ -1,5 +1,5 @@
 {
-  "source_fingerprint": "15811b4ed870a594d4f1dff45348adf04d1e5725f4aa4f78fa1838d1b5a664a3",
+  "source_fingerprint": "c69a1b338e704d2451581a59bf46d8fa6ea1bb4364dd28ae0856c049287290ab",
   "speed": 1.5,
   "chapters": [
     {
@@ -83,7 +83,7 @@
       "end_seconds": 20.75555577777778
     },
     {
-      "detail": "接触后失控朝幼狐走 1.2 秒；同时出现较轻粉紫雾，结束恢复输入",
+      "detail": "青白爱心最多追踪2.5秒；接触后失控朝幼狐走1.2秒，不遮挡视野",
       "end_frame": 914,
       "id": "cub_charm",
       "start_frame": 755,
@@ -103,14 +103,14 @@
       "end_seconds": 27.000000222222223
     },
     {
-      "detail": "演示快进至尾血：真实近战击败 → 火幕 → 特写 → 恢复战斗",
-      "end_frame": 309,
+      "detail": "演示快进至尾血：实际击败 → 火幕／展尾 → 恢复战斗；眼睛特写已删除",
+      "end_frame": 219,
       "id": "transition",
       "start_frame": 9,
       "title": "P1 → P2  ·  实际阶段转场",
       "chapter": "transition2",
       "start_seconds": 27.377777999999996,
-      "end_seconds": 34.044444666666664
+      "end_seconds": 32.044444666666664
     },
     {
       "detail": "成年狐在招式间换位；起手后锁定面向，身体和浮印替代地面范围",
@@ -119,8 +119,8 @@
       "start_frame": 9,
       "title": "P2  ·  双尾迷雾与游走",
       "chapter": "p2",
-      "start_seconds": 34.42222266666666,
-      "end_seconds": 36.955556
+      "start_seconds": 32.42222266666666,
+      "end_seconds": 34.955556
     },
     {
       "detail": "五道远距爪风；读抬爪方向，横向离开锁定路径",
@@ -129,8 +129,8 @@
       "start_frame": 123,
       "title": "P2  ·  抬爪风刃",
       "chapter": "p2",
-      "start_seconds": 36.955556,
-      "end_seconds": 39.68888933333333
+      "start_seconds": 34.955556,
+      "end_seconds": 37.68888933333333
     },
     {
       "detail": "连续三波，不能躲过第一波就立刻贪刀；鬼火先慢后突进",
@@ -139,8 +139,8 @@
       "start_frame": 246,
       "title": "P2  ·  三波扇幕",
       "chapter": "p2",
-      "start_seconds": 39.68888933333333,
-      "end_seconds": 42.88888933333334
+      "start_seconds": 37.68888933333333,
+      "end_seconds": 40.88888933333333
     },
     {
       "detail": "宽幅定向月刃；从起手方向判断侧移或冲刺时机",
@@ -149,8 +149,8 @@
       "start_frame": 390,
       "title": "P2  ·  双尾月扫",
       "chapter": "p2",
-      "start_seconds": 42.88888933333334,
-      "end_seconds": 45.622222666666666
+      "start_seconds": 40.88888933333333,
+      "end_seconds": 43.622222666666666
     },
     {
       "detail": "左右交错和弯曲弹道；穿过间隙后继续观察后续波次",
@@ -159,8 +159,8 @@
       "start_frame": 513,
       "title": "P2  ·  三波交织",
       "chapter": "p2",
-      "start_seconds": 45.622222666666666,
-      "end_seconds": 48.82222266666667
+      "start_seconds": 43.622222666666666,
+      "end_seconds": 46.82222266666667
     },
     {
       "detail": "冲击波向外扩宽；越远越不能只做小幅横移",
@@ -169,8 +169,8 @@
       "start_frame": 657,
       "title": "P2  ·  远距狐啸",
       "chapter": "p2",
-      "start_seconds": 48.82222266666667,
-      "end_seconds": 51.555556
+      "start_seconds": 46.82222266666667,
+      "end_seconds": 49.555556
     },
     {
       "detail": "宽弧错位连发；保留缺口，实际飞弹沿当前锁定方向生成",
@@ -179,8 +179,8 @@
       "start_frame": 780,
       "title": "P2  ·  三波错位弧幕",
       "chapter": "p2",
-      "start_seconds": 51.555556,
-      "end_seconds": 54.755556000000006
+      "start_seconds": 49.555556,
+      "end_seconds": 52.755556000000006
     },
     {
       "detail": "隐身期间近战无法命中；现形后的短窗口可接重击",
@@ -189,8 +189,8 @@
       "start_frame": 924,
       "title": "P2  ·  隐身与再现形",
       "chapter": "p2",
-      "start_seconds": 54.755556000000006,
-      "end_seconds": 57.622222666666666
+      "start_seconds": 52.755556000000006,
+      "end_seconds": 55.622222666666666
     },
     {
       "detail": "V4.1 四波共 102 处落焰；玩家使用正式 120 生命，余焰 2.8 秒",
@@ -199,8 +199,8 @@
       "start_frame": 1053,
       "title": "P2  ·  玄焰倾天与移动通道",
       "chapter": "p2",
-      "start_seconds": 57.622222666666666,
-      "end_seconds": 62.82222266666667
+      "start_seconds": 55.622222666666666,
+      "end_seconds": 60.82222266666667
     },
     {
       "detail": "真实落焰与伤害；脚本站位移出火地，观察身体黑焰及持续扣血",
@@ -209,18 +209,18 @@
       "start_frame": 1287,
       "title": "P2  ·  离开余焰仍有附着灼烧",
       "chapter": "p2",
-      "start_seconds": 62.82222266666667,
-      "end_seconds": 66.48888933333333
+      "start_seconds": 60.82222266666667,
+      "end_seconds": 64.48888933333333
     },
     {
-      "detail": "演示快进至尾血：真实近战击败 → 火幕 → 特写 → 恢复战斗",
-      "end_frame": 354,
+      "detail": "演示快进至尾血：实际击败 → 火幕／展尾 → 恢复战斗；眼睛特写已删除",
+      "end_frame": 279,
       "id": "transition",
       "start_frame": 9,
       "title": "P2 → P3  ·  实际阶段转场",
       "chapter": "transition3",
-      "start_seconds": 66.86666733333333,
-      "end_seconds": 74.533334
+      "start_seconds": 64.86666733333333,
+      "end_seconds": 70.86666733333333
     },
     {
       "detail": "金花、毁林浮石、脚环金粒；场景变化服务于更高的观察压力",
@@ -229,18 +229,18 @@
       "start_frame": 9,
       "title": "P3  ·  九尾金瞳与美丽危险",
       "chapter": "p3",
-      "start_seconds": 74.91111199999999,
-      "end_seconds": 76.91111199999999
+      "start_seconds": 71.24444533333333,
+      "end_seconds": 73.24444533333333
     },
     {
-      "detail": "四颗爱心实际接触后才有浓粉紫雾；P3 仍可移动、攻击，靠近蓝光解除",
+      "detail": "深玫红四心最多飞行2.5秒；接触才有粉紫雾，P3可移动／取蓝光解除",
       "end_frame": 252,
       "id": "vision_charm",
       "start_frame": 99,
       "title": "P3  ·  四心惑目与光点解魅",
       "chapter": "p3",
-      "start_seconds": 76.91111199999999,
-      "end_seconds": 80.311112
+      "start_seconds": 73.24444533333333,
+      "end_seconds": 76.64444533333334
     },
     {
       "detail": "提前准备已成形的护魂，可避免爱心施加魅惑；盾有冷却",
@@ -249,8 +249,8 @@
       "start_frame": 252,
       "title": "P3  ·  护魂也能抵消四心",
       "chapter": "p3",
-      "start_seconds": 80.311112,
-      "end_seconds": 82.77777866666666
+      "start_seconds": 76.64444533333334,
+      "end_seconds": 79.11111199999999
     },
     {
       "detail": "每拍九根、三拍扫场，下一轮横纵轮换；当前没有地面预警圆",
@@ -259,8 +259,8 @@
       "start_frame": 363,
       "title": "P3  ·  九柱三拍与地图轮换",
       "chapter": "p3",
-      "start_seconds": 82.77777866666666,
-      "end_seconds": 87.64444533333334
+      "start_seconds": 79.11111199999999,
+      "end_seconds": 83.97777866666667
     },
     {
       "detail": "先蓄跃与短镜头，再回中心；八轮各 16 枚，留两个相邻扇区缺口",
@@ -269,8 +269,8 @@
       "start_frame": 582,
       "title": "P3  ·  归中跃落与八轮顺时狐焰",
       "chapter": "p3",
-      "start_seconds": 87.64444533333334,
-      "end_seconds": 99.311112
+      "start_seconds": 83.97777866666667,
+      "end_seconds": 95.64444533333334
     },
     {
       "detail": "演示尾血快进；真实近战击败后写入独立测试存档，不使用玩家正式存档",
@@ -279,8 +279,8 @@
       "start_frame": 9,
       "title": "阶段存档  ·  P1 通关后从 P2 继续",
       "chapter": "checkpoint",
-      "start_seconds": 99.68889,
-      "end_seconds": 101.42222333333332
+      "start_seconds": 96.02222333333333,
+      "end_seconds": 97.75555666666666
     },
     {
       "detail": "重新读取磁盘记录，满血 / 清冷却从保存阶段开始；开发跳阶段不覆盖它",
@@ -289,8 +289,8 @@
       "start_frame": 87,
       "title": "阶段存档  ·  P2 通关后从 P3 继续",
       "chapter": "checkpoint",
-      "start_seconds": 101.42222333333332,
-      "end_seconds": 103.15555666666666
+      "start_seconds": 97.75555666666666,
+      "end_seconds": 99.48888999999998
     },
     {
       "detail": "V4.1 演示快进至 42 尾血，再由实际重击完成最后一击；不是完整通关时长",
@@ -299,8 +299,8 @@
       "start_frame": 9,
       "title": "完整尝试流程  ·  击败与胜利",
       "chapter": "flow",
-      "start_seconds": 103.53333466666668,
-      "end_seconds": 105.73333466666666
+      "start_seconds": 99.866668,
+      "end_seconds": 102.06666799999999
     },
     {
       "detail": "演示设置 12 剩余生命，真实抓挠导致失败；按 R 可以快速重试",
@@ -309,8 +309,8 @@
       "start_frame": 108,
       "title": "完整尝试流程  ·  受伤与失败",
       "chapter": "flow",
-      "start_seconds": 105.73333466666666,
-      "end_seconds": 107.40000133333332
+      "start_seconds": 102.06666799999999,
+      "end_seconds": 103.73333466666666
     },
     {
       "detail": "普通重试从正式存档点；开发模式可选 P2、P3，且不覆盖存档",
@@ -319,8 +319,8 @@
       "start_frame": 183,
       "title": "完整尝试流程  ·  R 重试 / 开发阶段直达",
       "chapter": "flow",
-      "start_seconds": 107.40000133333332,
-      "end_seconds": 110.80000133333333
+      "start_seconds": 103.73333466666666,
+      "end_seconds": 107.13333466666666
     }
   ]
 }

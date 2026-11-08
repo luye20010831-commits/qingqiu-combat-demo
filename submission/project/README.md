@@ -7,3 +7,5 @@ Enter开始／继续；WASD移动，空格冲刺；左键/J/1挥击，2横扫，
 
 P1通关保存P2，P2通关保存P3；存档使用user://，交付不含玩家存档。
 完整资料见[提交说明](../README.md)、[工具与来源](../docs/credits-and-ai.md)、[试玩迭代](../docs/playtest-and-iteration.md)。录制与测试使用--audio-driver Dummy。
+
+本轮最终检查：P2／P3眼睛特写和辅助提示条删除；P1青白爱心无粉雾，P3深玫红爱心保留粉雾；爱心投射物最长存活2.5秒。详见上级提交说明。

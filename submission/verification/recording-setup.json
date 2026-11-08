@@ -1,11 +1,9 @@
 {
-  "source_fingerprint": "15811b4ed870a594d4f1dff45348adf04d1e5725f4aa4f78fa1838d1b5a664a3",
-  "recording_script_sha256": "4092dc1f0848722bcd7469221446d683f73e545fd7ef9400c7ba8fefbfe6f3b4",
-  "audio_driver": "Dummy",
+  "source_fingerprint": "c69a1b338e704d2451581a59bf46d8fa6ea1bb4364dd28ae0856c049287290ab",
+  "script_sha256": "6af53d0f1dfc14c78bf1e340a2d8335aba21c684aade94238ea5cac59824c856",
   "capture_fps": 30,
   "delivery_speed": 1.5,
-  "external_audio_playback": false,
-  "main_audio": "actual current game music and selected SFX",
-  "action_audio": "provided phase music only; no invented hit sounds",
+  "audio_driver": "Dummy",
+  "external_playback": false,
   "human_playthrough": false
 }

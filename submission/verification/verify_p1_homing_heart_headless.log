@@ -1,0 +1,30 @@
+Godot Engine v4.7.2.stable.mono.official.ed1daf0bf - https://godotengine.org
+
+PASS P1 cannot fire or charm before its 1.25-second anticipation
+PASS Existing body anticipation and head glyph remain
+PASS P1 charm no longer uses a hidden or visible sector for damage
+PASS Release creates exactly one heart without instant charm
+PASS The P1 heart uses homing with the juvenile effect profile
+PASS Existing heart core and independent shader aura are reused
+PASS Heart has the correct small scale and launch height from its first frame
+PASS The launched heart really moves toward the player
+PASS Moving the target right bends the existing heart right
+PASS The same heart can reverse course when the player changes sides
+PASS Merely being tracked does not charm or damage the player
+PASS P1 heart remains active before the 2.5-second limit
+PASS Expiring heart visibly fades near its lifetime limit
+PASS The director recognizes the live tracking heart
+PASS Repeated release cannot stack additional persistent hearts
+PASS Fox continues its animal attacks while one heart is pursuing
+PASS Swept contact consumes the heart and applies charm exactly on hit
+PASS P1 contact does not create pink fog or vision obstruction
+PASS P1 contact compels approach without HP damage or the P3 cleansing pickup
+PASS Resolved heart cannot charm more than once
+PASS Juvenile charm still expires automatically
+PASS Dashing through actual contact consumes the heart without charm
+PASS Finishing the casting animation does not delete the pursuing heart
+PASS Phase change removes the pursuing P1 heart
+PASS Returning to preview cleans the tracking heart
+PASS Restart cannot retain a stale homing target
+PASS P3 retains four straight-flying hearts and its own lifetime and cleansing profile
+P1_HOMING_HEART 27 checks; passed=true

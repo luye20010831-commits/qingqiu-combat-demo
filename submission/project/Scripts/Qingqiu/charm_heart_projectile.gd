@@ -1,5 +1,5 @@
 extends Node3D
-## P1: one persistent homing heart. P3: four locked-direction hearts.
+## P1: cyan-white homing heart without fog. P3: saturated rose hearts with fog.
 ## Swept contact: ward cancels either heart; P1 briefly compels approach.
 var source_phase:=3
 var homing:=false
@@ -11,7 +11,8 @@ var launch_height:=2.15
 var direction:=Vector3.FORWARD
 var speed:=6.0
 var radius:=.34
-var lifetime:=6.5
+const MAX_LIFETIME:=2.5
+var lifetime:=MAX_LIFETIME
 var charm_seconds:=8.0
 var elapsed:=0.0
 var resolved:=false
@@ -21,6 +22,7 @@ var aura: MeshInstance3D
 var aura_material: ShaderMaterial
 @onready var controller=get_parent()
 func _ready() -> void:
+	lifetime=minf(lifetime,MAX_LIFETIME) if lifetime>0.0 else MAX_LIFETIME
 	surface=MeshInstance3D.new();surface.name="CharmHeart"
 	var quad:=QuadMesh.new();quad.size=Vector2(1.20,1.40);surface.mesh=quad
 	surface.cast_shadow=GeometryInstance3D.SHADOW_CASTING_SETTING_OFF
@@ -31,6 +33,11 @@ func _ready() -> void:
 	aura.cast_shadow=GeometryInstance3D.SHADOW_CASTING_SETTING_OFF
 	aura_material=ShaderMaterial.new();aura_material.shader=preload("res://Shaders/Qingqiu/charm_heart_aura.gdshader")
 	aura_material.render_priority=-1;aura.material_override=aura_material;add_child(aura)
+	var colors: Array=[Color("#1685a9"),Color("#bbcdc5"),Color("#70f3ff")] if source_phase==1 else [Color("#be002f"),Color("#d91c6c"),Color("#f2c4d6")]
+	for shader in [material,aura_material]:
+		shader.set_shader_parameter("edge_color",colors[0])
+		shader.set_shader_parameter("fill_color",colors[1])
+		shader.set_shader_parameter("highlight_color",colors[2])
 	update_visual()
 func _process(delta: float) -> void:
 	if resolved:return
@@ -38,6 +45,8 @@ func _process(delta: float) -> void:
 	if arena.encounter.state!=arena.encounter.State.RUNNING or arena.phase!=source_phase:
 		resolved=true;queue_free();return
 	elapsed+=delta
+	if elapsed>=lifetime:
+		resolved=true;queue_free();return
 	var before:=Vector2(position.x,position.z)
 	var player: Vector3=arena.player.position
 	if homing:
@@ -49,8 +58,11 @@ func _process(delta: float) -> void:
 	var nearest:=Geometry2D.get_closest_point_to_segment(Vector2(player.x,player.z),before,Vector2(position.x,position.z))
 	if nearest.distance_to(Vector2(player.x,player.z))<=radius+.24:
 		if arena.dash_remaining<=0 and not arena.presentation.is_busy() and arena.spirit_combat.ward_remaining<=0.0:
-			if source_phase==1:arena.apply_charm(charm_seconds)
-			controller.apply_vision_charm(charm_seconds,charm_strength,with_beacon)
+			if source_phase==1:
+				controller.charm_hits+=1
+				arena.apply_charm(charm_seconds)
+			else:
+				controller.apply_vision_charm(charm_seconds,charm_strength,with_beacon)
 		resolved=true;queue_free();return
 	update_visual()
 	if (lifetime>0 and elapsed>=lifetime) or (not homing and (absf(position.x)>23 or absf(position.z)>23)):resolved=true;queue_free()

@@ -55,7 +55,7 @@ func advance_one() -> void:
 		if drive_roam or a.mode != "idle":a._process(DT)
 		else:
 			a.clock += DT;a.update_vision(DT)
-		live.text = "P%d  生命 %.0f / %.0f  |  命中 %d  |  魅惑 %.1f 秒  |  护魂 %.1f 秒" % [arena.phase,arena.encounter.player_health,arena.encounter.player_max_health,arena.spirit_combat.hit_count,a.vision_remaining,arena.spirit_combat.ward_remaining]
+		live.text = "P%d  生命 %.0f / %.0f  |  命中 %d  |  魅惑 %.1f 秒  |  护魂 %.1f 秒" % [arena.phase,arena.encounter.player_health,arena.encounter.player_max_health,arena.spirit_combat.hit_count,maxf(arena.charm_remaining,a.vision_remaining),arena.spirit_combat.ward_remaining]
 	await process_frame
 	frame_count += 1
 	if capture_stills and frame_count-section_start == 28 and not sections.is_empty():
@@ -114,7 +114,7 @@ func phase_one() -> void:
 	log_event("charge_response",{"damage_taken":hp-arena.encounter.player_health,"counter_hits":arena.spirit_combat.hit_count-hits})
 	await simple_attack("cub_tail_sweep","P1  ·  单尾横扫","卷尾蓄势后扫过近身并轻推；退到范围外或用冲刺通过",3.2,Vector3(0,0,2))
 	await reset_segment(Vector3(0,0,3),Vector3(2,0,-1))
-	mark("cub_charm","P1  ·  一颗持续追踪的爱心","接触后失控朝幼狐走 1.2 秒；同时出现较轻粉紫雾，结束恢复输入")
+	mark("cub_charm","P1  ·  一颗持续追踪的爱心","青白爱心最多追踪2.5秒；接触后失控朝幼狐走1.2秒，不遮挡视野")
 	arena.attacks.begin_attack("cub_charm");await wait_seconds(5)
 	log_event("cub_charm",{"charm_hits":arena.attacks.charm_hits,"control_remaining":arena.charm_remaining})
 	await reset_segment(Vector3(0,0,3),Vector3(2,0,-1))
@@ -126,10 +126,10 @@ func phase_one() -> void:
 
 func transition(target: int) -> void:
 	await prepare(target-1,Vector3(0,0,3))
-	mark("transition","P%d → P%d  ·  实际阶段转场"%[target-1,target],"演示快进至尾血：真实近战击败 → 火幕 → 特写 → 恢复战斗")
+	mark("transition","P%d → P%d  ·  实际阶段转场"%[target-1,target],"演示快进至尾血：实际击败 → 火幕／展尾 → 恢复战斗；眼睛特写已删除")
 	arena.encounter.boss_health=10.0;arena.encounter.publish()
 	arena.player.position=Vector3(0,0,2);arena.spirit_combat.use_skill(0)
-	await wait_seconds(11.5 if target==3 else 10.0)
+	await wait_seconds(9.0 if target==3 else 7.0)
 	log_event("transition",{"target":target,"actual_phase":arena.phase,"state":arena.encounter.state,"presentation_busy":arena.presentation.is_busy()})
 
 func phase_two() -> void:
@@ -182,7 +182,7 @@ func phase_three() -> void:
 	await prepare(3,Vector3(0,0,4))
 	mark("p3_intro","P3  ·  九尾金瞳与美丽危险","金花、毁林浮石、脚环金粒；场景变化服务于更高的观察压力")
 	await wait_seconds(3)
-	mark("vision_charm","P3  ·  四心惑目与光点解魅","四颗爱心实际接触后才有浓粉紫雾；P3 仍可移动、攻击，靠近蓝光解除")
+	mark("vision_charm","P3  ·  四心惑目与光点解魅","深玫红四心最多飞行2.5秒；接触才有粉紫雾，P3可移动／取蓝光解除")
 	var charms: int=arena.attacks.charm_hits;var cleanses: int=arena.attacks.cleanses
 	arena.attacks.begin_attack("vision_charm");await wait_seconds(2.7)
 	if is_instance_valid(arena.attacks.beacon):await move_to(arena.attacks.beacon.position,2.5)

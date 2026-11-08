@@ -6,10 +6,12 @@
 
 - [下载完整提交包](https://github.com/luye20010831-commits/qingqiu-combat-demo/releases/download/v4.1-submission-20261109/qingqiu-fox-boss-v4.1-submission.zip) · [Release下载页](https://github.com/luye20010831-commits/qingqiu-combat-demo/releases/tag/v4.1-submission-20261109)
 - [两页设计说明](submission/docs/qingqiu-fox-boss-v4.1-design.pdf) · [完整Godot源码](submission/project/) · [运行与阅读说明](submission/README.md)
-- [战斗机制演示（有声1.5倍速，约1分51秒）](https://github.com/luye20010831-commits/qingqiu-combat-demo/releases/download/v4.1-submission-20261109/qingqiu-fox-boss-v4.1-combat-demo-1.5x.mp4) · [28动作预演（约29秒）](https://github.com/luye20010831-commits/qingqiu-combat-demo/releases/download/v4.1-submission-20261109/qingqiu-fox-boss-v4.1-animation-preview-1.5x.mp4)
+- [战斗机制演示（有声1.5倍速，约1分47秒）](https://github.com/luye20010831-commits/qingqiu-combat-demo/releases/download/v4.1-submission-20261109/qingqiu-fox-boss-v4.1-combat-demo-1.5x.mp4) · [28动作预演（约29秒）](https://github.com/luye20010831-commits/qingqiu-combat-demo/releases/download/v4.1-submission-20261109/qingqiu-fox-boss-v4.1-animation-preview-1.5x.mp4)
 - [工具、AI与素材来源](submission/docs/credits-and-ai.md) · [试玩迭代与未完成项](submission/docs/playtest-and-iteration.md) · [提交内容对照](submission/docs/submission-checklist.md)
 
 录像为当前提交源码的引擎实录，使用脚本安排站位、出招及尾血快进；成片1.5倍速，游戏速度不变。本人已补充确认体验全部三阶段并打完P3，调整后“简单多了，打得过了”。实际分工和未完成项见材料。
+
+本轮已删除P2／P3眼睛特写与辅助快捷键提示条；爱心投射物最长2.5秒。P1为青白色且不产生粉雾，P3为更饱和的深玫红并保留粉雾／取光解除。源码、两页设计说明及两段有声视频均已更新。本轮自动／原生和独立导出包已核对，用户此前P3通关属于前一版本，最新修正待本人再体验。
 
 以下展示页及原速静音视频为此前作品展示，最新笔试材料以上述链接为准。
 

@@ -4,7 +4,7 @@
 	"chapter": "transition3",
 	"delivery_speed": 1.5,
 	"fps": 30,
-	"frames": 354,
+	"frames": 279,
 	"human_full_playthrough": false,
 	"observations": [
 		{
@@ -17,7 +17,7 @@
 		},
 		{
 			"actual_phase": 3,
-			"frame": 354,
+			"frame": 279,
 			"id": "transition",
 			"presentation_busy": false,
 			"state": 1,
@@ -28,11 +28,11 @@
 	"positions_and_attacks_arranged": true,
 	"production_save_used": false,
 	"scripted": true,
-	"seconds": 11.8,
+	"seconds": 9.3,
 	"sections": [
 		{
-			"detail": "演示快进至尾血：真实近战击败 → 火幕 → 特写 → 恢复战斗",
-			"end_frame": 354,
+			"detail": "演示快进至尾血：实际击败 → 火幕／展尾 → 恢复战斗；眼睛特写已删除",
+			"end_frame": 279,
 			"id": "transition",
 			"start_frame": 9,
 			"title": "P2 → P3  ·  实际阶段转场"

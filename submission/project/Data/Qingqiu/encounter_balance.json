@@ -73,7 +73,8 @@
       "tail_sweep_start_seconds": 0.08,
       "tail_sweep_travel_seconds": 0.24,
       "tail_sweep_radius": 2.0,
-      "tail_sweep_hit_radius": 0.65
+      "tail_sweep_hit_radius": 0.65,
+      "cub_charm_heart_lifetime": 2.5
     },
     {
       "id": 2,
@@ -145,7 +146,7 @@
       "charm_heart_count": 4,
       "charm_heart_spread": 0.48,
       "charm_heart_speed": 6.0,
-      "charm_heart_lifetime": 6.5,
+      "charm_heart_lifetime": 2.5,
       "charm_range": 18.0,
       "walk_speed": 1.05,
       "run_speed": 2.4,

@@ -523,7 +523,7 @@ func emit_cub_charm_heart() -> void:
 	heart.direction=direction;heart.position=arena.boss_position()+direction*.65
 	heart.speed=float(profile.get("cub_charm_heart_speed",3.6))
 	heart.homing_turn_speed=float(profile.get("cub_charm_heart_turn_speed",8.0))
-	heart.lifetime=-1.0;heart.charm_seconds=float(profile.get("cub_charm_seconds",1.2))
+	heart.lifetime=float(profile.get("cub_charm_heart_lifetime",2.5));heart.charm_seconds=float(profile.get("cub_charm_seconds",1.2))
 	heart.charm_strength=float(profile.get("cub_charm_strength",.45));heart.with_beacon=false
 	heart.visual_scale=.75;heart.launch_height=1.35
 	add_child(heart);projectiles.append(heart);bullets_fired+=1
@@ -538,7 +538,7 @@ func emit_charm_hearts() -> void:
 		heart.direction=direction.rotated(Vector3.UP,angle)
 		heart.position=source+heart.direction*.8
 		heart.speed=float(profile.get("charm_heart_speed",6.0))
-		heart.lifetime=float(profile.get("charm_heart_lifetime",6.5))
+		heart.lifetime=float(profile.get("charm_heart_lifetime",2.5))
 		heart.charm_seconds=float(profile["charm_seconds"])
 		add_child(heart);projectiles.append(heart);bullets_fired+=1
 

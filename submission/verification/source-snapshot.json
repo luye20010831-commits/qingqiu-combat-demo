@@ -1,5 +1,5 @@
 {
-  "version": "V4.1-selected-audio-submission-20261109",
+  "version": "V4.1-final-cleanup-20261109",
   "source_files": [
     {
       "path": ".gitattributes",
@@ -2373,8 +2373,8 @@
     },
     {
       "path": "Data/Qingqiu/encounter_balance.json",
-      "bytes": 5342,
-      "sha256": "6a721c60cd536de696aa7c0eda4c3ddf102bdf72267f4ae6c63b120b80b66870"
+      "bytes": 5382,
+      "sha256": "c07c093434cfd3885df25b24f40acc023ff75cac3cc6d041e7d82af5e95da7ee"
     },
     {
       "path": "Data/Qingqiu/flora_layout_v6.json",
@@ -2478,8 +2478,8 @@
     },
     {
       "path": "Scripts/Qingqiu/arena.gd",
-      "bytes": 14347,
-      "sha256": "f5784fe9432bdb58a734dac97cbe65ba6f065fbbfe089e3427594cd8410a4995"
+      "bytes": 13937,
+      "sha256": "aa0b8a30c8c3c7eca8ec552271173f6dfa33ddd04915b7f950c35fd8ab6c4cd3"
     },
     {
       "path": "Scripts/Qingqiu/arena.gd.uid",
@@ -2518,8 +2518,8 @@
     },
     {
       "path": "Scripts/Qingqiu/charm_heart_projectile.gd",
-      "bytes": 3254,
-      "sha256": "be331510229c4433066b48301c18a5c5f589f114bab776478b5aec6f1f5331d7"
+      "bytes": 3908,
+      "sha256": "71f702d01f6219997897964a307ac2d54086f8c507da9a06d6cee48f3f98ec67"
     },
     {
       "path": "Scripts/Qingqiu/charm_heart_projectile.gd.uid",
@@ -2618,8 +2618,8 @@
     },
     {
       "path": "Scripts/Qingqiu/fox_attack_director.gd",
-      "bytes": 33280,
-      "sha256": "ecefea4702ff580451d440d46765edfd35a0bdc071a0dcd17845cc78a2fa8c9e"
+      "bytes": 33326,
+      "sha256": "9d9d47ad5316783e5cd3ed9adc3f0bf5654106046151e4323e7bf49f47112bfc"
     },
     {
       "path": "Scripts/Qingqiu/fox_attack_director.gd.uid",
@@ -2868,8 +2868,8 @@
     },
     {
       "path": "Scripts/Qingqiu/phase_presentation.gd",
-      "bytes": 13129,
-      "sha256": "2a5e2ebadd7bff43e372229fbaf5ee081408ef1da79980e1d703d197e0a6319b"
+      "bytes": 13192,
+      "sha256": "01620dcf9feb833325c3c251a9431124df967fe2c17cd1bd8ca72941017193ec"
     },
     {
       "path": "Scripts/Qingqiu/phase_presentation.gd.uid",
@@ -2878,8 +2878,8 @@
     },
     {
       "path": "Scripts/Qingqiu/phase_reveal_cinematic.gd",
-      "bytes": 13741,
-      "sha256": "ef3bf85882874d7001d378193743deb4a92b138d9c299a5402e83e01e2e1b587"
+      "bytes": 11143,
+      "sha256": "97eea41e2251a630d19abbe443bb39e2b0d7e3e5b299a3a85bc247c672d2d4b3"
     },
     {
       "path": "Scripts/Qingqiu/phase_reveal_cinematic.gd.uid",
@@ -3013,8 +3013,8 @@
     },
     {
       "path": "Shaders/Qingqiu/charm_heart_aura.gdshader",
-      "bytes": 988,
-      "sha256": "2925ffad09bafce03f026fca01173fe2b335fad6cbcd915b6e397b8ec0ef22fd"
+      "bytes": 1200,
+      "sha256": "a48ee28c04c45f3119a4d7fb3bc14f708b2baec13bac628368ea07fc8b107078"
     },
     {
       "path": "Shaders/Qingqiu/charm_heart_aura.gdshader.uid",
@@ -3023,8 +3023,8 @@
     },
     {
       "path": "Shaders/Qingqiu/charm_heart_projectile.gdshader",
-      "bytes": 785,
-      "sha256": "b72ebb3554c6e28c386dbd6b902526849d528fe9666b0c9e909e4444b2b101ec"
+      "bytes": 994,
+      "sha256": "d117dac62d447b2c0758ba61148798900ec6dcf6350f411d1cbf9736558d20b2"
     },
     {
       "path": "Shaders/Qingqiu/charm_heart_projectile.gdshader.uid",
@@ -3538,8 +3538,8 @@
     },
     {
       "path": "tools/submission_v41/capture.gd",
-      "bytes": 20144,
-      "sha256": "3a0b57392c7bc9aec239128c0d229007752efc068d1e062653648925519bd9aa"
+      "bytes": 20180,
+      "sha256": "eab5892ebcd0a9a5b6878eb13e150f93300dc783322acb455af1824aeec7668c"
     },
     {
       "path": "tools/verify_balance_v4.gd",
@@ -3553,8 +3553,8 @@
     },
     {
       "path": "tools/verify_charm_approach.gd",
-      "bytes": 7993,
-      "sha256": "5b2de5dbf75e81c04098cc8f2e91ae4381c132ead9a004684d2d5906a79a77be"
+      "bytes": 8012,
+      "sha256": "6a2f4fe856e96813b32611ccb6035167075b9e917d485ae86b49dc8d137a41ac"
     },
     {
       "path": "tools/verify_charm_approach.gd.uid",
@@ -3590,6 +3590,11 @@
       "path": "tools/verify_encounter.gd.uid",
       "bytes": 20,
       "sha256": "b44152eae2257f00174accaa304da44859ca7f5d3bd0883416a42ed0d53d1342"
+    },
+    {
+      "path": "tools/verify_final_cleanup.gd",
+      "bytes": 7475,
+      "sha256": "4b63e340b0d6ec8edc0f6ecc001ecbc84b6f92f303d6d7082da51b0800bfca59"
     },
     {
       "path": "tools/verify_fox_locomotion.gd",
@@ -3637,6 +3642,11 @@
       "sha256": "c08e1583a55f4ef322d974d9f86f0dfaec7252452e17725686907bf379e6a248"
     },
     {
+      "path": "tools/verify_p1_homing_heart.gd",
+      "bytes": 5870,
+      "sha256": "73db51f290b3114c523e1888686867b74ad52c63252a48c82d59ba7ab6dad135"
+    },
+    {
       "path": "tools/verify_phase_music.gd",
       "bytes": 6571,
       "sha256": "74f781e4524eb423e42144407a2b2296a58c5d5d426837144e5529df9d3fd7e6"
@@ -3658,8 +3668,8 @@
     },
     {
       "path": "tools/verify_restored_audio.gd",
-      "bytes": 12383,
-      "sha256": "5a26e38d213047b1593969bfd43941623a9cbd983aa0c31b3e81876ee38ea5e8"
+      "bytes": 12293,
+      "sha256": "a95af4ff995190ba316dd70dc98224d622b771bfa14268112931557dce816afa"
     },
     {
       "path": "tools/verify_stage_checkpoints.gd",
@@ -3667,8 +3677,8 @@
       "sha256": "edb6ec82499758633f0ca747c7298dd58e8d09a58d75b58e3ef05128770c363b"
     }
   ],
-  "source_fingerprint": "15811b4ed870a594d4f1dff45348adf04d1e5725f4aa4f78fa1838d1b5a664a3",
-  "media_source_fingerprint": "15811b4ed870a594d4f1dff45348adf04d1e5725f4aa4f78fa1838d1b5a664a3",
+  "source_fingerprint": "c69a1b338e704d2451581a59bf46d8fa6ea1bb4364dd28ae0856c049287290ab",
+  "media_source_fingerprint": "c69a1b338e704d2451581a59bf46d8fa6ea1bb4364dd28ae0856c049287290ab",
   "changes_from_recorded_snapshot": [],
   "audio": "selected_sfx_and_three_phase_music",
   "gameplay_balance_changed": false,
@@ -3694,5 +3704,15 @@
     "music_provider": "Suno",
     "music_subscription_when_generated": "not provided",
     "new_artwork_origin": "AI generated, confirmed by user"
-  }
+  },
+  "previous_source_fingerprint": "15811b4ed870a594d4f1dff45348adf04d1e5725f4aa4f78fa1838d1b5a664a3",
+  "current_build_human_retest_complete": false,
+  "previous_user_p3_completion_preserved": true,
+  "latest_changes": [
+    "remove P2/P3 eye shots",
+    "remove auxiliary hint row",
+    "2.5s maximum heart lifetime",
+    "P1 cyan-white without fog",
+    "P3 saturated rose with fog"
+  ]
 }
